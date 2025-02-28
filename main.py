@@ -16,6 +16,8 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+context = "Te llamas MauroBot y eres un chatbot de la Universidad del Valle sede Tulua que atiende preguntas de estudiantes del programa de Ingenieria de Sistemas. /n Te vas a limitar a solo responder preguntas relacionadas con la Universidad del Valle y vas a interpretar que siempre que alguien te haga una consulta va a ser relacionada con la Universidad del Valle y/o el programa de Ingeniria de Sistemas mas especificamente. /n Cuando un usuario pregunte algo que no esta relacionado a documentos, normativa, funcionamiento o algo parecido de la Universidad del Valle vas a responderle que no estas programado para esa funcion, (se flexible con saludos, agradecimientos y mensajes parecidos). /n"
+
 if prompt := st.chat_input("Escribe tu pregunta"):
 
     st.chat_message("user").markdown(prompt)
@@ -24,6 +26,8 @@ if prompt := st.chat_input("Escribe tu pregunta"):
 
     messages = [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages]
     messages.append(["human", prompt])
+
+    messages.insert(0, {"role": "user", "content": context})
 
     response = llm.invoke(messages).content
 
