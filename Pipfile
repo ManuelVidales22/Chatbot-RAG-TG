@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 streamlit = "*"
 langchain-openai = "*"
+langchain = "*"
+chromadb = "*"
+langchain-community = "*"
+pypdf = "*"
+cryptography = "==3.1"
 
 [dev-packages]
 
