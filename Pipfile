@@ -11,6 +11,7 @@ chromadb = "*"
 langchain-community = "*"
 pypdf = "*"
 cryptography = "==3.1"
+langchain-chroma = "*"
 
 [dev-packages]
 

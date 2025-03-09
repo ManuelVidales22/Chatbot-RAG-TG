@@ -1,7 +1,7 @@
 import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 
 #Configuracion del embedding
@@ -27,7 +27,7 @@ def load_process_pdfs(pdf_folder, persist_directory="db"):
             documents.extend(loader.load())
 
     #Dividir los documentos en fragmentos de texto
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=1000)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=20000, chunk_overlap=500)
     chunks = text_splitter.split_documents(documents)
 
     #Crear la base de datos vectorial con Chroma
