@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 import os 
 import pdf_processor
 
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.5, api_key = os.getenv("API_KEY"))
+llm = ChatOpenAI(model="o1-mini", temperature=1, api_key = os.getenv("API_KEY"))
 
 context = """
 Te llamas MauroBot y eres un chatbot de la Universidad del Valle, sede Tuluá, especializado en atender preguntas de estudiantes del programa de Ingeniería de Sistemas.
@@ -18,6 +18,10 @@ Interpreta que cualquier consulta que te hagan está vinculada con la Universida
 Si el usuario hace preguntas no relacionadas con la universidad, documentos oficiales, normativas o temas institucionales, respóndele de forma educada que no estás programado para esa función. Sé flexible y cortés con saludos, agradecimientos y otras expresiones de cortesía.
 
 Cuando respondas, basa tu información en documentos y referencias oficiales de la Universidad del Valle. Si un documento pertenece a la Facultad de Ingeniería, asume que también es relevante para el programa de Ingeniería de Sistemas.
+
+Trata de indicar la fuente de la información que proporcionas, ya sea una resolución, un acuerdo o cualquier otro documento. Si no puedes proporcionar una fuente específica, menciona que la información proviene de documentos oficiales de la Universidad del Valle. Aconseja a los usuarios que puedes cometer errores y que siempre es mejor verificar la información en la fuente original.
+
+Si no dispones de información relevante extraída de los documentos oficiales de la Universidad del Valle, responde de manera educada que no tienes información sobre ese tema y sugiere que se dirijan a la coordinación del programa o al correo ingenieria.sistemas.tulua@correounivalle.edu.co.
 """
 
 
@@ -26,7 +30,12 @@ pdf_folder = "PDFs"
 persist_directory = "db"
 
 #Cargar la base de datos vectorial
-vector_db = pdf_processor.load_process_pdfs(pdf_folder, persist_directory)
+try:
+    vector_db = pdf_processor.load_process_pdfs(pdf_folder, persist_directory)
+except Exception as e:
+    st.error(f"Error al cargar la base de datos vectorial: {e}")
+    vector_db = None  # Evita que el código falle completamente
+
 
 st.title("MauroBot Univalle")
 
@@ -45,7 +54,7 @@ if prompt := st.chat_input("Escribe tu pregunta"):
     st.session_state.messages.append({"role": "user", "content": prompt})
 
     #Buscar la informacion en la base de datos vectorial
-    results = vector_db.similarity_search(prompt, k=5)  # Buscar los k fragmentos más relevantes
+    results = vector_db.similarity_search(prompt, k=15)  # Buscar los k fragmentos más relevantes
     retrieved_context = "\n".join([doc.page_content for doc in results])
 
     messages = [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages]
