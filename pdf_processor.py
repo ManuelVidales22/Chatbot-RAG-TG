@@ -27,12 +27,11 @@ def load_process_pdfs(pdf_folder, persist_directory="db"):
             documents.extend(loader.load())
 
     #Dividir los documentos en fragmentos de texto
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=20000, chunk_overlap=500)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=300)
     chunks = text_splitter.split_documents(documents)
 
     #Crear la base de datos vectorial con Chroma
     vector_db = Chroma.from_documents(chunks, embeddings, persist_directory=persist_directory)
-    vector_db.persist()
 
     print("Procesamiento de documentos finalizado, base de datos creada")
 
