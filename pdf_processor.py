@@ -27,7 +27,7 @@ def load_process_pdfs(pdf_folder, persist_directory="db"):
             documents.extend(loader.load())
 
     #Dividir los documentos en fragmentos de texto
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=300)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=300)
     chunks = text_splitter.split_documents(documents)
 
     #Crear la base de datos vectorial con Chroma
