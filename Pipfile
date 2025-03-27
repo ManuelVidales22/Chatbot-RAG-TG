@@ -12,6 +12,8 @@ langchain-community = "*"
 pypdf = "*"
 cryptography = "==3.1"
 langchain-chroma = "*"
+rank-bm25 = "*"
+spacy = "*"
 
 [dev-packages]
 

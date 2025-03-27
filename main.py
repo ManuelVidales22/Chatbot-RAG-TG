@@ -2,6 +2,7 @@ import streamlit as st
 from langchain_openai import ChatOpenAI
 import os 
 import pdf_processor
+import query_processor
 
 llm = ChatOpenAI(model="o1-mini", temperature=1, api_key = os.getenv("API_KEY"))
 
@@ -54,11 +55,10 @@ if prompt := st.chat_input("Escribe tu pregunta"):
     st.session_state.messages.append({"role": "user", "content": prompt})
 
     #Buscar la informacion en la base de datos vectorial
-    results = vector_db.similarity_search(prompt, k=15)  # Buscar los k fragmentos más relevantes
+    results = query_processor.hybrid_search(prompt, vector_db)
     retrieved_context = "\n".join([doc.page_content for doc in results])
 
     messages = [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages]
-#    messages.append(["human", prompt])
 
     messages.insert(0, {"role": "user", "content": f"Contexto: {context}, Aqui tienes informacion relevante extraida de documentos oficiales de la Universidad del Valle:\n{retrieved_context}"})
 
