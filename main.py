@@ -1,9 +1,12 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
+from langchain_chroma import Chroma
+from langchain_openai import OpenAIEmbeddings
 import os 
 import pdf_processor
 import query_processor
 
+DB_DIR = "db"
 llm = ChatOpenAI(model="o1-mini", temperature=1, api_key = os.getenv("API_KEY"))
 
 context = """
@@ -20,22 +23,25 @@ Si el usuario hace preguntas no relacionadas con la universidad, documentos ofic
 
 Cuando respondas, basa tu información en documentos y referencias oficiales de la Universidad del Valle. Si un documento pertenece a la Facultad de Ingeniería, asume que también es relevante para el programa de Ingeniería de Sistemas.
 
-Trata de indicar la fuente de la información que proporcionas, ya sea una resolución, un acuerdo o cualquier otro documento. Si no puedes proporcionar una fuente específica, menciona que la información proviene de documentos oficiales de la Universidad del Valle. Aconseja a los usuarios que puedes cometer errores y que siempre es mejor verificar la información en la fuente original.
+Si la información que proporcionas tiene una fuente clara, como una resolución, un acuerdo u otro documento oficial, menciona explícitamente la fuente. Si no puedes identificar una fuente específica en los documentos procesados, no intentes inferirla ni inventarla. En su lugar, informa al usuario que la información proviene de documentos oficiales de la Universidad del Valle en general, o aclara que no puedes verificar la fuente exacta. Además, recomienda siempre consultar la fuente oficial para mayor precisión.
 
 Si no dispones de información relevante extraída de los documentos oficiales de la Universidad del Valle, responde de manera educada que no tienes información sobre ese tema y sugiere que se dirijan a la coordinación del programa o al correo ingenieria.sistemas.tulua@correounivalle.edu.co.
 """
 
-
-#Definicion de carpetas
-pdf_folder = "PDFs"
-persist_directory = "db"
+# Procesar los PDFs (extraer texto, generar resúmenes y almacenar en ChromaDB)
+try:
+    pdf_processor.process_pdfs()
+except Exception as e:
+    st.error(f"Error al procesar los documentos: {e}")
 
 #Cargar la base de datos vectorial
-try:
-    vector_db = pdf_processor.load_process_pdfs(pdf_folder, persist_directory)
-except Exception as e:
-    st.error(f"Error al cargar la base de datos vectorial: {e}")
-    vector_db = None  # Evita que el código falle completamente
+@st.cache_resource
+def load_chroma():
+    embeddings = OpenAIEmbeddings(api_key=os.getenv("API_KEY"))
+    return Chroma(persist_directory=DB_DIR, embedding_function=embeddings)
+
+vector_db = load_chroma()
+
 
 
 st.title("MauroBot Univalle")
@@ -47,6 +53,7 @@ if "messages" not in st.session_state:
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
+
 
 
 if prompt := st.chat_input("Escribe tu pregunta"):
