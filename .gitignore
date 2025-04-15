@@ -176,3 +176,8 @@ PDFs/
 #Folder where vector database are stored
 db/
 
+# Folder where plain texts are stored
+texts/
+
+# Folder where summaries are stored
+summaries/
