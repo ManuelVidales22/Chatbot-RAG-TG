@@ -40,7 +40,7 @@ def hybrid_search(query, vector_db):
     document_texts = [doc.page_content for doc in embedding_results]  # Extraer texto
     tokenized_docs = [doc.split() for doc in document_texts]
     bm25 = BM25Okapi(tokenized_docs)
-    bm25_results = bm25.get_top_n(expanded_query.split(), document_texts, n=5)
+    bm25_results = bm25.get_top_n(expanded_query.split(), document_texts, n=10)
     
     # Convertir resultados de BM25 a objetos Document
     bm25_results = [Document(page_content=text) for text in bm25_results]
