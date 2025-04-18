@@ -2,15 +2,20 @@ import os
 import re
 import fitz  # PyMuPDF
 import pytesseract
+import platform
 from PIL import Image
 import spacy
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
+from dotenv import load_dotenv
 
-# Configurar la ruta de Tesseract en Windows (ajustar si es necesario)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+load_dotenv()
+
+# Configurar la ruta de Tesseract en Windows
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Cargar modelo de spaCy en español
 nlp = spacy.load("es_core_news_sm")
