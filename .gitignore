@@ -178,6 +178,3 @@ db/
 
 # Folder where plain texts are stored
 texts/
-
-# Folder where summaries are stored
-summaries/
