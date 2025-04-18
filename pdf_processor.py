@@ -99,7 +99,7 @@ def process_pdfs():
             pdf_path = os.path.join(PDF_FOLDER, file)
             base_name = os.path.splitext(file)[0]
 
-            # Rutas de los archivos de texto y resumen
+            # Ruta de los archivos de texto
             text_file = os.path.join(TEXT_FOLDER, f"{base_name}.txt")
 
             # Si el texto no ha sido extraído, extraerlo y guardarlo
