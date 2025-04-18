@@ -16,7 +16,7 @@ def clean_text(query):
 
 # Expansión de consulta
 def expand_query(query):
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, api_key=os.getenv("API_KEY"))
+    llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0, api_key=os.getenv("API_KEY"))
     prompt = f"Expande esta consulta agregando sinónimos y términos relacionados: {query}"
     return llm.invoke(prompt).content
 
@@ -51,4 +51,4 @@ def hybrid_search(query, vector_db):
     final_documents = list(unique_documents.values())  # Convertir de nuevo a lista
 
     
-    return final_documents
+    return embedding_results
