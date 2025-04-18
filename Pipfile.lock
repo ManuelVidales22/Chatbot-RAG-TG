@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7f0bf973466225aa07b5e583f96a02a817e4b6f3a5b2ea0186e2563380384df2"
+            "sha256": "f71069c63a0e896b5bd1559133f3ed9b4059d8dd54bd9b823714d7571cd0ce24"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.10"
+            "python_version": "3.9"
         },
         "sources": [
             {
@@ -672,11 +672,11 @@
         },
         "fastapi": {
             "hashes": [
-                "sha256:4a439d7923e4de796bcc88b64e9754340fcd1574673cbd865ba8a99fe0d28c56",
-                "sha256:9d7da3b196c5eed049bc769f9475cd55509a112fbe031c0ef2f53768ae68d13f"
+                "sha256:1e2c2a2646905f9e83d32f04a3f86aff4a286669c6c950ca95b5fd68c2602681",
+                "sha256:e94613d6c05e27be7ffebdd6ea5f388112e5e430c8f7d6494a9d1d88d43e814d"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.115.9"
+            "version": "==0.115.12"
         },
         "filelock": {
             "hashes": [
@@ -1812,11 +1812,11 @@
         },
         "openai": {
             "hashes": [
-                "sha256:304fc7f3abb2184a2ab9bba4c6218ff2b687d7aa9bb641402be87e7b150b3c53",
-                "sha256:9d50a119fcb647124096a4cbd6c6478894349f71c2f4cb4bf9772dbf9bda73a0"
+                "sha256:fb3ea907efbdb1bcfd0c44507ad9c961afd7dce3147292b54505ecfd17be8fd1",
+                "sha256:fe6f932d2ded3b429ff67cc9ad118c71327db32eb9d32dd723de3acfca337125"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==1.74.1"
+            "version": "==1.75.0"
         },
         "opentelemetry-api": {
             "hashes": [
@@ -3111,11 +3111,11 @@
         },
         "starlette": {
             "hashes": [
-                "sha256:2cbcba2a75806f8a41c722141486f37c28e30a0921c5f6fe4346cb0dcee1302f",
-                "sha256:dfb6d332576f136ec740296c7e8bb8c8a7125044e7c6da30744718880cdd059d"
+                "sha256:595633ce89f8ffa71a015caed34a5b2dc1c0cdb3f0f1fbd1e69339cf2abeec35",
+                "sha256:7f7361f34eed179294600af672f565727419830b54b7b084efe44bb82d2fccd5"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==0.45.3"
+            "version": "==0.46.2"
         },
         "streamlit": {
             "hashes": [
