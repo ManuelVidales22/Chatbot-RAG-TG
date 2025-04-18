@@ -2,12 +2,15 @@ import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
-import os 
+import os
+from langchain.globals import set_verbose
 import pdf_processor
 import query_processor
 
+set_verbose(True)
+
 DB_DIR = "db"
-llm = ChatOpenAI(model="o1-mini", temperature=1, api_key = os.getenv("API_KEY"))
+llm = ChatOpenAI(model="gpt-4.1", temperature=0, api_key = os.getenv("API_KEY"))
 
 context = """
 Te llamas MauroBot y eres un chatbot de la Universidad del Valle, sede Tuluá, especializado en atender preguntas de estudiantes del programa de Ingeniería de Sistemas.
@@ -63,12 +66,15 @@ if prompt := st.chat_input("Escribe tu pregunta"):
 
     #Buscar la informacion en la base de datos vectorial
     results = query_processor.hybrid_search(prompt, vector_db)
-    retrieved_context = "\n".join([doc.page_content for doc in results])
 
+    retrieved_context = "\n\n\n".join(
+    [f'Fuente "{doc.metadata.get("source", "desconocido")}": {doc.page_content}' for doc in results]
+    )
+    
     messages = [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages]
 
     messages.insert(0, {"role": "user", "content": f"Contexto: {context}, Aqui tienes informacion relevante extraida de documentos oficiales de la Universidad del Valle:\n{retrieved_context}"})
-
+ 
     response = llm.invoke(messages).content
 
     with st.chat_message("assistant"):
