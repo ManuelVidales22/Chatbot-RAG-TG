@@ -26,12 +26,10 @@ embeddings = OpenAIEmbeddings(api_key=os.getenv("API_KEY"))
 # Directorios
 PDF_FOLDER = "PDFs"
 TEXT_FOLDER = "texts"
-SUMMARY_FOLDER = "summaries"
 DB_DIR = "db"
 
 # Crear directorios si no existen
 os.makedirs(TEXT_FOLDER, exist_ok=True)
-os.makedirs(SUMMARY_FOLDER, exist_ok=True)
 
 def normalize_text(text):
     # Reemplazar caracteres invisibles (como \u2028, \u2029)
@@ -89,17 +87,8 @@ def extract_text_from_pdf(pdf_path):
     return text.strip()
 
 
-def summarize_text(text):
-    """ Resume el texto usando spaCy, conservando el 60% de las oraciones más importantes. """
-    doc = nlp(text)
-    sentences = [sent.text for sent in doc.sents]
-    summary_size = max(1, int(len(sentences) * 0.6))  # 60% de las oraciones
-    return " ".join(sentences[:summary_size])
-
-
 def process_pdfs():
-    """ Procesa los PDFs, extrae texto si no existe, resume si no existe, y almacena en ChromaDB solo los nuevos. """
-
+    """ Procesa los PDFs, extrae texto si no existe y almacena en ChromaDB solo los nuevos. """
 
     # Crear conexión con ChromaDB
     chroma_client = Chroma(persist_directory=DB_DIR, embedding_function=embeddings)
@@ -112,7 +101,6 @@ def process_pdfs():
 
             # Rutas de los archivos de texto y resumen
             text_file = os.path.join(TEXT_FOLDER, f"{base_name}.txt")
-            summary_file = os.path.join(SUMMARY_FOLDER, f"{base_name}.txt")
 
             # Si el texto no ha sido extraído, extraerlo y guardarlo
             if not os.path.exists(text_file):
@@ -124,17 +112,7 @@ def process_pdfs():
                 with open(text_file, "r", encoding="utf-8") as f:
                     text = f.read()
 
-            # Si el resumen no ha sido generado, resumirlo y guardarlo
-            if not os.path.exists(summary_file):
-                print(f"Resumiendo el documento {pdf_path}")
-                summary = summarize_text(text)
-                with open(summary_file, "w", encoding="utf-8") as f:
-                    f.write(summary)
-            else:
-                with open(summary_file, "r", encoding="utf-8") as f:
-                    summary = f.read()
-
-            # Dividir el resumen en fragmentos de tamaño 1000 con overlap de 200
+            # Dividir el texto en fragmentos
             text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=500)
             chunks = text_splitter.split_text(text)
 
