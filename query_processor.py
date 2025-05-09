@@ -1,12 +1,16 @@
 import spacy
 import os
+import pickle
 from langchain_openai import ChatOpenAI
 from rank_bm25 import BM25Okapi
-from collections import Counter
 from langchain.schema import Document
 
 # Cargar modelo de spaCy para español
 nlp = spacy.load("es_core_news_sm")
+
+#Ruta del corpus de BM25
+BM25_CORPUS_PATH = "bm25_corpus.pkl"
+
 
 # Función para limpiar y lematizar la consulta
 def clean_text(query):
@@ -14,41 +18,42 @@ def clean_text(query):
     clean_words = [token.lemma_ for token in doc if not token.is_stop]
     return " ".join(clean_words)
 
-# Expansión de consulta
-def expand_query(query):
-    llm = ChatOpenAI(model="gpt-4.1-nano", temperature=0, api_key=os.getenv("API_KEY"))
-    prompt = f"Expande esta consulta agregando sinónimos y términos relacionados: {query}"
-    return llm.invoke(prompt).content
-
-# Ponderar palabras clave en la consulta
-def weight_keywords(query):
-    words = query.split()
-    word_count = Counter(words)
-    weighted_query = " ".join([word * (word_count[word] + 1) for word in words])
-    return weighted_query
+#Cargar el corpus de BM25
+def load_bm25_corpus():
+    with open(BM25_CORPUS_PATH, "rb") as f:
+        return pickle.load(f)
 
 # Función para realizar la búsqueda híbrida en ChromaDB + BM25
 def hybrid_search(query, vector_db):
-    # Paso 1: Procesar la consulta
-    cleaned_query = clean_text(query)
-    expanded_query = expand_query(cleaned_query)
-    
-    # Paso 2: Búsqueda en ChromaDB (Embeddings)
-    embedding_results = vector_db.similarity_search(expanded_query, k=15)
-    
-    # Paso 3: Búsqueda con BM25
-    document_texts = [doc.page_content for doc in embedding_results]  # Extraer texto
-    tokenized_docs = [doc.split() for doc in document_texts]
+    #Búsqueda por embeddings
+    embedding_results = vector_db.similarity_search(query, k=15)
+
+    #Cargar corpus BM25
+    corpus = load_bm25_corpus()
+    lemmatized_texts = corpus["lemmatized"]
+    original_texts = corpus["originals"]
+    sources = corpus["sources"]
+    ids = corpus["ids"]
+
+    #Preparar BM25
+    tokenized_docs = [doc.split() for doc in lemmatized_texts]
     bm25 = BM25Okapi(tokenized_docs)
-    bm25_results = bm25.get_top_n(expanded_query.split(), document_texts, n=10)
-    
-    # Convertir resultados de BM25 a objetos Document
-    bm25_results = [Document(page_content=text) for text in bm25_results]
 
-    # Paso 4: Fusionar resultados sin duplicados
-    # Crear un diccionario para eliminar duplicados basándose en el contenido del documento
-    unique_documents = {doc.page_content: doc for doc in embedding_results + bm25_results}
-    final_documents = list(unique_documents.values())  # Convertir de nuevo a lista
+    #Procesar la consulta para BM25
+    lemmatized_query = clean_text(query)
+    bm25_ranking = bm25.get_top_n(lemmatized_query.split(), lemmatized_texts, n=10)
 
-    
-    return embedding_results
+    #Recuperar los textos originales correspondientes
+    bm25_documents = []
+    for doc_text in bm25_ranking:
+        idx = lemmatized_texts.index(doc_text)
+        bm25_documents.append(Document(
+            page_content=original_texts[idx],
+            metadata={"id": ids[idx], "source": sources[idx]}
+        ))
+
+    #Fusionar resultados sin duplicados
+    all_documents = embedding_results + bm25_documents
+    unique_docs = {doc.metadata.get("id", doc.page_content): doc for doc in all_documents}
+
+    return list(unique_docs.values())
