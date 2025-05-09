@@ -10,7 +10,7 @@ import query_processor
 set_verbose(True)
 
 DB_DIR = "db"
-llm = ChatOpenAI(model="gpt-4.1", temperature=0, api_key = os.getenv("API_KEY"))
+llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0, api_key = os.getenv("API_KEY"))
 
 context = """
 Te llamas MauroBot y eres un chatbot de la Universidad del Valle, sede Tuluá, especializado en atender preguntas de estudiantes del programa de Ingeniería de Sistemas.
@@ -44,8 +44,6 @@ def load_chroma():
     return Chroma(persist_directory=DB_DIR, embedding_function=embeddings)
 
 vector_db = load_chroma()
-
-
 
 st.title("MauroBot Univalle")
 
