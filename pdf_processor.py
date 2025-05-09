@@ -10,6 +10,7 @@ from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
 from dotenv import load_dotenv
+import pickle
 
 load_dotenv()
 
@@ -27,6 +28,7 @@ embeddings = OpenAIEmbeddings(api_key=os.getenv("API_KEY"))
 PDF_FOLDER = "PDFs"
 TEXT_FOLDER = "texts"
 DB_DIR = "db"
+BM25_CORPUS_PATH = "bm25_corpus.pkl"
 
 # Crear directorios si no existen
 os.makedirs(TEXT_FOLDER, exist_ok=True)
@@ -119,11 +121,39 @@ def process_pdfs():
             # Verificar qué fragmentos ya están en la base de datos
             existing_ids = {metadata["id"] for metadata in collection.get()["metadatas"]}
 
-            # Almacenar solo los fragmentos nuevos en ChromaDB
+            if os.path.exists(BM25_CORPUS_PATH):
+                with open(BM25_CORPUS_PATH, "rb") as f:
+                    existing_corpus = pickle.load(f)
+            else:
+                existing_corpus = {
+                    "originals": [],
+                    "lemmatized": [],
+                    "ids": [],
+                    "sources": []
+                }
+
+            existing_ids_set = set(existing_corpus["ids"])
+            initial_len = len(existing_corpus["ids"])
+
+            # Almacenar solo los fragmentos nuevos en ChromaDB y crear el corpus para BM25
             for i, chunk in enumerate(chunks):
                 chunk_id = f"{base_name}_{i}"
-                if chunk_id not in existing_ids:
+                if chunk_id not in existing_ids and chunk_id not in existing_ids_set:
                     collection.add_documents([Document(page_content=chunk, metadata={"source": base_name, "id": chunk_id})])
+
+                    # Lematizar para BM25
+                    doc = nlp(chunk)
+                    lemmatized = " ".join([token.lemma_ for token in doc if not token.is_stop])
+                    
+                    existing_corpus["originals"].append(chunk)
+                    existing_corpus["lemmatized"].append(lemmatized)
+                    existing_corpus["ids"].append(chunk_id)
+                    existing_corpus["sources"].append(base_name)
+
+
+            if len(existing_corpus["ids"]) > initial_len:
+                with open(BM25_CORPUS_PATH, "wb") as f:
+                    pickle.dump(existing_corpus, f)
 
     # Si ya existe la base de datos, no procesar nuevamente
     if os.path.exists(DB_DIR) and os.listdir(DB_DIR):
