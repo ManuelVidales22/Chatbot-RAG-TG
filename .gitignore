@@ -170,11 +170,11 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-#Folder where pdfs are stored
-PDFs/
-
 #Folder where vector database are stored
 db/
 
 # Folder where plain texts are stored
 texts/
+
+#Binary that stores the bm25 corpus
+bm25_corpus.pkl
