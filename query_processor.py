@@ -5,15 +5,24 @@ from langchain_openai import ChatOpenAI
 from rank_bm25 import BM25Okapi
 from langchain.schema import Document
 
-# Cargar modelo de spaCy para español
-nlp = spacy.load("es_core_news_sm")
+_NLP_MODEL = None
 
 #Ruta del corpus de BM25
 BM25_CORPUS_PATH = "bm25_corpus.pkl"
 
+#Cargar el modelo de lenguaje de spaCy
+def get_nlp_model():
+    global _NLP_MODEL
+    if _NLP_MODEL is None:
+        try:
+            _NLP_MODEL = spacy.load("es_core_news_sm")
+        except OSError:
+            raise Exception("Modelo spaCy no instalado. Ejecuta: python -m spacy download es_core_news_sm")
+    return _NLP_MODEL
 
 # Función para limpiar y lematizar la consulta
 def clean_text(query):
+    nlp = get_nlp_model()
     doc = nlp(query)
     clean_words = [token.lemma_ for token in doc if not token.is_stop]
     return " ".join(clean_words)
