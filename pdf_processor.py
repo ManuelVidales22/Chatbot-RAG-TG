@@ -9,23 +9,18 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
-from dotenv import load_dotenv
 import pickle
-
-load_dotenv()
 
 # Configurar la ruta de Tesseract en Windows
 if platform.system() == "Windows":
     pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-# Cargar modelo de spaCy en español
-nlp = spacy.load("es_core_news_sm")
-
-# Configuración del embedding
-embeddings = OpenAIEmbeddings(api_key=os.getenv("API_KEY"))
+_NLP_MODEL = None
+_EMBEDDINGS_INSTANCE = None
+_CHROMA_CONNECTION = None
 
 # Directorios
-PDF_FOLDER = "PDFs"
+PDF_FOLDER = "pdfs"
 TEXT_FOLDER = "texts"
 DB_DIR = "db"
 BM25_CORPUS_PATH = "bm25_corpus.pkl"
@@ -33,8 +28,34 @@ BM25_CORPUS_PATH = "bm25_corpus.pkl"
 # Crear directorios si no existen
 os.makedirs(TEXT_FOLDER, exist_ok=True)
 
+#Cargar el modelo de lenguaje de spaCy
+def get_nlp_model():
+    global _NLP_MODEL
+    if _NLP_MODEL is None:
+        try:
+            _NLP_MODEL = spacy.load("es_core_news_sm")
+        except OSError:
+            raise Exception("Modelo spaCy no instalado. Ejecuta: python -m spacy download es_core_news_sm")
+    return _NLP_MODEL
+
+def get_embeddings():
+    global _EMBEDDINGS_INSTANCE
+    if _EMBEDDINGS_INSTANCE is None:
+        _EMBEDDINGS_INSTANCE = OpenAIEmbeddings(api_key=os.getenv("API_KEY"))
+    return _EMBEDDINGS_INSTANCE
+
+def get_chroma_connection():
+    global _CHROMA_CONNECTION
+    if _CHROMA_CONNECTION is None:
+        _CHROMA_CONNECTION = Chroma(
+            persist_directory=DB_DIR,
+            embedding_function=get_embeddings()
+        )
+    return _CHROMA_CONNECTION
+
+
 def normalize_text(text):
-    # Reemplazar caracteres invisibles (como \u2028, \u2029)
+    # Reemplazar caracteres invisibles
     text = re.sub(r'[\u2028\u2029]', '', text)
 
     # Dividir en líneas
@@ -92,9 +113,10 @@ def extract_text_from_pdf(pdf_path):
 def process_pdfs():
     """ Procesa los PDFs, extrae texto si no existe y almacena en ChromaDB solo los nuevos. """
 
+    nlp = get_nlp_model()
+
     # Crear conexión con ChromaDB
-    chroma_client = Chroma(persist_directory=DB_DIR, embedding_function=embeddings)
-    collection = chroma_client
+    collection = get_chroma_connection()
 
     for file in os.listdir(PDF_FOLDER):
         if file.endswith(".pdf"):
