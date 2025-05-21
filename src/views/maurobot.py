@@ -7,8 +7,8 @@ import time
 from langchain.globals import set_verbose
 from dotenv import load_dotenv
 load_dotenv()
-import pdf_processor
-import query_processor
+import core.pdf_processor as pdf_processor
+import core.query_processor as query_processor
 
 set_verbose(True)
 
