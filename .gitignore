@@ -174,7 +174,7 @@ cython_debug/
 db/
 
 # Folder where plain texts are stored
-texts/
+data/texts/
 
 #Binary that stores the bm25 corpus
 bm25_corpus.pkl
