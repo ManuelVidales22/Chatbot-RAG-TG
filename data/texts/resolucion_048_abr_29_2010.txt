@@ -1,0 +1,159 @@
+% i UNIVERSIDAD DEL VALLE CONSEJO ACADEMICO RESOLUCIÓN N* 048 Abril 29 de 2010 “Por la cual se modifica la Resolución No 070 de Junio 6 de 2002 del Consejo Académico que define el Currículo del Programa Académico de Ingeniería de Sistemas” EL CONSEJO ACADÉMICO DE LA UNIVERSIDAD DEL VALLE, en uso de sus atribuciones legales y en especial las que le confiere el literal c) del Articulo 20 del Estatuto General y CONSIDERANDO:
+
+1.
+
+Que la dinámica de la ciencia y la flexibilidad curricular así como el Acuerdo 009 de Mayo 26 de 2000 del Consejo Superior de la Universidad del Valle recomienda actualizar y reestructurar de manera periódica los programas pregrado;
+
+2.
+
+Que mediante Resolución No 070 de Junio 6 de 2002, el Consejo Académico se aprobó la reforma al currículo del Programa Académico de Ingeniería de Sistemas;
+
+3.
+
+Que mediante Resolución No 559 del 13 de Febrero de 2009, el Ministerio de Educación Nacional otorgó el Registro Calificado al Programa Académico de Ingeniería de Sistemas;
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 2 4.
+
+Que mediante Resolución No, 468 de Febrero 20 de 2004, el Ministerio de Educación Nacional otorgó la acreditación de alta calidad al programa académico de Ingeniería de sistemas por siete años;
+
+5.
+
+Que el proceso de Autoevaluación realizado en la Unidad Académica del Programa de Ingeniería de Sistemas, recomienda la actualización del diseño curricular del Programa, ajustando los créditos y adaptándolo a la normatividad de la Universidad.
+
+RESUELVE:
+
+ARTÍCULO 12.
+
+Actualizar el número de créditos y nombre de algunas asignaturas del Programa Académico de Ingeniería de Sistemas, adscrito a la Facultad de Ingeniería.
+
+El programa otorga el título de Ingeniero o Ingeniera de Sistemas a los estudiantes que hayan aprobado la totalidad de las actividades académicas programadas y cumplan los requisitos definidos en la presente resolución.
+
+ARTÍCULO 22. OBJETIVO.
+
+El programa Académico de Ingeniería de Sistemas tiene como objetivos:
+
+Objetivo general Formar profesionales en la disciplina de la Ingeniería de Sistemas y Computación capaces de abordar el estudio de los procesos de transferencia y transformación computacional de la información para dar solución a problemas reales;
+
+con conocimientos de los aspectos teóricos de la disciplina y la forma como éstos influyen en la solución de problemas; y con capacidad para mantenerse actualizados a medida que la disciplina evoluciona.
+
+Objetivos Específicos Ofrecer a los estudiantes una formación en Ingeniería de Sistemas que les permita en términos de conocimientos:
+
+= Conocer y entender conceptos, principios y teorías esenciales relacionadas con las Ciencias de la Computación y las Aplicaciones en Computador.
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 3 o Utilizar tal conocimiento en el análisis y diseño de sistemas basados en Computador de manera que tenga en cuenta los compromisos que aplican en las decisiones de diseño, o Analizar criterios y especificaciones apropiadas para problemas específicos y planificar estrategias para su solución.
+
+o Analizar y evaluar si un sistema basado en computador cumple los criterios defínidos para su uso corriente y futuro desarrollo.
+
+o Utilizar conceptos teóricos y prácticos adecuados para la especificación, diseño, implementación y evaluación de sistemas basados en computador.
+
+E — Reconocer y considerar los aspectos sociales, profesionales y éticos envueltos en la utilización de tecnologías computacionales, así como por el contexto regional y nacional.
+
+Contribuir al desarrollo personal del estudiante de tal manera que en su vida estudiantil y en el ejercicio de su profesión esté en capacidad de:
+
+0 Expresar sus ideas de manera clara y precisa.
+
+2 Trabajar efectivamente como miembro de un equipo de desarrollo.
+
+= Entender y explicar las dimensiones cuantitativas de un problema.
+
+S Administrar su propio aprendizaje y desarrollo, incluyendo el desarrollo de habifidades organizacionales y administración de su tiempo.
+
+a Permanecer atento a los nuevos desarrollos en la disciplina como método para continuar su propio desarrollo profesional autónomamente.
+
+ARTÍCULO 32, PERFIL PROFESIONAL DEL EGRESADO.
+
+En cuanto a las competencias profesionales, el programa orientará sus esfuerzos en ofrecer actividades académicas, apoyadas en estrategias metodológicas que contribuyan a formar un ingeniero emprendedor con profundo conocimiento de las ciencias y tecnologías de la computación, con capacidad de participar en proyectos de desarrollo de software, medibles con criterios de calidad internacional.
+
+Este profesional estará en capacidad de:
+
+c Especificar, diseñar e implementar sistemas basados en computador,
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 4 o Evaluar sistemas basados en computador en términos de calidad y de posibles compromisos que presente con el problema solucionado.
+
+Aplicar los principios de manejo y organización de la información, y las habilidades en recuperación de la información y en el tratamiento de información de varios tipos, incluyendo texto, imágenes, sonido y vídeo.
+
+Aplicar principios de interacción hombre-máquina en el desarrollo y evaluación de aplicaciones software.
+
+Identificar los riesgos y aspectos de seguridad que puedan estar presentes en la operación de sistemas de computación dentro de un contexto dado.
+
+Aplicar metodologías de desarrollo de software, utilizando efectivamente herramientas para la construcción y documentación de aplicaciones computacionales.
+
+Administrar y operar eficientemente, equipos de computación y aplicaciones computacionales.
+
+ARTÍCULO 42.
+
+ESTRUCTURA CURRICULAR.
+
+El programa Académico de ingeniería de Sistemas tiene un total de 159 créditos con la siguiente composición por asignaturas y créditos:
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 5 Tabla No. 1. Estructura Curricular del Programa Académico de Ingeniería de Sistemas .
+
+- Tipo de Asignatura Créditos | % B Asignaturas Básica Obligatorias (AB) " 63 40 Asignaturas Profesionales Obligatorias (AP) 74 47 Asignaturas Electivas Complementarias (AEC) 10 ¡ 6 Asignaturas Electivas Profesionales (AEP) 12 7 TOTAL 159 100 2 m e asignaturas y créditos:
+
+] Plan curricular de Ingenieria de Sistemas tiene la siguiente distribución por tipos JASIGNATURAS BÁSICAS OBLIGATORIAS (AB) -| [ CREDITOS jAsignaturas Básicas de Ciencias ¡Cálculo t Caleulo 1 Cáfculo II Álgebra Lineal Ecuaciones Diferenciales Física | Física Il Experimentación Física | Experimentación Física il Hieluwlwiwlwiwiwla IAsignaturas Básicas de Ingenieria JAnálisis y Métodos Numéricos Probabilidad y Estadística Introducción a la Tecnología Informática Introducción a la Ingeniería de Sistemas [Teoria General de Sistemas Introducción a la Gestión Ambiental lAnálisis Económico de Inversiones Fundamentos de Gestión Tecnológica AA AE Principios y lenguajes de Programación Introducción a la Programación Orientada a Objetos
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 6 Fundamentos de Programación 4 Asignaturas Básicas Complementarias Lectura de Textos Académicos en Inglés | 3 |Lectura de Textos Académicos en Inglés II 3 Lectura de Textos Académicos en Inglés !il 3 Lectura de Textos Académicos en Inglés IV 3 3 Total de Créditos (AB 63 ASIGNATURAS PROFESIONALES OBLIGATORIAS (AP} — [Estructuras Discretas Matemáticas Discretas | 4 h/latemáticas Discretas II 4 rincipios y Lenguajes de Programación Programación Interactiva 4 Fundamentos de Lenguajes de Programación 4 rquitectura de Computadores Arquitectura de Computadores !
+
+3 ¡Arquitectura de Computadores I!
+
+3 ¡Algoritmos y Complejidad Fundamentos de Análisis y Diseño de Algoritmos 4 IComplejidad y Optimización 2 ingeniería del Software IDesarroIIo de Software | 3 ]Desarrollo de Software Il 4 [Computación Centrada en la Red Fundamentos de Redes 3 Aplicaciones en el Web y Redes Inalámbricas 3 Sistemas inteligentes inteligencia Artificial 4 ¡Gestión de información Bases de Datos 4 Sistemas de Información 3 Simulacién Simulacién Computacional 3 ráficas [Computacién Gráfica 3
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 7 Sistemas Operativos ISistemas Operativos 3 lArea Económico Administrativa Evaluación y Administración de Proyectos 3 [Trabajo de Grado ¡Seminario de Trabajo de Grado 1 [Trabajo de Grado | 2 [Trabajo de Grado l Total' de Créditos (AP) ASIGNATURAS ELECTIVAS.COMPLEMENTARIAS (AEC) * -- - -CRÉDITOS Electiva Complementaria | 3 Electiva Complementaria li 2 Electiva Complementaria HI 3 Electiva Complementaria IV 2 - A Total de Créditos (AEC)E 10 IASIGNATURAS ELECTIVAS PROFESIONALES (AEP) - E CREDITOS Electiva Profesional | 3 Electiva Profesional II 3 Electiva Profesional III 3 Electiva Profesional 1V 3 + Total de Créditos (AEP)!
+
+12 PARÁGRAFO 1.
+
+Los Prerrequisitos.
+
+Las Unidades Académicas que ofrecen las asignaturas que conforman el Programa Académico, establecerán los prerrequisitos y demás características de las asignaturas respondiendo a criterios de flexibilidad curricular y a los aprobados por el Comité de Programa.
+
+El comité de Programa será consu objetivos Itado para acordar y aprobar la definición y cualquier modificación de los prerrequisitos y demás características de asignaturas.
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 8 PARAGRAFO 2.
+
+Las Asignaturas Electivas Complementarias. Se debe cursar un Cmínimo de cuatro — Electivas Complementarias.
+
+Una de las asignaturas en la temática de Problemas e instituciones colombianas, otra en la temática de Salud y cultura física; ambas podrán ser matriculadas previa orientación del Director del Programa y de acuerdo con el catálogo de electivas complementarias, y las restantes pueden ser seleccionadas de las cuatro áreas siguientes: a) Lenguaje, comunicación y educación, b) Problemas e instituciones colombianas, c) Arte y cultura y d) Salud y cultura física.
+
+PARÁGRAFO 3.
+
+Español, Constitución Política de Colombia y Ética. Es obligatorio para todos los estudiantes que ingresen a la Universidad del Valle presentar un examen de clasificación en Español, quien no lo apruebe debe cursar y aprobar la asignatura correspondiente al área de Lenguaje, comunicación y educación de acuerdo con el Parágrafo 2 del presente artículo. La formación en los principios constitucionales, valores democráticos y de la convivencia ciudadana se ofrece en el desarrollo de la asignatura correspondiente a que hace referencia el Parágrafo 2 del presente artículo. La formación en Ética se incluye como temática transversal en el desarrollo del Programa Académico.
+
+PARÁGRAFO 4, Comprensión del Idioma Inglés. Los estudiantes del Programa Académico de Ingeniería de Sistemas, como requisito para obtener el grado, deberán acreditar comprensión Avanzada del idioma inglés.
+
+PARÁGRAFO 5.
+
+La Electivas Profesionales.
+
+Los estudiantes del Programa Académico de Ingeniería de Sistemas, deberán cursar y aprobar cuatro asignaturas electivas profesionales de tres (3) créditos cada una pertenecientes a la Escuela de Ingeniería de Sistemas y Computación. Dos de éstas deben pertenecer a una línea de énfasis; las otras dos asignaturas pueden ser reemplazas por dos prácticas investigativas de tres (3) créditos cada una o por la realización de una práctica profesional equivalente a seis (6) créditos y que será reglamentada por el Comité de Programa Académico de Ingeniería de Sistemas.
+
+PARÁGRAFO 6. El Trabajo de Grado. De acuerdo con la reglamentación del Consejo de Facultad, está conformado por tres asignaturas: Seminario de Trabajo de Grado, con un (1) crédito, Trabajo de Grado | con dos (2) créditos y Trabajo de Grado I con siete (7) créditos.
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 9 ARTÍCULO 52.
+
+La presente Resolución rige para los estudiantes que ingresen al programa a partir de la fecha de su aprobación y para los estudiantes que actualmente cursan el programa y expresen por escrito su deseo de homologarse.
+
+PARÁGRAFO 1.
+
+El Comité de Programa Académico decidirá la promoción de ingreso para los casos de traslado, transferencias o reingreso.
+
+PARÁGRAFO 2.
+
+Se anexa a la presente Resolución el esquema secuencial para el desarrollo del Plan curricular.
+
+COMUNÍQUESE, PUBLÍQUESE Y CUMPLASE Dada en Santiago de Cali, en el Salón de reuniones del Consejo Académico, a los 29 del mes de Abril de 2010 El Presidente, Secretario General
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico 10 ANEXO: ESQUEMA SECUENCIAL PARA EL PLAN CURRICULAR DEL PROGRAMA ACADÉMICO DE INGENIERÍA DE SISTEMAS - Semestre 01 750082M Introducción a la Tecnología Informática _750080M Fundamentos de Programación 111050M Cálculo | 750060M Introducción a la Ingenierfa de Sistemas - 204101M Lectura de Textos Académicos en Inglés | — Semi 750081M Introducción a la Programación OO 700012M Electiva Complementana | - Constitucién P~ | 1750083M Matem¿at¡cas Discretas | — 111051M Cálculo li 111048M Algebra Lineal - 204104M Lectura de Textos Académicos en Inglés II £04001M Electiva Complementaria !| — Deporte Formativo — 5 750085M Programación Interactiva | 750084M Matemáticas Discretas H ¡ 111052M Cálculo Il | 106011M Física | _ i 204140M Lectura de Textos Académicos en inglés III 204001M Electiva Complementaria I — Español — ______ “Semestre 04 71019gyl Arquitectura de Computadores | 750095M Fundamentos de Lenguajes de Programac¡on 111049M Ecuaciones Diferenciales 106015M Física II 106070M Experimentación Física | N 204141M Lectura de Textos Académicos en Inglés IV Electiva Complementaria 1V
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico E .
+
+“Semestre05:
+
+2 [750008M Sistemas Operativos " !
+
+Iﬁugw Arquitectura de Computadores II i 750086M Analisis y Métodos Numéricos 750094M Fundamentos de Anallsls y Diseño de Algontmos | 106071M Expenmentac¡on Física l__ j 750091M Desarrollo de Software | [750096M Fundamentos de Redes :760130M Probabilidad y Estadística i750030M Bases de Datos ¡700008M Introducción a la Gestión Ambiental ] 750006M Computacuon Gráfica 750098M Simulacion Computacronal 750033M Inteligencia Artificial [750092M Desarrolio de Software l— [760081M Teoría General de Sistemas É Semestre 08 — Electiva Profesional | -750087M Aplicaciones en el Web y Redes Inalámbricas 750097M Seminario de Trabajo de Grado 760105M Evaluación y Administración de Proyectos 750022M Sistemas de Información 760076M Fundamentos de Gestión Tecnológica [ — — Semestre 09 Electiva Profesional II Electiva Profesional Iti |Z§9101M Trabajo de Grado | {750090M Complejidad y Optimización :760102M Análisis Económico de Inversiones .
+
+!
+
+11
+
+UNIVERSIDAD DEL VALLE RESOLUCION No.048-2010 Consejo Académico [ Efectiva Profesional IV i7_5!_)102M Trabajo de Grado Il - 12

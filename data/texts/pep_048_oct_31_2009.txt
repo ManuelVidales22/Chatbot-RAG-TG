@@ -1,0 +1,503 @@
+Proyecto Educativo del Programa de Ingeniería de Sistemas Escuela de Ingeniería de Sistemas y Computación
+
+Facultad de Ingeniería Universidad del Valle Octubre 31 de2009
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+CONTENIDO INTRODUCCIÓN 3 1. MISION DEL PROGRAMA 4 2. OBJETIVOS DEL PROGRAMA 4 OBJETIVO GENERAL 4 OBJETIVOS DE FORMACIÓN PROFESIONAL 4 3. ASPIRANTES 5 4. PERFIL PROFESIONAL 5 5. LINEAMIENTOS BÁSICOS DEL CURRÍCULO 6 AMBIENTE DE APRENDIZAJE 7 DOCENCIA 8 INVESTIGACIÓN 9 PROYECCIÓN SOCIAL 9 INTERNACIONALIZACIÓN DEL PROGRAMA 10 6. METAS DE DESARROLLO 11 7. SISTEMA DE CRÉDITOS 12 8. GESTIÓN DEL PROGRAMA 14 SISTEMA DE ASEGURAMIENTO DE LA CALIDAD 14 POLÍTICAS Y ESTRATEGIAS DE PLANEACIÓN Y EVALUACIÓN 14 DIRECTRICES O CRITERIOS DE SOPORTE GENERALES 15 MECANISMOS PARA DISCUSIÓN, ACTUALIZACIÓN Y DIFUSIÓN DEL PROYECTO EDUCATIVO DEL PROGRAMA 16
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+INTRODUCCIÓN
+
+En este documento se presenta el Proyecto Educativo que se establece como referencia esencial para el Programa de Ingeniería de Sistemas y Computación de la Universidad del Valle.
+
+Se ha generado teniendo cuenta:
+
+ Los requisitos establecidos en el documento “LINEAMIENTOS PARA LA ACREDITACIÓN DE PROGRAMAS” de 2006 del Consejo Nacional de Acreditación.
+
+ Los propósitos, misión y principios establecidos para la Universidad del Valle1 y la Facultad de Ingeniería en su Proyecto Institucional.
+
+ Los aspectos de mayor pertinencia contemplados en el “El ingeniero colombiano del año 2020, retos para su formación”2.
+
+ Modelos de proyectos educativos de otras universidades públicas.
+
+1 Acuerdo 001 de enero 29 de 2002.
+
+2 ACOFI 2006.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+1. MISION DEL PROGRAMA
+
+El Programa Académico de Ingeniería de Sistemas, tiene como misión la educación y formación integral de profesionales en el área de Ingeniería de Sistemas y Computación, que sean agentes de cambio con espíritu creativo, respetuosos de la naturaleza, del medio ambiente y con sentido ético, capaces de entender las implicaciones sociales de su trabajo y de contribuir al desarrollo social, económico y tecnológico de la región y del país, a través de la aplicación de conceptos fundamentales y técnicos de computación, algoritmos y diseño para abstraer, conceptualizar y resolver problemas específicos.
+
+2. OBJETIVOS DEL PROGRAMA
+
+Objetivo General
+
+Formar profesionales en la disciplina de la Ingeniería de Sistemas y Computación capaces de abordar el estudio de los procesos de transferencia y transformación computacional de la información para dar soluciones a los problemas reales; con conocimientos de los aspectos teóricos de la disciplina y la forma como éstos influyen en la solución de problemas; y con capacidad para mantenerse actualizados a medida que la disciplina evoluciona.
+
+Objetivos de formación Profesional 
+
+Ofrecer a los estudiantes una formación en Ingeniería de Sistemas que les permita en términos de conocimientos:
+
+o Conocer y entender conceptos, principios y teorías esenciales relacionadas con las Ciencias de la Computación y las Aplicaciones en Computador.
+
+o Utilizar tal conocimiento en el análisis y diseño de sistemas basados en Computador de manera que tenga en cuenta los compromisos que aplican en las decisiones de diseño.
+
+o Analizar criterios y especificaciones apropiadas para problemas específicos y planificar estrategias para su solución.
+
+o Analizar y evaluar si un sistema basado en computador cumple los criterios definidos para su uso corriente y futuro desarrollo.
+
+o Utilizar conceptos teóricos y prácticos adecuados para la especificación, diseño, implementación y evaluación de sistemas basados en computador.
+
+o Reconocer y considerar los aspectos sociales, profesionales y éticos envueltos en la utilización de tecnologías computacionales, así como por el contexto regional y nacional.
+
+
+
+Contribuir al desarrollo personal del estudiante de tal manera que en su vida estudiantil y en el ejercicio de su profesión esté en capacidad de:
+
+o Expresar sus ideas de manera clara y precisa.
+
+o Trabajar efectivamente como miembro de un equipo de desarrollo.
+
+o Entender y explicar las dimensiones cuantitativas de un problema.
+
+o Administrar su propio aprendizaje y desarrollo, incluyendo el desarrollo de habilidades organizacionales y administración de su tiempo.
+
+o Permanecer atento a los nuevos desarrollos en la disciplina como método para continuar su propio desarrollo profesional autónomamente.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+3. ASPIRANTES
+
+Los aspirantes a ingresar al Programa Académico de Ingeniería de Sistemas de la Universidad del Valle deben ser bachilleres, cumplir con puntajes mínimos en el exámen de estado exigidos para inscripción y con los requisitos de ingreso. Deben poseer preferencialmente habilidades en matemáticas (evaluadas en el exámen de estado como aptitud y conocimientos en matemáticas) y en menor grado pero con igual importancia conocimientos en ciencias (biología, química y física), sociales y lenguaje.
+
+4. PERFIL PROFESIONAL
+
+Los ingenieros de sistemas de la Universidad el Valle tienen capacidades para diagnosticar, diseñar, evaluar, auditar y mantener sistemas y procesos de investigación dentro de un marco administrativo empresarial y humanista, con autonomía para dirigir su desarrollo personal y una actitud de compromiso hacia la sociedad que los circunda. También poseen capacidad para expresar sus ideas correctamente a través del discurso hablado y escrito.
+
+Son profesionales que pueden desempeñarse dentro de empresas o entidades públicas o privadas, como empresarios, profesionales asociados, profesionales independientes, o empleados claves en el área de informática y sistemas computacionales con énfasis en:
+
+
+
+Tecnologías informáticas 
+
+Desarrollo de software 
+
+Sistemas operacionales 
+
+Redes de comunicaciones 
+
+Lenguajes de programación 
+
+Bases de datos 
+
+Tecnologías visuales y sonoras 
+
+Simulación 
+
+Desarrollo de sistemas en el web e Internet
+
+El programa orientará sus esfuerzos en ofrecer actividades académicas, apoyadas en estrategias metodológicas que contribuyan a formar un ingeniero emprendedor con profundo conocimiento de las ciencias y tecnologías de la computación, con capacidad de liderar proyectos de desarrollo de software, medibles con criterios de calidad internacional.
+
+Este profesional estará en capacidad de:
+
+
+
+Especificar, diseñar e implementar sistemas basados en computador. 
+
+Evaluar sistemas basados en computador en términos de calidad y de posibles compromisos que presente con el problema solucionado. 
+
+Aplicar los principios de manejo y organización de la información, y las habilidades en recuperación de la información y en el tratamiento de información de varios tipos, incluyendo texto, imágenes, sonido y vídeo. 
+
+Aplicar principios de interacción hombre-máquina en el desarrollo y evaluación de aplicaciones software. 
+
+Identificar los riesgos y aspectos de seguridad que puedan estar presentes en la operación de sistemas de computación dentro de un contexto dado.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+
+
+Aplicar metodologías de desarrollo de software, utilizando efectivamente herramientas para la construcción y documentación de aplicaciones computacionales. 
+
+Administrar y operar eficientemente, equipos de computación y aplicaciones computacionales.
+
+5. LINEAMIENTOS BÁSICOS DEL CURRÍCULO
+
+Los lineamientos básicos del currículo expresan los direccionamientos que guían el desarrollo de las funciones de la docencia, la investigación, la proyección social, y la internacionalización del Programa.
+
+Los Ingenieros de Sistemas de la Universidad el Valle tienen capacidades para diagnosticar, diseñar, evaluar y mantener sistemas y procesos de investigación dentro de un marco administrativo empresarial y humanista, con autonomía para dirigir su desarrollo personal y con actitud de compromiso hacia la sociedad. Son capases también de expresar sus ideas correctamente a través del discurso hablado y escrito. Son profesionales que se pueden desempeñar dentro de empresas o entidades públicas o privadas, como empresarios, profesionales asociados, profesionales independientes, o empleados claves en el área de informática y sistemas computacionales con énfasis en:
+
+ Tecnologías informáticas  Desarrollo de software  Sistemas operacionales  Redes de comunicaciones  Lenguajes de programación  Bases de datos  Tecnologías visuales y sonoras  Simulación  Desarrollo de sistemas en el web e Internet
+
+El Programa propiciará que cada estudiante desarrolle satisfactoriamente el siguiente conjunto de competencias, las cuales se complementan y promueven el desarrollo de otras competencias3:
+
+ Competencias técnicas propias del campo de Ciencias de la Computación, Ingeniería del Software y Administración de la Información.
+
+ Innovación: Capacidad de proponer y desarrollar nuevas y mejores formas de realizar las tareas propias de su profesión.
+
+ Aprendizaje Activo y Autónomo, que le permitirá adaptarse a los cambios tecnológicos permanentes y desarrollar las aptitudes y actitudes que requiera según sea su entorno laboral.
+
+ Trabajo en colaboración: Capacidad de asumir responsabilidades y comprometerse efectivamente con un fin común.
+
+ Comunicación: Capacidad de entender y hacerse entender a los otros.
+
+ Ética profesional: Capacidad de identificar, analizar y resolver problemas éticos relacionados con el ejercicio de su profesión, y para actuar y desempeñarse
+
+3  Sistema de Competencias Sustentables para el Desempeño Profesional en Ingeniería.  Letelier M,  López L, Carrasco R y Pérez P.
+
+Revista Facultad de Ingeniería, Universidad de Tarapacá. 2005.
+
+http://www.scielo.cl/pdf/rfacing/v13n2/ART11.pdf
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+profesionalmente con principios éticos por medio de los cuales propenda por el bienestar individual y colectivo.
+
+Todo individuo egresado de este Programa Académico, deberá desarrollar las siguientes competencias técnicas básicas4:
+
+ Construir marcos de referencia que sirvan de soporte para la resolución de problemas enmarcados en las Ciencias de la Computación, la Ingeniería del Software y la Administración de la Información  Determinar la viabilidad del uso de las tecnologías de la información y comunicación para solucionar un problema.
+
+ Especificar y estimar el desarrollo de una solución informática.
+
+ Diseñar de manera creativa y eficiente alternativas de solución informáticas  Aplicar los estándares profesionales y las regulaciones internacionales de la profesión en las soluciones propuestas.
+
+ Evaluar la calidad, limitaciones, peligros e impactos de las soluciones propuestas.
+
+Ambiente de aprendizaje
+
+Se considera que un ambiente de aprendizaje adecuado, debe tener en cuenta los siguientes lineamientos básicos:
+
+ Las actividades de docencia, investigación y proyección social, constituyen el medio para fomentar el desarrollo de las competencias del perfil profesional del Programa.
+
+Siendo elementos orientadores de la formación del Ingeniero de Sistemas, se debe integrar y desarrollar de manera sistémica y sinérgica en el currículo. Por lo tanto, se debe establecer un modelo pedagógico que integre al estudiante a la investigación y a la práctica de su profesión. Lo anterior implica adoptar un modelo participativo basado en el reconocimiento y discusión de problemas donde el profesor presente soluciones apoyadas en su experiencia investigativa y social, motivando la participación del estudiante en las actividades de este tipo que el Programa desarrolle.
+
+ Flexibilidad en el diseño curricular y en la planeación interna de las asignaturas, de tal manera que se puedan utilizar formas de trabajo académico novedosas, tomando como elemento central el desarrollo de proyectos basados en solución de problemas en marcados en situaciones reales, en el marco de las actividades de Investigación y proyección social que realiza el Programa.
+
+ Contar con recursos bibliográficos actualizados y suficientes, tanto digitales como físicos. Incorporar el uso de tecnologías de la información y comunicación para la enseñanza, como, plataformas para gestión del aprendizaje, comunidades virtuales de aprendizaje, sistemas de información, laboratorios de cómputo, etc. Promover espacios como áreas de estudio y socialización para los estudiantes, de tal manera que las actividades curriculares no se límite a los salones de clase o laboratorios de cómputo y se propicie una formación integral basada en la comunicación y socialización y la lúdica.
+
+4 Educación por competencias. Cristensen Hans Peter. 2006. http://www.mineducacion.gov.co/1621/articles- 100587_archivo_ppt2.ppt
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+ Se debe buscar esquemas en los cuales se mezclen distintas formas de enseñanza identificando cuando es viable cada tipo de técnica.  Esto implica el uso de clases magistrales, grupos de discusión, talleres prácticos, debates y seminarios, etc.
+
+Igualmente,  debe propiciarse la exposición y otras alternativas que promuevan el desarrollo de las competencias comunicacionales.
+
+ Se debe buscar el establecimiento de un modelo de docencia que se base fundamentalmente en el trabajo en equipo; un modelo donde inicialmente el estudiante reciba información racional (producto de la discusión de un grupo de profesores que trabajan en un área determinada) y posteriormente participe en discusiones científicas de un problema con un grupo de personas.
+
+ Se debe buscar más flexibilidad, más creatividad y más afinidad profesor-estudiante en la estrategia docente. Se debe fomentar el trabajo participativo del estudiante en todos los procesos de enseñanza-aprendizaje, propiciando el diálogo abierto y crítico; y fomentar actitudes investigativas desde el primer semestre enfatizando en el trabajo metodológico. Esto implica adoptar una pedagogía dinámica que conduzca al estudiante a ser más protagonista del proceso enseñanza-aprendizaje, permitiéndole una participación mucho más activa y con mayores posibilidades de intervenir en las decisiones que pueden orientar su formación; buscando que el currículo se conciba bajo esquemas flexibles que posibiliten la satisfacción de los intereses del individuo, de la institución y del entorno.
+
+ El plan curricular debe ser lo suficientemente flexible para permitir un mejor aprovechamiento de los conocimientos y estudios muy específicos desarrollados por los docentes y para darle mayor capacidad de decisión al estudiante y por lo tanto una mayor responsabilidad sobre su formación.
+
+Docencia
+
+Impregnar al Programa Académico de sentido de pertinencia implica un compromiso por la profesión docente para lo cual es vital recuperar la motivación y alegría por enseñar, e incentivar la curiosidad por aprender.  Para esto, la actividad docente en el Programa académico sigue los direccionamientos básicos:
+
+ Todos los profesores del Programa deben estar comprometidos en la construcción de un ambiente de aprendizaje adecuado y en el  mejoramiento del mismo.
+
+ Todo profesor del Programa debe ser para el estudiante un guía, orientador y motivador hacia la reconstrucción del conocimiento.
+
+ Las estrategias de enseñanza y aprendizaje que se adopten en el Programa deben propender por el fomento de un ambiente dinámico de desarrollo personal y de productividad del profesorado.  Adicionalmente, deben contribuir a la actualización constante de la actividad docente acorde a las exigencias sociales y evolución tecnológica.
+
+ Los profesores vinculados al Programa Académico, deben demostrar un alto grado de motivación, actualización constante y dominio del área de su especialización y de herramientas pedagógicas para su quehacer. Capaces de interactuar con sus pares, de
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+identificar problemas y convertirlos en proyectos educativos que integren a la Universidad con su entorno.
+
+ El Programa debe lograr un alto grado de compromiso de cada universitario con el estudio, lo cual sólo es posible creando ambientes cargados de experiencias significativas, para lograr un verdadero apasionamiento por la Ingeniería de Sistemas.
+
+Investigación
+
+La investigación es un elemento importante del Programa ya que permite formar un profesional reflexivo, capaz mantenerse actualizado, orientado vocacionalmente hacia el avance del conocimiento,  comprometido con la solución de los problemas de las comunidades y con elementos teóricos y metodológicos que le permitan obtener una visión prospectiva útil para proponer acciones y soluciones en la realidad futura. Para esto, se proponen los siguientes lineamientos:
+
+ El Programa ofrecerá ambientes propicios para que sus estudiantes cultiven y desarrollen habilidades útiles para la práctica investigativa (conocimientos generales sobre áreas emergentes de la computación, la capacidad para trabajo en equipo, la curiosidad por descubrir, las destrezas para la lectura sistemática, crítica y cuidadosa).
+
+ La investigación debe usarse como un medio para mostrar el conocimiento como  algo motivante, placentero y enriquecedor.  Para esto, es necesario que la investigación se articule de forma coherente a las actividades de docencia y proyección social.
+
+Proyección Social
+
+La proyección social del Programa tiene como objetivo aumentar las fronteras de sus relaciones con el entorno. Por lo cual, debe permitir educar e informar a la comunidad, enriquecer las académica con la realidad social, y lograr una verdadera aplicación del conocimiento a través de la solución de problemas sociales, en busca de mejorar la calidad de vida.  Para esto, se han definido las siguientes directrices:
+
+ La proyección social le debe permitir al Programa validar en lo social el conocimiento que realmente apropian los estudiantes; someter los frutos del proceso de formación al examen de la práctica, y hacer presencia en la sociedad de manera científica, sistematizada y comprometida.
+
+ El Programa debe procurar por el diálogo permanente con sus egresados, de tal menara que se retroalimente de sus experiencias y asimismo, les ofrezca un espacio de actualización de sus conocimientos.
+
+ El Currículo debe ofrecer en los últimos semestres asignaturas que permitan al estudiante: enfrentarse con los problemas del entorno; motivar la relación academia- sociedad, realimentar a la comunidad del Programa con el resultado de las experiencias adquiridas.
+
+ Los Trabajos de Grado deben incluir un estudio de las necesidades locales, regionales, nacionales e internacionales en el ámbito del problema a resolver.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+Internacionalización del Programa
+
+Los siguientes lineamientos direccionan las actividades orientadas a buscar el posicionamiento del Programa a nivel internacional:
+
+ Asegurar la validez universal de los contenidos en todas las asignaturas del plan de estudios y procurar que el conocimiento asociado a cada asignatura sea equivalente al de otros Programas reconocidos a nivel internacional como de alta calidad.
+
+ Efectuar periódicamente una contrastación de las competencias definidas en el Proyecto Educativo del Programa con las establecidas por los Programas reconocidos a nivel internacional como los de mayor calidad.
+
+ Propiciar el intercambio de profesores y estudiantes con otros Programas reconocidos a nivel internacional como de alta calidad y crear (o participar en) comunidades virtuales - para cada una de las áreas temáticas del Programa - que garanticen la interacción de estudiantes y profesores del Programa con estudiantes y profesores de otros Programas reconocidos internacionalmente como de alta calidad.
+
+ Participar en la formulación y ejecución de proyectos de investigación conjuntos con grupos de investigación internacionales.
+
+ Organizar y/o  participar en seminarios o congresos de nivel internacional.
+
+ Lograr la participación - como ponentes - de profesores y estudiantes del Programa en eventos académicos de nivel internacional.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+6. METAS DE DESARROLLO
+
+A continuación se definen los derroteros que deben guiar el desarrollo del Programa Académico:
+
+ Crear ambientes de aprendizaje adecuados, que revolucionen la estrategia docente, perfeccionen el proceso social educativo, mejoren en forma sistemática y continua el desempeño profesoral, y conviertan el espacio universitario y cada aula de clase en lugares que permitan vivir en el presente y en el futuro, y sobretodo que hagan posible formar hombres aptos para superar las crisis y construir una sociedad fundamentada en el respeto por el otro.
+
+ Lograr una verdadera cohesión entre la docencia, investigación y proyección social lo cual es imprescindible para formar un profesional con una sólida fundamentación científica y tecnológica que le permita contribuir al progreso y bienestar de la comunidad y a su propia realización personal.
+
+ Construir un clima institucional adecuado, es decir, un ambiente de trabajo dinámico y productivo que propicie la excelencia en las funciones sustantivas del Programa y que posibilite el desarrollo personal y profesional de todos y cada uno de sus integrantes.
+
+ Propender porque todo estudiante se convierta en un ciudadano integral y en un profesional idóneo que domine los conocimientos básicos de su profesión y sea capaz de acceder a lo más avanzado del conocimiento en el área específica de desarrollo que haya escogido.
+
+ Involucrar en las labores del Programa el entorno con sus gentes, su cultura, sus conflictos y su ética.
+
+ Articular las actividades del Programa con otros Programas académicos institucionales y con el entorno regional, para generar soluciones a problemas o necesidades que contribuyan al mejoramiento de la calidad de vida de todos los habitantes del país.
+
+ Consolidar el liderazgo y la proyección del Programa a nivel local, regional, nacional e internacional.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+7. SISTEMA DE CRÉDITOS
+
+Para el plan curricular del Programa se establecen cinco áreas de formación. A continuación se describe cada una de estas áreas indicando: su identificación, el número de créditos5 asignados y los objetivos correspondientes Asignaturas Básicas Obligatorias (AB): Fundamentación en ciencia y Tecnología (61 créditos) (39%).
+
+Objetivos:
+
+ Proveer al estudiante las bases requeridas en las ciencias Física y Matemáticas.
+
+ Brindar la fundamentación requerida en las áreas de Ciencias de la computación, Ingeniería del Software y Administración de la Información.
+
+Asignaturas Profesionales Obligatorias (AP): Fundamentación disciplinar de la Ingeniería de sistemas (73 créditos) (47%).
+
+Objetivos:
+
+ Capacitar al estudiante en la teoría y en la práctica de los fundamentos de su profesión.
+
+ Introducir al estudiante en el contacto con los problemas del entorno a partir de la práctica, en asocio con los estudiantes de otras profesiones y disciplinas.
+
+Asignaturas Electivas Profesionales (AEP): Cursos electivos de formación profesional (12 créditos) (8%).
+
+Objetivos:
+
+ Introducir al estudiante en las tecnologías emergentes de su profesión.
+
+ Permitir al estudiante la exploración de temas de investigación.
+
+ Permitir al estudiante la aplicación de sus conocimientos en el entorno a partir de su vinculación con el sector empresarial como practicante.
+
+Asignaturas Electivas Complementarias (AEC): Formación Complementaria (10 créditos) (6%).
+
+Objetivos:
+
+ Estimular en los estudiantes el respeto, aprecio y reconocimiento por la diversidad.
+
+ Desarrollar en los estudiantes la cultura del emprendimiento.
+
+De acuerdo a lo anterior, el sistema de créditos definido para el Programa contempla:
+
+1.
+
+Un máximo de 156 créditos, distribuidos así:
+
+Semestre 1 2 3 4 5 6 7 8 9 10 Créditos 18 19 20 19 15 14 16 15 12 10
+
+5 Se define el crédito como la unidad de medida del trabajo académico que debe realizar el estudiante en cada una de las actividades formativas establecidas como requisitos para la obtención de título en un programa de pregrado. Resolución 027 del 8 de marzo de 2001. Consejo Académico Universidad del Valle
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+2.
+
+Un crédito académico equivale a 48 horas de trabajo académico del estudiante. El número total de créditos de una asignatura o actividad formativa resulta de sumar el tiempo de trabajo presencial (TP), el tiempo de trabajo independiente (TI) y el tiempo de trabajo dirigido (TD) que realiza el estudiante durante un período académico en esa actividad o asignatura dividido por 48 horas6.
+
+3.
+
+El tiempo de trabajo independiente del estudiante debe emplearse para desarrollar tareas derivadas del modelo pedagógico que se adopte y por lo tanto vital para el logro de los objetivos del Programa.
+
+4.
+
+La Escuela de Ingeniería de Sistemas (EISC) tomará las medidas necesarias para garantizar la disposición de los espacios y de los medios que faciliten el desarrollo de las responsabilidades propias del estudiante.
+
+5.
+
+El Comité de Programa hará un seguimiento del volumen de los contenidos y del conjunto de actividades de aprendizaje que se requieren para desarrollar dichos contenidos y competencias, tomando las medidas pertinentes para garantizar su coherencia con el tiempo asignado al trabajo académico del estudiante.
+
+6.
+
+El Comité de Programa asegurará que el plan curricular de cada una de las asignaturas indique claramente las actividades de acompañamiento directo del docente o tiempo presencial y las de tiempo de trabajo independiente del estudiante.
+
+7.
+
+Como referencia general para el monitoreo y seguimiento del tiempo de trabajo independiente del estudiante se establecen las siguientes estrategias:
+
+a) Sensibilización de los estudiantes en cuanto a la importancia de llevar el registro del tiempo de trabajo independiente.
+
+b) Desarrollo de los cursos usando Campus Virtual de la Universidad y/o el sistema de gestión de contenidos de la EISC.
+
+8.
+
+Se realizará periódicamente un seminario dirigido a los docentes del Programa sobre “modelos curriculares basados en créditos y didáctica” a fin de mejorar la labor docente.
+
+6 Según artículo 4 de la Resolución 027 del Consejo Académico de la Universidad del Valle
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+8. GESTIÓN DEL PROGRAMA
+
+Esta sección reúne las estrategias y directrices generales que se establecen para la gestión del Programa con el fin de propiciar el mejoramiento del proceso formativo de sus estudiantes y una aproximación cada vez más satisfactoria al logro de los objetivos declarados para el Programa.
+
+Sistema de Aseguramiento de la Calidad
+
+Como estrategia esencial para el aseguramiento de la calidad en el Programa, se define un proceso periódico de autoevaluación, con el fin de validar el cumplimiento de los factores definidos por el Modelo de Acreditación, para así, incorporar las mejoras pertinentes.
+
+Para efectuar el proceso de autoevaluación, la EISC debe establecer un comité de autoevaluación permanente, conformado así:
+
+
+
+Comité de Programa. Este comité está formado por el director del programa, dos (2) profesores, un (1) representante de los estudiantes, y un (1) representante de los egresados).  
+
+Al menos un equipo de trabajo, conformado por: un (1) profesor, un (1) estudiantes y un (1) egresado.
+
+Adicionalmente, el Comité de Autoevaluación deberá ejecutar el cronograma de trabajo que se define a continuación:
+
+Actividad Tiempo para la Ejecución7 Definición de los mecanismos de indagación  y diagnóstico, aplicación de los mismos.
+
+Semana 5 Interpretación de la información y conclusiones derivadas Semana 10 Toma de decisiones8 Semana 12 Actualización del plan de mejoramiento del programa Semana 16 Evaluación del trabajo realizado Semana 24 Información a los comunidad (estudiantes, profesores, egresados) Semana 26 Planeación de la siguiente iteración9 Semana 28
+
+Como se puede observar, esta propuesta, implica que anualmente se estará confrontando el estado de los factores definidos por el Modelo de Acreditación.
+
+Políticas y estrategias de planeación y evaluación
+
+Las directrices básicas que se establecen para propiciar una adecuada planeación y evaluación del Programa son las siguientes:
+
+1.
+
+Ejecución anual de las siguientes actividades:
+
+7  Corresponde a las semanas de clase o actividad académica normal establecidas para el Programa.
+
+8 Por la comisión de evaluación y los equipos de trabajo. Las decisiones tomadas deberán ser informadas y aprobadas por el Claustro de Profesores de la EISC.
+
+9  Una iteración comprende un año calendario.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+ Análisis de la sinergia de los cursos con respecto a los objetivos  del Programa.
+
+ Análisis de la vigencia y pertinencia del plan de estudios del Programa.
+
+ Análisis del estado y completitud de los recursos que soportan la ejecución del plan de estudios.
+
+ Análisis del quehacer docente y el modelo pedagógico apropiado para las asignaturas del Programa.
+
+3.
+
+Definir jornadas de evaluación por curso, en las cuales participen el profesor correspondiente, los respectivos estudiantes y el Coordinador del Programa (o a quien él delegue).  Estas jornadas deben generar conclusiones con respecto a:
+
+ Pertinencia de los objetivos, modalidad, temario, bibliografía y la evaluación.
+
+ Efectividad y Eficacia de las estrategias didácticas usadas en el curso.
+
+ Estado y aporte de los recursos de soporte para la ejecución del curso.
+
+ Evaluación académica del curso según los estudiantes.
+
+ Evaluación académica del curso según el profesor que imparte el curso.
+
+4.
+
+Definir una Jornada de trabajo con egresados, empleados y los docentes del Plan a fin de validar la congruencia de los contenidos del plan curricular con lo que se espera del egresado en el entorno laboral.  Como resultado de esta reunión se debe poder determinar:
+
+ Necesidades de las empresas en la región.
+
+ Aspectos a mejorar en la formación de los estudiantes, de acuerdo con la experiencia de los egresados y de los empleadores.
+
+ Estrategia de Actualización del plan curricular.  Esto puede implicar la creación o modificación de asignaturas o el diseño de seminarios, diplomados, etc.
+
+ Plan de inserción de los cambios a lugar.
+
+5.
+
+Definir un mecanismo de información que garantice el acceso de todos los integrantes del Programa, a la información relacionada con el mismo.
+
+Directrices o criterios de soporte generales
+
+A continuación se presenta el conjunto de directrices o criterios de soporte generales para la gestión del Programa:
+
+ Privilegiar las propuestas y acciones que contribuyan efectivamente a lograr que los profesores se constituyan en constructores de ambientes de aprendizajes adecuados y líderes del mejoramiento de estos ambientes.
+
+ Optimizar el uso de los recursos institucionales.
+
+ Propiciar un trabajo universitario transparente, comprometido, responsable y ético.
+
+ Buscar la articulación de la autonomía, la participación y la responsabilidad en toda acción universitaria.
+
+ Propiciar la creación de espacios y ambientes universitarios que contribuyan al desarrollo de procesos de liderazgo.
+
+UNIVERSIDAD DEL VALLE
+
+Programa de Ingeniería de Sistemas - Proyecto Educativo
+
+ Privilegiar las propuestas y acciones que pongan al servicio del desarrollo regional y nacional las potencialidades y recursos institucionales.
+
+ Apoyar la realización de eventos y actividades que posibiliten la contextualización de los conocimientos, tales como: seminarios, foros permanentes, mesas redondas, visitas de exploración del entorno, pasantías, etc.
+
+ Favorecer el crecimiento personal y colectivo a partir del reconocimiento y respeto a la diversidad.
+
+ Estimular y reconocer a los estudiantes, profesores, administrativos, directivos y egresados que contribuyan sustancialmente con el alcance de los objetivos y metas de desarrollo del Programa.
+
+ Fomentar la cultura de la autoevaluación en el trabajo realizado en el Programa.
+
+Mecanismos para discusión, actualización y difusión del proyecto educativo del programa
+
+Los criterios definidos para la difusión, discusión y actualización del Proyecto Educativo del Programa, incluyen:
+
+ Incluir la actualización del Proyecto Educativo como tarea prioritaria en la labor docente de la EISC.
+
+ Realizar al comienzo de cada período una jornada para difusión del Proyecto Educativo del Programa con los estudiantes admitidos al primer semestre.
+
+ Utilizar el sitio web de la EISC y del Programa Académico, para presentar adecuadamente el Proyecto Educativo, y habilitar la recepción permanente de comentarios y aportes.
+
+ Generar una síntesis impresa del Proyecto Educativo del Programa para su difusión a nivel de Empresas e Instituciones.
+
+ Realizar cada dos años durante las primeras cinco semanas de clase del primer período académico una discusión amplia del Proyecto Educativo del Programa, y las actividades que giran alrededor de éste.
