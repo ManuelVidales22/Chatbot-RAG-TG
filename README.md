@@ -1,8 +1,6 @@
 
 # 📘 MauroBot Univalle
 
-> 🇪🇸 [Leer esto en español](README.md)
-
 MauroBot is a chatbot built with Streamlit and LangChain, designed to answer questions related to the Systems Engineering program at Universidad del Valle, Tuluá campus. It uses natural language processing and information retrieval based on official university documents.
 
 ---
@@ -123,8 +121,6 @@ The app will automatically open in your browser (usually at http://localhost:850
 
 
 # 📘 MauroBot Univalle
-
-> 🇺🇸 [Read this in English](README_EN.md)
 
 MauroBot es un chatbot construido con Streamlit y LangChain, diseñado para responder preguntas relacionadas con el programa de Ingeniería de Sistemas de la Universidad del Valle, Sede Tuluá. Utiliza procesamiento de lenguaje natural y recuperación de información basada en documentos oficiales de la universidad.
 
