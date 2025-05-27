@@ -64,6 +64,7 @@ def get_llm():
     return ChatOpenAI(
         model="gpt-4.1-mini",
         temperature=0,
+        streaming=True,
         api_key=os.getenv("API_KEY")  # Ajusta según necesidades
     )
 
@@ -105,30 +106,39 @@ if prompt := st.chat_input("Escribe tu pregunta"):
     st.chat_message("user").markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    start_time = time.time()
+    #start_time = time.time()
 
-    with st.spinner("Buscando información y generando respuesta..."):
     #Buscar la informacion en la base de datos vectorial
-        results = query_processor.hybrid_search(prompt, vector_db)
+    results = query_processor.hybrid_search(prompt, vector_db)
 
-        retrieved_context = "\n\n\n".join(
+    retrieved_context = "\n\n\n".join(
         [f'Fuente "{doc.metadata.get("source", "desconocido")}": {doc.page_content}' for doc in results]
         )
         
-        messages = [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages]
+    messages = [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages]
 
-        messages.insert(0, {"role": "system",
-                            "content": f"Contexto: {new_context}, Aqui tienes informacion relevante extraida de documentos oficiales de la Universidad del Valle:\n{retrieved_context}"
-                            })
+    messages.insert(0, {"role": "system",
+                        "content": f"Contexto: {new_context}, Aqui tienes informacion relevante extraida de documentos oficiales de la Universidad del Valle:\n{retrieved_context}"
+                        })
     
-        response = llm.invoke(messages).content
     
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-
-    response_plus_time = response + f"\n\n\n*Tiempo de respuesta: {elapsed_time:.2f} segundos*"
-
     with st.chat_message("assistant"):
-        st.markdown(response_plus_time)
+        response_placeholder = st.empty()
+        generated = ""
+        start_time = time.time()
+        with st.spinner("Buscando información y generando respuesta…"):
+            #Consumir el stream de tokens
+            for token in llm.stream(messages):
+                if hasattr(token, "content") and token.content:
+                    generated += str(token.content)
+                    response_placeholder.markdown(generated)
+
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+
+        response_plus_time = generated + f"\n\n\n*Tiempo de respuesta: {elapsed_time:.2f} segundos*"
+        elapsed_time = 0
+        response_placeholder.markdown(response_plus_time)
         
-    st.session_state.messages.append({"role": "assistant", "content": response_plus_time})
+   
+    st.session_state.messages.append({"role": "assistant", "content": generated})
