@@ -1,0 +1,445 @@
+1
+
+UNIVERSIDAD DEL VALLE
+
+CONSEJO ACADÉMICO
+
+RESOLUCIÓN No. 047 16 de abril de 2020
+
+“Por la cual se modifica el Programa Académico de Ingeniería de Sistemas, cuya estructura curricular fue definida mediante la Resolución No. 048 de abril 29 de 2010 del Consejo Académico”
+
+EL CONSEJO ACADÉMICO DE LA UNIVERSIDAD DEL VALLE, en uso de sus facultades legales, en especial las que le confiere el literal b) del Artículo 20° del Estatuto General, y
+
+CONSIDERANDO:
+
+Que el Ministerio de Educación Nacional, mediante Decreto 1330 de julio 25 de 2019, reglamentó los registros calificados de los programas académicos de Educación Superior. Que el mismo Decreto en su artículo 2.5.3.2.10.2 hace mención que cualquier modificación que afecte las condiciones de calidad del programa con las cuales se le otorgó el registro calificado al mismo, debe informarse al Ministerio de Educación Nacional;
+
+Que el Consejo Superior de la Universidad del Valle, mediante el Acuerdo 025 de septiembre 25 de 2015, actualizó la Política Curricular y el Proyecto Formativo de la Universidad del Valle y el Consejo Académico de la Universidad del Valle mediante Resolución 136 del 22 de diciembre de 2017, reglamentó las condiciones para la creación y reforma de los programas de formación de pregrado de la Universidad del Valle; así como la Facultad de Ingeniería definió los lineamientos en la Resolución del Consejo de Facultad No. 157 de mayo 22 de 2018;
+
+Que el Consejo de la Facultad de Ingeniería en su sesión II del 28 de enero de 2020 mediante Acta No. 002 avaló la modificación de la estructura curricular para el Programa Académico de Ingeniería de Sistemas;
+
+Que el Comité Central de Currículo, en su sesión del 13 de marzo de 2020, mediante Acta No. 05, avaló y recomendó al Consejo Académico la
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 2
+
+modificación de la estructura curricular para el Programa Académico de Ingeniería de Sistemas.
+
+RESUELVE:
+
+ARTÍCULO 1°.
+
+Modificar la estructura curricular del programa académico Ingeniería de Sistemas,   adscrito  a   la Escuela de Ingeniería de Sistemas y Computación de la Facultad de Ingeniería, el cual tiene una duración de diez (10) semestres y es de modalidad presencial y periodicidad semestral. El programa de Ingeniería de Sistemas otorgará el título de Ingeniero de Sistemas a los estudiantes que hayan cursado y aprobado al menos los 154 créditos establecidos en la estructura curricular y cumplan los requisitos estipulados en la presente Resolución y demás normas de la Universidad del Valle vigentes para sus programas de pregrado.
+
+PARÁGRAFO 1°.
+
+La presente modificación curricular aplica para el Programa Académico de Ingeniería de Sistemas en todas las sedes de la Universidad del Valle.
+
+PARÁGRAFO 2°.
+
+El programa Académico de Ingeniería de Sistemas será ofrecido en la Sede Cali con  un cupo máximo de ochenta (80) estudiantes anuales. En la Sede Tuluá con un cupo máximo de ciento diez (110) estudiantes anuales.
+
+ARTÍCULO 2°.
+
+Objetivos del programa. El programa académico de Ingeniería de Sistemas  se  traza  los  siguientes objetivos:
+
+Objetivo General:
+
+Formar profesionales en Ingeniería de Sistemas capaces de dar soluciones a problemas reales aplicando diversas áreas de la computación y destacándose por su formación científica, tecnológica, profesional y personal; con habilidad para mantenerse actualizados a medida que la disciplina evoluciona, y capaz de desempeñarse en cualquier lugar del mundo.
+
+Objetivos Específicos:
+
+ Formar estudiantes con capacidad para interpretar y aplicar las ciencias pertinentes a su especialidad, así como los fundamentos, los métodos y las herramientas propias de la ingeniería de Sistemas.
+
+ Crear en el estudiante de Ingeniería de Sistemas la habilidad para analizar problemas y desarrollar soluciones basadas en las Tecnologías de la Información y las Comunicaciones (TIC) de manera creativa y sostenible
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 3
+
+sobre la base de un dominio de las tendencias tecnológicas, robustas y emergentes.
+
+ Preparar al estudiante para adaptarse al cambio tecnológico con una actitud de formación continua a lo largo de su vida profesional.
+
+ Formar Ingenieros de Sistemas que puedan comunicarse en forma oral y escrita de manera eficiente y efectiva y con aptitudes para trabajar individualmente y en equipo.
+
+ Formar Ingenieros de Sistemas con la capacidad para desempeñarse, en cualquier lugar del mundo, en diversos ámbitos de la computación y TIC acorde a las tecnologías de mayor uso y demandas del momento.
+
+ Preparar Ingenieros de Sistemas que busquen comprometerse con el desarrollo de la sociedad y que tengan aprecio por los valores culturales, sociales y ambientales de su entorno.
+
+ARTÍCULO 3°.
+
+El perfil de egreso. El Ingeniero de Sistemas de la Facultad de Ingeniería de la Universidad del Valle desarrolla proyectos o da solución a problemas contemporáneos considerando aspectos éticos, ambientales, sociales, culturales y económicos, en diversos contextos laborales, a nivel local, nacional e internacional. Además, demuestra, como parte del sello institucional, un aprendizaje autónomo que le permite una formación continua a lo largo de su vida profesional. De forma más concreta, el Ingeniero de Sistemas de la Universidad del Valle es un profesional que puede desempeñarse en los siguientes ámbitos: Desarrollo de software, Diseño y desarrollo de interacciones entre el humano y el computador, Investigación en computación, Gestión y análisis inteligente de datos, y Gestión de infraestructura de TIC. Las competencias específicas a desarrollar en estos ámbitos permiten que los egresados al final de la carrera sean capaces de:
+
+ Utilizar los conocimientos fundamentales en teoría de la computación en la construcción de sistemas basados en TIC.
+
+ Seleccionar y utilizar diferentes paradigmas y lenguajes de programación al construir sistemas basados en TIC.
+
+ Evaluar factores de calidad estandarizados durante la valoración de uno o varios productos de software.
+
+ Aplicar conceptos y principios implicados en el proceso de diseño de interfaces gráficas de usuario durante el desarrollo de aplicaciones software.
+
+ Utilizar estándares, pautas y guías de accesibilidad a fin de desarrollar software.
+
+ Aplicar técnicas de evaluación de usabilidad que permitan medir la calidad de la experiencia que tienen los usuarios al interactuar con el software desarrollado.
+
+ Comprender las etapas de un proyecto de investigación.
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 4
+
+ Analizar, extraer, procesar, interpretar y presentar visualmente los datos y la información provenientes de sistemas basados en TIC.
+
+ Desarrollar sistemas inteligentes que aplican tareas de aprendizaje de máquina y que permiten analizar un conjunto de datos y extraer información.
+
+ Implementar proyectos de infraestructura de TIC comprendiendo las características propias de las tecnologías de transporte de datos.
+
+ Diseñar y desplegar soluciones de servicios de infraestructura tecnológica orientadas a resolver requerimientos de clientes.
+
+ Identificar y utilizar procesos y tecnologías de seguridad informática que permitan proteger redes, equipos y datos de una organización.
+
+ Resolver problemas de ingeniería identificando diferentes alternativas de solución y desarrollando sistemas basados en TIC.
+
+ Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC.
+
+ Desarrollar iniciativas de ingeniería orientadas a la innovación de productos, procesos o servicios.
+
+A su vez, se promoverá el desarrollo de competencias genéricas que en conjunto con las competencias específicas permitirán tener a un profesional integral y capacitado para desempeñarse en el mundo laboral. Estas competencias genéricas le permitirán al egresado:
+
+ Comprender y aplicar las ciencias naturales, matemáticas, fundamentos, métodos y herramientas propias de la ingeniería.
+
+ Utilizar un pensamiento crítico y creativo que le permite aprender de forma autónoma y permanente.
+
+ Actuar de manera responsable y honesta en el marco del respeto hacia la dignidad de las personas y el cuidado del medio social, cultural y natural.
+
+ Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación.
+
+ Mostrar una actitud receptiva, propositiva, crítica y reflexiva en su relación con los demás en el ejercicio de su profesión.
+
+ARTÍCULO 4°.
+
+El perfil ocupacional. El Ingeniero de Sistemas de la  Facultad  de  Ingeniería  de la  Universidad  del Valle puede desempeñarse en los siguientes cargos:
+
+ Director de sistemas  Ingeniero de desarrollo  Arquitecto de software  Gerente de infraestructura informática
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 5
+
+ Diseñador de Interacción y Usabilidad  Diseñador y Consultor UI/UX  Maquetador Front-End  Investigador  Administrador de bases de datos  Analista de datos  Científico de datos  Ingeniero de TIC  Ingeniero Centro de Operaciones de Red  Profesional en seguridad informática
+
+ARTÍCULO 5°.
+
+Estructura curricular. La estructura curricular del programa académico de Ingeniería de Sistemas está organizada por dos ciclos, el ciclo básico y el ciclo profesional, los cuales incluyen de forma transversal los componentes de la Formación General, definidos en la Resolución 136 de diciembre 22 de 2017 del Consejo Académico. El programa académico también adopta los lineamientos del ciclo común integral de la Facultad de Ingeniería.
+
+Ciclo de formación Número de Créditos Porcentaje de créditos Número de créditos de formación general Porcentaje de créditos de formación general Ciclo Básico 64 41.6% 26.14 16.9% Ciclo Profesional 90 58.4% 13.31 8.6% Total 154 100% 39.45 25.5%
+
+Ciclo de Formación Asignaturas Créditos Tipo Básicas Profesional Electivas Básico Matemáticas básicas 3 X
+
+Deporte y salud 2 X
+
+Fundamentos de programación imperativa 3 X
+
+Taller de Ingeniería I 3 X
+
+Inserción a la vida universitaria 2 X
+
+Introducción a la ingeniería 2 X
+
+Cálculo I 3 X
+
+Álgebra lineal 3 X
+
+Fundamentos de programación orientada a objetos 3 X
+
+Matemáticas Discretas I 4 X
+
+Lectura crítica 2 X
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 6
+
+Electiva complementaria I 3
+
+X Cálculo II
+
+3 X
+
+Física I + Laboratorio 4 X
+
+Matemáticas Discretas II 4 X
+
+Electiva complementaria II 3
+
+X Probabilidad y estadística 3 X
+
+Ecuaciones diferenciales 3 X
+
+Simulación y computación numérica 3 X
+
+Análisis Económico de inversiones 3 X
+
+Seminario en Constitución, legislación y ética de la profesión 2 X
+
+Introducción a la gestión de proyectos de software 3 X
+
+Total Ciclo Básico 64 Profesional Fundamentos de programación orientada a eventos 3
+
+X
+
+Fundamentos de programación Funcional y Concurrente 3
+
+X
+
+Sistemas operativos 4
+
+X
+
+Bases de datos 4
+
+X
+
+Desarrollo de software I 3
+
+Fundamentos de interpretación y compilación de lenguajes de programación 3
+
+X
+
+Análisis y diseño de algoritmos I 3
+
+X
+
+Fundamentos de redes 3
+
+X
+
+Desarrollo de software II 3
+
+X
+
+Proyecto integrador I 4
+
+X
+
+Análisis y diseño de algoritmos II 3
+
+X
+
+Infraestructuras paralelas y distribuidas 3
+
+X
+
+Inteligencia artificial 4
+
+X
+
+Desarrollo de software III 3
+
+X
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 7
+
+Desarrollo de aplicaciones para dispositivos móviles 3
+
+X
+
+Ciberseguridad 3
+
+X
+
+Introducción a la Ciencias de los datos 3
+
+X
+
+Electiva profesional I 3
+
+X Proyecto integrador II 4
+
+X
+
+Seminario de trabajo de grado 2
+
+X
+
+Introducción a la gestión ambiental 3
+
+X
+
+Electiva profesional II 3
+
+X Electiva profesional III 3
+
+X Innovación y emprendimiento empresarial 3
+
+X
+
+Trabajo de grado I 2
+
+X
+
+Seminario de comunicación oral y escrita 3
+
+X
+
+Electiva profesional IV 3
+
+X Trabajo de grado II 6
+
+X
+
+Total Ciclo profesional 90 Total créditos 154
+
+PARÁGRAFO.
+
+De acuerdo con la Resolución 136 de 2017 del Consejo Académico,  el  programa   académico   de Ingeniería de Sistemas ha destinado cinco (5) créditos académicos para la formación en Español y comunicación. Dos (2) de estos créditos se encuentran en el ciclo básico en la asignatura Lectura crítica y tres (3) créditos corresponden al ciclo profesional y se encuentran en la asignatura Seminario de comunicación oral y escrita.
+
+ARTÍCULO 6°.
+
+Formación general. Acorde con la Resolución 136 de  2017  del  Consejo Académico,   la   Formación General (FG) es concebida como el conjunto de actividades curriculares y extracurriculares que favorece el desarrollo integral del estudiante como persona, ciudadano y profesional, en sus dimensiones cognitivas, afectivas, éticas, estéticas y políticas. El programa académico adoptó actividades formativas de FG estableciendo dentro de las asignaturas de manera integral y transversal, las componentes de formación social y ciudadana (FSC), lenguaje y comunicación (LC), estilos de vida saludable (EVS), artístico y humanístico (AH), y científico tecnológico (CT), permitiendo la formación disciplinaria, interdisciplinaria y en otros saberes. El Comité del Programa Académico de Ingeniería de Sistemas propondrá los requisitos necesarios
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 8
+
+para homologar las actividades extracurriculares (previo aval del Comité Coordinador de Formación General adscrito a la DACA) tendientes a ser parte de los componentes de la FG, integrándolas a los microcurrículos de las asignaturas. En la siguiente tabla se muestran las asignaturas que aportan a la formación general en el programa académico de Ingeniería de sistemas.
+
+Componente de formación general Créditos  Porcentaje que aporta a FG Ciclo Asignaturas FSC LC EVS AH CT
+
+Básico
+
+Matemáticas básicas
+
+X 3 100 Introducción a la Ingeniería
+
+X
+
+X 2 100 Taller de ingeniería I
+
+X
+
+X 3 100 Fundamentos de programación orientada a objetos
+
+X
+
+X
+
+X
+
+3
+
+38 Fundamentos de programación imperativa
+
+X
+
+3
+
+100 Lectura crítica
+
+X
+
+2 100 * Inserción a la vida universitaria
+
+X X X
+
+2 100 * Deporte y salud
+
+X
+
+2 100 * Seminario de Constitución, Legislación y ética de la profesión X
+
+2
+
+100 * Electiva complementaria I
+
+3 100
+
+* Electiva complementaria II
+
+3 100 % Créditos FG en el ciclo básico     16.9% Profesional
+
+Proyecto integrador I
+
+X X 4 55 Proyecto integrador II
+
+X 4 56 Seminario de trabajo de grado
+
+X
+
+2 60 Trabajo de grado I
+
+X
+
+2 40 Trabajo de grado II
+
+X
+
+6 57 Seminario de comunicación oral y escrita
+
+X
+
+3
+
+100
+
+Desarrollo de software I
+
+X
+
+3 5
+
+Desarrollo de software II
+
+X
+
+3 5
+
+Desarrollo de software III
+
+X
+
+3 5 % Créditos FG en el ciclo profesional    8.6% PORCENTAJE TOTAL DE FORMACIÓN GENERAL DEL PROGRAMA ACADÉMICO DE INGENIERÍA DE SISTEMAS 25.5%
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 9
+
+PARÁGRAFO 1°.
+
+Las asignaturas señaladas con (*) en la tabla anterior  pueden  ser  tomadas por los estudiantes como asignaturas electivas o actividades formativas extracurriculares de la oferta general de la Universidad y que correspondan a los componentes de la formación general.
+
+PARÁGRAFO 2°.
+
+Las asignaturas que aportan 100% a la FG excepto las del ciclo profesional pueden ser tomadas por cualquier estudiante de la Universidad. Las asignaturas que aportan 100% a la FG correspondientes al ciclo profesional pueden tomarse por cualquier estudiante de la Facultad de Ingeniería.
+
+PARÁGRAFO 3°.
+
+Con el ánimo de fortalecer la flexibilidad en la formación  integral  del  estudiante  y  propiciar su participación activa en la vida universitaria, el programa académico considera actividades extracurriculares, las cuales pueden convalidarse dentro de las asignaturas previo análisis del comité del programa académico. La participación en maratones de programación, la aprobación de cursos en plataformas de educación virtual, y las certificaciones, se convalidarán en asignaturas de la malla curricular de acuerdo a lo definido por el comité de programa.
+
+ARTÍCULO 7°.
+
+Trabajo de grado.  Para optar por el título de Ingeniero de Sistemas el estudiante se acogerá a la normativa establecida por el Consejo de la Facultad de Ingeniería y las normas específicas del Comité de Programa.
+
+ARTÍCULO 8°.
+
+Lengua extranjera. La Facultad de Ingeniería establece   como   requisito   de   grado   para   los estudiantes de sus programas el manejo del inglés como lengua extranjera, por tanto, los estudiantes deberán acreditar al menos el nivel B1 de suficiencia en el idioma inglés de acuerdo con el Marco Común Europeo de Referencia (MCER).  La acreditación del nivel B1 del MCER de suficiencia en el idioma inglés será requisito para la matrícula de la asignatura Trabajo de Grado I.
+
+PARÁGRAFO 1°.
+
+Los estudiantes deberán presentar en la dirección del  programa  académico  la acreditación del nivel B1 de suficiencia en el idioma inglés a más tardar en su tercera matrícula académica. El estudiante que no obtenga el nivel de suficiencia B1 del MCER, deberá iniciar a cursar y aprobar de manera consecutiva e ininterrumpida, los créditos necesarios de acuerdo a los cursos programados y ofertados por la Escuela de Ciencias del Lenguaje para el desarrollo de las competencias requeridas, así como el examen de suficiencia respectivo.
+
+UNIVERSIDAD DEL VALLE RESOLUCIÓN No. 047 – 2020 Consejo Académico 10
+
+PARÁGRAFO 2°.
+
+Los estudiantes de grupos étnicos o minoritarios cuya lengua materna no sea el castellano, deberán acreditar el castellano en nivel B2. Para el caso de los estudiantes con discapacidad auditiva se exigirá este mismo nivel, en habilidades de lectura y escritura.
+
+ARTÍCULO 9°.
+
+Plan de transición. El Comité de Programa hará las equivalencias respectivas para cohortes activas que deseen acogerse a la presente resolución y  para los casos de Traslado, Transferencia o Reingreso.
+
+PARÁGRAFO.
+
+Oficializada la reforma curricular del programa de Ingeniería de Sistemas de la Universidad del Valle por parte del Ministerio de Educación Nacional, se otorgará 1 año para que los estudiantes NO ACTIVOS reingresen a la resolución No. 048 de 2010 de Consejo Académico. Después de este periodo los estudiantes deben reingresar a la nueva resolución.
+
+ARTÍCULO 10°.
+
+Vigencia. La presente Resolución rige para las cohortes  que  ingresen  a  partir  de  la  fecha   de aprobación por parte del Ministerio de Educación Nacional y deroga las disposiciones que le sean contrarias.
+
+COMUNÍQUESE, PUBLÍQUESE Y CÚMPLASE
+
+Dada en Santiago de Cali, a los 16 días del mes de abril de 2020.
+
+El presidente,
+
+EDGAR VARELA BARRIOS Rector
+
+ANTONIO JOSÉ ECHEVERRY PÉREZ Secretario General

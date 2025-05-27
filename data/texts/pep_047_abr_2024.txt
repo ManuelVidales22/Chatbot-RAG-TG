@@ -1,0 +1,493 @@
+y
+
+Universidad del Valle
+
+as
+
+Proyecto Educativo de Programas -P.E.P,
+
+Programa Académico de Ingeniería de Sistemas
+
+CONSEJO SUPERIOR Dilian Francisca Toro Torres Gobernadora Departamento del Valle del Cauca Presidente del Consejo Superior Gabriela Posso Restrepo Representante Presidente de la República José Darío Sáenz Delegado de la Ministra de Educación Nacional Nelson Molina Valencia Representante Directivos Académicos Leonor Cuellar Gómez Representante Profesoral Laura Isabel Vera Zapata Representante estudiantil Rafael Isidro Rodríguez Umaña Representante de los egresados Oscar Isaza Benjumea Representante de Sector Productivo Oscar Rojas Rentería Representante Ex-Rectores Guillermo Murillo Vargas Rector Rosa Emilia Bermúdez Rico Secretaria General
+
+CONSEJO ACADÉMICO Guillermo MurilloVargas Rector Héctor Cadavid Ramírez Vicerrector académico Javier Fong Lozano Vicerrector Administrativo (E.) Mónica García Solarte Vicerrectora de Investigaciones Adriana Reyes Torres Vicerrectora Bienestar Universitario Fátima Díaz Bámbula Vicerrectora de Extensión y Proyección Social Claudia María Payán Villamizar Decana de la Facultad de Salud Fiderman Machuca Martínez Decano de la Facultad de Ingeniería Cristian David Chamorro Rodríguez Decano de la Facultad de Artes Integradas Darío Henao Restrepo Decano de la Facultad de Humanidades Inés María Ulloa Villegas Decana de la Facultad de Ciencias Sociales y Económicas José Raúl Quintero Henao Decano de la Facultad de Ciencias Naturales y Exactas Omar De Jesús Montilla Galvis Decano de la Facultad de Ciencias de la Administración Javier Fayat Sierra Decano Facultad de Educación y Pedagogía Nelson Molina Valencia Decano Facultad de Psicología Raquel Ceballos Molano Decana Facultad de Derecho y Ciencia Política Luis Aurelio Ordoñez Burbano Representante Profesoral Oficina Bienestar Profesoral Roberto Lucien Larmat González Representante Profesoral Oficina Bienestar Profesoral Julio César Vargas Bejarano Representante Directores de Programas Académicos Luis Carlos Castillo Gómez Jefe de la Oficina de Planeación y Desarrollo Institucional Jaime Alberto Caycedo Vicerrector de Regionalización Rosa Emilia Bermúdez Rico Secretaria General María Guadalupe Flórez Narváez Representante Estudiantil Principal Victoria Pereira Cunha Representante Estudiantil Principal
+
+VICERRECTORÍA ACADÉMICA Dirección de Autoevaluación y Calidad Académica BIBIANA RENDÓN ÁLVAREZ Directora (E) HAROLD MANZANO SÁNCHEZ Subdirector FACULTAD DE INGENIERÍA FIDERMAN MACHUCA MARTINEZ Decano JACKELINE MURILLO HOYOS Vicedecana Académica CARLOS ARTURO MADERA PARRA Vicedecano de Investigaciones ESCUELA DE INGENIERÍA DE SISTEMAS Y COMPUTACIÓN PAOLA JOHANNA RODRIGUEZ Directora PROGRAMA DE INGENIERÍA DE SISTEMAS ROBINSON A. DUQUE Director del Programa COMITÉ DE REFORMA CURRICULAR (Creación y Actualización) OSCAR FERNANDO BEDOYA Representante Profesoral - EISC BEATRIZ E. FLORIAN Representante Profesoral - EISC CARLOS MAURICIO GAONA Representante Profesoral - EISC PAOLA JOHANNA RODRIGUEZ Representante Profesoral - EISC COMITÉ DEL PROGRAMA (Revisión y Actualización) ROBINSON ANDREY DUQUE Director del Programa OSCAR FERNANDO BEDOYA Representante Profesoral - EISC RAUL GUTIERREZ DE PIÑEREZ Representante Profesoral - EISC CARLOS ANDRES DELGADO Representante Egresados - EISC FECHA DE ACTUALIZACIÓN:
+
+Abril de 2024
+
+TABLA DE CONTENIDO PRESENTACIÓN 1 INTRODUCCIÓN 2 1. Características generales del Programa Académico de Ingeniería De Sistemas 3 1.1 Información general 4 1.2 Reseña histórica 6 1.3 Justificación 7 1.4 Fundamentos teóricos 8 2. Propósito y pertinencia del Programa Académico 10 2.1 Misión 11 2.2 Visión 11 2.3 Objetivos 11 2.4 Perfil de egreso 12 2.5 Perfil ocupacional 14 2.6 Prospectiva 15 3. Organización y estrategia curricular 16 3.1 Lineamientos institucionales del currículo 16 3.2 Estructura del plan de estudios 18 3.3 Integración curricular 28 3.5 Estrategias pedagógicas y metodológicas 32 3.6 Evaluación formativa y social 34 4 Articulación con el medio 37 4.1 Prácticas y pasantías 37 4.2 Investigación 38 4.3 Movilidad académica 40 4.4 Relación con los egresados 44
+
+PRESENTACIÓN El Proyecto Educativo del Programa (PEP) de pregrado y posgrado establece la identidad del mismo y funciona como guía para orientar las acciones formativas en el marco misional de la Universidad.
+
+El PEP hace parte de la estructura institucional en el cual se expresan las características generales, los propósitos y pertinencia social, la organización curricular y las relaciones con el medio.
+
+La participación es uno de los principios del Proyecto Educativo Institucional de la Universidad del Valle. Por lo tanto, la construcción del PEP debe involucrar a los distintos actores del programa académico -profesores, estudiantes, egresados, personal administrativo-. Mediante el diálogo, los actores determinan el sentido y la pertinencia de la formación a la cual se aspira, así cómo las estrategias que facilitan el cumplimiento de los objetivos del programa y del perfil de egreso. Es fundamental reconocer el contexto en el que se inscribe el programa, sus dinámicas y sus relaciones sociales, políticas y culturales. En tal sentido la construcción y revisión del PEP debe reconocer las demandas, necesidades y potencialidades del entorno para sustentar los procesos formativos, investigativos y de proyección social.
+
+El PEP es un documento dinámico y de reflexión continua, que le permite al programa académico reconocer su historicidad, su relación con el entorno, sus objetivos de formación, los enfoques disciplinares, curriculares y pedagógicos, para la concreción de los resultados de aprendizaje, de investigación y de proyección social. El PEP sustenta la manera cómo el programa académico se compromete con del desarrollo de la región, la conservación y el respeto del medio ambiente y la construcción de una sociedad más justa y democrática -como lo define la misión de la Universidad del Valle.
+
+El PEP debe ser periódicamente revisado con el fin de examinar si sus fundamentos y procesos siguen siendo pertinentes frente a las realidades del contexto, a los lineamientos institucionales y las normativas vigentes. Los procesos de autoevaluación del programa son momentos propicios para realizar su actualización. El Comité de Currículo de cada Facultad avala la creación y actualización de los PEP por solicitud del comité del programa académico respectivo.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 1
+
+INTRODUCCIÓN Este documento presenta el proyecto educativo del programa académico de Ingeniería de Sistemas desde la normatividad institucional y las orientaciones de la Vicerrectoría Académica. En su construcción se contó con la participación de los miembros del Comité de Programa de Ingeniería de Sistemas adscrito a la Facultad de Ingeniería y un Comité interno de Reforma Curricular conformado por profesores de la Escuela de Ingeniería de Sistemas y Computación.
+
+El PEP está organizado en cuatro apartados. En el primero se presenta la identidad y las características generales del programa académico:
+
+información general, reseña histórica, justificación y fundamentos teóricos. En el segundo se presentan los propósitos y pertinencia del programa académico: misión, visión, objetivos y perfiles. En el tercero se describe la organización y la estrategia curricular: lineamientos curriculares, plan de estudios, enfoques y estrategias pedagógicas y metodológicas y evaluación. El último apartado corresponde a la articulación con el medio: movilidad estudiantil, prácticas y pasantías, articulación con la investigación y con los egresados.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 2
+
+1.
+
+Características generales del Programa Académico de Ingeniería De Sistemas El programa académico Ingeniería de Sistemas adscrito a la Facultad de Ingeniería de la Universidad del Valle se desarrolla en las sedes Cali (Meléndez) y Tuluá y busca contribuir a su contexto social mediante la formación de profesionales preparados para brindar soluciones en los campos de Lenguajes y Paradigmas de Programación, Ingeniería de Software e Interacción Humano Computador, Teoría de la Computación, Infraestructura Tecnológica y Gestión Inteligente de Datos.
+
+De esta manera, el graduado del programa aporta al contexto político y cultural en la medida en que contribuye y genera desarrollo social, tecnológico y económico del Valle del Cauca y del país, por medio de la generación, enseñanza, difusión y aplicación de conocimiento en las áreas propias de la Ingeniería de Sistemas. Como se muestra en la Figura 1, el programa académico de Ingeniería de Sistemas promueve la formación integral favoreciendo la participación del estudiante en el espacio de su elección, en los cuales podrá tener vivencias significativas en diferentes contextos.
+
+Figura 1. Oportunidades que ofrece el Programa Académico de Ingeniería de Sistemas ● Co-Curriculares: Participación en las actividades de los grupos de investigación mediante prácticas de investigación y seminarios, charlas y semilleros formados por los 6 grupos de investigación que conforman la Escuela de Ingeniería de Sistemas y Computación. Por otra parte, asignaturas como Inserción a la Vida Universitaria, Taller de Ingeniería y Proyectos Integradores, brindan un espacio de encuentro entre estudiantes de diferentes disciplinas.
+
+● Prácticas y Pasantías: Opción de vivir experiencias en el sector empresarial, mediante la realización de práctica profesional (electiva profesional) y pasantía (modalidad de trabajo de grado) en empresas de la región.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 3
+
+● Extracurriculares: Participación en las actividades culturales, recreativas y desarrollo del idioma extranjero programadas por la Universidad del Valle para la comunidad universitaria a través de los programas ofrecidos por la oficina de bienestar universitario y otras dependencias de la universidad. Además, participación en congresos relacionados con computación y competencias y maratones de programación.
+
+● Proyección Académica: Facilidades para dar continuidad a la formación académica a través de los programas de postgrado (maestría y doctorado) ofertados por la Escuela de Ingeniería de Sistemas y Computación, a través de la modalidad de trabajo de grado Profundización Especializada.
+
+El ejercicio del profesional en Ingeniería de Sistemas es relevante para la sociedad contemporánea porque desarrolla proyectos o da solución a problemas considerando aspectos éticos, ambientales, sociales, culturales y económicos, en diversos contextos laborales, a nivel local, nacional e internacional.
+
+1.1 Información general Tabla 1. Características específicas del programa académico CAMPO SACES – NO MODIFICAR Información básica del programa Nombre del programa Ingeniería de Sistemas El programa está adscrito a Facultad de Ingeniería Título que otorga el programa Ingeniero (a) de Sistemas Nivel académico de pregrado Universitario SNIES 584: Cali y 12535 Tuluá Registro calificado único Si No X Lugar de desarrollo vigente Departamento Valle del Cauca Municipio Cali - Tuluá Periodicidad de admisión al programa Semestral Jornada de ofrecimiento Diurna Cupo máximo de estudiantes aprobado por el MEN 80 semestrales para Cali – 55 semestrales para Tuluá Duración estimada del programa 10 semestres Vigencia del lugar de desarrollo No aplica Modalidad Presencial Campo Amplio Ingeniería, Industria y Construcción Campo Específico Ingeniería y profesiones afines Campo Detallado Ingeniería y profesiones afines no clasificadas en otra parte Valor matrícula Depende del estrato en que vive el estudiante y del valor de la matrícula y pensión que pagó en el colegio donde estudió.
+
+Creación del programa Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 4
+
+Norma interna de creación del programa (Consejo Superior) Resolución No. 114 del 23 de octubre de 1991 del Consejo Superior y modificada mediante Resolución No. 022 del 26 de marzo de 2010 del Consejo Superior Documento interno de creación de la estructura curricular (Consejo Académico) Resolución No. 047 del 16 de abril de 2020 expedida por Consejo Académico y Resolución No. 106 del 17 de junio de 2021 del Consejo Académico Créditos del programa Se modifica créditos del programa (marcar con una equis) Si No X Cuáles son los créditos del nuevo cambio Cubrimiento del programa Principal X Convenio Convenio Fecha inicio Fecha fin En caso de convenio responder:
+
+Nacional Internacional País Ciudad Nombre de la institución en convenio Dirección de la infraestructura física Correo electrónico Tipo de titulación Doble titulación Conjunta Título a otorgar Acreditada Si No Fecha inicio Fecha fin Acreditación en alta calidad Programa con acreditación en alta calidad (marcar con una equis) Si X No Número de la Resolución de Alta Calidad del Programa Resolución No. 17729 de 15 de noviembre de 2018 Fecha de la Resolución de Alta Calidad del Programa 15/11/2018 Vigencia Acreditación en Alta Calidad del Programa (Número de años) 8 Fecha de inicio de la vigencia de la Acreditación en Alta Calidad del Programa 15/11/2018 Fecha de Fin de la vigencia de la acreditación en Alta Calidad del Programa 15/11/2026 Idiomas ¿El programa tiene requisitos de idioma para el ingreso de estudiantes? (marcar con una equis).
+
+En caso de que la respuesta sea positiva responder idioma y nivel, en caso contrario colocar N.A.
+
+Si No x Idioma N.A Nivel N.A ¿El programa tiene requisitos de idioma para el egreso de estudiantes? (marcar con una equis).
+
+En caso de que la respuesta sea positiva responder idioma y nivel, en caso contrario colocar N.A.
+
+Si X No Idioma Inglés Nivel B1 Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 5
+
+1.2 Reseña histórica El programa académico de Ingeniería de Sistemas de la Universidad del Valle se creó en el año 1991, mediante la Resolución No. 114 del 23 de octubre de 1991 del Consejo Superior, y se ha sometido periódicamente a las aprobaciones del Instituto Colombiano para el Fomento de la Educación Superior (ICFES) y el Ministerio de Educación Nacional (MEN). En este sentido el programa académico ha pasado por tres procesos de acreditación:
+
+● En el año 2004, se otorga al programa académico de Ingeniería de Sistemas. Cali su primera acreditación en alta calidad mediante Resolución No. 468 del 20 de febrero de 2004 por un periodo de 7 años. Posteriormente, se logró la renovación mediante la Resolución No. 14972 del 19 de noviembre de 2012 y modificada mediante la Resolución número 7453 del 14 de junio de 2013, donde el Ministerio de Educación Nacional renovó la Acreditación en Alta Calidad por el término de seis 6 años. En el 2018, mediante la Resolución No. 017729 del 15 de noviembre de 2018 se obtuvo la renovación en alta calidad por el término de 8 años.
+
+● Mediante Resolución No. 4403 de junio 11 de 2010 emitida por el Ministerio de Educación Nacional, se otorga al programa académico de Ingeniería de Sistemas Cali, el Registro Calificado a partir del 20 de febrero de 2011 por un lapso de 7 años. Posteriormente, por medio de la Resolución No. 17183 del 27 de diciembre del 2012, corregida mediante la Resolución No. 3304 del 5 de abril de 2013, el Ministerio de Educación Nacional renovó el registro calificado por el término de siete 7 años. Por medio de la Resolución No. 6506 del 26 de junio de 2019, el Ministerio de Educación Nacional renovó por el término de ocho 8 años el registro calificado al programa Ingeniería de Sistemas. Cali.
+
+● Adicionalmente, se otorgó la acreditación internacional ARCUSUR mediante el Acuerdo 06-2018 de Acreditación de Calidad Académica MERCOSUR de Carreras Universitarias del Sistema ARCU-SUR-Red de Agencia Nacionales de Acreditación por 6 años.
+
+● Mediante Resolución No. 1860 del 24 de febrero de 2012 del Ministerio de Educación Nacional se renovó el registro calificado para Ingeniería de Sistemas Tuluá. Posteriormente, mediante Resolución No. 002276 del 8 de marzo de 2019 del Ministerio de Educación Nacional se renovó el registro calificado para Ingeniería de Sistemas Tuluá.
+
+Finalmente, a partir del año 2016, la Escuela de Ingeniería de Sistemas y Computación inicia el proceso de reforma curricular, con el fin de adaptar para el programa académico las actualizaciones de los referentes a nivel internacional (ACM/IEEE), la reforma curricular de la Universidad del Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 6
+
+Valle (Acuerdo No. 025 del 25 de septiembre del 2015 del Consejo Superior) y de la Facultad de Ingeniería.
+
+El currículo definido para este programa académico toma como base las recomendaciones de ACM/IEEE (Computing Curricula y Software Engineering), líderes mundiales en la elaboración de currículos para Ciencias de la Computación. Del mismo modo, se realizó un estudio de los currículos de programas similares ofertados en las principales universidades a nivel nacional (Universidad Nacional de Colombia, Universidad de los Andes) y las necesidades del sector empresarial en el contexto nacional y regional. Asimismo, es importante resaltar los aportes del cuerpo docente de planta y contratista que brinda soporte al programa quienes en su mayoría cuentan con formación a nivel de postgrado, lo cual hace que el espacio de enseñanza aprendizaje sea enriquecido con sus experiencias a nivel investigativo y de extensión, brindando al estudiante vivencias significativas relacionadas con el estado actual del conocimiento y tecnologías emergentes.
+
+1.3 Justificación De acuerdo con ACM (Association of Computer Machinery), las tecnologías computacionales son parte fundamental de cada aspecto del quehacer humano, desde las actividades laborales, la educación, el entretenimiento hasta la salud. Entender las diferentes dimensiones de la computación es parte esencial de las habilidades de formación de cualquier persona educada en el siglo 21.
+
+Frente a este contexto, el desarrollo de una región o país se ve íntimamente ligado a su inversión en profesionales que puedan comprender, apropiar, aplicar y usar, los conocimientos emergentes que guían el desarrollo de la humanidad.
+
+En este sentido, a nivel mundial existe la preocupación por ofertar y regular programas de formación relacionados con la computación y las Tecnologías de la Información y Comunicación, no solo por ser área de conocimiento fundamental para el desarrollo humano sino por su invaluable naturaleza interdisciplinar y su aporte para el desarrollo de otras áreas (Salud, Agricultura, Turismo, Histórico, Geografía, Artes, Idiomas, Entretenimiento, Educación entre otras). Muestra de esto son iniciativas como la agenda 2030 para el desarrollo sostenible firmada en Turquía1 la cual se formaliza en consonancia con los objetivos trazados por la Organización de las Naciones Unidas para la actualidad y en las cuales se puede observar la computación y las TIC como elemento primordial y transversal para el logro de dichos objetivos.
+
+A nivel nacional y regional, iniciativas como la Visión Valle 2032 del Instituto de Prospectiva propone que el Departamento en el año 2032 deberá: “ser una región líder en desarrollo humano y sostenible, que se articula a las dinámicas de desarrollo potenciando la conectividad y 1 https://elpais.com/especiales/2015/planeta-futuro/objetivos-desarrollo-sostenible/ Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 7
+
+complementariedad de su sistema de ciudades, reconocida por la calidad de su buen gobierno, equidad, acceso de la población a la educación, el conocimiento de talla mundial, la infraestructura y diversificación productiva para el desarrollo y la sustentabilidad de su territorio”. En esta dirección se identifican cinco ejes fundamentales de trabajo, siendo la tecnología e innovación unos de estos pilares:
+
+1. Desarrollo económico y competitividad 2. Ciencia, tecnología e innovación 3. Desarrollo ambiental territorial 4. Desarrollo socio cultural 5. Desarrollo institucional y gobernabilidad Adicionalmente, la creación de StartUps en el área de TI (Tecnología de Información) en la región ha dado unos pasos importantes para un sector relativamente joven; la industria de TI se abre camino no como un negocio aislado dedicado al software, sino como uno que tiene que ver con muchos aspectos entre los cuales tenemos: la agroindustria, los bancos, los servicios educativos, la construcción, la minería, pequeños negocios, etc.2.
+
+De otro lado, existe una amplia demanda de profesionales en el área de TIC, evidenciada por empresas de desarrollo de software de la región como lo son Alert Logic, Carvajal y el Banco de Occidente, entre otras3.
+
+Del mismo modo, estadísticas emitidas por el Ministerio de TIC indican que existe una brecha de talento digital que se estima en 46 mil profesionales TI que son demandados por cada 6 de 10 empresas existentes en el país.4 En consecuencia, es vital la participación de egresados de la Universidad del Valle formados en el área de computación que lideren y participen de proyectos que permitan alcanzar los objetivos trazados a nivel regional, nacional e internacional encaminados al desarrollo sostenible y bienestar social.
+
+1.4 Fundamentos teóricos El Programa Académico de Ingeniería de Sistemas es concebido como un espacio en el cual el estudiante se enfrenta al reto de resolver problemas relacionados con situaciones reales mediante el desarrollo de software. Para ello, el estudiante utiliza herramientas y tecnologías de última 4 https://mintic.gov.co/portal/inicio/Sala-de-Prensa/MinTIC-en-los-Medios/79943:6-de-cada-10-companias-en-C olombia-quiere-contratar-a-mas-profesionales-con-perfiles-TI-y-Open-Source 3 Encuestas a egresados y empleadores proceso de renovación de acreditación Escuela de Ingeniería de Sistemas y Computación 2018.
+
+2 https://www.dinero.com/emprendimiento/articulo/crecimiento-de-emprendimientos-fintech-en-colombia-2018/ 264142 Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 8
+
+generación para promover y apoyar su proceso de aprendizaje. En este sentido, el programa académico promueve el desarrollo de competencias de fundamentación relativas al desarrollo web, el diseño y desarrollo de interacciones entre el humano y el computador, la investigación en computación, la gestión y análisis inteligente de datos, y la gestión de infraestructura de TIC.
+
+El programa académico de Ingeniería Sistemas se fundamenta en aspectos propios de la teoría de la computación, tales como estructuras discretas, complejidad de algoritmos, máquinas abstractas, lógica matemática, y programación dinámica, que soportan las demás áreas del conocimiento y la aplicación de temas propios de la disciplina. Por ejemplo, la lógica matemática es un tema de fundamentación teórica que soporte la línea de programación desde sus cursos más básicos hasta el área del desarrollo de software. Un ingeniero de sistemas debe tener una amplia fundamentación en lógica matemática para poder comprender el flujo de un programa y así mismo proponer soluciones que sean consecuentes con el problema planteado. Además, temas como la complejidad de algoritmos le permite al estudiante comprender que hay una relación entre la eficiencia del programa que se escribe en un lenguaje determinado y el algoritmo que se plantea como solución. Esta relación es un tema de fundamentación teórica que se aplica en cursos más avanzados de la carrera e incluso a lo largo de su vida profesional.
+
+Por otra parte, el programa académico de Ingeniería de Sistemas se caracteriza porque sus estudiantes se forman con la capacidad de aprender nuevos modelos, técnicas y tecnologías a medida que ellos emergen, reconociendo la necesidad de un desarrollo profesional continuo (para toda la vida). Lo anterior le permite al estudiante mantener las competencias relevantes a medida que la disciplina evoluciona, trascendiendo los diferentes niveles de detalle y abstracción de los diversos componentes para lograr apreciar las estructuras de los sistemas basados en TIC y de los procesos envueltos en su construcción y análisis.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 9
+
+2.
+
+Propósito y pertinencia del Programa Académico El Programa Académico de Ingeniería de Sistemas asume los principios de formación institucionales de la Universidad del Valle definidos en el Anexo 2 del Acuerdo No. 025 del 25 de septiembre de 2015 del Consejo Superior.:
+
+● La formación integral como principio fundamental del proceso formativo.
+
+● La flexibilidad académica, pedagógica, curricular y administrativa.
+
+● El respeto por lo público, la convivencia, la solidaridad, y la democratización de los conocimientos, los saberes y las culturas.
+
+● El reconocimiento de la diversidad del contexto institucional y de los actores que participan del proceso formativo.
+
+El Programa Académico de Ingeniería de Sistemas en concordancia con los propósitos de formación institucionales de la Universidad del Valle definidos en el Artículo 26 del Acuerdo No. 025 de 2015, considera los siguientes propósitos:
+
+● Formar profesionales íntegros, conscientes de la realidad y responsables con su entorno ambiental.
+
+● Favorecer la apertura y disposición hacia otras disciplinas y saberes, a través de una formación básica general en distintas áreas como Ciencias Naturales y Exactas, en Ciencias Sociales y Humanas, en Filosofía, Artes y Tecnologías.
+
+● Fomentar en los estudiantes el pensamiento crítico, creativo y sistémico, así como el aprendizaje autónomo y permanente.
+
+● Propiciar espacios para fortalecer las prácticas investigativas y de proyección social-extensión en la formación de pregrado.
+
+● Propiciar espacios que favorezcan la creatividad, la construcción de identidad, el sentido de pertenencia con la Universidad, el desarrollo de la sensibilidad frente al entorno.
+
+● Fomentar el aprendizaje para gestionar la información y el conocimiento, el aprendizaje colaborativo y la comunicación con lenguaje visual, mediados por las TIC y otras estrategias o herramientas.
+
+● Estimular en los estudiantes el interés en lengua materna y otras lenguas y en su dominio, enriqueciendo sus capacidades expresivas orales y escritas y de comprensión.
+
+● Estimular una actitud reflexiva, crítica, propositiva, abierta, flexible y una disposición hacia el trabajo con personas de otras disciplinas y saberes, procurando el desarrollo libre, autónomo y responsable de los estudiantes.
+
+● Formar estudiantes con capacidades para desarrollar proyectos o iniciativas de ingeniería.
+
+● Promover el trabajo intelectual, el mejoramiento y la cualificación de las prácticas de estudio en los estudiantes, la conformación de equipos de profesores y la realización de actividades que contribuyan a despertar el interés por la cultura académica.
+
+● Favorecer la relación teoría-práctica a lo largo de los ciclos básico y profesional, mediante la revisión de las formas de interacción con el conocimiento, las modalidades pedagógicas y los métodos de trabajo.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 10
+
+A continuación, se describen la misión, visión, objetivos, perfil profesional, ocupacional y la prospectiva del programa académico.
+
+2.1 Misión El Programa Académico de Ingeniería de Sistemas, tiene como misión la educación y formación integral de profesionales en las áreas de la computación, que sean agentes de cambio con espíritu creativo, respetuosos de la naturaleza, del medio ambiente y con sentido ético, capaces de entender las implicaciones sociales de su trabajo y de contribuir al desarrollo social, económico y tecnológico de la región y del país, a través de la aplicación de conceptos fundamentales y técnicos relacionados con los lenguajes y paradigmas de programación, la teoría de la computación, la gestión inteligente de datos, la ingeniería de software, la interacción humano computador y la infraestructura tecnológica, para abstraer, conceptualizar y resolver problemas específicos.
+
+2.2 Visión El programa académico de Ingeniería de Sistemas de la Universidad del Valle se proyecta ser reconocido en el año 2025 como un referente nacional e internacional por ofrecer un entorno de enseñanza aprendizaje guiado por altos estándares de calidad, innovador y significativo, el cual permite formar profesionales capaces de adaptarse al cambio tecnológico, así como apropiar y transferir conocimiento para desarrollar soluciones a problemas contemporáneos considerando aspectos éticos, ambientales, sociales, técnicos, culturales y económicos, en diversos contextos laborales, a nivel local, nacional e internacional.
+
+2.3 Objetivos Objetivo General:
+
+Formar profesionales en Ingeniería de Sistemas capaces de dar soluciones a problemas reales aplicando diversas áreas de la computación y destacándose por su formación científica, tecnológica, profesional y personal; con habilidad para mantenerse actualizados a medida que la disciplina evoluciona, y capaz de desempeñarse en cualquier lugar del mundo.
+
+De acuerdo con la Misión y la Visión de la Universidad del Valle, el programa académico de Ingeniería de Sistemas tiene como objetivos específicos:
+
+● Formar estudiantes con capacidad para interpretar y aplicar las ciencias pertinentes a su especialidad, así como los fundamentos, los métodos y las herramientas propias de la ingeniería de Sistemas.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 11
+
+● Crear en el estudiante de Ingeniería de Sistemas la habilidad para analizar problemas y desarrollar soluciones basadas en las Tecnologías de la Información y las Comunicaciones (TIC) de manera creativa y sostenible sobre la base de un dominio de las tendencias tecnológicas, robustas y emergentes.
+
+● Preparar al estudiante para adaptarse al cambio tecnológico con una actitud de formación continua a lo largo de su vida profesional.
+
+● Formar Ingenieros de Sistemas que puedan comunicarse en forma oral y escrita de manera eficiente y efectiva y con aptitudes para trabajar individualmente y en equipo.
+
+● Formar Ingenieros de Sistemas con la capacidad para desempeñarse, en cualquier lugar del mundo, en diversos ámbitos de la computación y TIC acorde a las tecnologías de mayor uso y demandas del momento.
+
+● Preparar Ingenieros de Sistemas que busquen comprometerse con el desarrollo de la sociedad y que tengan aprecio por los valores culturales, sociales y ambientales de su entorno.
+
+2.4 Perfil de egreso El Ingeniero de Sistemas de la Facultad de Ingeniería de la Universidad del Valle desarrolla proyectos o da solución a problemas contemporáneos considerando aspectos éticos, ambientales, sociales, culturales y económicos, en diversos contextos laborales, a nivel local, nacional e internacional. Además, demuestra, como parte del sello institucional, un aprendizaje autónomo que le permite una formación continua a lo largo de su vida profesional. De forma más concreta, el Ingeniero de Sistemas de la Universidad del Valle es un profesional que puede desempeñarse en los siguientes ámbitos: Desarrollo de software, Diseño y desarrollo de interacciones entre el humano y el computador, Investigación en computación, Gestión y análisis inteligente de datos, y Gestión de infraestructura de TIC. Las competencias específicas a desarrollar en estos ámbitos permiten que los egresados al final de la carrera sean capaces de:
+
+​ Utilizar los conocimientos fundamentales en teoría de la computación en la construcción de sistemas basados en TIC.
+
+​ Seleccionar y utilizar diferentes paradigmas y lenguajes de programación al construir sistemas basados en TIC.
+
+​ Evaluar factores de calidad estandarizados durante la valoración de uno o varios productos de software.
+
+​ Aplicar conceptos y principios implicados en el proceso de diseño de interfaces gráficas de usuario durante el desarrollo de aplicaciones software.
+
+​ Utilizar estándares, pautas y guías de accesibilidad a fin de desarrollar software.
+
+​ Aplicar técnicas de evaluación de usabilidad que permitan medir la calidad de la experiencia que tienen los usuarios al interactuar con el software desarrollado.
+
+​ Comprender las etapas de un proyecto de investigación.
+
+​ Analizar, extraer, procesar, interpretar y presentar visualmente los datos y la información provenientes de sistemas basados en TIC.
+
+​ Desarrollar sistemas inteligentes que aplican tareas de aprendizaje de máquina y que permiten analizar un conjunto de datos y extraer información.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 12
+
+​ Implementar proyectos de infraestructura de TIC comprendiendo las características propias de las tecnologías de transporte de datos.
+
+​ Diseñar y desplegar soluciones de servicios de infraestructura tecnológica orientadas a resolver requerimientos de clientes.
+
+​ Identificar y utilizar procesos y tecnologías de seguridad informática que permitan proteger redes, equipos y datos de una organización.
+
+​ Resolver problemas de ingeniería identificando diferentes alternativas de solución y desarrollando sistemas basados en TIC.
+
+​ Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC.
+
+​ Desarrollar iniciativas de ingeniería orientadas a la innovación de productos, procesos o servicios.
+
+A su vez, se promoverá el desarrollo de competencias genéricas que en conjunto con las competencias específicas permitirán tener a un profesional integral y capacitado para desempeñarse en el mundo laboral. Estas competencias genéricas le permitirán al egresado:
+
+​ Comprender y aplicar las ciencias naturales, matemáticas, fundamentos, métodos y herramientas propias de la ingeniería.
+
+​ Utilizar un pensamiento crítico y creativo que le permite aprender de forma autónoma y permanente.
+
+​ Actuar de manera responsable y honesta en el marco del respeto hacia la dignidad de las personas y el cuidado del medio social, cultural y natural.
+
+​ Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación.
+
+​ Mostrar una actitud receptiva, propositiva, crítica y reflexiva en su relación con los demás en el ejercicio de su profesión.
+
+La Facultad de Ingeniería establece los lineamientos curriculares, estructura curricular transversal y un marco general para los proyectos educativos de los Programas Académicos de la Facultad de Ingeniería. La Facultad propone una metodología de gestión curricular basada en lo meso-curricular que apuesta por la inclusión de 8 Sensibilidades, Capacidades y Competencias (SCC) requeridas para la formación profesional del perfil del egresado. Estas 8 competencias se presentan en la Tabla 2. De estas competencias se tienen 5 que son genéricas a cualquier egresado de la Facultad y 3 que son específicas de cada programa académico. Para el programa de Ingeniería de Sistemas se acogen las 8 competencias definidas por la Facultad. Además, se definen 12 competencias específicas adicionales que están orientadas a formar al estudiante en los ámbitos en los que se puede ocupar como ingeniero de sistemas. En total se utilizan 20 competencias de las cuales 15 son específicas de la disciplina y 5 son genéricas como se describieron anteriormente.
+
+Tabla 2. Sensibilidades, capacidades y competencias definidas por la Facultad de Ingeniería SCC Descripción Tipo de SCC Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 13
+
+SCC1 Comprensión de las ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina Genérica SCC2 Capacidad de resolución de problemas desde la ingeniería Específica SCC3 Pensamiento crítico, pensamiento creativo, sistémico, aprendizaje autónomo, y aprendizaje permanente Genérica SCC4 Comprensión de su entorno y sus responsabilidades éticas Genérica SCC5 Competencia para el trabajo en equipo y comunicación Genérica SCC6 Actitudes personales e interpersonales para el ejercicio de la profesión Genérica SCC7 Capacidad para desarrollar proyectos de ingeniería Específica SCC8 Capacidad para gestar iniciativas de ingeniería Específica 2.5 Perfil ocupacional El Ingeniero de Sistemas de la Facultad de Ingeniería de la Universidad del Valle puede desempeñarse en los siguientes cargos:
+
+● Director de sistemas ● Ingeniero de desarrollo ● Arquitecto de software ● Gerente de infraestructura informática ● Diseñador de Interacción y Usabilidad ● Diseñador y Consultor UI/UX ● Maquetador Front-End ● Investigador ● Administrador de bases de datos ● Analista de datos ● Científico de datos ● Ingeniero de TIC ● Ingeniero Centro de Operaciones de Red ● Profesional en seguridad informática Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 14
+
+2.6 Prospectiva Tras una evaluación de las necesidades y directrices que presenta la actualidad de la Ingeniería de sistemas en el ámbito local, regional e internacional dentro de su marco social de acción y teniendo en cuenta las tendencias económicas, sociales, y de mercado; el programa académico de Ingeniería de sistemas traza una ruta a futuro que responda a las problemáticas o retos que se prevén desde el hoy relacionados con la gestión y análisis inteligente de datos. Este es un tema emergente en estos momentos y que en un futuro cercano representa una oportunidad para nuestros egresados de estar en la capacidad de abordar los problemas desde este nuevo enfoque de las ciencias de los datos.
+
+Aprovechando el momento coyuntural en el cual se hace esta reforma curricular y analizando las tendencias a nivel mundial, se incluye en la nueva malla asignaturas del ciclo profesional que preparen al estudiante y le dé la capacidad de plantear soluciones desde una perspectiva de la gestión inteligente de los datos a través de técnicas, algoritmos, tecnologías, y estrategias encaminadas a esta área del conocimiento.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 15
+
+3.
+
+Organización y estrategia curricular A continuación, se describen los lineamientos básicos del currículo, estructura del plan de estudios, desarrollo curricular, actualización del currículo y las estrategias pedagógicas del programa académico Ingeniería de Sistemas.
+
+3.1 Lineamientos institucionales del currículo El Acuerdo No. 025 del 25 de septiembre de 2015 del Consejo Superior plantea que es necesario incorporar la interdisciplinariedad, la complementariedad, la transversalidad, la flexibilidad, la integralidad y la evaluación como principios y condiciones metodológicas del trabajo académico.
+
+Por su parte, la Resolución No.136 del 22 de diciembre de 2017 del Consejo Académico la estructura de los programas académicos de pregrado en dos ciclos -básico y profesional- y de forma transversal los componentes de la formación general. Con base en los lineamientos formativos de la Universidad del Valle contenidos en el Acuerdo 025 y siguiendo la premisa de integralidad que estos plantean, el programa académico de Ingeniería de sistemas busca el logro de la misma mediante los siguientes lineamientos:
+
+● El ciclo de formación básica en el programa propende por la adquisición de conocimientos concernientes a las matemáticas, las ciencias, y la teoría de la computación. Durante el ciclo de formación específica se atienden aspectos relacionados con el desarrollo de software, los paradigmas de programación, la gestión de infraestructura, y la gestión y análisis inteligente de datos. Así mismo se nutre la formación complementaria del estudiante por medio de la construcción de saberes relativos a la inserción del estudiante en la vida universitaria y la cultura académica. Además, es la primera introducción que tiene el estudiante con su formación profesional adquiriendo conocimientos generales en su profesión que le permiten tener una visión más amplia de los diversos factores que componen los fenómenos complejos del entorno que los rodea.
+
+● Los saberes específicos de la disciplina se alcanzan por medio de aprendizaje basado en proyectos, el aula invertida y el aprendizaje colaborativo, así mismo se atiende la interdisciplinariedad y la transversalidad a través de espacios que permiten el diálogo entre diferentes campos del saber. La nueva malla del programa académico de Ingeniería de sistemas presenta cursos y actividades que buscan que el estudiante se desenvuelva integrando diferentes disciplinas y en algunos casos distintas áreas del conocimiento dentro de la misma profesión. Por ejemplo, el curso Proyecto integrador I reúne dos áreas del conocimiento, el desarrollo de software y las bases de datos. Además, esta asignatura está pensada para que se dicte en paralelo con el curso Interactividad del programa de Diseño gráfico de la Facultad de Artes integradas de tal manera que se desarrolle en grupos de trabajo interdisciplinares entre estudiantes de dos facultades diferentes que se complementan por sus habilidades y conocimientos. Por su parte, el trabajo de grado permite abordar problemas de otras disciplinas tales como la bioinformática, el arte, la educación, la agronomía, entre otros saberes.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 16
+
+● En relación con el artículo 6 del Acuerdo 025 de 2015 del Consejo Superior, la formación ofrecida por el programa de Ingeniería de Sistemas se vincula con la investigación a través de convenios de cooperación, intercambio de profesionales, cursos de actualización de conocimientos, proyectos de investigación, asesorías y acompañamientos.
+
+A raíz de la participación de profesores en proyectos de investigación interdisciplinarios, los estudiantes tienen también posibilidad de participar generalmente mediante el desarrollo de trabajos de grado.
+
+De acuerdo con lo expuesto, el programa académico de Ingeniería de Sistemas. guía su currículo hacia los objetivos institucionales de formación integral por medio de la participación del estudiante en espacios en los cuales podrá tener vivencias significativas en diferentes contextos como los son los grupos de investigación, charlas, seminarios, prácticas profesionales, pasantías, actividades extracurriculares, entre otros. Del mismo modo, los dos ciclos de formación institucionalizados en la Política Formativa vigente (básico y profesional) se evidencian en aspectos de la propuesta educativa del programa que incluyen de forma transversal los componentes de la formación general definidos en la Resolución 136 del 22 de diciembre de 2017 del Consejo Académico. En la Tabla 3 se muestra la distribución de los créditos de la malla en los ciclos de formación y su correspondencia con los porcentajes indicados en la Resolución. El ciclo básico otorga el 41.6% de los créditos académicos requeridos, mientras el profesional concede 58.4%. El eje de Formación General se articula de manera transversal a estos dos ciclos, permitiendo la construcción de saberes y experiencias concernientes a los componentes de las ciencias sociales y de formación ciudadana, lenguaje y comunicación, estilos de vida saludable, artes y humanidades y científico tecnológico permitiendo la formación disciplinaria, interdisciplinaria y en otros saberes. El porcentaje de créditos atribuido al eje de Formación General corresponde al 25.5% del total de créditos del programa.
+
+Tabla 3. Porcentajes de los ciclos de formación del programa de Ingeniería de Sistemas según la nueva malla Curricular Porcentajes Resolución No. 136 del 22 de diciembre de 2017 del Consejo Académico No. de créditos Porcentaje en la malla Ciclo Básico: 40 - 50% 64 41.6% Ciclo Profesional: 50 - 60% 90 58.4% Electivas profesionales: 8% mínimo 12 7.8% Formación General: 20 - 25% 39.45 25.5% Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 17
+
+3.2 Estructura del plan de estudios Los lineamientos anteriormente referidos se organizan en el plan de estudios del programa de Ingeniería de Sistemas, en un conjunto de experiencias académicas, pedagógicas y culturales orientadas al desarrollo de capacidades, sensibilidades y competencias requeridas para atender las expectativas, necesidades y proyecciones de formación profesional y tecnológica de la región y el país en el campo de la ingeniería de sistemas.
+
+En búsqueda de ello, el programa académico requiere un total de 154 créditos académicos mínimos como requisito parcial para optar por el título de Ingeniero(a) de Sistemas. El plan de estudios del programa está estructurado para alcanzar tal cantidad de créditos en 10 semestres académicos.
+
+La Figura 2 muestra el plan de estudios definido para el Programa Académico de Ingeniería de Sistemas. Cabe anotar que esta malla está alineada con los requerimientos planteados por el Consejo Académico en su Resolución No. 136 del 22 de diciembre de 2107 del Consejo Académico con relación a los componentes de formación obligatorios y según el Acuerdo No. 025 del 25 de septiembre de 2015 del Consejo Académico con relación a aspectos de integralidad del currículo.
+
+Además, la malla está alineada con la propuesta curricular de ACM para programas de Ciencias de la Computación (CS2013) e Ingeniería del Software (SE2014).
+
+Como se puede observar, la malla está conformada según la Resolución No. 136 del 22 de diciembre de 2107 del Consejo Académico por actividades formativas y actividades extracurriculares. En las actividades formativas se encuentran asignaturas básicas (AB), asignaturas profesionales (AP), electivas complementarias (EC), y electivas profesionales (EP). En la malla, las asignaturas se muestran por los cinco enfoques IEEE/ACM, estos son, Ingeniería de Software e Interacción Humano Computador, Lenguajes y paradigmas de programación, Teoría de la computación, Infraestructura tecnológica, y Gestión inteligente de datos.
+
+Ciclo básico, ciclo profesional, índice de flexibilidad y formación general El plan curricular del programa académico de Ingeniería de Sistemas está conformado por actividades formativas y actividades extracurriculares. En las actividades formativas se encuentran 64 créditos de asignaturas básicas (AB), 90 créditos en asignaturas profesionales, 6 créditos en electivas complementarias, y 12 créditos en electivas profesionales (EP). En la Tabla 3 se muestra la distribución de los créditos de la malla en los ciclos de formación y su correspondencia con los porcentajes indicados en la Resolución No. 136 del 22 de diciembre de 2107 del Consejo Académico para actividades formativas. Por su parte, las actividades extracurriculares de la malla propuesta están reguladas por el artículo 10 de la Resolución No. 136 del 22 de diciembre de 2107 del Consejo Académico, según el cual los estudiantes deben acreditar al menos el nivel B1 de suficiencia en el idioma inglés de acuerdo con el Marco Común Europeo de Referencia (MCER).
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 18
+
+Figura 2. Malla curricular propuesta El Consejo Académico en su Resolución 136 del 22 de diciembre de 2107 del Consejo Académico (Artículo 5) define que la estructuración de los programas académicos estará organizada por dos ciclos denominados Ciclo Básico y Ciclo Profesional que incluirán de manera transversal los componentes de Formación general. En este contexto y soportados en la Resolución No. 136 del 22 de diciembre de 2107 del Consejo Académico (Artículo 10) define y establece los contenidos comunes en cuanto a los ciclos básico y profesional, y a la formación general de todos los programas de la Facultad de Ingeniería. En la Figura 3 y Figura 4 se presenta el conjunto de asignaturas de los ciclos básico y profesional, respectivamente. Las asignaturas demarcadas en su nombre con un asterisco pueden tener nombres diferentes o ser equivalentes con otras que contengan sus resultados de aprendizaje.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 19
+
+Figura 3. Ciclo básico de la malla propuesta Figura 4. Ciclo profesional de la malla propuesta Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 20
+
+Con relación a la formación general que debe ir transversal a los ciclos básicos y profesional, ésta es concebida como el conjunto de actividades curriculares y extracurriculares que favorece el desarrollo integral del estudiante como persona, ciudadano y profesional, en sus dimensiones cognitivas, afectivas, éticas, estéticas y políticas. Los componentes que constituyen la Formación General son:
+
+● Formación social y ciudadana (FSC): propicia la comprensión de las complejas dinámicas sociales del mundo contemporáneo y la formación de un sujeto político que reconozca la diversidad e interactúe de manera responsable, a través de la formulación de preguntas y problemas que superen las fronteras disciplinarias y permitan el diálogo razonado entre valores, métodos y visiones.
+
+● Lenguaje y comunicación (LC): conjunto de actividades formativas orientadas al fortalecimiento de habilidades lingüísticas en español y en otras lenguas, que permita la comunicación efectiva, el acceso a diversos escenarios de interacción social y cultural y la construcción de conocimientos en contextos académicos generales y específicos.
+
+● Estilos de vida saludable (EVS): fomenta el cuidado de sí y de los otros, el respeto al bien común, la convivencia razonada, el reconocimiento de la diversidad, las actividades físicas, recreativas y deportivas conducentes al bienestar integral y a la construcción de comunidad universitaria con sentido de identidad.
+
+● Artístico y humanístico (AH): promueve el desarrollo de la sensibilidad y el goce estético, la apreciación de las artes, en sus múltiples manifestaciones y contextos culturales y sociales específicos; el ejercicio de interpretación y análisis de obras históricas, filosóficas, políticas y literarias; la creación de textos críticos y la participación activa de los estudiantes en la vida cultural.
+
+● Científico tecnológico (CT): conjunto de experiencias formativas en la comprensión de los conocimientos y prácticas de la esfera tecnocientífica. Busca el aprendizaje integral y transdisciplinario de las formas de razonamiento propias del pensamiento lógico-matemático; el conocimiento generado en las fronteras de las ciencias y su articulación con la tecnología; la reflexión crítica sobre la historia de las ciencias naturales y de la innovación, la transferencia y la apropiación tecnológicas.
+
+En la Tabla 4 se muestran las asignaturas que aportan a la formación general en el programa académico de Ingeniería de Sistemas. Hay algunos cursos que aportan de forma total y otros de manera parcial, es decir, con un porcentaje que se calcula de acuerdo a los resultados de aprendizaje que están orientados a los componentes de formación general.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 21
+
+Tabla 4. Asignaturas que aportan a la formación general Componente de formación general Créditos asignatura Porcentaje que aporta a FG Créditos FG Asignaturas FSC LC EVS AH CT Matemáticas básicas X 3 100 3.00 Introducción a la Ingeniería X X 2 100 2.00 Taller de ingeniería I X X 3 100 3.00 Fundamentos de programación orientada a objetos X X X 3 38 1.14 Fundamentos de programación imperativa X 3 100 3.00 Comprensión y producción de textos académicos generales X 100 2.00 Diseño de Contenido para Interfaces de Usuario X 3 100 3.00 Proyecto integrador I X X 4 55 2.20 Proyecto integrador II X 4 56 2.24 Seminario de trabajo de grado X 2 60 1.20 Trabajo de grado I X 2 40 0.80 Trabajo de grado II X 6 57 3.42 Inserción a la vida universitaria X X X 2 100 2.00 Deporte y salud X 2 100 2.00 Seminario de Constitución, Legislación y ética de la profesión X 2 100 2.00 Electiva complementaria I 3 100 3.00 Electivas complementaria II 3 100 3.00 Desarrollo de software I X 3 5 0.15 Desarrollo de software II X 3 5 0.15 Desarrollo de software III X 3 5 0.15 PORCENTAJE TOTAL DE FORMACIÓN GENERAL DEL PROGRAMA ACADÉMICO DE INGENIERÍA DE SISTEMAS 25.5% En la Tabla 5 se presenta la estructura curricular por ciclos del programa académico de Ingeniería de Sistemas. la cual fue creada mediante Resolución No. 047 del 16 de abril de 2020 expedida por Consejo Académico y modificada posteriormente mediante Resolución No. 106 del 17 de junio de 2021 del Consejo Académico.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 22
+
+Tabla 5. Estructura curricular por ciclos Organización curricular Asignaturas/ Componentes No. créditos Tipo de asignatura (Básica / Profesional / Electiva) Prerrequisitos Ciclo básico Matemáticas Básicas 3 Básica Deporte y Salud 2 Básica Fundamentos de Programación Imperativa 3 Básica Taller de Ingeniería I 3 Básica Inserción a la Vida Universitaria 2 Básica Introducción a la Ingeniería 2 Básica Cálculo Monovariable 3 Básica Matemáticas Básicas Algebra Lineal 3 Básica Matemáticas Básicas Fundamentos de Programación Orientada a objetos 3 Básica Fundamentos de Programación Imperativa Taller de Ingeniería I Matemáticas Discretas I 4 Básica Fundamentos de Programación Imperativa Comprensión y producción de textos académicos generales 2 Básica Electiva Complementaria I 3 Electiva Cálculo Multivariable 3 Básica Cálculo Monovariable Física I + Laboratorio 4 Básica Cálculo Monovariable Matemáticas Discretas II 4 Básica Matemáticas Discretas I Electiva complementaria II 3 Básica Probabilidad y Estadística 3 Básica Cálculo Monovariable Ecuaciones diferenciales 3 Básica Cálculo Multivariable Simulación y Computación Numérica 3 Básica Algebra Lineal Física + Laboratorio Probabilidad y Estadística Ecuaciones diferenciales Ingeniería Económica 3 Básica Cálculo Monovariable Seminario en constitución, legislación y ética de la profesión 2 Básica Introducción a la gestión de proyectos de software 3 Básica Desarrollo de Software II Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 23
+
+Total ciclo básico 64 Ciclo profesional Fundamentos de Programación Orientada a Eventos 3 Profesional Fundamentos de Programación Orientada a objetos Fundamentos de Programación Funcional y Concurrente 3 Profesional Fundamentos de Programación Orientada a Eventos Sistemas Operativos 4 Profesional Fundamentos de Programación Orientada a objetos Bases de Datos 4 Profesional Fundamentos de Programación Orientada a objetos Desarrollo de Software I 3 Profesional Bases de Datos Fundamentos de Interpretación y Compilación de Lenguajes de Programación 3 Profesional Fundamentos de Programación Funcional y Concurrente Análisis y Diseño de Algoritmos I 3 Profesional Fundamentos de Programación Orientada a Eventos Matemáticas Discretas II Fundamentos de Redes 3 Profesional Sistemas Operativos Desarrollo de Software II 3 Profesional Desarrollo de Software I Proyecto integrador I 4 Profesional Desarrollo de Software I Análisis y Diseño de Algoritmos II 3 Profesional Fundamentos de Interpretación y Compilación de Lenguajes de Programación Análisis y Diseño de Algoritmos I Infraestructura Paralelas y Distribuidas 3 Profesional Fundamentos de Redes Inteligencia Artificial 4 Profesional Fundamentos de Programación Funcional y Concurrente Probabilidad y Estadística Desarrollo de Software III 3 Profesional Desarrollo de Software II Desarrollo de Aplicaciones para dispositivos móviles 3 Profesional Desarrollo de Software II Ciberseguridad 3 Profesional Simulación y Computación Numérica Fundamentos de Redes Introducción a la Ciencia de los Datos 3 Profesional Bases de Datos Inteligencia Artificial Electiva Profesional I 3 Electiva Proyecto integrador II 4 Profesional Proyecto de integrador I Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 24
+
+Introducción a la Ciencia de los Datos Desarrollo de Software III Seminario de trabajo de grado 2 Profesional Análisis y Diseño de Algoritmos II Impactos Ambientales 3 Profesional Electiva Profesional II 3 Electiva Electiva Profesional III 3 Electiva Innovación y Emprendimiento Empresarial 3 Profesional Introducción a la gestión de proyectos de software Trabajo de Grado I 2 Profesional Seminario de trabajo de grado Diseño de Contenido para Interfaces de Usuario 3 Profesional Electiva Profesional IV 3 Electiva Trabajo de Grado II 6 Profesional Trabajo de Grado I Total eje de ciclo profesional 90 Total 154 Asignaturas de Investigación De manera complementaria, el programa académico de Ingeniería de Sistemas incluye un conjunto de asignaturas que brindan al estudiante la experiencia de formar parte de algún grupo de investigación o estar al día con las tendencias del área de conocimiento de su interés.
+
+Estas asignaturas son los cursos electivos, la Práctica de Investigación I, la Práctica de Investigación II, el Seminario de Trabajo de Grado, el Trabajo de Grado I y el Trabajo de Grado II (Ver Figura 2). Es de anotar que cada Práctica de Investigación es equivalente a un curso electivo profesional.
+
+Interdisciplinariedad y Transversalidad De manera complementaria, el Acuerdo No. 025 del 25 de septiembre de 2015 del Consejo Académico concibe la interdisciplinariedad y la transversalidad como problemas conceptuales sobre la orientación de la formación universitaria y del diseño de los planes de estudio. En este sentido propicia la convergencia de distintas disciplinas y saberes en un mismo espacio académico y su articulación con los procesos formativos y en el desarrollo curricular. Como se puede observar en la malla del programa académico de Ingeniería de sistemas se presentan cursos y actividades que buscan que el estudiante se desenvuelva integrando diferentes disciplinas y en algunos casos distintas áreas del conocimiento dentro de la misma profesión. Las asignaturas en las que se tiene en cuenta la interdisciplinariedad se resumen en la Tabla 6.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 25
+
+Tabla 6. Asignaturas interdisciplinarias Asignatura/Actividad Disciplinas/Áreas/Líneas Proyecto integrador I Ingeniería de software, lenguajes de programación, Interacción humano computador, y gestión de la información Proyecto integrador II Ingeniería de software e Inteligencia artificial Trabajo de grado Se integran al menos dos de las cinco áreas (Ingeniería de software e IPO, Lenguajes y paradigmas de programación, Teoría de la computación, Infraestructura tecnológica, y Gestión inteligente de datos). Además, en algunos casos resuelven problemas de otros saberes como arte, agronomía, educación, bioinformática, entre otros.
+
+Innovación y emprendimiento empresarial Ingeniería de software, gestión del conocimiento y emprendimiento y elementos del contexto jurídico relacionado con la creación de empresa Algunos espacios interdisciplinarios que hacen parte de la formación del estudiante son:
+
+● Prácticas profesionales ● Electivas profesionales ● Competencias para la expresión oral y escrita en los cursos del ciclo profesional Con el fin de mostrar el desarrollo de la formación a lo largo de los semestres, la Tabla 7 presenta el plan de estudios de manera secuencial con la descripción de los créditos y las horas de acompañamiento del profesor y las horas de trabajo independiente del estudiante:
+
+Tabla 7. Organización curricular por semestres Actividad Formativa / Asignatura Créditos académico s Horas de acompañamient o del profesor Horas de trabajo independient e del estudiante Semestre I Matemáticas Básicas 3 80 64 Deporte y Salud 2 48 48 Fundamentos de Programación Imperativa 3 48 96 Taller de Ingeniería I 3 48 96 Inserción a la Vida Universitaria 2 32 64 Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 26
+
+Introducción a la Ingeniería 2 32 64 Semestre II Cálculo Monovariable 3 80 64 Algebra Lineal 3 80 64 Fundamentos de Programación Orientada a objetos 3 48 96 Matemáticas Discretas I 4 64 128 Comprensión y producción de textos académicos generales 2 32 64 Electiva Complementaria I 3 48 96 Semestre III Cálculo Multivariable 3 80 64 Física + Laboratorio 4 96 96 Fundamentos de Programación Orientada a Eventos 3 48 96 Matemáticas Discretas II 4 64 128 Electiva complementaria II 3 48 96 Semestre IV Probabilidad y Estadística 3 64 80 Ecuaciones diferenciales 3 64 80 Fundamentos de Programación Funcional y Concurrente 3 48 96 Sistemas Operativos 4 48 144 Bases de Datos 4 64 128 Semestre V Simulación y Computación Numérica 3 64 80 Desarrollo de Software I 3 48 96 Fundamentos de Interpretación y Compilación de Lenguajes de Programación 3 64 80 Análisis y Diseño de Algoritmos I 3 64 80 Fundamentos de Redes 3 48 96 Ingeniería Económica 3 48 96 Semestre VI Desarrollo de Software II 3 48 96 Proyecto de integrador I 4 64 128 Análisis y Diseño de Algoritmos II 3 48 96 Infraestructura Paralelas y Distribuidas 3 48 96 Inteligencia Artificial 4 64 128 Semestre VII Seminario en constitución, legislación y ética de la profesión 2 32 64 Desarrollo de Software III 3 48 96 Desarrollo de Aplicaciones para dispositivos móviles 3 48 96 Ciberseguridad 3 48 96 Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 27
+
+Introducción a la Ciencia de los Datos 3 48 96 Semestre VIII Electiva Profesional I 3 48 96 Introducción a la gestión de proyectos de software 3 48 96 Proyecto integrador II 4 64 128 Seminario de trabajo de grado 2 32 64 Impactos Ambientales 3 48 96 Semestre IX Electiva Profesional II 3 48 96 Electiva Profesional III 3 48 96 Innovación y Emprendimiento Empresarial 3 48 96 Trabajo de Grado I 2 16 80 Diseño de Contenido para Interfaces de Usuario 3 48 96 Semestre X Electiva Profesional IV 3 48 96 Trabajo de Grado II 6 32 256 Total número de créditos del programa 154 2624 horas 4768 horas Total porcentaje de créditos 100% 35.5% 64.5% 3.3 Integración curricular En la Tabla 8 se presenta la matriz de tributación que permite establecer la relación entre los cursos de la malla curricular y las competencias y componentes definidos en el perfil de egreso. El cruce entre cursos y componentes establece una tributación que se realiza considerando los semestres de la carrera y los niveles de dominio de las competencias. El establecer los niveles de tributación a través de esta matriz permite visualizar la función relativa del curso y la cobertura de cada competencia del perfil de egreso respecto de todo el plan de estudios.
+
+Tabla 8. Matriz de Tributación Competencias específicas Competencias genéricas Semestre Asignaturas 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 1 Matemáticas Básicas X Deporte y Salud X Fundamentos de Programación Imperativa X X Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 28
+
+Competencias específicas Competencias genéricas Semestre Asignaturas 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 Taller de Ingeniería I X X Inserción a la Vida Universitaria X Introducción a la Ingeniería X X 2 Cálculo Monovariable X Álgebra Lineal X X Fundamentos de Programación Orientada a Objetos X X X Matemáticas Discretas I X X X X X Comprensión y Producción de Textos Académicos Generales X Electiva complementaria I 3 Cálculo Multivariable X Física I + Laboratorio X Fundamentos de Programación Orientada a Eventos X X X X X X Matemáticas Discretas II X Electiva complementaria II 4 Probabilidad y Estadística X Ecuaciones diferenciales X Fundamentos de Programación Funcional y Concurrente X X X X X X X X Sistemas Operativos X X Bases de Datos X 5 Simulación y Computación Numérica X X X X Desarrollo de Software I X X Fundamentos de Interpretación y Compilación de Lenguajes de Programación X X X Análisis y Diseño de Algoritmos I X X Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 29
+
+Competencias específicas Competencias genéricas Semestre Asignaturas 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 1 2 3 4 5 Fundamentos de Redes X X Ingeniería económica X 6 Desarrollo de Software II X X Proyecto integrador I X X X X X X Análisis y Diseño de Algoritmos II X X X Infraestructuras Paralelas y Distribuidas X X Inteligencia Artificial X 7 Seminario en constitución, legislación y ética de la profesión X Desarrollo de Software III X X Desarrollo de Aplicaciones para dispositivos móviles X X X X Ciberseguridad X X X Introducción a la Ciencia de los Datos X 8 Electiva profesional I Introducción a la Gestión de Proyectos de Software X X X Proyecto integrador II X X X Seminario de trabajo de grado X X X Impactos Ambientales X 9 Electiva profesional II Electiva profesional III Innovación y Emprendimiento empresarial X X Trabajo de Grado I X X X Diseño de Contenido para Interfaces de Usuario X 10 Electiva Profesional IV Trabajo de Grado II X X X Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 30
+
+Esta matriz permite evidenciar la integración vertical de las Sensibilidades, Capacidades y Competencias, al observar cómo un componente en particular se aborda en diferentes asignaturas a lo largo de la carrera. Por ejemplo, la competencia específica 3 que se define como “Seleccionar y utilizar diferentes paradigmas y lenguajes de programación al construir sistemas basados en TIC” se trabaja en cinco asignaturas distribuidas en diferentes semestres, éstas son: Fundamentos de programación imperativa en primer semestre, Fundamentos de programación orientada a objetos en segundo semestre, Fundamentos de programación orientada a eventos en tercer semestre, Fundamentos de programación funcional y concurrente en cuarto semestre y Fundamentos de interpretación y compilación de lenguajes de programación en quinto semestre.
+
+Con la integración vertical se puede garantizar que un componente o competencia no se considere de forma aislada en una sola asignatura, sino que por el contrario se trate desde diferentes cursos de tal manera que se logre un progreso gradual a lo largo de la carrera. Por otra parte, la integración horizontal se puede verificar en la matriz de tributación al observar cómo en cada asignatura se abordan diferentes competencias. Por ejemplo, en el curso de Programación orientada a eventos de tercer semestre se trabajan cuatro competencias, tres de las cuales son específicas y una genérica. Con este tipo de integración se garantiza que cada asignatura apunte a varias competencias de tal forma que cubra diversos aspectos de la formación orientados a completar el perfil del egresado.
+
+3.4 Enfoque pedagógico El programa de Ingeniería de Sistemas le apuesta a las metodologías de aprendizaje que proponen integrar al estudiante como parte activa de las clases, dando especial énfasis al aprendizaje basado en proyectos, el aula invertida y el aprendizaje colaborativo.
+
+Aprendizaje basado en proyectos5: se usa la estrategia de aprendizaje por proyectos, ya sea un proyecto dividido en diferentes etapas o varios mini-proyectos de curso que permiten a los estudiantes llevar a la práctica cada una de las grandes temáticas del curso. Se realizan sustentaciones parciales del proyecto para retroalimentación temprana y una entrega final con todo corregido. El proyecto además de las habilidades técnicas también evalúa la forma en que los estudiantes documentan el proceso y sus productos y cómo presentan los resultados de manera verbal y/o escrita.
+
+Aula Invertida6: se fomenta que los profesores graben los contenidos a impartir y los compartan mediante youtube o google drive7 entre sus alumnos para que los visualicen en casa antes de la clase.
+
+De esta manera se optimiza el trabajo en el aula enfocándose en poner en práctica los conocimientos adquiridos y resolver dudas. Esta metodología permite evitar que los alumnos pierdan clases.
+
+7 6 G. Gannod, J. Burge and M. Helmick, "Using the inverted classroom to teach software engineering," 2008 ACM/IEEE 30th International Conference on Software Engineering, Leipzig, 2008, pp. 777-786.
+
+5 Educational Media International, Vol. 45, No. 3, September 2008, 157–176- ISSN 0952-3987 print/ISSN 1469-5790 Understanding project-based learning in Second Life with a pedagogy, training, and assessment. Leslie Jarmon, Tomoko Traphagan and Michael Mayrath. University of Texas at Austin, Austin, Texas, USA.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 31
+
+Aprendizaje Colaborativo: En esencia, esta metodología se usa para que los alumnos aprendan a gestionar sus tareas de forma colaborativa, de tal manera que se evidencie la responsabilidad grupal e individual en las actividades realizadas.
+
+3.5 Estrategias pedagógicas y metodológicas El programa académico de Ingeniería de Sistemas apoya a todos sus docentes para que incorporen nuevas tecnologías de la información como el Campus Virtual de la Universidad del Valle, el Google classroom y cualquier otra herramienta que favorezca el aprendizaje activo del estudiante.
+
+Asimismo, se favorecen actividades que promueven el desarrollo de habilidades orales y escritas o que intentan fomentar el trabajo colaborativo. En la Tabla 9 se resumen algunas de las estrategias didácticas que se utilizarán en los cursos de la nueva malla curricular. Para cada estrategia se indica si es una actividad formativa o evaluativa y si está mediada por las TIC.
+
+Tabla 9. Estrategias didácticas para apoyar los procesos de aprendizaje Estrategia de didáctica Descripción Tipo ¿Está mediad a por las TIC?
+
+Formativa Evaluativa Plataformas de evaluación Interactiva y Gamificación en el aula Uso de Socrative, Kahoot o herramientas similares para revisar las competencias y los indicadores de logro durante la clase y en tiempo real Los estudiantes se conectan a una sala virtual y los resultados se pueden ver en tiempo real de manera compartida permitiendo la comparación de cada estudiante frente a sus otros compañeros. Después de terminada la actividad se discuten las preguntas con dificultades X SÍ Plataformas virtuales para revisión de material Revisión de videos o guías de explicación de conceptos, guías orientados a resolución de problemas, diapositivas, código fuente de los ejemplos, videos de YouTube o TED, material complementario en páginas web y/o archivos PDF X SÍ Plataformas para el desarrollo de Software colaborativo Uso de las plataformas GitHub, Zube, Taiga, Travis, entre otras, para ayudar a los estudiantes en el desarrollo, almacenamiento, y control de versiones del código a nivel individual y colaborativo.
+
+X X SÍ Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 32
+
+Estrategia de didáctica Descripción Tipo ¿Está mediad a por las TIC?
+
+Tableros colaborativos multimedia en línea Se hace uso de herramientas como Padlet para la construcción de conocimiento colectivo. Se discuten temas o preguntas donde los estudiantes hacen aportes mediante artefactos multimedia y apoyan la construcción de un conocimiento colaborativamente.
+
+También sirven para compartir soluciones a ejercicios en clase donde cada estudiante o grupo aporta su posible solución.
+
+X SÍ Talleres en sala de cómputo para entrenamiento en herramientas específicas Actividades programadas en salas de cómputo orientadas a que el estudiante tenga un acercamiento con herramientas específicas X X SÍ Exposición – Investigación Exposiciones sobre la investigación realizada a algunos de los temas del curso. Esta actividad se desarrolla en grupos predefinidos por el profesor. Se evalúa por los mismos estudiantes, según una rúbrica o formato de evaluación X NO Quizes de entrenamiento Estos quizes se realizan en una plataforma que selecciona aleatoriamente un número dado de preguntas de un base de datos que el profesor ha preparado para el curso. El estudiante tiene varias oportunidades para realizar el quiz y permite que conozca el tipo de ejercicios que aparecerán en los exámenes y evalúe su nivel de entendimiento de los temas vistos. Además, permite que conozcan sus falencias y así logren prepararse mejor para las evaluaciones reales X SÍ Quizes de evaluación Similares a los quizes de entrenamiento pero asignando una nota numérica X SÍ Revisión de lecturas Discusión de tópicos relacionados con los temas del curso sobre lecturas específicas previamente asignadas a los estudiantes X X NO 3.6 Evaluación formativa y social El programa académico de Ingeniería de Sistemas realiza seguimiento al desempeño de sus docentes y estudiantes con base en los Resultados de Aprendizaje que ha definido para el desarrollo de sus Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 33
+
+actividades académicas. Tal seguimiento se implementa mediante los mecanismos e instrumentos de evaluación que se relacionan a continuación: los exámenes Saber PRO, los resultados globales de desempeño de los egresados del Programa Académico de Ingeniería de Sistemas, reflejados en encuestas como las realizadas para la autoevaluación del Programa Académico.
+
+Con base en la información registrada, el Comité de Currículo del programa de Ingeniería de Sistemas analiza la percepción y experiencia referida por los actores institucionales involucrados en el programa y en consonancia a ello se revisa y actualiza la pertinencia del programa y de sus actividades formativas, con el apoyo y supervisión del Comité Central de Currículo de la Universidad del Valle.
+
+En esta sección también se presentan las estrategias y directrices generales que se establecen para la gestión del Programa con el fin de propiciar el mejoramiento del proceso formativo de los estudiantes y una aproximación cada vez más satisfactoria al logro de los objetivos declarados para el Programa:
+
+Profesores del Programa Las asignaturas definidas en el plan de estudios del programa académico de Ingeniería de Sistemas son dictadas por profesores nombrados y contratistas pertenecientes a la Universidad del Valle. En este sentido, las asignaturas básicas (AB) y electivas complementarias (EC), son dictadas por profesores vinculados a diferentes Facultades como lo son Ciencias Naturales y Exactas, Humanidades, Ciencias Sociales y Económicas, Artes Integradas e Ingeniería.
+
+Las unidades académicas vinculadas a estas facultades son las encargadas de definir al profesor que dará soporte a la respectiva asignatura del plan de estudios solicitada por el programa de Ingeniería de Sistemas.
+
+De otra parte, las asignaturas profesionales obligatorias (AP), y electivas profesionales (EP) son atendidas por el cuerpo profesoral perteneciente a la Escuela de Ingeniería de Sistemas y Computación, como se resume en la Tabla 10.
+
+Tabla 10. Profesores de la Escuela de Ingeniería de Sistemas y Computación Nivel de Formación Número de Profesores Doctorado 14 Maestría 3 Total Profesores 17 La Universidad del Valle tiene institucionalizados sistemas de autoevaluación, autorregulación, evaluación y mejoramiento continuo, los cuales aportan al cumplimiento de su misión y por ende a la del Programa Académico de Ingeniería de Sistemas.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 34
+
+La autoevaluación en la Universidad del Valle se realiza teniendo en cuenta el Plan Estratégico de Desarrollo, los Planes de Acción, los Planes de Trabajo, los Planes de Inversión, el Plan de Riesgos;
+
+la actualización de los registros calificados de los programas, las acreditaciones de programas académicos y la acreditación institucional, los planes de mejoramiento; evaluaciones de desempeño;
+
+el Sistema de Gestión Integral de la Calidad -GICUV- con acciones correctivas, preventivas y de mejora e indicadores de gestión de los procesos y auditorías internas realizadas por la Oficina de Control Interno y auditorías externas de los entes de control externos.
+
+Para el caso particular del Programa Académico de Ingeniería de Sistemas, su proceso de regulación toma como base los resultados del anterior proceso de autoevaluación, las recomendaciones obtenidas en la visita de pares académicos y las recomendaciones definidas por el Ministerio de Educación en la resolución de renovación de la acreditación de calidad, alineando estas recomendaciones con el Plan de Acción de la Escuela de Ingeniería de Sistemas y Computación y con el Plan de Desarrollo Institucional, buscando así que ambos procesos sean plenamente coherentes.
+
+De otra parte, el Comité de Programa Académico de Ingeniería Sistemas, es el estamento encargado de la gestión propia del programa. Este comité está conformado actualmente por el Director del Programa Académico de Ingeniería de Sistemas, dos profesores nombrados de la Escuela de Ingeniería de Sistemas, los representantes estudiantiles del Programa Académico de Ingeniería de Sistemas y el representante de los egresados, siendo estos últimos elegidos por votación tanto de estudiantes como egresados, un coordinador por sede regional donde exista el programa. El comité tiene como responsabilidades, evaluar permanentemente las actividades que se adelantan en el Programa Académico, orientar y participar en el proceso de autoevaluación y acreditación, así como proponer los ajustes al Programa Académico de conformidad con las políticas académicas de la Universidad del Valle.
+
+Es importante indicar que la Universidad el Valle en su estructura organizacional ha definido los Comités de Currículo por Facultad en los cuales los directores de cada programa académico por facultad se reúnen para establecer directrices comunes a todos los programas. Del mismo modo, a nivel institucional la Dirección de Autoevaluación y Calidad Académica (DACA) es la dependencia encargada de coordinar los asuntos académico-curriculares de la Universidad del Valle y entre sus funciones está la promoción de los procesos de autoevaluación permanente y de autoevaluación con fines de acreditación de los Programas.
+
+Mecanismos para discusión, actualización y difusión del proyecto educativo del programa Los criterios definidos para la difusión, discusión y actualización del Proyecto Educativo del Programa incluyen:
+
+● Realizar al comienzo de cada período una jornada para la difusión del Proyecto Educativo del Programa con los estudiantes admitidos al primer semestre y los nuevos docentes del programa.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 35
+
+● Realizar jornadas de actualización en prácticas didácticas para los docentes del programa a fin de facilitar el cumplimiento de los principios de formación definidos para el programa académico.
+
+● Utilizar el sitio web de la EISC y del Programa Académico8, para facilitar el acceso al Proyecto Educativo, y habilitar la recepción permanente de comentarios y aportes.
+
+8 http://eisc.univalle.edu.co/index.php/programas-academicos/ingenieria-de-sistemas Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 36
+
+4 Articulación con el medio El Programa Académico de Ingeniería de Sistemas de la Universidad del Valle, se guía por el principio de responsabilidad, compromiso social, la promoción de relaciones de cooperación e intercambio con los sectores públicos y privados con el fin de impulsar el desarrollo regional y fortalecer las relaciones interinstitucionales a través de diferentes campos sociales, culturales, educativos, investigativos, entre otros.
+
+A continuación, se describen los aspectos que tienen relación con el medio y permiten el fortalecimiento de diversas actividades académicas, investigativas y de extensión y proyección social.
+
+4.1 Prácticas y pasantías Los estudiantes tienen la oportunidad de vincularse de forma temporal a una empresa a fin de realizar labores propias de un Ingeniero de Sistemas. Este espacio le permite al estudiante poner en práctica las competencias desarrolladas en su formación y vivir un entrenamiento laboral. Por medio de la oficina de Práctica Profesional y Egresados de la Facultad de Ingeniería se recepcionan las solicitudes de las empresas interesadas y se socializan a los estudiantes por medio del correo electrónico institucional. El estudiante puede acceder a esta opción mediante Práctica Profesional, la cual equivale a dos cursos Electivos Profesionales y tiene una vinculación de medio tiempo por un semestre académico, o puede optar por la Pasantía (Modalidad de Trabajo de Grado), la cual implica un contrato de aprendizaje por ocho meses consecutivos y vinculación laboral de tiempo completo.
+
+En la Tabla 11 se presenta la cantidad de estudiantes que en el último año han optado por estas alternativas.
+
+Tabla 11. Estudiantes en Modalidad Pasantía y Práctica Profesional Semestre Estudiantes en práctica investigativa Estudiantes en tesis modalidad profundización-especializada Estudiantes en práctica profesional* 2019-I 20 8 4 2019-II 19 12 5 * Las prácticas profesionales y tesis en modalidad de pasantía se realizaron en las empresas Millenium solutions, EME Marketing & Consulting, Truora, IG Services S.A.S, Banco de Occidente, ParqueSoft, entre otras.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 37
+
+4.2 Investigación La política de Investigación y producción intelectual en las Ciencias, las Artes, las Tecnologías y la Innovación de la Universidad del Valle actualizada mediante Resolución No. 027 de Julio 6 de 2012 del Consejo Superior, integra las actividades de investigación y creación artística con las demás actividades misionales para consolidar agendas que promuevan la producción intelectual y permita la formación de talento humano capacitado para la generación de nuevos conocimientos, en las ciencias, en las artes, las humanidades, el desarrollo tecnológico y la innovación, que contribuyan a la transformación social, económica y cultural del país. Así mismo, el Acuerdo Acuerdo No. 025 del 25 de septiembre de 2015 del Consejo Superior establece la investigación y la proyección social-extensión como funciones universitarias y fundamentos de la formación que exigen su inserción en el Proyecto Formativo y en el currículo de cada programa.
+
+De acuerdo con lo anterior, y con los procesos formativos de los estudiantes con relación a la investigación del programa Ingeniería de Sistemas, se propende por la investigación mediante los grupos de investigación y su participación en proyectos, eventos académicos, entre otros. El programa de Ingeniería de Sistemas toma como referencia las tendencias, el estado del arte de la disciplina y los indicadores de calidad reconocidos por la comunidad académica nacional e internacional, para la organización y actualización de su plan de estudios; fomenta también el contacto con miembros distinguidos de esas comunidades y promueve la cooperación con instituciones y programas en el país y en el exterior a través de diversos convenios que facilitan la movilidad y cooperación de estudiantes y profesores hacia otras universidades.
+
+En la Tabla 12 se presenta la cantidad de proyectos a 2017 como resultado de la cooperación académica y profesional con otras facultades, instituciones y organizaciones. La Escuela de Ingeniería de Sistemas y Computación ha participado en 32 proyectos de investigación e innovación en cooperación académica, donde se han obtenido desarrollos conceptuales y tecnológicos significativos, entre algunos de los proyectos se tienen:
+
+● El Centro de Innovación Educativa Regional (CIER-Sur). Alianza conformada por las Universidades, Autónoma de Occidente, Ibagué y del Valle, y las Secretarias de Educación de, Cali, Yumbo, Palmira, Buga y la de la Gobernación del Cauca, para producir cambios educativos en la cultura escolar, mediante la integración de las TIC en los procesos de aprendizaje, enseñanza y educación, de los colegios de básica secundaria (http://ciersur.univalle.edu.co/).
+
+● PACIFITIC. En el año 2012, la Dirección de Nuevas Tecnologías y Educación Virtual- DINTEV y la Escuela de Ingeniería de Sistemas y Computación de la Universidad del Valle en cooperación con otras cinco Universidades de la Región y ocho empresas del sector TIC, desarrollaron el proyecto PacifiTIC-Fase I que fue presentado al Sistema General de Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 38
+
+Regalías y el cual pretende lograr recursos para crear los componentes InnovaTIC, FormaTIC y SocialTIC. Durante el desarrollo del proyecto se constituye la Corporación PacifiTIC, cuya función inicial consistió en impulsar la consecución de los recursos necesarios para su elaboración (http://pacifitic.org/).
+
+● Asistente de enseñanza para gestión de tareas y apoyo a la evaluación en escenarios de aprendizaje colaborativo. Con la participación del grupo de investigación Camaleón de la Universidad del Valle.
+
+● ITEM Informática y Tecnologías Emergentes de la Universidad Pontificia Bolivariana - Montería y el grupo GHIA-Grupo de Herramientas Interactivas Avanzadas de la Universidad Autónoma de Madrid-UAM en España.
+
+● Desarrollo de una herramienta tecnológica para la identificación preventiva de deficiencias nutricionales en plantones de café a través del procesamiento de imágenes digitales. En el proyecto participaron la Universidad San Buenaventura, el Consejo Nacional De Ciencia y Tecnología (CONCYTEC) y la Universidad Señor de Sipán.
+
+● Recursos pedagógicos en ambientes de aprendizaje mediados por TIC para la enseñanza de la geometría en educación básica. En cooperación con el Instituto de Educación y Pedagogía, el propósito es fundamentar la capacidad de investigación interdisciplinaria que hacen parte del desarrollo del CIER.
+
+Tabla 12. Año de inicio de proyectos en cooperación académica Año Proyectos de investigación e innovación 2012 3 2013 7 2014 10 2015 5 2016 6 2017 1 Total 32 Fuente: Encuesta realizada a profesores nombrados de la Escuela de Ingeniería de Sistemas y Computación, 2017.
+
+Para impulsar la internacionalización, la Universidad del Valle cuenta con convenios de investigación activos con distintas universidades, entidades y centros de investigación con diferentes Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 39
+
+países. Dichos vínculos posibilitan las relaciones de intercambio de docentes y estudiantes con diferentes universidades del mundo.
+
+Los acuerdos académicos internacionales firmados por la Universidad del Valle se detallan en la Tabla 13.
+
+Tabla 13. Convenios internacionales al año 2017 Convenios internacionales Alemania 11 Guatemala 1 Argentina 4 Italia 2 Australia 2 Japón 3 Bolivia 1 México 18 Brasil 20 Organismos 6 Canadá 1 Países Bajos 1 Chile 8 Panamá 1 China 1 Perú 7 Costa Rica 2 Redes 2 Cuba 5 Reino Unido 1 Ecuador 6 Rusia 1 España 29 Suiza 1 Estados Unidos 8 Uruguay 2 Francia 6 Venezuela 1 Total 151 Fuente: Vicerrectoría de Investigaciones, 2017 4.3 Movilidad académica La Universidad del Valle ofrece a sus estudiantes la posibilidad de enriquecer su experiencia académica y cultural participando en los programas académicos de diferentes universidades nacionales e internacionales a través de convenios de movilidad. La movilidad estudiantil es una estrategia formativa que se incluye en las estrategias de flexibilidad curricular, ya que se constituye en la oportunidad para convivir con formas de trabajo académico y formación profesional diferente y exitosa, y aprender de ellas. Es una oportunidad para acercar culturas, estilos de vida, intercambiar resultados de investigaciones, conocimientos e información, así como para ampliar la visión de los Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 40
+
+estudiantes a través de experiencias formativas y conocimiento de procesos académicos diversos.
+
+La Universidad hace parte del programa de movilidad estudiantil del Centro Interuniversitario de Desarrollo, institución académica internacional –CINDA-, formada por importantes universidades de América Latina y Europa, cuyo propósito fundamental es vincular a universidades entre sí y a éstas con los principales problemas del desarrollo. CINDA se ha ido perfilando, básicamente, hacia los temas de política y gestión universitaria.
+
+Para cumplir con su propósito de crecimiento, desarrollo, afianzamiento y proyección internacional, CINDA, ha puesto en marcha tres programas específicos, entre los cuales se encuentra el Programa de Intercambio Estudiantil, cuyos objetivos principales son la promoción de la internacionalización a través del intercambio de estudiantes y el fortalecimiento de los vínculos entre las instituciones que conforman esta organización, fomentando el trabajo conjunto y la cooperación permanente de sus integrantes.
+
+La Universidad del Valle hace parte de CINDA desde el año 2008. Cada universidad adherida al Programa ofrece un número de plazas por año, al cual se pueden incorporar estudiantes seleccionados, para continuar sus estudios en las diversas universidades receptoras, como estudiantes de intercambio, gozando con el beneficio de la exoneración de los costos académicos en la universidad de destino.
+
+La Universidad del Valle hace parte del convenio “SÍGUEME”, sistema interinstitucional de un grupo de universidades encaminado a la movilidad estudiantil que facilita y promueve el intercambio de estudiantes. Este convenio se creó en el año 2001 como mecanismo de apoyo y colaboración entre las universidades. Como resultado de la movilidad estudiantil en la Universidad del Valle se presentan las cifras recopiladas en la Tabla 14.
+
+Tabla 14. Número de estudiantes en intercambio estudiantil a través del convenio SÍGUEME entre 2011 y 2016 Año Estudiantes que llegaron a Univalle Estudiantes que salieron de Univalle 2011 23 20 2012 17 25 2013 21 23 2014 24 35 2015 28 35 2016 17 53 Total 130 191 Fuente: Dirección de Autoevaluación y Calidad Académica, 2017 Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 41
+
+Para impulsar la inserción del programa en contextos nacionales, la Universidad del Valle cuenta con convenios de cooperación académica activos con distintas universidades del país. Dichos vínculos posibilitan las relaciones de cooperación como movilidad de docentes y estudiantes, desarrollos de programas académicos conjuntos, investigaciones y proyectos académicos con diferentes universidades del país.
+
+Los acuerdos académicos nacionales firmados por la Universidad del Valle se detallan en la Tabla 15 donde se describen los convenios con universidades nacionales.
+
+Tabla 15. Convenios nacionales al año 2016 Institución con las que se celebró el convenio Objeto del convenio Vigencia Año de inicio Año de finaliz.
+
+Universidad de Antioquia Universidad Industrial de Santander Universidad Nacional de Colombia Universidad del Valle Cooperación académica nacional - Marco 13/08/1999 Indefinida Universidades De Antioquia, Pontificia Bolivariana, Eafit, Externado De Colombia, Industrial De Santander, Pontificia Universidad Javeriana, Nacional De Colombia, Del Norte, Valle Y El Vicerrector De La Pontificia Universidad Javeriana - Seccional Cali Cooperación académica nacional - Movilidad Estudiantil 27/04/2000 Indefinida Universidad del Cauca, Universidad Tecnológica de Pereira y Universidad del Valle Cooperación académica nacional 13/03/2006 Indefinida Universidad de Cartagena Cooperación académica nacional 01/07/2010 Indefinida Universidad del Cauca Cooperación académica nacional - Movilidad Estudiantil 01/01/2012 01/01/2022 Universidad Javeriana Cali Cooperación académica nacional 04/06/2013 04/06/2023 Universidad del Atlántico Cooperación académica nacional - Movilidad Estudiantil 28/04/2015 28/04/2020 Universidad de Antioquia - Universidad Pontificia Bolivariana - Universidad EAFIT - Universidad Industrial de Santander - Pontificia Universidad Javeriana - Universidad Nacional de Colombia - Intercambio académico nacional 11/08/2014 Indefinida Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 42
+
+Institución con las que se celebró el convenio Objeto del convenio Vigencia Año de inicio Año de finaliz.
+
+Universidad del Norte - Universidad del Valle - Universidad de los Andes - Universidad Externado de Colombia Universidad Distrital Francisco José de Caldas Cooperación académica nacional - Marco 15/01/2015 15/01/2020 Universidad Distrital Francisco José de Caldas Cooperación académica nacional - Movilidad Estudiantil 15/01/2015 15/01/2020 Universidad Mariana de Pasto Cooperación académica nacional - Marco 16/03/2015 16/03/2020 Universidad Nacional Convenio académico nacional - marco 14/04/2015 14/04/2020 Universidad de San Buenaventura Seccional Cali Cooperación académica nacional - Movilidad Estudiantil 28/08/2015 28/08/2020 Universidad Pedagógica Nacional Cooperación académica nacional 27/06/2016 27/06/2021 Fuente: Vicerrectoría Académica, 2016 En cuanto a la movilidad internacional, La Dirección de Relaciones Internacionales –DRI- es la encargada de promover, coordinar y gestionar las actividades de cooperación internacional, la cual vela por informar y asesorar a la comunidad universitaria sobre los diferentes programas internacionales, fomenta y gestiona la movilidad académica de profesores, investigadores y estudiantes en la modalidad entrante y saliente, asegura la presencia de la Universidad en foros y encuentros de Educación Superior Internacionales y apoya la participación activa en redes y comunidades de conocimiento a nivel internacional; en especial en el marco de los convenios suscritos como los siguientes: Centro Interuniversitario de Desarrollo -CINDA-, Servicio Alemán de Intercambio Académico –DAAD-, International Association for the Exchange of Students for Technical Experience –IAESTE-, El proyecto Colombia, Costa Rica, Panamá, Europa, Network –COOPEN del programa Erasmus Mundus. El intercambio estudiantil como fortalecimiento de la formación académica es un asunto que se debe mantener y promover.
+
+La ORI lleva un registro vía web de las campañas de divulgación de las oportunidades de becas, apertura de convocatorias, charlas y conversatorios, actividades de internacionalización y nuevos convenios. La divulgación es apoyada también por la Oficina de Comunicaciones de la Universidad a través de “Agenda Univalle”.
+
+Como resultado de los esfuerzos de internacionalización por parte de la Universidad con la creación de la Dirección de Relaciones Internacionales, el Programa de Ingeniería de Sistemas reportó un Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 43
+
+total de 17 estudiantes que salieron a países como Alemania, España, Perú y Francia desde el 2012.
+
+Adicionalmente, se reportaron dos estudiantes de movilidad entrante como se muestra en la Tabla 16:
+
+Tabla 16. Número de estudiantes en intercambio estudiantil de Ingeniería de Sistemas, a través de convenios bilaterales entre 2012 y 2016 Año Modalidad Entrante al Programa Modalidad Saliente del Programa 2012 - - 2013 - 8 2014 - - 2015 - 5 2016 1 1 2017 1 3 Total 2 17 Fuente: Acreditación Programa de Ingeniería de Sistemas y Computación, 2017 4.4 Relación con los egresados De acuerdo con la creación del Programa Institucional de Egresados en la Universidad del Valle a través de la Resolución No. 004 del 29 de enero de 2005, adscrito a la Vicerrectoría de Extensión y Proyección Social, el programa académico de Ingeniería de Sistemas realiza diferentes actividades para lograr un seguimiento y contacto eficaz con los egresados por medio de la actualización constante de las bases de datos, de modo que se estos obtengan oportunamente información sobre becas, jornadas de empleabilidad, bolsas de empleo, así como invitaciones a actividades formativas como seminarios, congresos, etc.
+
+Así mismo, se desarrollan actividades como charlas técnicas, en las cuales extendemos una cordial invitación a nuestros egresados para que participen tanto como asistentes como ponentes.
+
+Adicionalmente, tienen una participación activa en los procesos de autoevaluación y acreditación que se adelanta en el Programa Académico lo cual permite establecer una relación constante con los profesionales egresados del programa.
+
+Esquema para elaborar el Proyecto Educativo del Programa –PEP- Fecha de actualización Abril 2024 Página 44
