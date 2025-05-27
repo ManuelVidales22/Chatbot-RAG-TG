@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f9bd92b451c810df61f9078c620f6b20ee9d41a73426675807f05d44d7a9f0ec"
+            "sha256": "0c139b1d635fcf7188590534144010ac03a4e5e06d83cbb62803b49b9da2c111"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.9"
+            "python_version": "3.10"
         },
         "sources": [
             {
@@ -1104,11 +1104,11 @@
         },
         "huggingface-hub": {
             "hashes": [
-                "sha256:43f73124819b48b42d140cbc0d7a2e6bd15b2853b1b9d728d4d55ad1750cac5b",
-                "sha256:492bb5f545337aa9e2f59b75ef4c5f535a371e8958a6ce90af056387e67f1180"
+                "sha256:770acdae5ad973447074e10a98044306e567ff36012419ae80c051f446156551",
+                "sha256:b7e644f8ba6c6ad975c436960eacc026c83ba2c2bc5ae8b4e3f7ce2b292e6b11"
             ],
             "markers": "python_full_version >= '3.8.0'",
-            "version": "==0.31.1"
+            "version": "==0.32.1"
         },
         "humanfriendly": {
             "hashes": [
@@ -3136,11 +3136,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:31e2c58dbb67c99c289f51c16d899afedae292b978f8051efaf6262d8212f927",
-                "sha256:ea8e00d7992054c4c592aeb892f6ad51fe1b4d90cc6947cc45c45717c40ec537"
+                "sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922",
+                "sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==80.3.1"
+            "version": "==80.9.0"
         },
         "shellingham": {
             "hashes": [
