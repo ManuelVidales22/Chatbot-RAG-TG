@@ -1,0 +1,158 @@
+MATEMÁTICAS BÁSICAS INFORMACIÓN DE LA ASIGNATURA Código – Nombre 111023C Matemáticas Básicas Créditos 3 Horas de trabajo Presenciales: 5 horas semanales Trabajo independiente: 4 horas semanales Unidad(es) Académica(s) Departamento de Matemáticas – Facultad de Ciencias Naturales y Exactas.
+
+Programa(s) Académico(s) Todos los programas académicos de la Universidad del Valle Prerrequisitos/correquisitos NO Validable SÍ Habilitable SÍ Tipo de Asignatura Básica La asignatura favorece la Formación General Científico Tecnológico (Sí) x (No) DESCRIPCIÓN DEL CURSO El curso tiene el propósito de desarrollar el pensamiento lógico-matemático desde un enfoque integral que permita, además del abordaje cognitivo de los conocimientos básicos de las matemáticas, el utilizar la lógica en la cotidianidad a través del modelamiento de situaciones que ameritan la argumentación, la reflexión, y la adopción de actitudes y aptitudes para la toma de decisiones. Las matemáticas son útiles no solamente en la ingeniería y las ciencias exactas sino que también tienen aplicaciones en humanidades, las artes, la salud y la vida; entre otras esferas del conocimiento. La componente matemática que requieren los estudiantes que ingresan a la universidad, tiene relación directa con el delineamiento de habilidades para hacer operaciones básicas con los números reales, seguir los protocolos de demostración de teoremas elementales, plantear problemas en términos de ecuaciones algebraicas y reconocer las propiedades básicas de las funciones trigonométricas, logarítmicas y exponenciales. El curso brinda herramientas conceptuales que permiten el modelamiento de situaciones diversas en términos de cantidad; contribuye al afianzamiento de esquemas mentales (pensamiento sistémico), los cuales son necesarios en variadas instancias de la vida social y académica de los estudiantes. En este sentido, el curso promueve la capacidad de abstracción de los estudiantes, brinda elementos conceptuales para que los estudiantes se familiaricen con el manejo del lenguaje habitual de las matemáticas y los procedimientos de razonamiento lógico subyacentes, para ser utilizado en su vida académica; entrega nociones pertinentes para el planteamiento de problemas y su solución, y la comprobación e interpretación de las soluciones en cada contexto concreto. Todo esto mediante una metodología participativa como parte de la educación centrada en el estudiante, que basa sus principios en el desarrollo de la autogestión (aprender a aprender), la lógica de la argumentación, la solidaridad y el apoyo mutuo dentro de distintos entornos teniendo como base las responsabilidades éticas.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+** DESARROLLO DEL CURSO .
+
+SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC1.Comprensión de las ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina.
+
+RA1.Reconoce el conjunto de los números reales, en su versión axiomática, y sus propiedades con el objetivo de utilizarlas en la resolución de problemas, ecuaciones e inecuaciones.
+
+· Lógica, razonamientos , argumentos y conjuntos · Sistemas numéricos · Ecuaciones algebraicas · Geometría plana, espacial y analítica · Funciones RA2. Identifica el concepto de función, reconociendo sus diferentes formas de representación para utilizarlo en la formulación y solución problemas.
+
+RA3.Resuelve problemas matemáticos utilizando modelos de distintos contextos, usando funciones polinómicas, exponenciales, trigonométricas o logarítmicas, para predecir estados, encontrar valores óptimos, entre otros.
+
+SCC3. Pensamiento crítico, creativo y sistémico, aprendizaje autónomo y permanente RA4. Emplea la lógica como respaldo a las diferentes formas de validar argumentaciones de índole interdisciplinario, considerando lo ético, lo estético y lo lúdico.
+
+RA5.
+
+Resuelve problemas usando herramientas de geometría plana y espacial y de la trigonometría a fin de establecer relaciones y contrastes con los métodos algebraicos.
+
+RA6. Desarrolla de manera autónoma los protocolos de la actividad matemática para relacionarnos con su vida individual y social.
+
+SCC RESULTADO DE APRENDIZAJ E INDICADORES DE LOGRO CONTENIDO SCC 1 RA1, RA4 · Identifica los fundamentos y el campo de acción de la lógica.
+
+· Maneja los procedimientos para construir y reconocer fórmulas bien formadas y su proceso de validación · Aplica procedimientos canónicos para validar argumentos con cuantificadores · Utiliza las demostraciones directas e indirectas.
+
+· Maneja las operaciones de unión, intersección, diferencia y complemento de conjuntos.
+
+1. Lógica, razonamientos, argumentos y conjuntos 
+
+1.1 ¿Qué es la lógica?
+
+1.2 La lógica proposicional.
+
+1.4 La lógica de predicados.
+
+1.5 Razonamientos 
+
+1.6 La lógica en la vida cotidiana 
+
+1.7 Métodos de demostración 
+
+1.8 Los conjuntos: propiedades y operaciones 
+
+2. Sistemas numéricos 
+
+2.1 Los diferentes sistemas numéricos: Reales, racionales, irracionales, aproximaciones por decimales, enteros, naturales, complejos.
+
+2.2 Operaciones e inecuaciones: exponenciación, logaritmación y Valor absoluto.
+
+2.3 Planteamiento de problemas que dan lugar a los sistemas numéricos.
+
+RA1, RA3, RA4 · Identifica el proceso axiomático de incorporación de los números reales, estableciendo diferencia entre los diversos subsistemas numéricos.
+
+· Maneja los diferentes procesos operativos entre números reales, .
+
+
+3. Ecuaciones algebraicas 
+
+3.1 Problemas que dan lugar al planteamiento de ecuaciones.
+
+3.2 Solución de ecuaciones lineales y de segundo grado.
+
+3.3 Solución de ecuaciones de grado superior.
+
+4. Geometría plana, espacial y analítica 4.1 El problema de la medida de magnitudes.
+
+4.2 Las nociones de longitud, área y volumen.
+
+4.3 La importancia la geometría analítica.
+
+4.4 La representación de ecuaciones en el plano cartesiano.
+
+4.5 Las cónicas.
+
+5. Funciones 5.1 Problemas de aplicación que dan lugar a la noción de función.
+
+5.2 Tipos de funciones.
+
+5.3 Clases de funciones: polinómicas, exponenciales, logarítmicas, trigonométricas.
+
+5.4 Problemas, ecuaciones y gráficas.
+
+incluyendo aquellos que contengan valor absoluto, logaritmación y exponenciación.
+
+· Resuelve ecuaciones e inecuaciones simples con números reales.
+
+RA1, RA3, RA4 · Reconoce situaciones en los cuales intervienen variables y constantes que dan lugar a ecuaciones simples.
+
+· Aplica el procedimiento para resolver ecuaciones lineales.
+
+· Aplica el procedimiento de completar cuadrados y entiende la demostración del algoritmo de solución de la ecuación cuadrática.
+
+· Reconoce las propiedades de los polinomios, incluyendo el teorema fundamental del álgebra, y las aplica en la solución de ecuaciones.
+
+RA1, RA3, RA5, RA6 · Reconoce propiedades las figuras planas y del espacio, y aplica procedimientos canónicos para el cálculo de áreas y volúmenes · Es capaz de identificar ecuaciones estándares de las cónicas.
+
+· Dada la ecuación estándar de las cónicas y es capaz bosquejar su gráfica.
+
+RA2, RA4, RA6 · Reconoce problemas básicos de aplicaciones que involucran el concepto de función.
+
+· Reconoce propiedades básicas de las funciones trigonométricas e identifica sus gráficas · Comprende el concepto de función inversa .
+
+METODOLOGÍA Esta propuesta se contrapone al modelo pedagógico de transmisión de conocimientos, busca que los estudiantes adquieran hábitos de estudio que los llevan a aprender a aprender. Esto se logra, brindándole al estudiante la posibilidad de que pueda desarrollar aprendizaje autónomo y pensamiento crítico. Cuando se habla de autonomía, se hace referencia al desarrollo de estrategias del proceso de aprender, relacionadas con la capacidad de organizar información, consultar, ordenar y resumir, revisar permanentemente los procesos, cambiar la perspectiva de análisis; pero también tiene relación con la capacidad de evaluar el proceso, descubrir y rectificar errores como parte del pensamiento crítico y reflexivo de su proceso de aprendizaje. En cada una de las sesiones se plantea una situación problema que debe resolverse con el marco teórico que, previamente, ha sido revisado por los estudiantes. En la intervención se combinan acciones individuales y grupales con base en el trabajo colaborativo. De esta forma, el estudiante pasa de ser un espectador pasivo a ser un actor activo en donde intervienen diversas dimensiones que desde el “ser” deben incluir lo ético, lo estético y lo lúdico en ambas direcciones del educador-educando. Los estudiantes y el docente contaran con unas guías de trabajo, que sin descuidar el principio de autonomía, les permitirán contar con marco referencial para construir estrategias didácticas guiados por la metodología dialogante. Para este propósito se requiere grupos conformados entre 35 y 40 estudiantes y materiales adecuados a las intervenciones.
+
+RECURSOS DE APOYO Salón con mesas modulares y video beam. Se usa el campus virtual para la coordinación de las actividades del curso. Acceso a las bases de datos digitales. Para la implementación de la metodología es necesario diseñar materiales adecuados que sirvan de referencia al profesor y se constituyan en guías de trabajo en las clases. Guías de trabajo con el objetivo de presentar al estudiante toda la información de contenidos y ejercicios con diferentes aplicaciones en cada una de sus disciplinas.
+
+.
+
+EVALUACIÓN DEL CURSO Es condición necesaria para cumplir con los objetivos del curso la asistencia al 80% de las clases. Congruente con la metodología propuesta, la evaluación no se debe reducir a rastrear la participación en la clase y a la revisión de seguimientos del nivel conceptual; el profesor debe estar atento a la evolución de los resultados de aprendizaje del curso, pero teniendo en cuenta que el proceso de aprendizaje no es lineal. Se trata de analizar el proceso evolutivo conceptual del estudiante en relación con su grado de compromiso. De esta forma, el estudiante debe estar informado permanentemente de sus progresos y atascamientos. La aprobación del curso tiene relación con el grado de compromiso y con la participación en las diversas actividades, tanto en clase como fuera del aula; siendo éstas: La asistencia participativa basada en la medición de indicadores a través de fichas o rubricas. Tareas y actividades en clase, se proponen mínimo cuatro tareas a discreción distribuidas en el desarrollo del curso, combinadas con actividades de clase. Exámenes cortos, se proponen mínimo cuatro seguimientos cortos a discreción, distribuidas en el desarrollo del curso. La evaluación de RA propuesta es la siguiente:
+
+Evaluación RA % Total Asistencia Participativa RA 1 10 20% RA 2 10 Actividades en clase RA 3 10 30% RA 4 10 RA 6 10 Tareas y exámenes cortos RA 1 10 40% RA 2 10 RA 3 10 RA 5 10 Autoevaluación RA 6 5% 5% Coevaluación RA 5 5% 5% Total 100 % .
+
+BIBLIOGRAFÍA Aguilar, J., & Ospina, Y. (2018). Moodle–ALEKS: actividades para el enrutamiento de los procesos de estudio en un curso de matemáticas básicas.
+
+Arceo, F. D. (2003). Cognición situada y estrategias para el aprendizaje significativo. Revista Electrónica de Investigación Educativa, 11.
+
+Barriga Arceo, F. D., & Hernández Rojas, G. (2002). Estrategias docentes para un aprendizaje significativo. Una interpretación constructivista. Mcgraw-Hill.
+
+Blakemor, S. ¿Cómo aprende el cerebro? Las claves para la educación. Ariel, 2007.
+
+De Zubiria Samper, J. d. (2002). Los modelos pedagógicos, hacia una pedagogía dialogante.
+
+Bogotá: Aula Abierta Magisterio.
+
+Escobar M, J. H., Pérez R, C. A., & Largo C, E. (23 de Enero de 2008). Rendimiento académico en la Universidad del Valle: determinantes y su relación con la deserción estudiantil. Santiago de Cali, Colombia: Universidad del Valle.
+
+Ocaña, A. O. (2013). Modelos pedagógicos y Teorías de Aprendizaje. ¿Cómo elaborar el modelo pedagógico de la institución educativa? Ediciones de la U, 118.
+
+Prado, C., Santiago, R. y otros. Precálculo. Enfoque de resolución de problemas, Pearson Educación. Sexta Edición, 2006 Recalde, L., Hinestroza, D. Fundamentos de Matemáticas básicas. Materiales de Trabajo, Departamento de Matemáticas, Universidad del Valle, 2018.
+
+Restrepo, G. Matemáticas Fundamentales, Universidad del Valle. Departamento de Matemáticas, 2003.
+
+Ruiz, J. M., Herrero, M. J. P., & Hierro, R. S. (2017). Influencia de las habilidades matemáticas básicas en el rendimiento posterior. International Journal of Developmental and Educational Psychology, 3(1), 243-252.
+
+Robinson, K., & Aronica, L. (2009). El Elemento. Barcelona: Grijalbo.
+
+Robinson, K., & Aronica, L. (2015). Escuelas Creativas: la revolución que está transformando la educación. Barcelona: Grijalbo.
+
+.
+
+Sobel y Lerner. Precálculo, Pearson Educación. Sexta Edición, 2006.
+
+Stewart, J. Precálculo, International Thomson Editores. Tercera Edición, 2001.
+
+Zalamea, F. Fundamentos de Matemáticas, Universidad Nacional, Bogotá, 2017.
+
+Zill y Dewar, Álgebra, Trigonometría y Geometría Analítica, , Mc. Graw Hill, Tercera edición, 2012.
+
+.

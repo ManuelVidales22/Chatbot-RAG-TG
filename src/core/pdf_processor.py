@@ -110,6 +110,17 @@ def extract_text_from_pdf(pdf_path):
     return text.strip()
 
 
+def extract_subject_from_source(source_name):
+    parts = source_name.split("/")
+    if parts and parts[0].lower() == "microcurriculos":
+        if len(parts) > 1:
+            return parts[1]
+        return "microcurriculos"
+    if len(parts) > 1:
+        return parts[0]
+    return os.path.splitext(os.path.basename(source_name))[0]
+
+
 def process_pdfs():
     """ Procesa los PDFs, extrae texto si no existe y almacena en ChromaDB solo los nuevos. """
 
@@ -118,13 +129,20 @@ def process_pdfs():
     # Crear conexión con ChromaDB
     collection = get_chroma_connection()
 
-    for file in os.listdir(PDF_FOLDER):
-        if file.endswith(".pdf"):
-            pdf_path = os.path.join(PDF_FOLDER, file)
-            base_name = os.path.splitext(file)[0]
+    for root, _, files in os.walk(PDF_FOLDER):
+        for file in files:
+            if not file.lower().endswith(".pdf"):
+                continue
+
+            pdf_path = os.path.join(root, file)
+            relative_pdf_path = os.path.relpath(pdf_path, PDF_FOLDER)
+            source_name = os.path.splitext(relative_pdf_path)[0].replace("\\", "/")
+            subject_name = extract_subject_from_source(source_name)
 
             # Ruta de los archivos de texto
-            text_file = os.path.join(TEXT_FOLDER, f"{base_name}.txt")
+            text_relative_path = os.path.splitext(relative_pdf_path)[0] + ".txt"
+            text_file = os.path.join(TEXT_FOLDER, text_relative_path)
+            os.makedirs(os.path.dirname(text_file), exist_ok=True)
 
             # Si el texto no ha sido extraído, extraerlo y guardarlo
             if not os.path.exists(text_file):
@@ -151,17 +169,26 @@ def process_pdfs():
                     "originals": [],
                     "lemmatized": [],
                     "ids": [],
-                    "sources": []
+                    "sources": [],
+                    "subjects": []
                 }
+
+            if "subjects" not in existing_corpus:
+                existing_corpus["subjects"] = [extract_subject_from_source(source) for source in existing_corpus["sources"]]
 
             existing_ids_set = set(existing_corpus["ids"])
             initial_len = len(existing_corpus["ids"])
 
             # Almacenar solo los fragmentos nuevos en ChromaDB y crear el corpus para BM25
             for i, chunk in enumerate(chunks):
-                chunk_id = f"{base_name}_{i}"
+                chunk_id = f"{source_name}_{i}"
                 if chunk_id not in existing_ids and chunk_id not in existing_ids_set:
-                    collection.add_documents([Document(page_content=chunk, metadata={"source": base_name, "id": chunk_id})])
+                    collection.add_documents([
+                        Document(
+                            page_content=chunk,
+                            metadata={"source": source_name, "subject": subject_name, "id": chunk_id}
+                        )
+                    ])
 
                     # Lematizar para BM25
                     doc = nlp(chunk)
@@ -170,7 +197,8 @@ def process_pdfs():
                     existing_corpus["originals"].append(chunk)
                     existing_corpus["lemmatized"].append(lemmatized)
                     existing_corpus["ids"].append(chunk_id)
-                    existing_corpus["sources"].append(base_name)
+                    existing_corpus["sources"].append(source_name)
+                    existing_corpus["subjects"].append(subject_name)
 
 
             if len(existing_corpus["ids"]) > initial_len:
