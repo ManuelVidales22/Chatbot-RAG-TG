@@ -1,3 +1,5 @@
+import re
+import unicodedata
 import spacy
 import os
 import pickle
@@ -8,6 +10,24 @@ _NLP_MODEL = None
 
 #Ruta del corpus de BM25
 BM25_CORPUS_PATH = "bm25_corpus.pkl"
+
+ACADEMIC_STRUCTURE_TERMS = (
+    "contenido",
+    "contenidos",
+    "tema",
+    "temas",
+    "subtema",
+    "subtemas",
+    "unidad",
+    "unidades",
+    "eje tematico",
+    "ejes tematicos",
+    "temario",
+    "apartado",
+    "apartados",
+    "seccion",
+    "secciones",
+)
 
 #Cargar el modelo de lenguaje de spaCy
 def get_nlp_model():
@@ -27,18 +47,34 @@ def clean_text(query):
     return " ".join(clean_words)
 
 
+def normalize_label(text):
+    normalized_text = unicodedata.normalize("NFKD", text)
+    normalized_text = "".join(character for character in normalized_text if not unicodedata.combining(character))
+    normalized_text = normalized_text.replace("_", " ").replace("-", " ").lower()
+    normalized_text = re.sub(r"\s+", " ", normalized_text)
+    return normalized_text.strip()
+
+
+def contains_academic_structure_terms(text):
+    normalized_text = normalize_label(text)
+    return any(term in normalized_text for term in ACADEMIC_STRUCTURE_TERMS)
+
+
 def expand_academic_query(query):
-    normalized_query = query.lower()
+    normalized_query = normalize_label(query)
     extra_terms = []
 
-    if any(term in normalized_query for term in ["contenido", "contenidos"]):
-        extra_terms.extend(["temas", "subtemas", "unidades", "microcurriculo"])
+    if any(term in normalized_query for term in ["contenido", "contenidos", "temario", "apartado", "seccion"]):
+        extra_terms.extend(["tema", "temas", "subtema", "subtemas", "unidad", "unidades", "microcurriculo"])
 
-    if any(term in normalized_query for term in ["tema", "temas"]):
-        extra_terms.extend(["contenidos", "subtemas", "unidades", "microcurriculo"])
+    if any(term in normalized_query for term in ["tema", "temas", "subtema", "subtemas", "unidad", "unidades"]):
+        extra_terms.extend(["contenido", "contenidos", "temario", "apartado", "seccion", "microcurriculo"])
+
+    if any(term in normalized_query for term in ["eje tematico", "ejes tematicos"]):
+        extra_terms.extend(["tema", "temas", "contenido", "contenidos", "subtema", "subtemas", "microcurriculo"])
 
     if any(term in normalized_query for term in ["subtema", "subtemas"]):
-        extra_terms.extend(["temas", "contenidos", "unidades", "microcurriculo"])
+        extra_terms.extend(["tema", "temas", "contenido", "contenidos", "unidad", "unidades", "microcurriculo"])
 
     if not extra_terms:
         return query
@@ -64,13 +100,10 @@ def extract_subject_from_source(source_name):
     return os.path.splitext(os.path.basename(source_name))[0]
 
 
-def normalize_label(text):
-    return text.replace("_", " ").replace("-", " ").strip().lower()
-
-
 def choose_target_subject(query, documents):
     subject_scores = {}
     normalized_query = normalize_label(query)
+    explicit_subject_match = False
 
     for position, doc in enumerate(documents):
         source = doc.metadata.get("source", "")
@@ -79,11 +112,15 @@ def choose_target_subject(query, documents):
 
         if normalize_label(subject) in normalized_query:
             score += len(documents)
+            explicit_subject_match = True
 
         subject_scores[subject] = subject_scores.get(subject, 0) + score
 
     if not subject_scores:
         return None
+
+    if explicit_subject_match:
+        return max(subject_scores, key=subject_scores.get)
 
     return max(subject_scores, key=subject_scores.get)
 
@@ -93,6 +130,12 @@ def filter_documents_by_subject(query, documents):
     if not target_subject:
         return []
 
+    normalized_query = normalize_label(query)
+    is_structure_request = any(
+        term in normalized_query
+        for term in ["contenido", "contenidos", "tema", "temas", "subtema", "subtemas", "unidad", "unidades", "eje tematico", "ejes tematicos"]
+    )
+
     filtered_documents = []
     for doc in documents:
         source = doc.metadata.get("source", "")
@@ -100,6 +143,27 @@ def filter_documents_by_subject(query, documents):
         if subject == target_subject:
             doc.metadata["subject"] = subject
             filtered_documents.append(doc)
+
+    if is_structure_request:
+        structure_documents = []
+        for doc in documents:
+            if contains_academic_structure_terms(doc.page_content):
+                source = doc.metadata.get("source", "")
+                doc.metadata["subject"] = doc.metadata.get("subject") or extract_subject_from_source(source)
+                structure_documents.append(doc)
+
+        if structure_documents:
+            merged_documents = []
+            seen_ids = set()
+
+            for doc in structure_documents + filtered_documents:
+                doc_id = doc.metadata.get("id", doc.page_content)
+                if doc_id in seen_ids:
+                    continue
+                seen_ids.add(doc_id)
+                merged_documents.append(doc)
+
+            return merged_documents[:8]
 
     return filtered_documents
 
