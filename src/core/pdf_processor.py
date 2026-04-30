@@ -113,9 +113,9 @@ def extract_text_from_pdf(pdf_path):
 def extract_subject_from_source(source_name):
     parts = source_name.split("/")
     if parts and parts[0].lower() == "microcurriculos":
-        if len(parts) > 1:
-            return parts[1]
-        return "microcurriculos"
+        # Devuelve el nombre del archivo (último elemento) como nombre de asignatura,
+        # independientemente de si hay subcarpetas de semestre intermedias.
+        return parts[-1] if len(parts) > 1 else "microcurriculos"
     if len(parts) > 1:
         return parts[0]
     return os.path.splitext(os.path.basename(source_name))[0]

@@ -1,0 +1,107 @@
+Facultad de Ingeniería Escuela de ingeniería de Sistemas y Computación FACULTAD DE INGENIERÍA ESCUELA DE INGENIERÍA DE SISTEMAS Y COMPUTACIÓN 750027M Metodologías Multimedia NÚMERO DE CRÉDITOS: 3 EVALUACIÓN HABILITABLE NO EXAMEN PARCIAL 35% VALIDABLE SI PROYECTO 40% PRERREQUISITOS 750091M Desarrollo de Software I EXPOSICIÓN 15% TALLERES 10% Objetivos Propiciar una experiencia de capacitación en planeación, diseño, producción y evaluación de aplicaciones hipermedia.
+
+Específicamente:
+
+• Apropiar conceptos y planteamientos teóricos básicos sobre multimedia, hipermedia, hipertexto e hipermedia.
+
+• Establecer  especificaciones  mínimas  de  plataformas  computacionales  tanto  para  el desarrollo como para la utilización de productos multimedia.
+
+• Utilizar  al  menos  una  herramienta  básica  para  realizar  procesos  de  digitalización  y edición de sonido, de imágenes, de gráficas, de video.
+
+• Apropiar una metodología de desarrollo de aplicaciones hipermedia.
+
+• Desarrollar un  producto hipermedia  de  acuerdo  con  los  estándares  de producción  y recomendaciones de diseño presentadas en el curso.
+
+Metodología La metodología del curso será de carácter eminentemente participativa: aprender haciendo. Se trabajará con el enfoque de seminarios donde tanto el profesor responsable del curso, como los estudiantes, de acuerdo con una programación preestablecida, harán la presentación y discusión de los temas enunciados en el contenido. El profesor proporcionará a los estudiantes referencias y bibliografía de apoyo para la preparación de las presentaciones. Se distribuirá a los estudiantes el software y las guías de laboratorio para cada una de la herramientas básicas disponibles para que cada uno se familiarice con el uso de las herramientas a través de talleres. Se organizarán grupos de desarrollo y producción de proyectos hipermedia, cada uno de los cuales se deberá planear, diseñar y producir una aplicación hipermedia como proyecto final..
+
+Herramientas a usar en el curso:
+
+• HSC Digital Morph • Creative Software • Corel Photo Paint Universidad del Valle – Facultad de Ingeniería – Escuela de Ingeniería de Sistemas y Computación Metodologías Multimedia
+
+Facultad de Ingeniería Escuela de ingeniería de Sistemas y Computación FACULTAD DE INGENIERÍA ESCUELA DE INGENIERÍA DE SISTEMAS Y COMPUTACIÓN • Flash • Software ATI • Adobe Premiere • Software Scanner HP Scan Jet 4C Contenido 1.
+
+Características Generales • Definiciones de Multimedia, hipertexto, hipermedia y sistemas multimedia.
+
+• Elementos de un hipertexto. Historia y Evolución. Aplicaciones de HT e HM.
+
+• Arquitectura de Hipertextos. Forma de almacenamiento de Datos H.T.
+
+• Navegación y Recuperación de información. Ayudas de navegación.
+
+• Modelos de lectura y escritura.
+
+2.
+
+Procesos Multimedia • Captura - Reproducción.
+
+• Almacenamiento - Recuperación.
+
+• Transmisión de Datos.
+
+• Plataformas para desarrollo y para uso de MM.
+
+3.
+
+Procesos de Autoría • Bases para el diseño y producción de H.D.
+
+• Criterios de diseño y producción de Hiperdocumentos.
+
+• Modelos de desarrollo de aplicaciones hipermedia.
+
+• Método para desarrollar Sitios Web Instruccionales.
+
+• Herramientas de autoría MM.
+
+• El equipo humano de desarrollo MM.
+
+4.
+
+Los Medios • Conceptos  fundamentales  sobre  los  medios  y  procesos  de  digitalización, almacenamiento  y  edición  de  texto,  sonido,  imágenes,  video.  Principios  de Animación.
+
+• Estándares de producción de video, formatos de grabación y compresión de video.
+
+Bibliografía 1.
+
+Bustamante A..; Valencia M. E.; Toro G. I.; Donneys C. S.;  Consideraciones sobre el proceso de autoría de aplicaciones hipermedia. Revista Energía y Computación. Vol. VI, No. 1. Edición No. 12. Colombia. Primer semestre de 1997.
+
+2.
+
+Castro M.; Colmenar A.; Losada de Dios P.; Peire J.; Herramientas de autor multimedia.
+
+Alfaomega S.A. 2001.
+
+3.
+
+Diaz. P.; Catenazzi. N.; Aedo.I.;  De la Multimedia a la Hipermedia. Computec Ra-Ma.
+
+1977.
+
+4.
+
+Montilva  Jonás.;  Sandia  Beatriz.;  Developing  Instructional  Web  Sites  -  A  Software Engineering Approach, Universidad de los Andes – Venezuela. 2002.
+
+5.
+
+Thuring.  M.;  Hannemann,J.;  Haake,  J.;  Hypermedia  and  cognition:  designing  for comprenhension. Communications of the ACM. Vol 38 # 8. 1995. Pag 57-65.
+
+Universidad del Valle – Facultad de Ingeniería – Escuela de Ingeniería de Sistemas y Computación Metodologías Multimedia
+
+Facultad de Ingeniería Escuela de ingeniería de Sistemas y Computación FACULTAD DE INGENIERÍA ESCUELA DE INGENIERÍA DE SISTEMAS Y COMPUTACIÓN 6.
+
+Valencia  M.  E.;  Toro  G.  I.;  Donneys  C.  ;  Desarrollo  de  Aplicaciones  Hipermedia:
+
+Propuesta  para  el  Diseño  Educativo.  Memorias  del  Taller  Internacional  de  Software Educativo TISE’98. Santiago de Chile, Dic 1998.
+
+7.
+
+Valencia M. E.; Bustamante A..;  Un modelo para la comprensión de hiperdocumentos.
+
+Memorias del Taller Internacional de Software Educativo TISE’97. Santiago de Chile, Dic 1-3 1997.
+
+8.
+
+Valencia  M.  E.;  Un  método  de  desarrollo  de  aplicaciones  educativas  hipermedia.
+
+Memorias del Taller Internacional de Software Educativo TISE’97. Santiago de Chile, Dic 1997.
+
+Universidad del Valle – Facultad de Ingeniería – Escuela de Ingeniería de Sistemas y Computación Metodologías Multimedia

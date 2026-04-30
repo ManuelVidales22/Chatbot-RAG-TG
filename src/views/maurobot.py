@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import core.pdf_processor as pdf_processor
 import core.query_processor as query_processor
+import core.pdf_watcher as pdf_watcher
 
 set_verbose(True)
 
@@ -156,7 +157,7 @@ if prompt := st.chat_input("Escribe tu pregunta"):
 
     retrieved_context = "\n\n\n".join(
         [
-            f'Asignatura "{doc.metadata.get("subject", "desconocido")}" | Fuente "{doc.metadata.get("source", "desconocido")}": {doc.page_content}'
+            f'Asignatura "{doc.metadata.get("subject", "desconocido")}" | Fuente ": {doc.page_content}'
             for doc in results
         ]
         )

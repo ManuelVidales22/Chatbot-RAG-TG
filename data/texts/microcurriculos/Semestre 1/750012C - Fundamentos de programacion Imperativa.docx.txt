@@ -1,0 +1,55 @@
+Fundamentos de programación imperativa INFORMACIÓN BÁSICA Código y Nombre 750012C – Fundamentos de Programación Imperativa Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Prerrequisitos Ninguno Validable Sí Habilitable No Tipo de Asignatura Asignatura Básica (AB) La asignatura favorece la Formación General Científico tecnológico Si X No DESCRIPCIÓN GENERAL DEL CURSO Esta asignatura está orientada a desarrollar en el estudiante el pensamiento algorítmico y las habilidades para el uso de los lenguajes de programación. Programar es una tarea que hoy en día resulta útil no solamente en la ingeniería sino que también tiene aplicación en diversas áreas tales como las artes, la biología, las ciencias, la administración, e incluso la música y los idiomas. Para llegar a programar es necesario primero desarrollar en el estudiante el pensamiento algorítmico, es decir, tener la capacidad de encontrar una secuencia ordenada de pasos que da solución a un problema particular. Fomentar este tipo de habilidades es indispensable para la vida académica y profesional ya que favorece el desarrollo integral del estudiante en la dimensión cognitiva permitiéndole adquirir habilidades para analizar, resolver problemas, y comparar posibles soluciones. Luego, a través de los lenguajes de programación se implementan, depuran y prueban algoritmos. El curso se centra en darle una mirada práctica y aplicada a la programación resolviendo problemas propios del área de formación del estudiante, intentado fomentar en él una visión que le permita, desde el enfoque de la programación, resolver problemas propios de su carrera propiciando una formación que vas más allá del ámbito académico y que pueda llegar a trascender a nivel profesional. La programación se da en equipos de desarrollo preferiblemente interdisciplinares en los que cada estudiante desempeña un rol específico y fundamental para el grupo. El curso fomenta el aprendizaje colaborativo basado en el fortalecimiento de actitudes y aptitudes para el trabajo en equipo, por tanto se promueve el desarrollo integral del estudiante en las No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+dimensiones cognitiva y sociocognitiva; en donde se establecen mecanismos de comunicación asertiva para analizar colectivamente problemas, especificarlos y describirlos de manera precisa.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.3: Seleccionar y utilizar diferentes paradigmas y lenguajes de programación al construir sistemas basados en TIC R.A.1: Propone algoritmos usando estructuras de decisión, estructuras de repetición, funciones y/o arreglos para solucionar problemas Estructuras de decisión ● Sentencias if-else, if else-if, switch-case Estructuras iterativas ● Sentencia for y while.
+
+● Ciclos anidados ● Concepto de contador ● Concepto de acumulador.
+
+● Aplicaciones de las estructuras iterativas Funciones iterativas ● Definición de función.
+
+● Partes de una función.
+
+● Creación y llamado de funciones.
+
+● Variables globales y variables locales ● Funciones iterativas Funciones recursivas ● Componentes de una función recursiva.
+
+● Caso base y caso recursivo.
+
+● Problemas típicos de recursión Arreglos ● Conceptos básicos de arreglos.
+
+● Operaciones básicas sobre arreglos, creación, inserción, recuperación de elementos, recorrido.
+
+● Búsqueda básica en arreglos.
+
+● Ejemplos y aplicaciones Cadenas de texto ● Operaciones básicas sobre cadenas de texto:
+
+concatenación, búsqueda, comparación y/o extracción
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO R.A.2: Utiliza un lenguaje de programación siguiendo una sintaxis para implementar, depurar y probar algoritmos Metodología para resolver problemas ● Definición de algoritmos.
+
+● Componentes de un algoritmo.
+
+● Metodología para resolver problemas usando algoritmos: análisis del problema, diseño en pseudocódigo, prueba de escritorio, codificación y pruebas.
+
+● Ejemplos de problemas y soluciones.
+
+● Análisis de las soluciones Diseño de interfaces gráficas (GUI) ● Definición de interfaz gráfica.
+
+● Componentes básicos de una interfaz gráfica, ventanas, etiquetas, botones, campos de texto C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación R.A.3: Trabaja colaborativamente en equipo, desempeñando unas tareas específicas y comunicando sus ideas, para desarrollar programas Metodología para resolver problemas Diseño de interfaces gráficas (GUI) METODOLOGÍA El aprendizaje del pensamiento algorítmico se da a través de resolución de problemas de forma colaborativa, mediante formación de grupos o equipos de trabajo orientados hacia ciertos objetivos de aprendizaje, donde cada participante del grupo interviene en todas y en cada una de las partes del proyecto o problema. El curso se desarrolla en clases semanales de 3 horas de las cuales 2 son teóricas y una es práctica y se realiza en las salas de cómputo. Además, se tienen laboratorios orientados a resolver problemas relacionados con los resultados de aprendizaje que se quieren alcanzar. El curso tiene un proyecto donde se aplican los métodos vistos en clase para dar solución a problemas que finalmente permiten confrontar la mirada desde varias disciplinas de formación.
+
+Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso de plataformas interactivas y de gamificación en el aula que permitan revisar las competencias y los indicadores de logro, el uso de un juez virtual por medio del cual el estudiante puede evaluar de forma autónoma los programas desarrollados en cada uno de los temas vistos en clase, la revisión de videos de las unidades que componen el curso y las clases magistrales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de una sala de cómputo con acceso a internet, con puestos individuales de trabajo y que esté provista de video beam. Además, de las guías de acceso virtual.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos de dos personas tales como los cinco laboratorios prácticos y el proyecto. Además, se tienen dos evaluaciones parciales que se aplicarán, una en la octava semana de clase y la otra al final del semestre. Los porcentajes asignados para cada una de estas actividades son:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 Parcial 1 Parcial 2 Laboratorio 2 Laboratorio 3 Laboratorio 4 Laboratorio 5 20.0 4.0 6.0 12.0 10.0 8.0 60.0 R.A.2 Parcial 1 Parcial 2 Laboratorio 1 Proyecto 2.56 11.52 7.68 10.24 32.0 R.A.3 Proyecto 8.0 8.0 BIBLIOGRAFÍA Joyanes Aguilar. Fundamentos de programación: algoritmos, estructura de datos, McGraw-Hill, 2008 Elkner Jeffrey, Downey Allen, Chris Meyers. Introducción a la programación con Python.
+
+Traducido y adaptado por Andrés Becerra Sandoval. – Santiago de Cali: Pontificia Universidad Javeriana, Sello Editorial Javeriano, 2014 Allen Downey, Jeffrey Elkner, and Chris Meyers. How to Think Like a Computer Scientist: Learning with Python. Green Tea Press, 2010 Cambell Jennifer, Gries Paul, Montojo Jason, Wilson Greg. Practical Programming, An Introduction to computer science with Python McGraw-Hill, 2012 Guttag John. Introduction to Computer Science and Programming Using Python. MIT Press, 2013 Generative art. A practical guide using Processing. Matt Pearson. Manning Publications Co, 2011 Python Programming for Biology. Tim Stevens. Cambridge University Press, 2015 Programming for Musicians and digital artists: Creating music with Chuck. Ajay Kapur, Perry Cook, Spencer Salazar, Ge Wang. Manning Publications Co, 2015
