@@ -1,0 +1,77 @@
+Innovación y Emprendimiento Empresarial INFORMACIÓN BÁSICA Código y Nombre 750032C - Innovación y emprendimiento empresarial Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos 3743 ingeniería de sistemas Prerrequisitos 750031C - Introducción a la gestión de proyectos de software Validable No Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO El objetivo general de la materia de Innovación y Emprendimiento Empresarial es brindar al estudiante experiencias de formación en la innovación, liderazgo y emprendimiento en el contexto del desarrollo de software.
+
+En este curso se busca que los estudiantes sean capaces de aplicar los conceptos de innovación, emprendimiento y liderazgo a través de casos de estudio concretos. De igual manera, se pretende que los estudiantes desarrollen la capacidad de identificar retos de innovación y emprendimiento en el campo del desarrollo de software, aborden estos desafíos de manera factible, y generen soluciones innovadoras con un impacto positivo en la sociedad. Este curso puede ser un complemento para construir un desarrollo tecnológico que sirva para la opción del trabajo de grado de creación de empresa. Adicionalmente, se busca que los estudiantes dominen las habilidades de comunicación, especialmente en la presentación de propuestas y modelos de negocio relacionados con la industria del software, para poder transmitir de manera clara y persuasiva sus ideas a audiencias pertinentes en el ámbito empresarial. Finalmente, en el curso el estudiante soluciona un problema pequeño tomado de un contexto real, trabajando en equipos de desarrollo que intenten favorecer la interdisciplinariedad, resolviendo retos similares a los que enfrentaría en un entorno laboral.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.15: Desarrollar iniciativas de la ingeniería orientadas a la innovación de productos, procesos o servicios.
+
+RA 1: Comprende los conceptos fundamentales de la innovación, liderazgo y emprendimiento, en el ámbito de empresas de base tecnológica con el propósito de aplicarlos a un caso de estudio.
+
+Conceptos fundamentales de la innovación. El liderazgo en la innovación de las empresas de software. Emprender las posibilidades desde la innovación en el desarrollo de software.
+
+Los perfiles de innovación y emprendimiento en el desarrollo de software C.E.15: Desarrollar iniciativas de la ingeniería orientadas a la innovación de productos, procesos o servicios.
+
+RA 2: Construye de manera sistemática retos de innovación y emprendimiento que resuelvan de forma viable y factible las necesidades sociales, para abordar desafíos del mundo real y desarrollar soluciones innovadoras con impacto positivo.
+
+Desarrollo de propuestas de valor a través de la innovación.
+
+Estudio sistemático de fuentes de información acerca de nuevas ideas en innovación.
+
+Procesos de creatividad, creación e ideación de negocios. Desarrollo de emprendimientos en el campo del desarrollo de software.
+
+Diseño de estudios de factibilidad desde lo comercial hasta lo técnico.
+
+Desarrollo de un reto de innovación con potenciales oportunidades en el campo del desarrollo de software.
+
+C.G.2: Utilizar el pensamiento crítico y creativo que le permita conocer de forma autónoma y permanente RA 3: Identifica y aplica comunicación efectiva, para presentar propuestas y modelos de negocio en el contexto de la industria de software.
+
+Desarrollar una estrategía de comunicación de planes de negocio. Desarrollo de comunicación efectiva de propuestas de negocio, construir a través de una metodología tal como canvas y desarrollo de pitchs de emprendimiento.
+
+METODOLOGÍA El curso se realiza en clases semanales de tres horas. Se proponen sesiones de tipo participativo, con actividades guiadas por el profesor donde se discutirán los tópicos de la asignatura. Durante estas sesiones también se proyecta, llevar un control del avance del proyecto de curso.
+
+Durante el curso se desarrollarán 5 laboratorios que corresponden a casos de estudio del mundo real, que permitirán al estudiante aplicar a los conocimientos en un contexto del mundo empresarial y de desarrollo de software Con el proyecto del curso se busca simular un ambiente del desarrollo de un emprendimiento o de una innovación tecnológica a partir del cual los estudiantes conformen grupos de trabajo. Los equipos deberán desarrollar una propuesta de valor a través de la innovación. Realizar un estudio sistemático de fuentes de información acerca de nuevas ideas en innovación. Trabajar los procesos de creatividad, creación e ideación de negocios; y el desarrollo de emprendimientos en el campo de las empresas de base tecnológica.
+
+De igual manera, en el curso se desarrolla una estrategía de comunicación de planes de negocio y desarrollo la comunicación efectiva de su propuestas de negocio, a través de una metodología tal como canvas y desarrollo de pitchs de emprendimiento.
+
+A su vez, se tendrá en cuenta el uso de clase invertida para apoyar la didáctica del curso. La idea es poder utilizar este tipo de recursos para estudiar algunos conceptos del curso.
+
+RECURSOS DE APOYO A través del campus virtual de la Universidad del Valle, el estudiante encontrará el material disponible en forma digital: videos, artículos, recursos web.
+
+Se requiere un salón que facilite el trabajo en equipo, que cuente con acceso a internet, video beam, sonido.
+
+EVALUACIÓN DEL CURSO La evaluación del curso comprende el desarrollo de la innovación y emprendimiento empresarial a través de laboratorios o casos de estudio, dinámicas o actividades de grupo, proyecto y evaluación del desempeño.
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+RA % Posibles actividades evaluativas R.A.1 40 Examen, laboratorio 1, laboratorio 2, laboratorio 3, laboratorio 4 y proyecto R.A.2 50 Laboratorio 1, laboratorio 4, laboratorio 5 y proyecto.
+
+R.A.3 10 laboratorio 4, laboratorio 5 y proyecto TOTAL 100 BIBLIOGRAFÍA
+
+Anthony, S. D. (2012). The little black book of innovation: How it works, how to do it. Harvard Business Review Press.
+
+Ackoff, R. L. (1997). El arte de resolver problemas : las fabulas de Ackoff. México: Limusa.
+
+DeBono, E. (1991). Pensamiento lateral. Editorial Paidós.
+
+Drucker, P.
+
+(1985).
+
+The discipline of innovation.
+
+Harvard Business Review, 63(3), 5-14.
+
+https://doi.org/[añadir DOI si está disponible] Keeley, L., Walters, H., Pikkel, R., & Quinn, B. (2013). Ten types of innovation. Wiley.
+
+Michalko, M. (2006). Thinkertoys: A handbook of creative-thinking techniques (2a ed.). Ten Speed Press.
+
+Prada, R. (2002). Creatividad e innovación empresarial. Bogotá: TecnoPress.
+
+VARELA, R. (2001). Innovación Empresarial, Bogotá, Colombia. Editorial Prentice Hall.

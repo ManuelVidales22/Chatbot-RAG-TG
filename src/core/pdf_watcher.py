@@ -6,9 +6,19 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 MICROCURRICULOS_PDF_FOLDER = os.path.join("data", "pdfs", "microcurriculos")
+MICROCURRICULOS_TEXT_FOLDER = os.path.join("data", "texts", "microcurriculos")
+SEMESTER_RANGE = range(2, 11)
 
 _observer = None
 _observer_lock = threading.Lock()
+
+
+def ensure_microcurriculos_folders():
+    """Crea las carpetas de semestres 2-10 en pdfs y texts si no existen."""
+    for semester in SEMESTER_RANGE:
+        folder_name = f"Semestre {semester}"
+        os.makedirs(os.path.join(MICROCURRICULOS_PDF_FOLDER, folder_name), exist_ok=True)
+        os.makedirs(os.path.join(MICROCURRICULOS_TEXT_FOLDER, folder_name), exist_ok=True)
 
 
 class _PDFEventHandler(FileSystemEventHandler):
@@ -46,6 +56,7 @@ def start_watcher():
         if _observer is not None and _observer.is_alive():
             return _observer
 
+        ensure_microcurriculos_folders()
         abs_folder = os.path.abspath(MICROCURRICULOS_PDF_FOLDER)
         os.makedirs(abs_folder, exist_ok=True)
 

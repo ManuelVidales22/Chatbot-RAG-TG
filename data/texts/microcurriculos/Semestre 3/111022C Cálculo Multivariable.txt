@@ -1,0 +1,141 @@
+CÁLCULO MULTIVARIABLE INFORMACIÓN DE LA ASIGNATURA Código – Nombre 111022C Cálculo multivariado Créditos 3 Horas de trabajo Presenciales: 5 horas semanales Trabajo independiente: 4 horas semanales Unidad(es) Académica(s) Departamento de Matemáticas – Facultad de Ciencias Naturales y Exactas Programa(s) Académico(s) Ingenierías Prerrequisitos/correquisitos Cálculo monovariable (Aprobado), Álgebra lineal (cursado) Validable SÍ Habilitable SÍ Tipo de Asignatura Básica La asignatura favorece la Formación General (Sí) (No) X DESCRIPCIÓN DEL CURSO Los elementos teóricos desarrollados en este curso, proporcionan el conocimiento matemático para manejar con destreza la teoría de series y las técnicas propias del cálculo diferencial e integral de varias variables y sus aplicaciones. Se espera que, en este espacio formativo, el estudiante desarrolle habilidades que le permitan la modelación de algunos problemas propios de la matemática, ingeniería o las ciencias en dominios multivariados. De forma específica, se busca que el estudiante adquiera las competencias teóricas necesarias que le permitan comprender y establecer la representación de funciones mediante series de potencia y plantear y solucionar problemas propios de la matematización del movimiento, propiedades de curvas, cálculo de áreas y volúmenes, extremos relativos en funciones de varias variables y extremos de funciones con restricciones. Los ejes temáticos giran en torno al cálculo del límite de funciones de varias variables y su utilidad, la determinación de la continuidad en las funciones vectoriales, la importancia de las derivadas parciales y sus múltiples aplicaciones, ya sea en la ingeniería o en las ciencias, y el cálculo de integrales múltiples y sus aplicaciones. La metodología busca mejorar la calidad de la educación matemática empleando técnicas didácticas en el aula, como el Aprendizaje Basado en Problemas (ABP) para que el estudiante genere su propio conocimiento, competencias, habilidades y destrezas y desarrolle un pensamiento lógico matemático, reflexivo, creativo y crítico que contribuya a la solución de problemas propios de la ingeniería. Por otro lado, la metodología se desarrolla con un enfoque comprensivo y dialogante para que el estudiante pueda relacionar, interpretar, analizar y aplicar sus conocimientos, mediante los distintos niveles de pensamiento en la aplicación de la teoría se series y del cálculo diferencial e integral multivariado.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+** .
+
+DESARROLLO DEL CURSO SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC1.Comprensión de las ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina RA1. Identifica el concepto de series numéricas en correlación con el concepto de sucesión, con el propósito de utilizarlo en la representación de funciones.
+
+· Sucesiones y series · Curvas planas y del espacio · Cálculo diferencial para funciones de varias variables · Integrales múltiples RA2. Reconoce la noción de curva como una función vectorial, con el propósito de modelar algunos fenómenos físicos como el movimiento y problemas geométricos.
+
+SCC2. Capacidad de resolución de problemas desde la ingeniería RA3. Describe la noción de campo escalar, extendiendo los conceptos de límite y derivada para aplicarlos en problemas de optimización.
+
+RA4. Generaliza la noción de integral a funciones de varias variables, en sus diferentes versiones para aplicarlas en la comprensión de fenómenos físicos.
+
+RA5.
+
+Utiliza herramientas computacionales, como complemento del proceso analítico, en la visualización de funciones, la evaluación de integrales y el análisis de convergencia de sucesiones y series.
+
+SCC RESULTADO DE APRENDIZAJ E INDICADORES DE LOGRO CONTENIDO SCC 1 RA1, RA5 · Identifica la noción de sucesión de manera analítica, estableciendo su convergencia o divergencia.
+
+· Reconoce las series como representaciones de sucesiones de forma analítica.
+
+· Aplica algunos criterios estándares de la teoría de series para determinar su convergencia o divergencia.
+
+· Aplica la noción de serie en el problema de la representación de funciones.
+
+1. Sucesiones y Series 1.1 Definición de sucesión 1.2 Tipos de sucesiones 1.3 Definición de serie 1.4 Criterios de convergencia 1.5 Series de potencia 2. Curvas planas y del espacio 2.1 El espacio n-dimensional.
+
+Funciones vectoriales. Límites y continuidad, derivada e integral de funciones vectoriales.
+
+2.2 Curvas parametrizadas. Vector Tangente y Normal. Vectores velocidad y aceleración. Longitud RA2 · Identifica la noción de función vectorial de forma analítica.
+
+.
+
+de curvas. Componentes tangencial y normal de la aceleración.
+
+2.3 Curvatura de curvas planas.
+
+Ecuaciones de Frenet para una curva plana.
+
+2.4 Curvatura de curvas planas.
+
+Ecuaciones de Frenet para una curva plana.
+
+3. Cálculo diferencial para funciones de varias variables 3.1 Campos vectoriales y campos escalares. Curvas y superficies de nivel. Superficies: cilíndricas, superficies de revolución, superficies cuadráticas.
+
+3.2 Límite y continuidad de campos escalares.
+
+3.3 Derivadas parciales. Superficies parametrizadas. El plano tangente.
+
+3.4 El concepto de diferenciabilidad.
+
+Gradiente de un campo escalar.
+
+Regla de la cadena para campos escalares. Recta normal y plano tangente a una superficie 3.5 Máximos y mínimos, puntos de silla. Extremos de funciones.
+
+Criterio para determinar los extremos de funciones.
+
+Multiplicadores de Lagrange 4. Integrales múltiples · Aplica las nociones de límite, continuidad, derivada e integral a las funciones vectoriales.
+
+· Aplica las nociones del cálculo vectorial a la modelación de fenómenos físicos.
+
+· Calcula la curvatura de curvas planas y del espacio de forma analítica.
+
+RA3, RA5 · Identifica las nociones de campo escalar y vectorial de manera analítica.
+
+· Reconoce geométricamente diferentes superficies en el espacio tridimensional.
+
+· Aplica los conceptos de límite y continuidad para campos escalares.
+
+· Identifica la noción de derivada parcial de forma analítica y geométrica.
+
+· Maneja la noción de gradiente de un campo escalar y lo aplica en la formalización de algunas nociones geométricas.
+
+· Maneja la regla de la cadena para el cálculo de derivadas en funciones de variables relacionadas.
+
+· Utiliza los diferenciales para estimar la propagación de errores.
+
+· Contrasta los conceptos de máximos y mínimos locales y absolutos en funciones escalares.
+
+· Aplica las derivadas parciales en campos escalares para la identificación de mínimos, máximos y puntos silla de una función.
+
+· Usa el método de multiplicadores de Lagrange para hallar extremos de funciones con restricciones.
+
+RA4, RA5 ●Generaliza la noción de integral de una variable a dos variables tomando como referencia las sumas de Riemann para su justificación formal.
+
+●Identifica los límites de integración de una región plana .
+
+4.1 Integrales dobles. La integral doble en coordenadas polares. Cambio de variable.
+
+4.2 Integrales triples en coordenada rectangulares. Cambio de variable en una integral triple, coordenadas cilíndricas y esféricas.
+
+para establecer la expresión en términos de integrales dobles y las utiliza para el cálculo de áreas de regiones planas y volúmenes de sólidos.
+
+●Utiliza el cambio de variables a coordenadas polares de forma analítica para calcular algunas integrales dobles específicas.
+
+●Calcula integrales iteradas triples e identifica la región de integración correspondiente en casos específicos de forma analítica.
+
+●Utiliza las integrales triples en el cálculo de volúmenes de sólidos de forma analítica.
+
+●Reconoce los cambios de variables a coordenadas cilíndricas y coordenadas esféricas  para el cálculo de integrales triples.
+
+METODOLOGÍA Este espacio formativo de cálculo multivariable tiene como metodología el Aprendizaje Basado en Problemas (ABP), siendo parte de una pedagogía dialogante y de contextos en donde los estudiantes juegan un rol protagónico con el fin de promover la autogestión (aprender a aprender), la lógica de la argumentación y el apoyo mutuo. En cada una de las sesiones se realiza una discusión conceptual alrededor de un problema a resolver; en donde es necesario utilizar las herramientas que brinda el cálculo diferencial y/o integral. Por otra parte, la metodología requiere unas guías de trabajo para brindar a los docentes un marco referencial que permita construir estrategias didácticas orientadas a resolver problemas de distintos ámbitos. Es importante, para cumplir los propósitos de este proceso de formación, conformar grupos entre 30 a 40 estudiantes, contar con materiales acordes a las intervenciones, una adecuada preparación de los docentes y herramientas tecnológicas acordes a la formación centrada en el estudiante.
+
+RECURSOS DE APOYO Salón con mesas modulares y video Beam. Se usa el campus virtual para la coordinación de las actividades del curso. Acceso a las bases de datos digitales. Para la implementación de la metodología es necesario diseñar materiales adecuados que sirvan de referencia al profesor y se constituyan en guías de trabajo en las clases. Guías de trabajo con el objetivo de presentar al estudiante toda la información de contenidos y ejercicios con diferentes aplicaciones en cada una de sus disciplinas.
+
+EVALUACIÓN DEL CURSO .
+
+Es condición necesaria para cumplir con los objetivos del curso la asistencia al 80% de las clases.
+
+Congruente con la metodología propuesta, la evaluación no se debe reducir a rastrear la participación en la clase y a la revisión de seguimientos del nivel conceptual; el profesor debe estar atento a la evolución de los resultados de aprendizaje del curso, pero teniendo en cuenta que el proceso de aprendizaje no es lineal. Se trata de analizar el proceso evolutivo conceptual del estudiante en relación con su grado de compromiso. De esta forma, el estudiante debe estar informado permanentemente de sus progresos y atascamientos. La aprobación del curso tiene relación con el grado de compromiso y con la participación en las diversas actividades, tanto en clase como fuera del aula; siendo éstas: La asistencia participativa basada en la medición de indicadores a través de fichas o rubricas. Tareas y actividades en clase, se proponen mínimo cuatro tareas a discreción distribuidas en el desarrollo del curso, combinadas con actividades de clase. Exámenes cortos, se proponen mínimo cuatro seguimientos cortos a discreción, distribuidas en el desarrollo del curso. La evaluación de RA propuesta es la siguiente:
+
+Resultado de Aprendizaje Actividad de Evaluación % % RA1 Asistencia participativa Actividades en clase, tareas y exámenes cortos.
+
+Autoevaluación Coevaluación Seguimientos Parciales 4 4 4 4 4 20 RA2 Asistencia participativa Actividades en clase, tareas y exámenes cortos.
+
+Autoevaluación Coevaluación Seguimientos Parciales 4 4 4 4 4 20 RA3 Asistencia participativa Actividades en clase, tareas y exámenes cortos.
+
+Autoevaluación Coevaluación Seguimientos Parciales 4 4 4 4 4 20 RA4 Asistencia participativa Actividades en clase, tareas y exámenes cortos Autoevaluación Coevaluación Seguimientos Parciales 4 4 4 4 4 20 RA5 Asistencia participativa Actividades en clase, tareas y exámenes cortos Autoevaluación Coevaluación 5 5 5 5 20 BIBLIOGRAFÍA .
+
+[1] Notas de Clase de Cálculo III. Doris Hinestroza & Diego Hoyos. Universidad del Valle.
+
+[2] Cálculo y Geometría Analítica. Vol II. Sherman K. Stein, Anthony Barcellos. McGraw-Hill, 5a Edición. 1997.
+
+[3] Cálculo Vectorial. Marsden – Tromba. Editorial Addison- Wesley. 3a Edición.
+
+[4] Cálculo con Geometría Analítica. Louis Leithold. Editorial Harla, 7a Edición. 1998.
+
+[5] Cálculo. Vol II, Tom Apostol. Editorial Reverté, 2a Edición.
+
+[6] Cálculo de una Variable. Vol II. Thomas/Finney. Addison Wesley Longman, 9a Edición.
+
+[7] Cálculo. Vol II. Larson / Hostetler / Edwards. 6a Edición. McGraw-Hill. 1999.
+
+.

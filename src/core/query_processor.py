@@ -7,9 +7,16 @@ from rank_bm25 import BM25Okapi
 from langchain.schema import Document
 
 _NLP_MODEL = None
+_BM25_INDEX = None
+_BM25_CORPUS_MTIME = None
+_LEMMATIZED_INDEX_MAP = None
 
 #Ruta del corpus de BM25
 BM25_CORPUS_PATH = "bm25_corpus.pkl"
+SYLLABUS_SECTION = "temario"
+SUBTOPIC_PATTERN = re.compile(r"\b\d+\.\d+\b")
+DEFAULT_RESULT_LIMIT = 8
+SYLLABUS_RESULT_LIMIT = 12
 
 ACADEMIC_STRUCTURE_TERMS = (
     "contenido",
@@ -27,6 +34,41 @@ ACADEMIC_STRUCTURE_TERMS = (
     "apartados",
     "seccion",
     "secciones",
+)
+
+SYLLABUS_LISTING_TERMS = (
+    "contenido",
+    "contenidos",
+    "temario",
+    "tema",
+    "temas",
+    "subtema",
+    "subtemas",
+    "unidad",
+    "unidades",
+    "eje tematico",
+    "ejes tematicos",
+    "que se ve",
+    "que ven",
+    "que trata",
+    "que temas",
+    "cuales son los temas",
+    "cuales son los contenidos",
+)
+
+EXPLANATION_TERMS = (
+    "explica",
+    "explicar",
+    "explicame",
+    "define",
+    "definir",
+    "definicion",
+    "profundiza",
+    "profundizar",
+    "como funciona",
+    "ejemplo",
+    "ejemplos",
+    "desarrolla el tema",
 )
 
 #Cargar el modelo de lenguaje de spaCy
@@ -60,6 +102,41 @@ def contains_academic_structure_terms(text):
     return any(term in normalized_text for term in ACADEMIC_STRUCTURE_TERMS)
 
 
+def is_syllabus_listing_query(query):
+    normalized_query = normalize_label(query)
+    has_listing = any(term in normalized_query for term in SYLLABUS_LISTING_TERMS)
+    if not has_listing:
+        return False
+
+    has_explanation = any(term in normalized_query for term in EXPLANATION_TERMS)
+    has_catalog_phrase = any(
+        phrase in normalized_query
+        for phrase in [
+            "contenidos de",
+            "contenido de",
+            "temas de",
+            "temario de",
+            "subtemas de",
+            "que contenidos",
+            "que temas",
+            "dime los contenidos",
+            "dime que contenidos",
+            "dime los temas",
+            "dime que temas",
+            "lista de contenidos",
+            "lista de temas",
+        ]
+    )
+
+    if has_explanation and not has_catalog_phrase:
+        return False
+    return True
+
+
+def count_subtopics(text):
+    return len(SUBTOPIC_PATTERN.findall(text))
+
+
 def expand_academic_query(query):
     normalized_query = normalize_label(query)
     extra_terms = []
@@ -76,6 +153,9 @@ def expand_academic_query(query):
     if any(term in normalized_query for term in ["subtema", "subtemas"]):
         extra_terms.extend(["tema", "temas", "contenido", "contenidos", "unidad", "unidades", "microcurriculo"])
 
+    if is_syllabus_listing_query(query):
+        extra_terms.extend(["contenidos tematicos", "1.1", "2.1", "subtemas", "temario"])
+
     if not extra_terms:
         return query
 
@@ -85,7 +165,37 @@ def expand_academic_query(query):
 #Cargar el corpus de BM25
 def load_bm25_corpus():
     with open(BM25_CORPUS_PATH, "rb") as f:
-        return pickle.load(f)
+        corpus = pickle.load(f)
+    if "sections" not in corpus:
+        corpus["sections"] = [""] * len(corpus.get("ids", []))
+    return corpus
+
+
+def invalidate_search_cache():
+    global _BM25_INDEX, _BM25_CORPUS_MTIME, _LEMMATIZED_INDEX_MAP
+    _BM25_INDEX = None
+    _BM25_CORPUS_MTIME = None
+    _LEMMATIZED_INDEX_MAP = None
+
+
+def get_bm25_resources(corpus):
+    global _BM25_INDEX, _BM25_CORPUS_MTIME, _LEMMATIZED_INDEX_MAP
+
+    corpus_mtime = (
+        os.path.getmtime(BM25_CORPUS_PATH)
+        if os.path.exists(BM25_CORPUS_PATH)
+        else 0
+    )
+    if _BM25_INDEX is None or _BM25_CORPUS_MTIME != corpus_mtime:
+        lemmatized_texts = corpus["lemmatized"]
+        tokenized_docs = [doc.split() for doc in lemmatized_texts]
+        _BM25_INDEX = BM25Okapi(tokenized_docs)
+        _LEMMATIZED_INDEX_MAP = {
+            text: index for index, text in enumerate(lemmatized_texts)
+        }
+        _BM25_CORPUS_MTIME = corpus_mtime
+
+    return _BM25_INDEX, _LEMMATIZED_INDEX_MAP
 
 #|
 # identificar la materia/tema de cada documento
@@ -129,13 +239,66 @@ def choose_target_subject(query, documents):
     return max(subject_scores, key=subject_scores.get)
 
 
-def filter_documents_by_subject(query, documents):
+def build_document_from_corpus(corpus, index):
+    sections = corpus.get("sections", [])
+    section = sections[index] if index < len(sections) else ""
+    source = corpus["sources"][index]
+    return Document(
+        page_content=corpus["originals"][index],
+        metadata={
+            "id": corpus["ids"][index],
+            "source": source,
+            "subject": corpus["subjects"][index],
+            "section": section,
+        },
+    )
+
+
+def get_temario_documents_for_subject(corpus, target_subject):
+    documents = []
+    sections = corpus.get("sections", [])
+    for index, subject in enumerate(corpus.get("subjects", [])):
+        section = sections[index] if index < len(sections) else ""
+        if subject == target_subject and section == SYLLABUS_SECTION:
+            documents.append(build_document_from_corpus(corpus, index))
+    return documents
+
+
+def syllabus_document_score(doc):
+    score = 0
+    if doc.metadata.get("section") == SYLLABUS_SECTION:
+        score += 1000
+    score += count_subtopics(doc.page_content) * 20
+    if contains_academic_structure_terms(doc.page_content):
+        score += 50
+    if "contenidos tematicos" in normalize_label(doc.page_content):
+        score += 100
+    return score
+
+
+def rank_documents_for_syllabus(documents):
+    return sorted(documents, key=syllabus_document_score, reverse=True)
+
+
+def merge_unique_documents(primary_docs, secondary_docs):
+    merged = []
+    seen_ids = set()
+    for doc in primary_docs + secondary_docs:
+        doc_id = doc.metadata.get("id", doc.page_content)
+        if doc_id in seen_ids:
+            continue
+        seen_ids.add(doc_id)
+        merged.append(doc)
+    return merged
+
+
+def filter_documents_by_subject(query, documents, corpus=None):
     target_subject = choose_target_subject(query, documents)
     if not target_subject:
         return []
 
     normalized_query = normalize_label(query)
-    is_structure_request = any(
+    is_structure_request = is_syllabus_listing_query(query) or any(
         term in normalized_query
         for term in ["contenido", "contenidos", "tema", "temas", "subtema", "subtemas", "unidad", "unidades", "eje tematico", "ejes tematicos"]
     )
@@ -151,29 +314,28 @@ def filter_documents_by_subject(query, documents):
     if is_structure_request:
         structure_documents = []
         for doc in documents:
-            if contains_academic_structure_terms(doc.page_content):
+            if contains_academic_structure_terms(doc.page_content) or count_subtopics(doc.page_content) >= 3:
                 source = doc.metadata.get("source", "")
                 doc.metadata["subject"] = doc.metadata.get("subject") or extract_subject_from_source(source)
                 structure_documents.append(doc)
 
-        if structure_documents:
-            merged_documents = []
-            seen_ids = set()
+        temario_documents = []
+        if corpus is not None:
+            temario_documents = get_temario_documents_for_subject(corpus, target_subject)
 
-            for doc in structure_documents + filtered_documents:
-                doc_id = doc.metadata.get("id", doc.page_content)
-                if doc_id in seen_ids:
-                    continue
-                seen_ids.add(doc_id)
-                merged_documents.append(doc)
-
-            return merged_documents[:8]
+        merged_documents = merge_unique_documents(
+            temario_documents,
+            rank_documents_for_syllabus(structure_documents + filtered_documents),
+        )
+        return merged_documents
 
     return filtered_documents
 
 # Función para realizar la búsqueda híbrida en ChromaDB + BM25
 def hybrid_search(query, vector_db):
     expanded_query = expand_academic_query(query)
+    listing_query = is_syllabus_listing_query(query)
+    result_limit = SYLLABUS_RESULT_LIMIT if listing_query else DEFAULT_RESULT_LIMIT
 
     #Búsqueda por embeddings
     embedding_results = vector_db.similarity_search(expanded_query, k=15)
@@ -186,9 +348,7 @@ def hybrid_search(query, vector_db):
     ids = corpus["ids"]
     subjects = corpus.get("subjects", [extract_subject_from_source(source) for source in sources])
 
-    #Preparar BM25
-    tokenized_docs = [doc.split() for doc in lemmatized_texts]
-    bm25 = BM25Okapi(tokenized_docs)
+    bm25, lemmatized_index_map = get_bm25_resources(corpus)
 
     #Procesar la consulta para BM25
     lemmatized_query = clean_text(expanded_query)
@@ -196,11 +356,20 @@ def hybrid_search(query, vector_db):
 
     #Recuperar los textos originales correspondientes
     bm25_documents = []
+    sections = corpus.get("sections", [])
     for doc_text in bm25_ranking:
-        idx = lemmatized_texts.index(doc_text)
+        idx = lemmatized_index_map.get(doc_text)
+        if idx is None:
+            continue
+        sections = corpus.get("sections", [])
         bm25_documents.append(Document(
             page_content=original_texts[idx],
-            metadata={"id": ids[idx], "source": sources[idx], "subject": subjects[idx]}
+            metadata={
+                "id": ids[idx],
+                "source": sources[idx],
+                "subject": subjects[idx],
+                "section": sections[idx] if idx < len(sections) else "",
+            },
         ))
 
     #Fusionar resultados sin duplicados
@@ -211,5 +380,7 @@ def hybrid_search(query, vector_db):
         doc.metadata["subject"] = doc.metadata.get("subject") or extract_subject_from_source(source)
         unique_docs[doc.metadata.get("id", doc.page_content)] = doc
 
-    filtered_docs = filter_documents_by_subject(expanded_query, list(unique_docs.values()))
-    return filtered_docs[:8]
+    filtered_docs = filter_documents_by_subject(expanded_query, list(unique_docs.values()), corpus=corpus)
+    if listing_query:
+        filtered_docs = rank_documents_for_syllabus(filtered_docs)
+    return filtered_docs[:result_limit]

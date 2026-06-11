@@ -12,7 +12,7 @@ import core.pdf_processor as pdf_processor
 import core.query_processor as query_processor
 import core.pdf_watcher as pdf_watcher
 
-set_verbose(True)
+set_verbose(False)
 
 
 DB_DIR = "db"
@@ -34,7 +34,7 @@ Reglas obligatorias:
 - Responde solo con base en la asignatura detectada en las fuentes recuperadas.
 - No mezcles contenidos de asignaturas distintas.
 - No expliques temas generales si no están respaldados por el material recuperado.
-- Si el contenido academico academico esta en el microcurriculo pero no cuenta con un detalle suficiente, debes explicarlo usando la estructura obligatoria definida, dando ejemplos, explicando de manera clara y concisa.
+- Si el usuario pide EXPLICAR un tema concreto y el microcurrículo no trae detalle suficiente, debes explicarlo usando la estructura obligatoria definida, dando ejemplos y de manera clara y concisa. Esto NO aplica cuando solo piden listar contenidos o temas.
 - Si el tema no puede validarse con las fuentes recuperadas, debes decirlo explícitamente.
 - Siempre menciona al menos una fuente recuperada por nombre.
 - Interpreta "contenido o contenidos", "tema o temas", "subtema o subtemas", "unidad", "eje temático" y expresiones similares como solicitudes equivalentes sobre la estructura temática de la asignatura y sus correspondientes subtemas.
@@ -42,8 +42,15 @@ Reglas obligatorias:
 - Cuando el usuario pida contenidos o temas de una asignatura, incluye también los subtemas, apartados o desgloses internos que aparezcan en el material recuperado.
 - Si el documento solo menciona temas generales y no desglosa subtemas, dilo explícitamente en lugar de inventarlos.
 
+**Listado de contenidos/temario** (cuando piden enumerar contenidos, temas o subtemas SIN pedir explicación):
+- Reproduce la estructura numerada o jerárquica tal como aparece en las fuentes (1., 1.1, 1.2, 2., etc., o viñetas).
+- NO parafrasees ni resumas: copia los títulos de temas y subtemas del material recuperado.
+- NO mezcles indicadores de logro ni resultados de aprendizaje con el temario.
+- NO añadas ejemplos, bloques de código ni explicaciones extensas.
+- Usa Markdown con listas anidadas para reflejar la jerarquía.
+- Si hay un fragmento marcado como contenidos temáticos del microcurrículo, priorízalo sobre fragmentos generales.
+
 Explicación de **contenidos temáticos** (cuando piden explicar, definir o profundizar un tema de asignatura):
-- Cuando te pidan los contenidos o temas de una asignatura, incluye también los subtemas, apartados o desgloses internos que aparezcan en el material recuperado.
 - No respondas solo con párrafos extensos: usa **Markdown** (títulos `##`/`###`, negritas, listas) para que sea escaneable.
 - **Bloques de código** (fence triple con lenguaje) cuando el tema lo permita: programación, algoritmos, estructuras de datos, SQL, scripts, pseudocódigo, o fragmentos de configuración. Ejemplo de formato: tres backticks, lenguaje, nueva línea, código, cierre con tres backticks. Si no hay lenguaje fijado en las fuentes, usa el más razonable (a menudo **Python** o **pseudocódigo**) e indica que es **ilustrativo/didáctico** y no cita literal de un documento, salvo que el texto recuperado lo traiga.
 - Temas no programáticos: al menos un **artefacto estructurado**—tabla markdown, listas anidadas, caso numérico, o mermaid solo si aporta (opcional). Evita "ejemplos" que sean solo prosa.
@@ -97,18 +104,36 @@ def build_scope_summary(results):
     return dominant_subject, sources_list
 
 
-# Procesar los PDFs (extraer texto, generar resúmenes y almacenar en ChromaDB)
-try:
-    pdf_processor.process_pdfs()
-except Exception as e:
-    st.error(f"Error al procesar los documentos: {e}")
-
-#Cargar la base de datos vectorial
 @st.cache_resource
 def load_chroma():
     embeddings = OpenAIEmbeddings(api_key=os.getenv("API_KEY"))
     return Chroma(persist_directory=DB_DIR, embedding_function=embeddings)
 
+
+def run_pdf_processing(force=False):
+    if force:
+        st.session_state.pdfs_processed = False
+        load_chroma.clear()
+        query_processor.invalidate_search_cache()
+
+    if st.session_state.get("pdfs_processed"):
+        return
+
+    try:
+        pdf_processor.process_pdfs()
+        st.session_state.pdfs_processed = True
+    except Exception as e:
+        st.error(f"Error al procesar los documentos: {e}")
+
+
+# Vigilar microcurrículos: al subir un PDF se extrae el texto automáticamente
+pdf_watcher.start_watcher()
+
+# Indexar solo una vez por sesión (no en cada mensaje del chat)
+if "pdfs_processed" not in st.session_state:
+    st.session_state.pdfs_processed = False
+
+run_pdf_processing()
 vector_db = load_chroma()
 
 col1, col2 = st.columns([0.8, 4])
@@ -117,6 +142,11 @@ with col1:
 with col2:
     st.title("MauroBot Univalle")
     
+with st.sidebar:
+    if st.button("Reindexar documentos"):
+        run_pdf_processing(force=True)
+        st.rerun()
+
 st.divider()
 
 if "messages" not in st.session_state:
@@ -154,12 +184,25 @@ if prompt := st.chat_input("Escribe tu pregunta"):
         st.stop()
 
     dominant_subject, sources_list = build_scope_summary(results)
+    is_syllabus_listing = query_processor.is_syllabus_listing_query(prompt)
 
     retrieved_context = "\n\n\n".join(
         [
-            f'Asignatura "{doc.metadata.get("subject", "desconocido")}" | Fuente ": {doc.page_content}'
+            (
+                f'Asignatura "{doc.metadata.get("subject", "desconocido")}" | '
+                f'Sección "{doc.metadata.get("section") or "general"}" | '
+                f'Fuente "{doc.metadata.get("source", "desconocido")}": {doc.page_content}'
+            )
             for doc in results
         ]
+        )
+
+    listing_instruction = ""
+    if is_syllabus_listing:
+        listing_instruction = (
+            "\nModo de respuesta activo: LISTADO DE TEMARIO. "
+            "Debes devolver todos los temas y subtemas numerados del contexto recuperado, "
+            "sin parafrasear ni sustituirlos por indicadores de logro.\n"
         )
         
     messages = [{"role": msg["role"], "content": msg["content"]} for msg in st.session_state.messages]
@@ -169,6 +212,7 @@ if prompt := st.chat_input("Escribe tu pregunta"):
                             f"Contexto: {new_context}\n"
                             f"Asignatura dominante detectada: {dominant_subject}.\n"
                             f"Fuentes recuperadas: {sources_list}.\n"
+                            f"{listing_instruction}"
                             "Debes responder solo dentro de la asignatura dominante detectada y rechazar cualquier parte de la consulta que no pueda validarse con el contexto recuperado.\n"
                             f"Aqui tienes informacion relevante extraida de documentos oficiales de la Universidad del Valle:\n{retrieved_context}"
                         )

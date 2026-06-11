@@ -1,5 +1,6 @@
 import os
 import re
+import hashlib
 import fitz  # PyMuPDF
 import pytesseract
 import platform
@@ -10,6 +11,8 @@ from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
 import pickle
+
+from core.syllabus_extractor import extract_syllabus
 
 # Configurar la ruta de Tesseract en Windows
 if platform.system() == "Windows":
@@ -24,6 +27,8 @@ PDF_FOLDER = os.path.join("data", "pdfs")
 TEXT_FOLDER = os.path.join("data", "texts")
 DB_DIR = "db"
 BM25_CORPUS_PATH = "bm25_corpus.pkl"
+INDEX_STATE_PATH = "index_state.pkl"
+SYLLABUS_SECTION = "temario"
 
 # Crear directorios si no existen
 os.makedirs(TEXT_FOLDER, exist_ok=True)
@@ -121,13 +126,183 @@ def extract_subject_from_source(source_name):
     return os.path.splitext(os.path.basename(source_name))[0]
 
 
+def load_index_state():
+    if os.path.exists(INDEX_STATE_PATH):
+        with open(INDEX_STATE_PATH, "rb") as file:
+            return pickle.load(file)
+    return {}
+
+
+def save_index_state(state):
+    with open(INDEX_STATE_PATH, "wb") as file:
+        pickle.dump(state, file)
+
+
+def migrate_index_state(index_state):
+    migrated = False
+    for source_name, entry in list(index_state.items()):
+        if isinstance(entry, str):
+            index_state[source_name] = {"hash": entry, "has_temario": None}
+            migrated = True
+    return migrated
+
+
+def compute_text_hash(text):
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
+def ensure_corpus_shape(corpus):
+    defaults = {
+        "originals": [],
+        "lemmatized": [],
+        "ids": [],
+        "sources": [],
+        "subjects": [],
+        "sections": [],
+    }
+    for key, default in defaults.items():
+        if key not in corpus:
+            corpus[key] = list(default)
+    if len(corpus["sections"]) < len(corpus["ids"]):
+        corpus["sections"].extend([""] * (len(corpus["ids"]) - len(corpus["sections"])))
+    return corpus
+
+
+def remove_source_from_index(collection, corpus, source_name):
+    try:
+        stored = collection.get(where={"source": source_name})
+        ids_to_delete = stored.get("ids", [])
+        if ids_to_delete:
+            collection.delete(ids=ids_to_delete)
+    except Exception as exc:
+        print(f"No se pudo eliminar índice previo de {source_name}: {exc}")
+
+    corpus = ensure_corpus_shape(corpus)
+    keep_indices = [index for index, source in enumerate(corpus["sources"]) if source != source_name]
+    filtered = {}
+    for key in ["originals", "lemmatized", "ids", "sources", "subjects", "sections"]:
+        filtered[key] = [corpus[key][index] for index in keep_indices]
+    return filtered
+
+
+def normalize_index_entry(entry):
+    if isinstance(entry, str):
+        return {"hash": entry, "has_temario": None}
+    if isinstance(entry, dict):
+        return entry
+    return {}
+
+
+def source_is_indexed(collection, source_name, index_entry):
+    stored_hash = index_entry.get("hash")
+    if not stored_hash:
+        return False
+
+    try:
+        stored = collection.get(where={"source": source_name})
+        chunk_ids = stored.get("ids") or []
+    except Exception:
+        return False
+
+    if not chunk_ids:
+        return False
+
+    if index_entry.get("has_temario"):
+        return f"{source_name}_temario" in chunk_ids
+
+    return True
+
+
+def needs_reindex_for_source(collection, source_name, text_hash, index_state, text, subject_name):
+    index_entry = normalize_index_entry(index_state.get(source_name))
+    if index_entry.get("hash") != text_hash:
+        return True
+
+    if source_is_indexed(collection, source_name, index_entry):
+        return False
+
+    # Compatibilidad: entradas antiguas sin metadata de temario
+    if index_entry.get("has_temario") is None:
+        syllabus = extract_syllabus(text, subject_name)
+        index_entry["has_temario"] = bool(syllabus)
+        if source_is_indexed(collection, source_name, index_entry):
+            index_state[source_name] = {**index_entry, "hash": text_hash}
+            return False
+
+    return True
+
+
+def lemmatize_chunk(nlp, chunk):
+    doc = nlp(chunk)
+    return " ".join([token.lemma_ for token in doc if not token.is_stop])
+
+
+def index_document_chunks(collection, corpus, nlp, source_name, subject_name, text):
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=500)
+    chunks = text_splitter.split_text(text)
+    syllabus = extract_syllabus(text, subject_name)
+
+    entries = [(index, chunk, "") for index, chunk in enumerate(chunks)]
+    if syllabus:
+        entries.append(("temario", syllabus, SYLLABUS_SECTION))
+
+    documents_to_add = []
+    for index, chunk, section in entries:
+        if index == "temario":
+            chunk_id = f"{source_name}_temario"
+        else:
+            chunk_id = f"{source_name}_{index}"
+
+        metadata = {
+            "source": source_name,
+            "subject": subject_name,
+            "id": chunk_id,
+            "section": section,
+        }
+        documents_to_add.append(Document(page_content=chunk, metadata=metadata))
+
+        corpus["originals"].append(chunk)
+        corpus["lemmatized"].append(lemmatize_chunk(nlp, chunk))
+        corpus["ids"].append(chunk_id)
+        corpus["sources"].append(source_name)
+        corpus["subjects"].append(subject_name)
+        corpus["sections"].append(section)
+
+    if documents_to_add:
+        collection.add_documents(documents_to_add)
+
+    return bool(syllabus)
+
+
 def process_pdfs():
-    """ Procesa los PDFs, extrae texto si no existe y almacena en ChromaDB solo los nuevos. """
+    """ Procesa los PDFs, extrae texto si no existe y almacena en ChromaDB. """
 
     nlp = get_nlp_model()
-
-    # Crear conexión con ChromaDB
     collection = get_chroma_connection()
+    index_state = load_index_state()
+    state_migrated = migrate_index_state(index_state)
+
+    if os.path.exists(BM25_CORPUS_PATH):
+        with open(BM25_CORPUS_PATH, "rb") as file:
+            existing_corpus = pickle.load(file)
+    else:
+        existing_corpus = {
+            "originals": [],
+            "lemmatized": [],
+            "ids": [],
+            "sources": [],
+            "subjects": [],
+            "sections": [],
+        }
+
+    existing_corpus = ensure_corpus_shape(existing_corpus)
+    if "subjects" not in existing_corpus or not existing_corpus["subjects"]:
+        existing_corpus["subjects"] = [
+            extract_subject_from_source(source) for source in existing_corpus["sources"]
+        ]
+
+    initial_len = len(existing_corpus["ids"])
+    corpus_changed = False
 
     for root, _, files in os.walk(PDF_FOLDER):
         for file in files:
@@ -139,75 +314,58 @@ def process_pdfs():
             source_name = os.path.splitext(relative_pdf_path)[0].replace("\\", "/")
             subject_name = extract_subject_from_source(source_name)
 
-            # Ruta de los archivos de texto
             text_relative_path = os.path.splitext(relative_pdf_path)[0] + ".txt"
             text_file = os.path.join(TEXT_FOLDER, text_relative_path)
             os.makedirs(os.path.dirname(text_file), exist_ok=True)
 
-            # Si el texto no ha sido extraído, extraerlo y guardarlo
             if not os.path.exists(text_file):
                 print(f"Extrayendo texto del documento {pdf_path}")
                 text = extract_text_from_pdf(pdf_path)
-                with open(text_file, "w", encoding="utf-8") as f:
-                    f.write(text)
+                with open(text_file, "w", encoding="utf-8") as file_handle:
+                    file_handle.write(text)
             else:
-                with open(text_file, "r", encoding="utf-8") as f:
-                    text = f.read()
+                with open(text_file, "r", encoding="utf-8") as file_handle:
+                    text = file_handle.read()
 
-            # Dividir el texto en fragmentos
-            text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=500)
-            chunks = text_splitter.split_text(text)
+            text_hash = compute_text_hash(text)
+            if not needs_reindex_for_source(
+                collection, source_name, text_hash, index_state, text, subject_name
+            ):
+                entry = normalize_index_entry(index_state.get(source_name))
+                if entry.get("has_temario") is None:
+                    index_state[source_name] = {
+                        "hash": text_hash,
+                        "has_temario": bool(extract_syllabus(text, subject_name)),
+                    }
+                    state_migrated = True
+                continue
 
-            # Verificar qué fragmentos ya están en la base de datos
-            existing_ids = {metadata["id"] for metadata in collection.get()["metadatas"]}
+            print(f"Indexando documento: {source_name}")
+            existing_corpus = remove_source_from_index(collection, existing_corpus, source_name)
+            has_temario = index_document_chunks(
+                collection, existing_corpus, nlp, source_name, subject_name, text
+            )
+            index_state[source_name] = {
+                "hash": text_hash,
+                "has_temario": has_temario,
+            }
+            corpus_changed = True
 
-            if os.path.exists(BM25_CORPUS_PATH):
-                with open(BM25_CORPUS_PATH, "rb") as f:
-                    existing_corpus = pickle.load(f)
-            else:
-                existing_corpus = {
-                    "originals": [],
-                    "lemmatized": [],
-                    "ids": [],
-                    "sources": [],
-                    "subjects": []
-                }
+    if corpus_changed or state_migrated:
+        save_index_state(index_state)
 
-            if "subjects" not in existing_corpus:
-                existing_corpus["subjects"] = [extract_subject_from_source(source) for source in existing_corpus["sources"]]
+    if corpus_changed:
+        with open(BM25_CORPUS_PATH, "wb") as file:
+            pickle.dump(existing_corpus, file)
+        try:
+            from core.query_processor import invalidate_search_cache
+            invalidate_search_cache()
+        except ImportError:
+            pass
 
-            existing_ids_set = set(existing_corpus["ids"])
-            initial_len = len(existing_corpus["ids"])
-
-            # Almacenar solo los fragmentos nuevos en ChromaDB y crear el corpus para BM25
-            for i, chunk in enumerate(chunks):
-                chunk_id = f"{source_name}_{i}"
-                if chunk_id not in existing_ids and chunk_id not in existing_ids_set:
-                    collection.add_documents([
-                        Document(
-                            page_content=chunk,
-                            metadata={"source": source_name, "subject": subject_name, "id": chunk_id}
-                        )
-                    ])
-
-                    # Lematizar para BM25
-                    doc = nlp(chunk)
-                    lemmatized = " ".join([token.lemma_ for token in doc if not token.is_stop])
-                    
-                    existing_corpus["originals"].append(chunk)
-                    existing_corpus["lemmatized"].append(lemmatized)
-                    existing_corpus["ids"].append(chunk_id)
-                    existing_corpus["sources"].append(source_name)
-                    existing_corpus["subjects"].append(subject_name)
-
-
-            if len(existing_corpus["ids"]) > initial_len:
-                with open(BM25_CORPUS_PATH, "wb") as f:
-                    pickle.dump(existing_corpus, f)
-
-    # Si ya existe la base de datos, no procesar nuevamente
-    if os.path.exists(DB_DIR) and os.listdir(DB_DIR):
+    if len(existing_corpus["ids"]) > initial_len or corpus_changed:
+        print("Procesamiento de documentos finalizado.")
+    elif os.path.exists(DB_DIR) and os.listdir(DB_DIR):
         print("Se encontró una base de datos existente")
-        return
-
-    print("Procesamiento de documentos finalizado. Base de datos creada.")
+    else:
+        print("Procesamiento de documentos finalizado. Base de datos creada.")
