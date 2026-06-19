@@ -56,6 +56,42 @@ SYLLABUS_LISTING_TERMS = (
     "cuales son los contenidos",
 )
 
+ADMIN_INFO_TERMS = (
+    "credito",
+    "creditos",
+    "horas",
+    "hora",
+    "prerequisito",
+    "prerrequisito",
+    "prerequisitos",
+    "prerrequisitos",
+    "correquisito",
+    "correquisitos",
+    "validable",
+    "habilitable",
+    "tipo de asignatura",
+    "asignatura basica",
+    "asignatura profesional",
+    "asignatura electiva",
+    "obligatoria",
+    "electiva",
+    "descripcion",
+    "descripcion del curso",
+    "descripcion general",
+    "informacion basica",
+    "informacion de la asignatura",
+    "cuantos creditos",
+    "cuantas horas",
+    "presencial",
+    "independiente",
+    "trabajo independiente",
+    "formacion general",
+    "quien dicta",
+    "que facultad",
+    "unidad academica",
+    "programa academico",
+)
+
 EXPLANATION_TERMS = (
     "explica",
     "explicar",
@@ -137,6 +173,12 @@ def count_subtopics(text):
     return len(SUBTOPIC_PATTERN.findall(text))
 
 
+def is_admin_info_query(query):
+    """Devuelve True cuando la consulta pregunta por datos administrativos de una asignatura."""
+    normalized_query = normalize_label(query)
+    return any(term in normalized_query for term in ADMIN_INFO_TERMS)
+
+
 def expand_academic_query(query):
     normalized_query = normalize_label(query)
     extra_terms = []
@@ -155,6 +197,9 @@ def expand_academic_query(query):
 
     if is_syllabus_listing_query(query):
         extra_terms.extend(["contenidos tematicos", "1.1", "2.1", "subtemas", "temario"])
+
+    if is_admin_info_query(query):
+        extra_terms.extend(["creditos", "horas de trabajo", "informacion basica", "codigo", "microcurriculo"])
 
     if not extra_terms:
         return query
@@ -214,6 +259,33 @@ def extract_subject_from_source(source_name):
     return os.path.splitext(os.path.basename(source_name))[0]
 
 
+STOP_WORDS = {
+    "de", "y", "la", "el", "los", "las", "en", "a", "del", "al", "o", "un", "una",
+    "con", "por", "para", "que", "su", "se", "e", "i", "ii", "iii",
+}
+
+
+def _subject_matches_query(normalized_subject, normalized_query):
+    """Devuelve True si el nombre de la asignatura tiene coincidencia significativa con la consulta.
+
+    Primero intenta coincidencia exacta por substring. Si falla, comprueba si las
+    palabras clave del nombre de la asignatura (sin stopwords y sin el código numérico
+    inicial) están todas presentes en la consulta.
+    """
+    if normalized_subject in normalized_query:
+        return True
+
+    # Eliminar el código de asignatura (ej. "750012c", "111023c") del inicio
+    subject_words = re.sub(r"^\d+\w*\s*", "", normalized_subject).split()
+    meaningful_words = [w for w in subject_words if w not in STOP_WORDS and len(w) > 2]
+
+    if not meaningful_words:
+        return False
+
+    query_words = set(normalized_query.split())
+    return all(w in query_words for w in meaningful_words)
+
+
 def choose_target_subject(query, documents):
     subject_scores = {}
     normalized_query = normalize_label(query)
@@ -224,7 +296,7 @@ def choose_target_subject(query, documents):
         subject = doc.metadata.get("subject") or extract_subject_from_source(source)
         score = max(1, len(documents) - position)
 
-        if normalize_label(subject) in normalized_query:
+        if _subject_matches_query(normalize_label(subject), normalized_query):
             score += len(documents)
             explicit_subject_match = True
 
@@ -232,9 +304,6 @@ def choose_target_subject(query, documents):
 
     if not subject_scores:
         return None
-
-    if explicit_subject_match:
-        return max(subject_scores, key=subject_scores.get)
 
     return max(subject_scores, key=subject_scores.get)
 
@@ -335,6 +404,7 @@ def filter_documents_by_subject(query, documents, corpus=None):
 def hybrid_search(query, vector_db):
     expanded_query = expand_academic_query(query)
     listing_query = is_syllabus_listing_query(query)
+    admin_query = is_admin_info_query(query)
     result_limit = SYLLABUS_RESULT_LIMIT if listing_query else DEFAULT_RESULT_LIMIT
 
     #Búsqueda por embeddings
@@ -374,6 +444,26 @@ def hybrid_search(query, vector_db):
 
     #Fusionar resultados sin duplicados
     all_documents = embedding_results + bm25_documents
+
+    # Para consultas administrativas, inyectar los primeros chunks (información básica)
+    # de cada microcurrículo que coincida por nombre con la consulta.
+    if admin_query:
+        normalized_q = normalize_label(query)
+        seen_admin_subjects = set()
+        admin_docs = []
+        corpus_subjects = corpus.get("subjects", [])
+        for idx, subject in enumerate(corpus_subjects):
+            if subject in seen_admin_subjects:
+                continue
+            if _subject_matches_query(normalize_label(subject), normalized_q):
+                seen_admin_subjects.add(subject)
+                # Inyectar los primeros 3 chunks del documento (portada + descripción)
+                for offset in range(3):
+                    target_idx = idx + offset
+                    if target_idx < len(corpus_subjects) and corpus_subjects[target_idx] == subject:
+                        admin_docs.append(build_document_from_corpus(corpus, target_idx))
+        all_documents = admin_docs + all_documents
+
     unique_docs = {}
     for doc in all_documents:
         source = doc.metadata.get("source", "")

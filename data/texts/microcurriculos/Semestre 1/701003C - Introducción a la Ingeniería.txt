@@ -1,0 +1,119 @@
+.
+
+INFORMACIÓN DE LA ASIGNATURA Código – Nombre ** INTRODUCCIÓN A LA INGENIERÍA Créditos 2 Horas de trabajo Presencial: 2 horas semanales Independiente: 4 horas semanales Unidad Académica que ofrece Facultad de Ingeniería Programa(s) Académico(s) Todas las unidades académicas de la Facultad de Ingeniería Universidad del Valle Prerrequisitos/correquisitos
+
+Validable NO Habilitable NO Tipo de Asignatura Básica La asignatura favorece la Formación General Lenguaje y Comunicación - Científico Tecnológico (Sí) x (No)
+
+DESCRIPCIÓN DEL CURSO El espacio formativo de Introducción a la ingeniería tiene como propósito que los estudiantes se acerquen al quehacer de la ingeniería y a otros aspectos ligados al ejercicio de su profesión, reconociendo la importancia de la ingeniería en la sociedad; además, de permitirles a los estudiantes reflexionar respecto a su vocación y los compromisos que enfrentará. Usando los contenidos como camino, las actividades formativas de la asignatura buscan desarrollar en el estudiante capacidades de aprendizaje autónomo, así como competencias para el trabajo en equipo y la comunicación;
+
+adicionalmente, actitudes receptivas y flexibles para el trabajo con los demás. El estudiante será iniciado en identificación de proyectos o iniciativas de ingeniería, comprendiendo los fundamentos teóricos y metodológicos utilizados en la ingeniería para la visualización de posibles soluciones a problemas básicos, a partir de la estrategia metodológica de aprendizaje basado en problemas y el abordaje bajo un enfoque de pensamiento sistémico. El desarrollo de la asignatura permitirá al estudiante interactuar con sus pares y con profesores de otras disciplinas. El estudiante hará parte de equipos de trabajo, con la orientación del docente del curso, para conocer las etapas necesarias en el desarrollo de proyectos de ingeniería. Se desarrollarán clases de fundamentación teórica, complementada con sesiones de trabajo en grupo, para lo cual los estudiantes deben haber preparado materiales e información requeridos en las sesiones de trabajo colaborativo.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+.
+
+DESARROLLO DEL CURSO
+
+SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC1. Comprensión de las ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina.
+
+RA1. Identifica fundamentos históricos, métodos y herramientas de la ingeniería y las competencias del ingeniero Univalluno desde un enfoque interdisciplinario para reconocer el rol de la ingeniería y su compromiso ético en la solución de problemas cotidianos.
+
+∙ Conceptos de Ingeniería.
+
+∙ Rasgos Históricos de la Ingeniería.
+
+∙ El ingeniero Univalluno
+
+∙ La ingeniería y problemas de la sociedad actual.
+
+∙ Ética en ingeniería
+
+∙ Ciencia, Tecnología e Innovación.
+
+∙ Teoría general de sistemas. El pensamiento Sistémico en la solución de problemas.
+
+RA2. Distingue la interacción existente entre las ciencias naturales, las matemáticas y la ingeniería en el entorno ambiental para abordar problemas cotidianos.
+
+SCC3. Pensamiento crítico, Pensamiento creativo, sistémico, aprendizaje autónomo, aprendizaje permanente.
+
+RA3. Reconoce el pensamiento sistémico en el abordaje de problemas cotidianos con el fin de comprender la complejidad de las soluciones.
+
+SCC5. Competencia para el trabajo en equipo y comunicación RA4. RA4.  Identifica los elementos más importantes de la comunicación escrita, con el fin de reconocer la importancia de su uso en la producción de textos académicos generales.
+
+SCC8. Capacidad para desarrollar iniciativas de ingeniería.
+
+RA5. Describe las diferencias entre creatividad, mejoramiento, invención e innovación en iniciativas de ingeniería a fin de reconocerlas en la solución de un problema.
+
+RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO RA1 IL1.1: Reconoce las sensibilidades, capacidades y competencias que caracterizan al ingeniero univalluno a partir de la lectura de la normativa de facultad IL1.2: Describe y diferencia los métodos y herramientas de las distintas ramas de la ingeniería a partir del reconocimiento del objeto de estudio de cada una de ellas.
+
+IL1.3: Describe el aporte de la ingeniería en sus diferentes disciplinas, en la revisión de soluciones que fueron dadas a problemas cotidianos.
+
+∙ La definición de ingeniería y las funciones de un ingeniero.
+
+∙ El origen de las ramas de la ingeniería y su objeto de estudio.
+
+∙ Necesidades de formación del ingeniero moderno: Perfil del Ingeniero Univalle ∙ La Estadística como herramienta fundamental en la Ingeniería.
+
+∙ Cada grupo (tres programas de Ingeniería) tendrá un espacio a partir de la semana III para reconocer a partir de (ABP):
+
+RA2 IL2.1: Describe la asociación entre las ramas de la ingeniería y las ciencias básicas en la identificación de los problemas cotidianos y las soluciones planteadas a los mismos.
+
+.
+
+∙ Ámbitos de formación.
+
+∙ Perfil egreso y ocupacional.
+
+∙ Relación con otras disciplinas ∙ Innovaciones de desarrollo tecnológico e investigativo ha tenido la Ingeniería.
+
+∙ Impactos ambientales (sociales, ecológicos, económico, cultural y político) ∙ Retos actuales y en prospectiva ∙ Códigos de ética y regulaciones.
+
+∙ Fracasos.
+
+RA3 IL3.1: Reconoce la visión sistémica de la realidad e interpreta las relaciones existentes entre los elementos vinculados a una situación problema y sus efectos de retroalimentación con el sistema.
+
+Los problemas cotidianos y la definición de sistema. Conceptos básicos del pensamiento sistémico*.
+
+RA4 IL 4.1: Se expresa oralmente y por escrito de manera clara y estructurada para describir un problema cotidiano ante sus compañeros de clase Pautas para comunicarse en un entorno académico*.
+
+RA5 IL 5.1: Ejemplifica iniciativas de ingeniería consideradas invenciones/innovaciones a partir de la comprensión Conceptos básicos de ciencia, tecnología e innovación en ingeniería*.
+
+*Estos conceptos deben ser desarrollados para cada ingeniería a lo largo de todo el espacio formativo.
+
+METODOLOGÍA Este espacio formativo integra a todos los estudiantes de la Facultad de Ingeniería y a quienes estén interesados en el reconocimiento de la Ingeniería, su contexto histórico, el perfil del ingeniero univalluno y los aportes a la sociedad. Para esto se utilizarán en las sesiones iniciales (Sesión I y II), presentaciones magistrales con apoyo de videos en donde se muestren las generalidades de la Ingeniería. Como parte de la metodología se tendrá en cuenta el seguimiento al aprendizaje en esta primera etapa del curso con plataformas online que permite la creación de cuestionarios.
+
+El curso fomentará el trabajo colectivo, donde cada grupo conformado por docentes de distintos programas de la Facultad de Ingeniería, se irán rotando. Esto se realizará a partir de la Sesión III, en donde se abordará un problema cotidiano de la sociedad, el cual se discutirá y se analizará a la luz de lo que plantea cada ingeniería, teniendo en cuenta la estrategia metodología de aprendizaje basado en problemas (ABP). Los docentes de cada grupo llevarán problemas reales al espacio formativo.
+
+Los estudiantes tendrán el espacio para reflexionar sobre el campo de acción de cada ingeniería, analizando los aportes desde cada disciplina y los retos a los cuales se enfrentan en la sociedad actual, para ello se realizaran talleres, exposiciones, debates entre otras herramientas de enseñanza - aprendizaje. Se fomenta, además el trabajo en equipo, las habilidades comunicativas y el uso adecuado del lenguaje.  Cabe resaltar que por ser un espacio formativo que apunta a la componente de Lenguaje y Comunicación de la Formación
+
+.
+
+General de la Universidad del Valle, se espera contar con el acompañamiento del Departamento de Lingüística.
+
+EVALUACIÓN DEL CURSO Este espacio formativo se evaluará teniendo como referente los resultados de aprendizaje definidos, a través de una variedad de estrategias que van desde el reconocimiento del trabajo colectivo, las tareas escritas y actividades en clase, autoevaluación y coevaluación.  El acompañamiento para el fortalecimiento de la comunicación oral y escrita, será un aspecto trasversal a lo largo de este curso, que se tendrá en cuenta tanto en las actividades formativas y evaluativas que se plantean.
+
+RA Evaluación % Total RA1 Tareas escritas y actividades en clase 18 22% Autoevaluación 2 Coevaluación 2 RA2 Trabajo colectivo 10 22% Tareas escritas y actividades en clase 10 Autoevaluación 1 Coevaluación 1 RA3 Trabajo colectivo 10 22% Tareas escritas y actividades en clase 10 Autoevaluación 1 Coevaluación 1 RA4 Tareas escritas y actividades en clase 10 12% Autoevaluación 1 Coevaluación 1 RA5 Tareas escritas y actividades en clase 18 22% Autoevaluación 2 Coevaluación 2 Total 100% RECURSOS DE APOYO Auditorios, salones equipados con medios audiovisuales, Bases de datos de la biblioteca.
+
+.
+
+BIBLIOGRAFÍA
+
+  E.V. KRICK. Introducción a la Ingeniería y al Proyecto de Ingeniería. Editorial Limusa.
+
+  P.H. WRIGHT. Introducción a la Ingeniería. Editorial Addison-Wesley Iberoamericana.
+
+  P. GRECH. Introducción a la Ingeniería. Editorial Prentice Hall.
+
+  J. O´CONNOR, I. MCDERMOTT. Introducción al pensamiento sistémico. Editorial Urano.
+
+  J.C. OSORIO. Introducción al pensamiento sistémico.  Programa Editorial Universidad del Valle.
+
+  R.L. ACKOFF. El arte de resolver problemas. Editorial Limusa   P.M. SENGE. La Quinta Disciplina. Editorial Granica.

@@ -1,0 +1,121 @@
+TALLER DE INGENIERÍA I INFORMACIÓN DEL ESPACIO FORMATIVO Código - Nombre Taller de Ingeniería I Créditos 3 Horas de trabajo Presencial: 3 horas semanales Independiente: 6 horas semanales Unidad Académica que lo ofrece Facultad de Ingeniería Programa(s) Académico(s) Todos los Programas de la Universidad Prerrequisitos/correquisitos Ninguno Validable No Habilitable No Tipo de Asignatura Básica La asignatura favorece la Formación General Científico Tecnológico – Lenguaje y Comunicación (Sí) x (No) DESCRIPCIÓN DEL CURSO La asignatura taller de ingeniería I tiene por objetivo, introducir a los estudiantes en la identificación de un problema y el diseño de una solución desde la ingeniería; para ello, el estudiante conocerá y utilizará algunas herramientas de búsqueda de información, representación matemática, diagnóstico, técnicas de evaluación y elección de alternativas de solución a partir de actividades teórico- prácticas como: talleres e identificación de casos. Este espacio formativo busca además, desarrollar en el estudiante competencias para el trabajo en equipo y la comunicación, como también fomentar espacios para que los estudiantes adquieran actitudes receptivas y flexibles para el trabajo con los demás y a su vez favorezca la inserción al mundo académico. Al igual que los cursos de Inserción a la vida Universitaria e Introducción a la Ingeniería, estos espacios apuntan a fortalecer el componente de lenguaje y comunicación, a partir de una estrategia de acompañamiento con los grupos de apoyo con los que cuenta la Facultad.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+** .
+
+DESARROLLO DEL CURSO SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC2.
+
+Capacidad de Resolución de problemas de ingeniería RA1:
+
+Representa problemas mediante las matemáticas, el lenguaje o la expresión visual recopilando información pertinente para describirlos a partir de su identificación y la de sus causas.
+
+Problemáticas y diseño de soluciones desde la Ingeniería.
+
+RA2: Selecciona soluciones a problemas con criterios concretos y pertinentes a partir de un grupo de propuestas para reconocer la importancia de considerar diferentes contextos SCC4. Comprensión de su entorno y sus responsabilidades éticas RA3:
+
+Identifica un problema contemporáneo (ambiental, social, cultural, o económico), en su contexto laboral, local, nacional o internacional a fin de reconocer la importancia del trabajo interdisciplinar SCC5. Competencia para el trabajo en equipo y comunicación RA4: Participa de forma activa y responsable en el trabajo colectivo y muestra una buena actitud hacia el grupo para fortalecer su capacidad de trabajo en equipo.
+
+RA5: Emplea el español de forma correcta y estructurada para expresar sus ideas oralmente.
+
+RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO RA1 IL1.1: Describe una problemática de ingeniería a partir de la compresión de casos interdisciplinarios.
+
+IL1.2: Utiliza software especializado en la representación matemática de datos.
+
+IL.1.3: Identifica las herramientas que se utilizan en el diagnóstico de un problema.
+
+INTRODUCCIÓN Dinámica de trabajo en equipo:
+
+actividad, acercamiento, reconocimiento. Apoyo al grupo de trabajo social.
+
+Principios y herramientas para el trabajo colaborativo.
+
+EL PROBLEMA Identificación del problema Identificación de las disciplinas alrededor del problema, roles y aportes de la ingeniería en su solución.
+
+Taller: Herramientas de búsqueda de información: Recolección de datos.
+
+RA2 IL2.1: utiliza diagramas de diseño en la representación de un modelo de solución propuesto.
+
+IL2.2: Reconoce la diversidad de soluciones que se pueden presentar según el contexto y la disciplina que lo estudia.
+
+RA3 IL.3.1: Reconoce las herramientas de búsqueda de información utilizadas en distintos contextos.
+
+IL 3.2.Distingue los factores que deben tenerse .
+
+Entrevistas.
+
+Taller GRACA: Elaboración de Informe escrito - Prueba Diagnóstica GRACA EL PROBLEMA:
+
+Recolección y presentación de la información necesaria:
+
+Representación matemática y gráfica de datos, tendencias y funciones.
+
+Taller de representación matemática y gráfica con software especializado, herramientas de representación EL PROBLEMA:
+
+Diagnóstico Análisis de causas y efectos, (espina de pescado) planteamiento de hipótesis.
+
+EL PROBLEMA:
+
+Formulación Planteamiento del problema:
+
+definición de objeto, alcance, forma de redacción, uso del lenguaje en el área Taller de oralidad: GRACA CONCEPCIÓN DE LA SOLUCIÓN:
+
+Búsqueda de soluciones creativas:
+
+generación, evaluación y elección de alternativas: Técnicas de evaluación y elección de alternativas.
+
+DISEÑO CONCEPTUAL DE LA SOLUCIÓN:
+
+Pasar de la idea al diseño preliminar:
+
+Se detalla el diseño de la solución:
+
+Diagramas de proceso, Diagramas de flujo, Diagramas de bloques, diagramas de Estados para especificación de la solución.
+
+en cuenta para el planteamiento de un problema a partir diversas disciplinas de la ingeniería.
+
+RA4 IL 4.1. Asiste a las actividades y dinámicas diseñadas para el fortalecimiento del trabajo en equipo.
+
+IL 4.2 Muestra una actitud receptiva y reflexiva en su relación con los demás a partir de la participación en cada uno de los talleres.
+
+IL 4.3 Organiza la presentación de las alternativas de solución a partir de las decisiones tomadas colectivamente.
+
+IL 4.4. Expresa su opinión sobre los trabajos realizados por sus compañeros de una manera respetuosa y asertiva.
+
+RA5 IL 5.1 Reconoce sus fortalezas y debilidades en la producción de informes escritos a partir de una prueba diagnóstica.
+
+IL 5.2. Realiza presentaciones a partir del reconociendo de su experiencia en el taller de oralidad.
+
+IL 5.3. Expresa sus opiniones en la selección de una solución a partir de una dinámica de consenso.
+
+.
+
+METODOLOGÍA Este espacio formativo se realiza a partir de múltiples estrategias pedagógicas, que van desde presentaciones de los temas por parte del docente, exposiciones de casos, dinámicas de trabajo en grupos, uso de tecnología y talleres. Se espera que los estudiantes desarrollen un proyecto, donde identifiquen un problema y propongan una solución desde la ingeniería. Durante el proyecto, los estudiantes trabajarán en equipos para aplicar los conceptos y técnicas desarrollados por el profesor.
+
+Los estudiantes realizarán reportes escritos, presentaciones orales y utilizarán rúbricas que les permitirán hacer seguimiento del proceso formativo al interior de su equipo y con los demás.
+
+RECURSOS DE APOYO Salón con mesas, proyector y sala de cómputo.
+
+Se usa el campus virtual para la coordinación de las actividades del curso.
+
+Acceso a la biblioteca con sus bases de datos digitales.
+
+EVALUACIÓN DEL CURSO:
+
+El curso será evaluado por medio de actividades individuales y grupales que evidencian el alcance de los resultados de aprendizaje propuestos. Las actividades de evaluación están alrededor del proyecto realizado en dos fases: 1) El problema y 2) El diseño de una solución. Se reporta por escrito y de forma oral cada fase.
+
+RA % Posibles Actividades Evaluativas RA1 30 Informes Escrito Presentación oral RA2 30 Informes Escrito Presentación oral Trabajo en equipo basado en rúbricas Coevaluación RA3 15 RA4 10 Trabajo en equipo basado en rúbricas Coevaluación RA5 15 Presentación oral basado en rúbricas Coevaluación Total 100% .
+
+BIBLIOGRAFÍA (por completar) Anónimo, (2017) Técnicas para la Búsqueda de Soluciones Creativas.
+
+http://tecnicasdedireccion.cubava.cu/tecnicas-para-la-busqueda-de-soluciones-creati vas/ E.  V.  Krick, (2010). Introducción a la Ingeniería y al diseño en la ingeniería. Tercera edición. Editorial Limusa, México.
+
+Sole, M; Monserrat, C & Collado. A. (2015). Rúbricas para la Valoración del Trabajo en Equipo.  Universidad de Barcelona.  http://hdl.handle.net/2445/63266.
+
+.

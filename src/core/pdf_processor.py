@@ -12,7 +12,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
 import pickle
 
-from core.syllabus_extractor import extract_syllabus
+from core.syllabus_extractor import extract_syllabus, EXTRACTOR_VERSION
 
 # Configurar la ruta de Tesseract en Windows
 if platform.system() == "Windows":
@@ -199,8 +199,9 @@ def source_is_indexed(collection, source_name, index_entry):
         return False
 
     try:
-        stored = collection.get(where={"source": source_name})
+        stored = collection.get(where={"source": source_name}, include=["metadatas"])
         chunk_ids = stored.get("ids") or []
+        metadatas = stored.get("metadatas") or []
     except Exception:
         return False
 
@@ -208,7 +209,8 @@ def source_is_indexed(collection, source_name, index_entry):
         return False
 
     if index_entry.get("has_temario"):
-        return f"{source_name}_temario" in chunk_ids
+        meta_ids = {meta.get("id") for meta in metadatas if meta}
+        return f"{source_name}_temario" in meta_ids
 
     return True
 
@@ -216,6 +218,11 @@ def source_is_indexed(collection, source_name, index_entry):
 def needs_reindex_for_source(collection, source_name, text_hash, index_state, text, subject_name):
     index_entry = normalize_index_entry(index_state.get(source_name))
     if index_entry.get("hash") != text_hash:
+        return True
+
+    # Re-indexar si el extractor mejoró y el documento no tenía temario extraído
+    stored_version = index_entry.get("extractor_version", 0)
+    if stored_version < EXTRACTOR_VERSION and not index_entry.get("has_temario"):
         return True
 
     if source_is_indexed(collection, source_name, index_entry):
@@ -226,7 +233,7 @@ def needs_reindex_for_source(collection, source_name, text_hash, index_state, te
         syllabus = extract_syllabus(text, subject_name)
         index_entry["has_temario"] = bool(syllabus)
         if source_is_indexed(collection, source_name, index_entry):
-            index_state[source_name] = {**index_entry, "hash": text_hash}
+            index_state[source_name] = {**index_entry, "hash": text_hash, "extractor_version": EXTRACTOR_VERSION}
             return False
 
     return True
@@ -269,7 +276,8 @@ def index_document_chunks(collection, corpus, nlp, source_name, subject_name, te
         corpus["sections"].append(section)
 
     if documents_to_add:
-        collection.add_documents(documents_to_add)
+        chunk_ids = [doc.metadata["id"] for doc in documents_to_add]
+        collection.add_documents(documents_to_add, ids=chunk_ids)
 
     return bool(syllabus)
 
@@ -348,6 +356,7 @@ def process_pdfs():
             index_state[source_name] = {
                 "hash": text_hash,
                 "has_temario": has_temario,
+                "extractor_version": EXTRACTOR_VERSION,
             }
             corpus_changed = True
 
