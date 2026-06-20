@@ -1,0 +1,45 @@
+Desarrollo de Software I INFORMACIÓN BÁSICA Código y Nombre 750009C - Desarrollo de Software I Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Prerrequisitos 750006C - Bases de datos Validable Sí Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Lenguaje y Comunicación Si X No DESCRIPCIÓN GENERAL DEL CURSO Esta asignatura está orientada a desarrollar en el estudiante habilidades y adquirir experiencia práctica en el desarrollo de aplicaciones de software y trabajo de equipo. Durante el curso se estudiarán conceptos fundamentales sobre la ingeniería de software y metodologías de desarrollo de software haciendo énfasis en metodologías ágiles, adicionalmente se aplicarán estos conceptos en el desarrollo de un proyecto de desarrollo de software web de tamaño mediano en grupos de 4 a 6 personas y para su desarrollo se usarán nuevas tecnologías de backend y frontend, igualmente para la administración y seguimiento del proyecto se usarán herramientas colaborativas.
+
+En el proceso de desarrollo de software se utilizarán las prácticas ágiles más usadas en la industria de software, factores de calidad de procesos de desarrollo de software estandarizados, técnicas para para especificar los requerimientos del sistema mediante historias de usuario y estrategias para definir la arquitectura del sistema. El desarrollo será basado en sprints o ciclos de iteración cortos, organización de los equipos de desarrollo por roles, sincronización flujo de trabajo definido usando un manejador de versiones, orientado a pruebas aplicando algunas prácticas de integración continua y estrategias de despliegue de aplicaciones en la nube.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.2: Evaluar factores de calidad estandarizados (v.gr.
+
+eficiencia,seguridad, portabilidad) durante la valoración de uno o varios productos de software.
+
+R.A.1: Comprende los conceptos fundamentales que rigen la ingeniería de software (Definición de ingeniería de software, ciclo de vida del software y metodologías de desarrollo de software) e identifica y caracteriza las ventajas y desventajas de las metodologías de desarrollo de software (tradicionales y ágiles) Conceptos fundamentales de la ingeniería de software, prácticas usadas en las metodologías ágiles de desarrollo de software desde el análisis hasta el despliegue de aplicaciones de software.
+
+R.A.2: Especifica los requerimientos del sistema considerando las necesidades del cliente con el fin de diseñar, Implementar, validar y desplegar un sistema de acuerdo al diseño aprobado usando prácticas ágiles, con el fin de presentar el sistema desarrollado.
+
+C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación R.A.3: Aplica diferentes formas y herramientas de comunicación usando informes escritos y presentaciones orales para expresar sus ideas al solucionar problemas.
+
+Metodología para la redacción y escritura de informes técnicos y Estrategias de presentación oral.
+
+METODOLOGÍA El curso se desarrolla en clases semanales de 3 horas repartidas en horas teóricas y horas de práctica y se realiza en salones orientados a trabajo en equipo. El curso estará centrado en el desarrollo y presentación de avance del proyecto del curso. Se realizarán talleres para entender el funcionamiento, uso de las tecnologías de desarrollo y herramientas de gestión y control de proyectos.
+
+Durante las diferentes actividades del proyecto y en fechas específicas cada equipo debe hacer entregas escritas y presentaciones orales de avance del proyecto, las cuales estarán orientadas a resolver problemas relacionados con los resultados de aprendizaje que se quieren alcanzar.
+
+Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso de plataformas interactivas y de gamificación en el aula que permitan revisar las competencias y los indicadores de logro, la revisión de videos de las unidades que componen el curso y las clases magistrales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de un salón para trabajo en equipo con acceso a internet, con puestos individuales de trabajo y que esté provisto de video beam o televisores conectados a Internet. Además, de las guías de acceso virtual, también se usarán aplicaciones de trabajo en la nube y uso del campus virtual.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos tales como laboratorios prácticos y el proyecto. Además, se tienen dos evaluaciones parciales que se aplicarán, una en la octava semana de clase y la otra al final del semestre. Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Porcentaje parcial % Actividades evaluativas R.A.1 40 Parcial 1, Quices, Exposiciones, Avances proyecto R.A.2 55 Parcial 2, Tareas, Quices, Exposiciones, Avances proyecto R.A.3 5 Informes escritos del proyecto, Presentaciones orales del proyecto TOTAL 100 BIBLIOGRAFÍA 1. Adam Przybyłek and Miguel Ehécatl Morales-Trujillo. Advances in Agile and User-Centred Software Engineering: Third International Conference on Lean and Agile Software Development, LASD 2019. 2020.
+
+2. Mark Merkow. Secure, Resilient, and Agile Software Development, 2019.
+
+3. Konnor Cluster. Agile Project Management Learn How To Manage a Project With Agile Methods, Scrum, Kanban and Extreme Programming. 2019.
+
+4. Bob Erickson. The Geodesic Developer, A Guide to Software Development in the Post-Agile World, 2019 5. Pedro M. Santos, Marco Consolaro, Alessandro Di Gioia. Agile Technical Practices Distilled 6. Become agile and efficient by mastering software design. 2019.
+
+7. Dave Todaro. The Epic Guide to Agile, More Business Value on a Predictable Schedule with Scrum, 2019.
+
+8. Gary Metcalfe. Lean Software Development. 3 Books in 1: Avoiding Project Mishaps: An Introduction Of A Guide Beyond the Basics+Efficient Deployment Strategies: An Expert's Guide. 2019 9. Artículos y enlaces provistos en el campus virtual.

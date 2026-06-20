@@ -1,0 +1,49 @@
+Sistemas Operativos INFORMACIÓN BÁSICA Código y Nombre 750001C Sistemas Operativos Créditos 4 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 9 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de Sistemas Prerrequisitos Fundamentos de Programación Orientada a Objetos (750015C) Validable Si Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No x DESCRIPCIÓN GENERAL DEL CURSO El curso de Sistemas Operativos tiene como objetivo el brindar al estudiante una visión general de la manera como a través de diferentes algoritmos se logra la gestión de los recursos de hardware e identificar cuales son aquellos servicios ofrecidos por los sistemas operativos que permiten un uso simplificado de estos recursos de hardware. A través del estudio de diferentes algoritmos usados en la gestión del hardware del computador el estudiante tendrá la oportunidad de aprehender diferentes estrategias que podrá aplicar en otros contextos del quehacer del Ingeniero de Sistemas como puede ser la gestión de datos, lenguajes de programación e Inteligencia Artificial, entre otras.
+
+El curso se fundamenta en dos grandes ideas (o ideas principales):
+
+1.
+
+Los sistemas operativos como productos de software clave en la gestión de los recursos de hardware 2.
+
+Los sistemas operativos como productos de software encargados de brindar una versión simplificada del hardware sobre el que ellos se ejecutan No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.10: Diseñar y desplegar soluciones de servicios en infraestructura tecnológica orientadas a resolver requerimientos de los clientes R.A.1: Aplica las técnicas y algoritmos empleados en los sistemas operativos para la gestión de recursos de hardware y la virtualización que estos sistemas hacen de los recursos computacionales Describe los objetivos y las funciones de sistemas operativos contemporáneos relacionadas con conveniencia, eficiencia y capacidad de adaptación para evolucionar Identifica las diferencias en diseño entre los sistemas operativos distribuidos, centrados en la red, cliente/servidor y los sistemas operativos clásicos Identifica a los procesos como una abstracción del sistema operativo para el uso de la CPU Lleva a cabo la gestión de procesos a través del API de procesos Describe la diferencia de diseño entre procesos e hilos Evidencia los problemas de la ejecución concurrente y resume los posibles mecanismos que pueden ser empleados a nivel del sistema operativo para mitigar la aparición de los problemas evidenciados Compara y contrasta los algoritmos comúnmente usados para planificación expropiativa y no-expropiativa de procesos en sistemas operativos Identifica las maneras como la lógica alrededor de los algoritmos de planificación son aplicables a otros dominios, agendamiento en redes, planificación de proyectos y otros problemas más allá de la computación Explicar la jerarquía de memoria y cómo afecta esta la relación costo-beneficio Describe los tipos de virtualización (virtualización completa, paravirtualización, emulación, virtualización a nivel del sistema operativo) y sus beneficios Lleva a cabo tareas propias de la gestión de máquinas virtuales en ambientes de hipervisor y a nivel del sistema operativo
+
+Explica el concepto de buffering y describe estrategias de implementación Enumera las diferentes formas usadas para el diseño de sistemas de archivos tales como journaling y log-structured Explica la relevancia de la tolerancia a fallos, confiabilidad y disponibilidad;
+
+en la operación de los sistemas operativos ante la aparición eventos contrarios a la normal operación de los sistemas de cómputo C.G.4: Mostrar una actitud receptiva, propositiva, crítica y reflexiva en su relación con los demás en el ejercicio de su profesión R.A.2: Trabaja en equipo, desempeñando unas tareas específicas y comunicando sus ideas para llevar a cabo el despliegue de un sistema operacional que soporta diferentes servicios y diferentes usuarios con niveles mínimos de seguridad Establecimiento de un plan de trabajo, definición de roles en el equipo de trabajo y un cronograma con sus respectivos entregables que permitan establecer el progreso y cumplimiento de las tareas asignadas a cada miembro del equipo de trabajo.
+
+Desarrollan informe audio-visual de forma colaborativa y donde se evidencia la participación de los integrantes del grupo METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje de cada gran idea; en esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen video clips, notas de clase, libros de referencia, ejercicios asignados para solución individual o en pequeños grupos.
+
+● Clase invertida significa que para cada una de las unidades del curso en la que se llega a los resultados de aprendizaje de cada gran idea hay tres momentos en el proceso:
+
+o Antes de la clase magistral, el estudiante debe revisar los objetos de estudio que pide la guía de estudio para dicho componente del curso, apropiar los conceptos de que se trate y aplicarlos en los ejercicios asignados.
+
+o Durante la clase magistral, los estudiantes y el profesor interactúan alrededor de situaciones problemáticas que permitan detectar y resolver conceptos errados o pre-requeridos, así como ganar comprensión de los conceptos en estudio y hacer aplicación de los mismos en contextos relevantes.
+
+o Después de la clase magistral, el estudiante debe  completar la ejercitación que haga falta poder demostrar que sabe lo que se señala el objetivo específico. En cada módulo hay una guía de estudio que especifica qué indicadores de logro están asociados a cada unidad del curso y resultado de aprendizaje.
+
+RECURSOS DE APOYO El curso cuenta con material disponible en forma digital: libros, páginas web, y videos. Los estudiantes inicialmente interactuarán con el material en video a través de una plataforma que permite validar el conocimiento que los estudiantes van adquiriendo a medida que avanzan con los videos.
+
+Los libros y páginas web disponibles en Internet serán usados para tener un conocimiento más a fondo de los temas bajo estudio. Este material escrito y disponible digitalmente le permitirá a los estudiantes ahondar en los temas tratados en el video y con este estudio a mayor profundidad podrán llevar a cabo las asignaciones que se presentan a medida que se avanza en el material bajo estudio.
+
+EVALUACIÓN DEL CURSO Mediante la solución de situaciones problemáticas acerca de los conceptos en estudio y de su aplicación en contexto, se espera que los participantes en el curso puedan comprobar y demostrar qué tanto entienden y aplican de lo que estudian. En unos casos la información de retorno será auto-administrada y con apoyo de medios (notas, textos, software), en otros requiere discusión con compañeros acerca de las soluciones propias y ajenas y en otros será brindada por el profesor, según se trate de trabajos de taller o de exámenes.
+
+La siguiente tabla visualiza la estructura de RA (resultados de aprendizaje) y su valor relativo (peso) en la nota final de cada uno de las instancias de evaluación de los aprendizajes (Parciales, quizes, exposición-investigación).
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+RA % Posibles actividades evaluativas R.A.1 70.0 Parcial 1, Parcial 2, Quizes, Tareas R.A.2 30.0 Exposición-Investigación TOTAL 100 BIBLIOGRAFÍA [0] Videos en YouTube disponibles en el canal de John Sanabria - john.sanabria@correounivalle.edu.co [1] Arpaci-Dusseau, A. C. (2018, September 1). Operating Systems: Three Easy Pieces (1.00).
+
+CreateSpace Independent Publishing Platform.
+
+[2] Operating Systems: Internals and Design Principles, Global Edition. (2017, January 1). Pearson.

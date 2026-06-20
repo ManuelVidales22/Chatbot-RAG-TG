@@ -1,0 +1,75 @@
+Desarrollo de Software III INFORMACIÓN BÁSICA Código y Nombre 750027C - Desarrollo de Software III Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de sistemas Prerrequisitos 750021C - Desarrollo de Software II Validable Sí Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Lenguaje y Comunicación Si X No DESCRIPCIÓN GENERAL DEL CURSO Esta asignatura está orientada a desarrollar en el estudiante habilidades en las prácticas de ingeniería de software que son esenciales para el desarrollo de aplicaciones usando microservicios, o también conocidos como arquitectura de microservicios. Durante el curso se estudiarán conceptos fundamentales sobre la Arquitectura basada en microservicios donde estas arquitecturas ofrecen grandes beneficios como velocidades de cambio más rápidas, mejor escalabilidad, facilidad para hacer pruebas, mantenimiento simple y aplicaciones que pueden evolucionar rápidamente.
+
+El desarrollo de software usando microservicios, son una técnica moderna de desarrollo de software y un estilo arquitectónico que se aplica para lograr los objetivos mediante la descomposición de un sistema de software interdependiente en unidades más pequeñas y autónomas. Estas pequeñas aplicaciones (microservicios) funcionan juntas y se comunican entre sí, pero se implementan de forma independiente.
+
+Con la arquitectura de microservicios, los desarrolladores pueden crear microservicios separados que funcionan como una selección de servicios individuales. Juntos, también garantizan que la aplicación pueda tener un alto rendimiento y al mismo tiempo admitir su funcionalidad completa.
+
+El desarrollo basado en microservicios será orientado a pruebas y basado en ciclos de iteración cortos, organización de los equipos de desarrollo por roles y por microservicio, aplicando prácticas de DevOps, entornos virtuales, en la nube y en contenedores para su implementación.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.15: Desarrollar iniciativas de ingeniería orientados a la innovación de productos, procesos o servicios RA 1. Comprende los conceptos fundamentales de una arquitectura orientada a Microservicios e identifica y caracteriza las ventajas y desventajas de usar modelos basados en Microservicios para el desarrollo de aplicaciones de software.
+
+Arquitecturas de software ● Concepto sobre Arquitecturas de Software y Arquitecturas de Microservicios, Criterios para el diseño de arquitecturas.
+
+Conceptos sobre Microservicios ● Qué son los Microservicios ● Características de losMicroservicios ● Creación de Microservicios ● Comunicación entre Microservicios ● Microservicios Vs SOA ● Microservicios vs API Diseño de un Modelo operacional de Microservicios ● Definición de equipos para Microservicios y topologías de equipos (tipos y modos de interacción).
+
+Microservicios vs Monolitos ● Migración de un una Arquitectura monolítica a una arquitectura de Microservicios Patrones para el diseño de Microservicios ● Conceptos sobre patrones en Microservicios:
+
+Patrones: Aggregator, API gateway, CQRS, Chained, Asynchronous, Database or shared data, Event sourcing, Branch Arquitectura limpia, DDD, SAGA, Outbox & Kafka (EA Algorithm) Otros patrones ● Herramientas para crear Microservicios:
+
+Tipos de herramientas para crear Microservicios Clasificación de las herramientas DevOps usando Microservicios Ejemplos: Microservicios Spring Boot, Kubernetes, Kubernetes: Despliegue de una aplicación de Spring Boot RA 2. Especifica y desarrolla aplicaciones usando una arquitectura basada en Microservicios; diseña aplicaciones usando prácticas ágiles y un Modelo de Microservicios; aprovecha los entornos virtuales, en la nube y en contenedores para la implementación de microservicios con el fin de desplegar el sistema desarrollado.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO Microservicios con Django ● Seguridad en los Microservicios ● Infraestructura para Microservicios ● Monitoreo y métricas en Microservicios.
+
+C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación R.A.3: Aplica diferentes formas y herramientas de comunicación usando informes escritos y presentaciones orales para expresar sus ideas al solucionar problemas.
+
+Metodología para la redacción y escritura de informes técnicos y estrategias de presentación oral.
+
+METODOLOGÍA El curso se desarrolla en clases semanales de 3 horas repartidas en horas teóricas y horas de práctica y se realiza en salones orientados a trabajo en equipo. El curso estará centrado en el desarrollo y presentaciones de avance del proyecto del curso. Se realizarán actividades para entender el funcionamiento, se usarán prácticas ágiles, tecnologías de desarrollo y herramientas de gestión y control de proyectos. Durante las diferentes actividades del proyecto y en fechas específicas cada equipo debe hacer entregas escritas y presentaciones orales de avance del proyecto, las cuales estarán orientadas a resolver problemas relacionados con los resultados de aprendizaje que se quieren alcanzar.
+
+Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso de plataformas interactivas y de gamificación en el aula y en la nube que permitan revisar las competencias y los indicadores de logro, la revisión de videos de las unidades que componen el curso y las clases magistrales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de un salón para trabajo en equipo con acceso a internet, con puestos individuales de trabajo con posibilidad de organizarse en grupos y que esté provisto de video beam o televisores conectados a Internet. Además, de las guías de acceso virtual, también se usarán aplicaciones de trabajo en la nube y uso del campus virtual.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos tales como Quices, Tareas, Exposiciones y Un proyecto del curso. Además, se tiene un examen final. Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 Examen Tareas Quices Exposiciones Avances proyecto 15,4 5,6 8,2 1,2 9,6 40 R.A.2 Examen Tareas Quices Exposiciones Avances proyecto 14,0 4,7 1,7 8,5 26,1 55 R.A.3 Informes escritos del proyecto Presentaciones orales del proyecto 2.5 2.5 5 * Se realiza un solo examen al final del curso BIBLIOGRAFÍA 1.
+
+Mitra Ronnie and Nadareishvili Irakli, Microservices: Up and Running: A Step-by-Step Guide to Building a Microservices Architecture, 2021.
+
+2.
+
+Bellemare Adam, Building Event-Driven Microservices, 2020.
+
+3.
+
+Sam Newman, Building Microservices: Designing Fine-Grained Systems; 2016 4.
+
+Shayank Jain, Designing Microservices Using Django: Structuring, Deploying and Managing the Microservices Architecture with Django, 2020.
+
+5.
+
+Akos Hochrein, Designing Microservices with Django: An Overview of Tools and Practices, 2019.
+
+6.
+
+Richardson Chris, Microservices Patterns, 2018.
+
+7.
+
+Dave Harrison, Achieving DevOps: A Novel About Delivering the Best of Agile, DevOps, and Microservices, 2018.
+
+8.
+
+Wolff Eberhard, Microservices: A practical Guide, 2018.
+
+9.
+
+Luksa Markp, Kubernetes in Action, 2018 10. Artículos y enlaces provistos en el campus virtual.

@@ -1,0 +1,91 @@
+Matemáticas Discretas II INFORMACIÓN BÁSICA Código y Nombre 750005C Matemáticas Discretas II Créditos 4 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 8 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de Sistemas Prerrequisitos Matemáticas Discretas I Validable Sí Habilitable No Tipo de Asignatura Asignatura Básica (AB) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO El curso de Matemáticas Discretas II está fundamentado en tres grandes ideas; primero que el estudiante aprenda a contar de manera básica y avanzada usando la combinatoria para resolver problemas. La segunda idea es que el estudiante aprenda a modelar problemas de computación usando los árboles y los grafos. La tercera idea es que el estudiante aprenda a diseñar autómatas finitos para modelar problemas complejos de la ciencia de la computación. Además en esta parte el estudiante debe aprender a delimitar el poder computacional de las máquinas de estado con referencia a los lenguajes que se pueden reconocer y generar y también tener una noción de los tipos de problemas computacionales que se pueden resolver con estas máquinas.
+
+El curso se fundamenta en tres grandes ideas en las Ciencias de la Computación:
+
+1.
+
+Las técnicas de conteo son una herramienta para modelar y resolver problemas.
+
+2.
+
+Los grafos son una herramienta para modelar la solución de problemas de las ciencias de la computación.
+
+3.
+
+Los autómatas son herramientas esenciales para modelar una gran variedad de problemas de ciencias de la computación de manera formal.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO CE1: Utilizar los conocimientos fundamentales en teoría de la computación (v.gr. estructuras discretas, complejidad de algoritmos, máquinas abstractas, lógica) en la construcción de sistemas basados en TIC.
+
+R.A.1: Usa las técnicas básicas de conte (las reglas del producto, regla de la suma, principio de inclusión-exclusión y principio del palomar) identificando tareas que se componen de diferentes partes y otras que se pueden realizar de manera simultánea en la solución básica de problemas combinatorios.
+
+Fundamentos de combinatoria o Recuento; principios básicos de recuento, regla del producto, regla de la suma, principio de inclusión y exclusión, principio del palomar.
+
+RA1.2. Usa las permutaciones y las combinaciones para solucionar muchos problemas de conteo en términos de agrupaciones ordenadas y no ordenadas de objetos así como otros problemas de recuento en la que aparecen elementos repetidos, sin repetición, distinguibles y no distinguibles.
+
+Permutaciones y combinaciones;
+
+permutaciones con repeticiones, combinaciones con repetición, permutaciones con objetos indistinguibles, distribuciones de objetos en cajas.
+
+RA1.3. Usa las relaciones de recurrencia como técnicas avanzadas de conteo para resolver problemas de conteo complejos y para determinar la complejidad de varios algoritmos importantes.
+
+Relaciones de recurrencia;
+
+resolución de relaciones de recurrencia, resolución de recurrencias lineales y homogéneas con C.C, relaciones de recurrencia lineales no homogéneas con C.C, algoritmos de divide y vencerás y relaciones de recurrencia.
+
+C.E.13 Resolver problemas de ingeniería identificando diferentes alternativas de solución y desarrollando sistemas basados en TIC.
+
+RA2.1. Usa las definiciones básicas como la adyacencia de las aristas, la incidencia de los vértices, aristas múltiples, bucles, etc, reconociendo tipos de grafos más complejos; planos, completos, regulares, bipartitos complementarios, regulares, para modelar problemas en diversas áreas y solucionar problemas de las ciencias de las ciencias de la computación.
+
+Grafos; tipos de grafos, terminología en teoría de grafos, representación de grafos e isomorfismos de grafos, conexiones, caminos eulerianos y hamiltonianos, caminos de longitud mínima, grafos planos, coloreado de grafos.
+
+RA3.1. Usa la teoría de autómatas y los lenguajes formales para formalizar y modelar una amplia variedad de problemas de ciencias de la computación comprendiendo los límites de la computación.
+
+Teoría de autómatas y lenguajes formales; alfabetos y lenguajes, lenguajes regulares, lenguajes independientes del contexto, autómatas de pila, máquinas de Turing y lenguajes.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO CG1: Comprender y aplicar las ciencias naturales, matemáticas, fundamentos, métodos y herramientas propias de la ingeniería.
+
+RA4.1 Identifica la importancia de los conceptos de combinatorios y grafos para la solución matemática de temas aplicados en Ciencias de la Computación.
+
+Clases magistrales y talleres CG2: Utilizar un pensamiento crítico y creativo que le permite aprender de forma autónoma y permanente RA4.2 Selecciona los autómatas finitos apropiados, entendiendo las gramáticas de estructura de frase, los lenguajes regulares, independientes de contexto y los recursivamente enumerables para modelar problemas con criterios propios y pertinentes.
+
+CG4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación RA4.4 Utiliza las diferentes formas de comunicación (oral, visual, escrito y no verbal) y herramientas tecnológicas de comunicación, de manera articulada y eficaz, para comunicar cómo se aplican ciertos conceptos del curso en las Ciencias de la Computación.
+
+METODOLOGÍA El curso se desarrolla en clases semanales de 4 horas de las cuales las 4 son teóricas incluidos los talleres. Además, se tienen horas de consulta del profesor y el monitor cuando se disponga. Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso del campus virtual en el cual encontrarán los slides del curso y material de ayuda. También en el campus el estudiante podrá verificar el cumplimiento de las competencias, resultados de aprendizaje y los indicadores de logro.
+
+Finalmente, se buscarán mecanismos de manera que le permitan al estudiante ver el estado del curso.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de un salón o auditorio provisto de video beam. Uso del campus virtual así como las guías para los talleres.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades en la que los estudiantes deben realizar talleres en grupo, además de tres evaluaciones parciales. Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 Parcial 1 (4 I.L- 70%) Taller 1 (4 I.L -30%) 1.315 0.5625 4 X (1.315 + 0.5625) = 7.5 R.A.2 Parcial 1 (6 I.L- 70%) Taller 2 (6 I.L- 30%) 0.875 0.375 6 X (0.875 + 0.375) = 7.5 R.A.3 Parcial 1 (3 I.L- 80%) Taller 3 (3 I.L-20%) 2.33 1.00 3 X (2.33 + 1.00) = 10 R.A.4 Parcial 2 (5 I.L- 80%) Taller 4 (5 I.L- 20%) 3.2 0.8 5 X (3.2+ 0.8)=20 R.A.5 Parcial 3 (5 I.L- 90%) Taller 5 (4 I.L- 10% y 100%) 3.492 + 0.388 3.88 5 X (3.492 + 0.388) + 4 X 3.88=34.92 R.A.6 Parcial 1 (2 I.L- 50%) Parcial 2 (1 I.L- 30%) Taller 4 (1 I.L- 20%) 4 2.4 1.6 2 X 2 +1 X 2.4 + 1X 1.6= 8 R.A.7 Parcial 3 (3 I.L- 50%) Taller (3 I.L-50%) 1.166 1.166 3 X (1.66 + 1.66) =7 R.A.8 Taller 5 (100%) 5 5 Total del porcentaje de 5 R.As específicas y 3 genéricas 100%
+
+BIBLIOGRAFÍA [1] Texto Guía: Discrete Mathematics and its applications. Kenneth Rosen. McGraw-Hill.
+
+2019. Eighth Edition.
+
+[2] Discrete Mathematical Structures. Kolman, Busby & Ross. Prenctice Hall. Fourth Edition. 2009.
+
+[3] Discrete Mathematics for Computer Scientits. Stein, Drysdale & Bogart. Addinson Wesley. 2011.
+
+[4] Discrete and Combinatorial Mathematics: An Applied Introduction, Ralph Grimaldi, Fifth Edition.
+
+2003.
+
+[5] Discrete Mathematics with Applications. Sussana S Epp. Cengage Learning. Fifth Edition. 2018.
+
+[5] Teoría de Autómatas y Lenguajes Formales. Dean Kelley. Prentice Hall. 1995.
+
+[6] Automata Theory, Languages, and Computation. Hopcroft. J. E. & Motwani. R. and Ullman J.
+
+3rd Edition. Pearson. 2007.
+
+[7] Introduction to the Theory of Computation. Michael Sipser. THOMSON Course Thechnology, 2006.

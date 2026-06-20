@@ -1,0 +1,73 @@
+Desarrollo de Aplicaciones para Dispositivos Móviles INFORMACIÓN BÁSICA Código y Nombre 750026C Desarrollo de Aplicaciones para Dispositivos Móviles Créditos 3 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 5 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Tecnología en Desarrollo de Software Prerrequisitos 750012C Desarrollo de Software II Validable No Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No x DESCRIPCIÓN GENERAL DEL CURSO El curso Desarrollo de Aplicaciones Móviles tiene como objetivo brindar al estudiante experiencias de formación que le faciliten la comprensión y aplicación de los aspectos teóricos y prácticos para el desarrollo de aplicaciones móviles orientadas a plataforma. Usarán las herramientas, marcos y lenguajes de programación que son necesarios para el desarrollo en la plataforma seleccionada, siguiendo un proceso de Diseño Centrado en el Usuario y principalmente para dispositivos como SmartPhones y Tablets.
+
+En este curso el estudiante aplicará conceptos relacionados con Diseño de Experiencia y Diseño de Interacción (UX/UI) específicos a aplicaciones móviles.
+
+Adicionalmente, el estudiante podrá recibir algunas charlas técnicas de empresas que requieren profesionales para el desarrollo de aplicaciones y/o UX-UI para móviles.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.:E.14 Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC RA-1 Implementa aplicaciones nativas para una plataforma móvil en particular, tomando ventaja de las facilidades que brinda la plataforma seleccionada.
+
+Arquitectura de la plataforma seleccionada.
+
+Componentes básicos de una app Compilación y ejecución de una app.
+
+Manejo de mensajes emergentes en la app y fuera de la UI de la app.
+
+Programación de tareas en segundo plano.
+
+Acceso y manejo de Bases de Datos desde una app Ajustar el comportamiento de la aplicación según las preferencias del usuario.
+
+Técnicas básicas de Debugging de la plataforma de desarrollo.
+
+Pruebas automatizadas (Junit / Mockito) Aspectos básicos de despliegue en el repositorio de la plataforma seleccionada.
+
+C.E.4: Aplicar conceptos y principios implicados en el proceso de diseño de interfaces gráficas de usuario durante el desarrollo de aplicaciones software RA-2 Usa principios de Diseño de Experiencia y Diseño de Interacción para el desarrollo de aplicaciones Móviles.
+
+Patrones de UI para aplicaciones móviles Prototipado de aplicaciones móviles.
+
+Accesibilidad en el desarrollo de aplicaciones móviles Evaluación de Usabilidad en aplicaciones móviles.
+
+C.E.5: Utilizar estándares, pautas y guías de accesibilidad a fin de desarrollar software C.E.6: Aplicar técnicas de evaluación de usabilidad que permitan medir la calidad de la experiencia que tienen los
+
+usuarios al interactuar con el software desarrollado C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación RA-3 Emplea algún sistema de gestión de proyectos y control de versión de código, que le permita construir aplicaciones móviles de manera colaborativa.
+
+Herramientas para gestión de proyectos y gestión de los cambios del código fuente METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje planteado para el curso. En esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen videos o recursos en línea sobre el tema y tendrán asociado un quiz o tarea corta.
+
+● Clase invertida significa la clase tendrá la siguiente estructura:
+
+o Antes de la clase magistral, el estudiante debe revisar los objetos de estudio definidos para la clase, y desarrollar los ejercicios asignados.
+
+o Durante la clase magistral, los estudiantes y el profesor interactúan alrededor de un caso de estudio para resolver dudas y ganar comprensión de los conceptos en estudio.
+
+o Después de la clase magistral, los estudiantes deben organizar el avance del proyecto de curso aplicando los conceptos estudiados.
+
+RECURSOS DE APOYO A través del campus virtual de la Universidad del Valle o Google ClassRoom, el estudiante encontrará el material disponible en forma digital: videos, artículos, recursos web.
+
+Se usarán herramientas de uso libre para la gestión del proyecto y el manejo de versiones para la construcción del proyecto de curso.
+
+EVALUACIÓN DEL CURSO El/La estudiante será evaluado a través de un proyecto de curso que desarrollará aplicando un proceso de Diseño Centrado en el Usuario y una metodología de desarrollo de software ágil. Esta actividad tendrá una planeación de entregas iterativas y se desarrollará trabajando en equipos. Adicionalmente, los estudiantes también desarrollarán quices o retos cortos para validar la comprensión de los conceptos vistos.
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+RA % Posibles actividades evaluativas R.A.1 60 Entregas iterativas del Proyecto de Curso Quices y/o Tareas R.A.2 20 R.A.3 20 TOTAL 100 BIBLIOGRAFÍA ● Kotlin In-Depth: A Guide to a Multipurpose Programming Language for Server-Side, Front-End, Android, and Multiplatform Mobile. Aleksei Sedunov. Second Edition 2022. BPB Publications, India.
+
+● Android Studio Dolphin Essentials - Kotlin Edition. Neil Smyth. Payload Media. 2023.
+
+● Practical UI Patterns for Design Systems: Fast-Track Interaction Design for a Seamless User Experience. Diana MacDonald. ISBN-13: ‎978-1484249376 Apres 2020.
+
+● Designing Interfaces: Patterns for Effective Interaction Design. Jenifer Tidwell, Charles Brewer, Aynne Valencia. 3O'Reilly Media. 3er edición. SBN-13: ‎978-1492051961 ● Inclusive Design for Products: Including embedding web and mobile accessibility Jonathan Hassell.
+
+Rethink Press 2nd edición. 2019.
+
+Herramientas Recomendadas:
+
+Plataforma de desarrollo: https://developer.android.com/studio GitHub: https://github.com/ Jira: https://www.atlassian.com/es/software/jira Figma: https://www.figma.com/

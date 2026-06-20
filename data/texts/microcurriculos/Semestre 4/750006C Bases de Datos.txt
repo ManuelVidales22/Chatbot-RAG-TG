@@ -1,0 +1,57 @@
+Bases de Datos INFORMACIÓN BÁSICA Código y Nombre 750006C - Bases de Datos Créditos 4 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 8 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de sistemas Tecnología en Desarrollo de Software Prerrequisitos 750015C - Fundamentos de Programación Orientada a Objetos Validable Si Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO Esta asignatura tiene por objeto comprender los conceptos, la importancia, las técnicas, las herramientas de las bases de datos, y aplicarlas en el desarrollo de software.
+
+Adicionalmente, busca que el estudiante pueda:
+
+● Describir los conceptos fundamentales propios de las bases de datos (objetivos básicos, funciones, modelos de los DBMS, los roles asociados con la administración de la información, importancia de la persistencia de los datos para una organización, el concepto de independencia, el uso de los conceptos para el modelaje), necesarios en la solución de un problema de manejo de información en una organización.
+
+● Utilizar notaciones apropiadas para el modelaje de una solución donde pueda identificar las restricciones y limitaciones de los requerimientos a resolver.
+
+● Aplicar las técnicas de diseño de Bases de Datos para la construcción de una aplicación informática a un problema del mundo real.
+
+● Aplicar técnicas de modelaje, de solución de consultas relacionales, de creación de programas con consultas embebidas, en el desarrollo de aplicaciones de software, para resolver problemas con Bases de Datos, trabajando principalmente con el modelo de datos relacional
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO SCCE.1. Utilizar los conocimientos fundamentales en teoría de la computación en la construcción de sistemas basados en TIC RA 1. Describe los conceptos fundamentales propios de las bases de datos (objetivos básicos, funciones, modelos de los DBMS, los roles asociados con la administración de la información, importancia de la persistencia de los datos para una organización, el concepto de independencia, los el uso de los conceptos para el modelaje) en la construcción de una base de datos, para la solución de un problema de manejo de información en una organización.
+
+1. CONCEPTOS DE BASE DE DATOS Conceptos básicos: Bases de Datos, DBMS, Esquemas de BD, Independencia Lógica y Física Enfoque tradicional versus enfoque de base de datos Ventajas de un ambiente de base de datos Arquitectura de un DBMS: Lenguaje de Definición de Datos, Lenguaje de Manejo de Datos Funciones del manejador de base de datos Usuarios de un ambiente de base de datos Evolución histórica de las base de datos (Jerárquica, Red, Relacional, Orientada a Objetos) 2. MODELAMIENTO CONCEPTUAL DE DATOS Definición de modelo Clasificación de los modelos de datos Importancia de la modelización conceptual Componentes básicos del modelo E-R Clases de entidades
+
+3. ALGEBRA RELACIONAL Operaciones tradicionales de conjuntos del álgebra relacional:
+
+Unión, Intersección, Diferencia, Producto Cartesiano.
+
+Operaciones especiales del modelo relacional: Proyección, Selección, Unión Natural (Join), División.
+
+Otras operaciones del álgebra relacional.
+
+4. CÁLCULO RELACIONAL Cálculo relacional de tuplas Cálculo relacional de dominios Cálculo relacional vs. álgebra relacional 5. EL LENGUAJE SQL Características generales del SCCE.14. Desarrollar proyectos analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC R.A.2. Utiliza los diferentes tipos de notación en el modelaje y las diferentes formas normales, identificando las restricciones y limitaciones, en el diseño de un modelo de datos asociado a los requerimientos del problema a resolver.
+
+R.A.3. Aplica las técnicas de diseño de BD, identificando las dependencias funcionales y las estrategias de procesamiento de consultas, para la construcción de una aplicación informática a un problema del mundo real.
+
+R.A.4. Aplica técnicas de modelaje, de solución de consultas relacionales, de creación de programas con consultas embebidas, en el desarrollo de aplicaciones de software, para resolver problemas con Bases de Datos.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO SQL.
+
+Estructura básica Implementación de operaciones básicas 6. PROGRAMACIÓN EN AMBIENTES DE BD Restricciones Llaves Integridad referencial Definición de procedimientos Definición de Disparadores Manejo de cursores Interfase con GUI en Java 7. FUNDAMENTOS DEL MODELO RELACIONAL Definición del modelo relacional Restricciones de integridad del modelo relacional.
+
+Definiciones de claves:
+
+Primaria, Candidata, Foránea Redundancia y Anomalías de actualización de datos Concepto de dependencia funcional Concepto de las Formas Normales: 1FN, 2FN, 3FN, BCNF, 4FN Axiomas de Armstrong.
+
+8. NORMALIZACIÓN DE DATOS Formas Normales basadas en dependencias funcionales: 2FN, 3FN, BCNF Descomposición de relaciones Enfoques de diseño relacional:
+
+análisis y síntesis.
+
+Dependencia Multivaluada y 4FN – otras dependencias Costos de la normalización Ejercicios de Normalización Desnormalización para el rendimiento
+
+METODOLOGÍA El curso se desarrolla en clases semanales de 3 horas de las cuales 2 son teóricas y 1 es práctica y se realiza en las salas de cómputo. Además, se tienen laboratorios orientados a resolver problemas relacionados con los resultados de aprendizaje que se quieren alcanzar. Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso de plataformas interactivas y de gamificación en el aula que permitan revisar las competencias y los indicadores de logro, el uso de un juez virtual por medio del cual el estudiante puede evaluar de forma autónoma los programas desarrollados en cada uno de los temas vistos en clase, la revisión de videos de las unidades que componen el curso y las clases magistrales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de una sala de cómputo con acceso a internet, con puestos individuales de trabajo y que esté provista de video beam. Además, de las guías de acceso virtual.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos tales como laboratorios prácticos y el proyecto. Además, se tienen dos evaluaciones parciales que se aplicarán, una en la octava semana de clase y la otra al final del semestre. Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 I.L. 1 I.L. 1 I.L. 1 I.L. 1 I.L. 1 I.L. 1 I.L. 1 I.L. 1 20.0 4.20 6.0 12.0 10.0 7.8 60.0 R.A.2 I.L. 1 I.L. 1 I.L. 1 I.L. 1 I.L. 1 I.L. 1 3.20 12.16 6.40 10.24 32.0 R.A.3 I.L. 1 I.L. 1 I.L. 1 I.L. 1 8.0 8.0
+
+BIBLIOGRAFÍA Joyanes Aguilar. Fundamentos de programación: algoritmos, estructura de datos, McGraw-Hill, 2008 Elkner Jeffrey, Downey Allen, Chris Meyers. Introducción a la programación con Python.
+
+Traducido y adaptado por Andrés Becerra Sandoval. – Santiago de Cali: Pontificia Universidad Javeriana, Sello Editorial Javeriano, 2014 Allen Downey, Jeffrey Elkner, and Chris Meyers. How to Think Like a Computer Scientist:
+
+Learning with Python. Green Tea Press, 2010 Cambell Jennifer, Gries Paul, Montojo Jason, Wilson Greg. Practical Programming, An Introduction to computer science with Python McGraw-Hill, 2012 Guttag John. Introduction to Computer Science and Programming Using Python. MIT Press, 2013 Generative art. A practical guide using Processing. Matt Pearson. Manning Publications Co, 2011 Python Programming for Biology. Tim Stevens. Cambridge University Press, 2015 Programming for Musicians and digital artists: Creating music with Chuck. Ajay Kapur, Perry Cook, Spencer Salazar, Ge Wang. Manning Publications Co, 2015

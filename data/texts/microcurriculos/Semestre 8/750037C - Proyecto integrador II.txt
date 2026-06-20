@@ -1,0 +1,61 @@
+Proyecto Integrador II INFORMACIÓN BÁSICA Código y Nombre 750037C – Proyecto Integrador II Créditos 4 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 8 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Prerrequisitos 750027C - Desarrollo de software III 750018C - Proyecto Integrador I 750025C - Introducción a la Ciencia de los datos Validable Sí Habilitable No Tipo de Asignatura Asignatura profesional (AP) La asignatura favorece la Formación General Científico tecnológico (56%) Si X No DESCRIPCIÓN GENERAL DEL CURSO El mundo hoy en día se encuentra en un momento de cambio que está impactando la forma en que se realizan muchos de los trabajos. Herramientas como ChatGPT, Jasper, DALL-E, entre otras, están facilitando las búsquedas, el procesamiento, y la programación automática de tareas, lo que indica que se inicia un periodo de innovación en el desarrollo de aplicaciones inteligentes. Este curso presenta de manera práctica cómo se pueden integrar diversos temas de la inteligencia artificial en el desarrollo de software. Se espera que el estudiante al finalizar la asignatura esté en capacidad de desarrollar aplicaciones inteligentes orientadas a servicios que aporten a la solución de problemas concretos del mundo real. Existen diversas maneras de dotar de inteligencia a una aplicación las cuales van desde utilizar técnicas para convertir voz a texto que permita una interacción a través de comandos de voz, realizar autenticación a un aplicación por medio de reconocimiento de rostros, realizar web scraping para obtener información orientada a la toma de decisiones, hasta utilizar modelos como OpenAI para tareas de clasificación. El curso Proyecto Integrador II tiene un componente práctico que fomenta el trabajo en equipo intentando que los estudiantes aborden problemas reales en grupos de trabajo.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.9: Desarrollar sistemas inteligentes que aplican tareas de aprendizaje de máquina y que permiten analizar un conjunto de datos y extraer información R.A.1: Aplica técnicas de machine learning, procesamiento de lenguaje natural, ciencia de datos, entre otras, para dotar de inteligencia a una aplicación web Paquetes de reconocimiento de voz en Python Clase Recognizer Trabajando con archivos de audio Uso de record() para capturar datos de un archivo Detección de género y edad en tiempo real MTCNN (Multi-Task Cascaded Convolutional Neural Networks) para detectar rostros y facial landmarks sobre imágenes Detección de rostros usando la biblioteca dlib (linear SVM + CNN) Detección de objetos en imágenes usando redes neuronales profundas con SSD (Single Shot Multibox Detector) Extracción de información de redes sociales como Twitter Limpieza de datos Almacenamiento y preprocesamiento de tweets Clasificación de tweets usando redes neuronales, SVM, bosques aleatorios Biblioteca BeautifulSoup de Python para hacer web scraping Uso de ChatGPT para hacer web scraping Web scraping por medio de la biblioteca Selenium Estructura básica de un bot Envío de mensajes Uso de Handlers para recibir mensajes Creación de bots con la API de ChatGPT Creación de prompts en ChatGPT Prompt engineering Aplicación de dos técnicas vistas en el curso
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.14: Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC R.A.2: Aplica prácticas ágiles para desarrollar una aplicación web inteligente que resuelve un problema del mundo real Exploración de diferentes modelos inteligentes para identificar su aplicabilidad en la aplicación web Implementación de la integración de estos modelos en la arquitectura de la aplicación, Diseño de un smart BPM que refleje la interacción de los actores y los flujos de trabajo en el sistema inteligente.
+
+Elaboración de un product backlog que enumere y describa detalladamente las características, tareas y elementos necesarios para su desarrollo Definición de un release plan que establezca las fases y entregables del desarrollo del sistema inteligente.
+
+Implementación de los componentes esenciales de la aplicación web inteligente.
+
+C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación R.A.3: Utiliza algún sistema de gestión de proyectos y control de versión de código, que le permita construir aplicaciones web de manera colaborativa Implementación y uso de un repositorio distribuido para el control de versiones del código desarrollado.
+
+Utilización de herramientas como Git y plataformas como GitHub o GitLab para gestionar y almacenar de manera segura y colaborativa las diferentes versiones del código.
+
+Aplicación de buenas prácticas de ramificación, fusión y seguimiento de cambios para garantizar un control efectivo del desarrollo y facilitar la colaboración en equipo.
+
+METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje planteado para el curso. En esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a
+
+hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen videos o recursos en línea sobre el tema.
+
+● Clase invertida significa la clase tendrá la siguiente estructura:
+
+o Antes de la clase magistral, el estudiante debe revisar los objetos de estudio definidos para la clase, y desarrollar los ejercicios asignados.
+
+o Durante la clase magistral, los estudiantes y el profesor interactúan alrededor del proyecto de curso para resolver dudas y ganar comprensión de los conceptos en estudio; en algunas de las sesiones magistrales se podrá hacer la aplicación de los mismos en contextos reales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de un salón con acceso a internet, con puestos individuales de trabajo, y que esté provista de video beam. A través del Campus virtual de la Universidad del Valle, el estudiante encontrará el material disponible en forma digital: videos, artículos, recursos web.
+
+Se contará con una herramienta de uso libre para la gestión del proyecto y el manejo de versiones para la construcción del proyecto de curso.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos de tres personas tales como los cuatro talleres y el proyecto del curso. Los porcentajes asignados para cada una de estas actividades son:
+
+Resultado de aprendizaje Posibles actividades evaluativas Porcentaje total R.A.1 Taller 1: Speech recognition & Face Recognition Taller 2: Reconocimiento de objetos y análisis de sentimientos Taller 3: Web scraping Taller 4: Prompt engineering Sprint 1 50.0 R.A.2 Sprint 1 Sprint 2 Sprint 3 Sprint 4 40.0 R.A.3 Sprint 1 Sprint 2 Sprint 3 Sprint 4 10.0
+
+BIBLIOGRAFÍA Mastering OpenAI API Programming. A Comprehensive Guide To OpenAI’s GPT, Whisper, And DALL-E Model APIs. Sebastian Eschweiler. 2023.
+
+Aurélien Géron. Hands-on Machine learning with Scikit-learn, Keras, and TensorFlow. Segunda edición. O’Reilly. 2019.
+
+Wes McKinney. Python for Data analysis: Data wrangling with Pandas, NumPy, and IPython.
+
+O’Reilly. 2022.
+
+Alan D. Thomson,.The ChatGPT Prompt Book Life Architect.ai- Rev. 2, Haystack. 2022.
+
+Alex Campbell, Agile Project Management with Scrum: Secret Scrum Formulas and Methods in Agile Project Management. (Agile Scrum) Tapa blanda – 12 Mayo 2019.
+
+Susheela Hooda, Vandana Mohindru Sood, Yashwant Singh, Sandeep Dalal, Manu Sood. Agile Software Development: Trends, Challenges and Applications. John Wiley & Sons, 14/03/2023.
+
+Carlo Appugliese, Paco Nathan, William Roberts. Agile AI Processes and Outcomes. O´Reilly.
+
+2023.

@@ -1,0 +1,31 @@
+Trabajo de Grado I INFORMACIÓN BÁSICA Código y Nombre 750038C - Trabajo de Grado I Créditos 2 Horas de trabajo Presenciales: 1 horas Trabajo independiente: 5 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de sistemas Prerrequisitos 750036C - Seminario de Trabajo de Grado Validable No Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Lenguaje y Comunicación Si x No DESCRIPCIÓN GENERAL DEL CURSO El curso de Trabajo de Grado I representa una aplicación teórica o teórico-práctica de los conocimientos y habilidades adquiridos a lo largo de la formación profesional. Está diseñado para permitir a los estudiantes analizar y abordar un problema o necesidad específica dentro de su área de especialización. Los cursos Trabajo de Grado I y Trabajo de Grado II se complementan entre sí para guiar a los estudiantes en la creación de su trabajo final de grado.
+
+En Trabajo de Grado I, los estudiantes ejecutarán las actividades definidas en los planes de trabajo para cumplir con las fechas de ejecución del cronograma inicial. Adicionalmente, los estudiantes desarrollan la estructura inicial de su documento de proyecto final. Esto incluye avances en: elaboración del índice, la presentación de antecedentes relevantes, descripción detallada del problema o necesidad a abordar, una explicación de la metodología utilizada, análisis del problema y del marco teórico o conceptual que respalda su proyecto. También se incluirá documentación sobre los avances realizados acorde al cronograma y la metodología.
+
+DESARROLLO DEL CURSO No de Versión:
+
+03 No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+01-12- 2020
+
+COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.7 Comprender las etapas de un proyecto de investigación R.A.1. Ejecuta el proyecto o trabajo de grado planteado en el anteproyecto, para solucionar problemas, oportunidades o necesidades de un contexto específico Ejecución de actividades definidas en los planes de trabajo C.E.14 Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC Monitoreo y control del progreso del proyecto en comparación con el plan para cumplir sus objetivos C.G.3 Actuar de manera responsable y honesta en el marco del respeto hacia la dignidad de las personas y el cuidado del medio social, cultural y natural R.A.2. Aplica principios éticos y legales relacionados con derechos de autor y propiedad intelectual para promover una conducta ética y legal en el uso de la información y la tecnología Principios éticos y legales relacionados con derechos de autor y propiedad intelectual - manejo de referencias bibliográficas METODOLOGÍA El director/codirector de trabajo de grado del estudiante definirá encuentros presenciales/virtuales para revisión de bitácoras de avance del proyecto. Los estudiantes deberán trabajar en sus documentos de avance de proyecto final.
+
+RECURSOS DE APOYO El principal recurso de apoyo es el campus virtual donde se compartirán documentos normativos, ejemplos de proyectos finales de grado, presentaciones y acceso a recursos adicionales.
+
+EVALUACIÓN DEL CURSO RA % Formación General Actividades evaluativas R.A.1 90 Lenguaje y Comunicación (40%) Avance de documento final R.A.2 10 Avance de documento final TOTAL 100
+
+BIBLIOGRAFÍA ● Berndtsson., Mikael, Hansson., Jörgen, Olsson., Björn and Lundell., Björn. Thesis Projects.
+
+A guide for students of Computer Science and Information Systems.
+
+Springer-Verlang London. Second Edition. 2008.
+
+● Creswell., John W. Research Design. Qualitative, Quantitative and Mixed methods approaches. Sage Publications. University of Nebraska. 2009.
+
+● Sabino A., Carlos. El proceso de investigación. Panamericana Editores. 2000. 5ª edición.
+
+● Sampieri., Roberto, Fernández., Carlos y Baptista., Pilar. Metodología de la Investigación.
+
+McGraw Hill. 4ª Edición. 2006.

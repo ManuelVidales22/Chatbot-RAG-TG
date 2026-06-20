@@ -1,0 +1,47 @@
+Introducción a la Gestión de Proyectos de Software INFORMACIÓN BÁSICA Código y Nombre 750031C - Introducción a la Gestión de Proyectos de Software Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos 3743 Ingeniería de Sistemas 2724 Tecnología en Desarrollo de Software Prerrequisitos 750021C Desarrollo de Software II Validable No Habilitable No Tipo de Asignatura Asignatura Básica (AB) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO Este curso está orientado hacia el conocimiento y la formación en las actividades principales de la gestión de proyectos de software, así como el conocimiento de conceptos generales para la innovación en ingeniería. El estudiante formará parte de un equipo de trabajo para desarrollar un proyecto de software que solucione una problemática del contexto real en el que se desenvuelve. Para este fin, el estudiante aprenderá y aplicará conceptos relacionados con la planeación y seguimiento de un proyecto de software, conceptos generales para la innovación en ingeniería, la gestión del equipo de trabajo y la redacción y presentación de informes técnicos.
+
+Adicionalmente, el estudiante podrá identificar la importancia del trabajo en equipo, la comunicación, la necesidad de integrar y compartir conocimientos y experiencias dentro del equipo de trabajo, como aspectos que influyen en la productividad y la calidad del trabajo y, por lo tanto, en los resultados y el éxito del proyecto.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.14: Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC RA-1 Aplica técnicas y métricas de seguimiento de un proyecto de software, considerando las necesidades del cliente, para organizar y supervisar las actividades del proyecto.
+
+La planeación y seguimiento de un proyecto de software:
+
+Metodología o marco de trabajo para la gestión de proyectos de software, gestión de requisitos, técnicas para estimar el esfuerzo de un proyecto de software, gestión de riesgos, técnicas o métricas de seguimiento del proyecto RA-2 Identifica y aplica conceptos acerca de la creación y gestión de equipos, cuando forma parte de un equipo de proyecto, con el fin de facilitar la comunicación y coordinación entre los miembros del equipo La gestión del equipo de trabajo:
+
+Creación de equipo, roles y responsabilidades, evaluación del desempeño del equipo, comunicación y resolución de conflictos C.E.15: Desarrollar iniciativas de ingeniería orientadas a la innovación de productos, procesos o servicios RA-3 Comprende conceptos básicos de la innovación para proyectos de base tecnológica Conceptos generales para la innovación en ingeniería:
+
+Por qué innovar, qué es innovación, beneficios de la innovación, categorías y tipos de innovación, metodología para la definición/diseño de iniciativas de ingeniería C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación RA-4 Participa en la gestión y desarrollo de un proyecto de software, formando parte de un equipo de trabajo, realizando las tareas asignadas y presentando los resultados del proyecto a los interesados del mismo Redacción y escritura de informes técnicos y estrategias de presentación oral METODOLOGÍA El curso se realiza en clases semanales de tres horas. Se proponen sesiones de tipo participativo, con actividades guiadas por el profesor donde se discutirán los tópicos de la asignatura. Durante estas sesiones también se proyecta, llevar un control del avance del proyecto de curso.
+
+Con el proyecto del curso se busca simular un ambiente empresarial a partir del cual los estudiantes conformen equipos de trabajo entre 5 y 7 personas. Los equipos deberán dar un nombre a la empresa, definir los objetivos de la empresa y el enfoque de servicio que ofrecerán (tipo de productos de desarrollo de software). Cada empresa debe identificar en un contexto real una necesidad que requiera el desarrollo de un producto de software. Esto implica que debe interactuar con un cliente para establecer los requisitos del producto y el desarrollo del mismo.
+
+A su vez, se tendrá en cuenta el uso de juegos serios o elementos de gamificación para apoyar la didáctica del curso. La idea es poder utilizar este tipo de recursos para estudiar algunos conceptos del curso y promover habilidades de trabajo en equipo.
+
+RECURSOS DE APOYO Se requiere un salón que facilite el trabajo en equipo, que cuente con acceso a internet, video beam, sonido.
+
+El campus virtual de la Universidad del Valle es la plataforma en donde estará disponible el material del curso. Además, se utilizará una herramienta para la gestión del proyecto y trabajo en la nube.
+
+EVALUACIÓN DEL CURSO La evaluación del curso comprende el desarrollo y gestión de un proyecto de software, talleres, dinámicas o actividades de grupo, exposiciones y evaluación del desempeño del equipo de trabajo.
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+RA % Posibles actividades evaluativas R.A.1 30 Entregas parciales de Proyecto Talleres R.A.2 30 Entregas parciales de Proyecto Dinámicas o actividades de grupo Autoevaluación (Desempeño del equipo) R.A.3 20 Entregas parciales de Proyecto R.A.4 20 Entregas parciales de Proyecto Talleres TOTAL 100 BIBLIOGRAFÍA ● Schwaber, K., & Sutherland, J. (2020). La guía definitiva de Scrum: las reglas del juego.
+
+● Deemer, P., Benefield, G., Larman, C., & Vodde, B. (2012). Una introducción básica a la teoría y práctica de Scrum. InfoQueue. Enterprise Software Development Series. (Traducción por Ángel Medinilla – Proyectalis) ● Kniberg, H. (2007). Scrum y XP desde las trincheras. Estados Unidos: C4Media.
+
+● Guía de los fundamentos para la dirección de proyectos (Guía del PMBOK). Séptima edición.
+
+● Gestión práctica de proyectos con Scrum: Desarrollo de software ágil para el Scrum Master (Aprender a ser mejor gestor de proyectos) (Spanish Edition) ● McManus, J. (2012). Risk management in software development projects. Routledge.
+
+● Adkins, L. (2010). Coaching agile teams: a companion for ScrumMasters, agile coaches, and project managers in transition. Addison-Wesley Professional.
+
+● Mantle, M. W., & Lichty, R. (2019). Managing the unmanageable: rules, tools, and insights for managing software people and teams. Addison-Wesley.
+
+● Innovations in Systems and Software Engineering (Journal). https://www.springer.com/journal/11334 ● Legum, B. M., Stiles, A. R., & Vondran, J. L. (2019). Engineering Innovation: From idea to market through concepts and case studies. Walter de Gruyter GmbH & Co KG.

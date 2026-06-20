@@ -1,0 +1,39 @@
+Inteligencia artificial INFORMACIÓN BÁSICA Código y Nombre 750022C - Inteligencia artificial Créditos 4 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 8 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Prerrequisitos 750013C - Fundamentos de programación funcional y concurrente 761001C - Probabilidad y estadística Validable Sí Habilitable No Tipo de Asignatura Asignatura profesional (AP) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO La inteligencia artificial es una disciplina clave en la cuarta revolución industrial y hoy en día tiene múltiples aplicaciones entre las que se encuentran el desarrollo de modelos inteligentes en el ámbito médico, educativo, y financiero, el diseño de vehículos autónomos, drones, y robots, así como el entrenamiento y uso de modelos predictivos, entre muchas otras. Este curso presenta los fundamentos de la inteligencia artificial e incluye temas como algoritmos de búsqueda tanto informada como no informada, el diseño de heurísticas y teoría de juegos. Además, presenta de manera práctica técnicas de aprendizaje de máquina, específicamente relacionadas con la tarea de clasificación tales como árboles de decisión, redes neuronales, y clasificadores bayesianos. Esto le permitirá al estudiante conocer el proceso para obtener modelos predictivos a partir de un conjunto de entrenamiento. El curso tiene un componente práctico que se aborda desde el trabajo en equipo intentando que los estudiantes aborden problemas reales, en grupos de trabajo, y que tengan la capacidad de aplicar los conceptos vistos a lo largo del curso.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO C.E.8: Analizar, extraer, procesar, interpretar y presentar visualmente los datos y la información provenientes de sistemas basados en TIC R.A.1: Aplica algoritmos de búsqueda no informada e informada, construyendo un árbol de búsqueda y expandiendo sus nodos de acuerdo a un criterio bien definido, para encontrar una solución en un problema IL 1.1 Clasifica las propiedades de un ambiente dado Propiedades de los ambientes Accesible, determinista, episódico, estático/dinámico, discreto/continuo IL 1.2 Representa los estados, operadores, prueba de meta, y costo de ruta, en un problema dado Representación de un problema Definición de estados, operadores, prueba de meta, y costo de ruta Algoritmos de búsqueda no informada Amplitud, Costo uniforme, Profundidad IL 1.3 Realiza el seguimiento de un algoritmo de búsqueda no informada, expandiendo los nodos en el orden correcto y presenta el árbol de búsqueda para un problema específico IL 1.4 Implementa en un lenguaje de programación los algoritmos de búsqueda no informada IL 1.5 Define una heurística admisible y/o dominante para un problema dado Diseño de heurísticas Heurísticas admisibles y dominantes IL 1.6 Realiza el seguimiento de un algoritmo de búsqueda informada, expandiendo los nodos en el orden correcto y presenta el árbol de búsqueda para un problema específico Algoritmos de búsqueda informada Avara, A* IL 1.7 Implementa en un lenguaje de programación los algoritmos de búsqueda informada R.A.2: Aplica el algoritmo minimax, definiendo una función de utilidad, una representación de los estados, una meta, y una prueba terminal, para encontrar la decisión a tomar en un juego con adversario IL 2.1 Representa un juego como estados, operadores, función de costo, prueba terminal Teoría de juegos Representación de juegos.
+
+Algoritmo minimax. Poda alfa-beta Juegos con decisiones imperfecta usando una función de utilidad heurística Juegos con elemento aleatorio IL 2.2 Poda un árbol de juego IL 2.3 Construye un árbol de juego con decisiones imperfectas o con elementos aleatorio IL 2.4 Implementa el algoritmo minimax para un juego específico R.A.3: Aplica algoritmos de aprendizaje de máquina por medio de una plataforma de ciencia de datos, para abordar problemas de clasificación o regresión IL 3.1 Utiliza la técnica de árboles de decisión sobre un conjunto de datos Principales técnicas de machine learning Clustering, clasificación, reglas de asociación Topología de una red neuronal. Funciones de activación. Entrenamiento de la red
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO Árboles de decisión:
+
+clasificación y regresión Clasificadores bayesianos:
+
+GaussianNB(), BernoulliNB() scikit-learn, Pandas, Jupyter Notebook IL 3.2 Utiliza la técnica de redes neuronales sobre un conjunto de datos IL 3.3 Utiliza un clasificador bayesiano sobre un conjunto de datos METODOLOGÍA El curso se desarrolla en dos clases semanales de dos horas cada una. En esta asignatura se tienen dos proyectos que le permitirán al estudiante aplicar los conceptos teóricos vistos en clase. Además, se tiene un informe de machine learning que le permitirá abordar un problema de clasificación utilizando los diferentes algoritmos presentados en el curso.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de un salón con acceso a internet, con puestos individuales de trabajo, y que esté provista de video beam.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos de tres personas tales como los dos proyectos y el informe de machine learning. Además, se tienen un examen que se aplicará en la octava semana de clase. Los porcentajes asignados para cada una de estas actividades son:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 Examen Proyecto 1 25.0 25.0 50.0 R.A.2 Examen Proyecto 2 7.5 22.5 30.0 R.A.3 Informe machine learning 20.0 20.0
+
+BIBLIOGRAFÍA Peter Norvig y Stuart Russell. Inteligencia Artificial. Un Enfoque Moderno. 2a. Edición.
+
+Pearson Prentice Hall. 2003.
+
+Gonzalo Pajares Martinsanz y Matilde Santos Peñas. Inteligencia Artificial e Ingeniería del Conocimiento. Alfaomega. 2006.
+
+Neil Wilkings. Inteligencia artificial: una guía completa sobre la IA, el aprendizaje automático, el internet de las cosas, la robótica, el aprendizaje profundo, el análisis predictivo y el aprendizaje reforzado. Bravex publications. 2019.
+
+Aurélien Géron. Hands-on Machine learning with Scikit-learn, Keras, and TensorFlow. Segunda edición. O’Reilly. 2019.
+
+Wes McKinney. Python for Data analysis: Data wrangling with Pandas, NumPy, and IPython.
+
+O’Reilly. 2022.

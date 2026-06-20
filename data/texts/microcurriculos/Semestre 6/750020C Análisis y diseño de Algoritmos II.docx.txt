@@ -1,0 +1,55 @@
+Análisis y Diseño de Algoritmos II INFORMACIÓN BÁSICA Código y Nombre 750020C - Análisis y Diseño de Algoritmos II Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de sistemas Prerrequisitos Análisis y Diseño de Algoritmos I, Fundamentos de Interpretación y Compilación de Lenguajes de Programación Validable Si Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No x DESCRIPCIÓN GENERAL DEL CURSO En la literatura y en la vida práctica existen diversos problemas para los que no se conocen soluciones algorítmicas eficientes. En ese sentido, reconocer las clases de problemas para lograr identificarlos como tratables e intratables, permite comprender las implicaciones y limitaciones reales que trae consigo el abordaje de retos computacionales.
+
+Este curso está orientado a comprender y utilizar conceptos fundamentales de la teoría de NP-Completitud (demostrar que un problema pertenece a la clase NP-Completo utilizando técnicas de reducción) como mecanismo fundamental cuando hay que abordar la solución de problemas de optimización.
+
+Durante el curso, se evidenciará que muchos de estos problemas son intratables y traen consigo desafíos asociados a la forma como pueden ser abordados en la práctica. Para esto, se abordarán distintas técnicas como lo son: algoritmos de fuerza bruta, voraces, dinámicos y heurísticas de búsqueda local. También se explorarán técnicas de modelamiento y estrategias para abordar la solución de problemas de optimización y satisfacción de restricciones, utilizando técnicas de programación lineal como simplex, y branch and bound para programación entera y programación entera mixta.
+
+No de Versión:
+
+03 No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+01-12- 2020
+
+En el curso, los estudiantes tendrán la oportunidad de aplicar estos conceptos en el desarrollo de dos miniproyectos donde podrán modelar un problema de optimización y abordarán su solución utilizando diferentes estrategias.
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.3 Seleccionar y utilizar diferentes paradigmas y lenguajes de programación al construir sistemas basados en TIC R.A.1. Aplica técnicas de algoritmos voraces y dinámicos, en la construcción de algoritmos, para solucionar problemas de naturaleza combinatoria.
+
+Problemas de Optimización combinatoria, algoritmos de fuerza bruta y voraces, programación dinámica C.E.13 Resolver problemas de ingeniería identificando diferentes alternativas de solución y desarrollando sistemas basados en TIC R.A.2. Construye modelos de optimización en términos de parámetros, variables, restricciones y función objetivo, a partir de un problema determinado, para explorar soluciones prácticas utilizando herramientas computacionales de modelamiento y solvers existentes.
+
+Programación lineal, programación entera, programación entera mixta, método simplex, algoritmo branch and bound, técnicas de modelamiento C.E.1 Utilizar los conocimientos fundamentales en teoría de la computación (v.gr. estructuras discretas, complejidad de algoritmos, máquinas abstractas, lógica) en la construcción de sistemas basados en TIC R.A.3. Aplica la teoría de NP-Completitud, identificando algoritmos de reducción a partir de un problema NP-Completo conocido, para probar que determinado problema también es NP-Completo.
+
+Clase P, Clase NP, Clase NP-Completo, Demostración de NP-Completitud METODOLOGÍA El curso se desarrolla en 2 sesiones semanales de 1.5 horas. El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje de cada gran idea; en esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen video clips, notas de clase, libros de referencia, ejercicios asignados para solución individual o en pequeños
+
+grupos. Esto se contrapone con pedagogía convencional donde el estudiante toma nota de lo que dice el profesor y luego estudia en el libro o en las notas de la asignatura lo que se dijo en clase, como base para hacer las tareas.
+
+● Clase invertida significa que para cada una de las unidades de aprendizaje en la que se llega a los resultados de aprednizaje de cada gran idea hay tres momentos en el proceso:
+
+○ Antes de la clase magistral, el estudiante debe revisar los objetos de estudio que pide la guía de estudio para dicho componente del curso, apropiar los conceptos de que se trate y aplicarlos en los ejercicios asignados.
+
+○ Durante la clase magistral, los estudiantes y el profesor interactúan alrededor de situaciones problemáticas que permitan detectar y resolver conceptos errados o pre-requeridos, así como ganar comprensión de los conceptos en estudio y hacer aplicación de los mismos en contextos relevantes.
+
+○ Después de la clase magistral, el estudiante debe completar la ejercitación que haga falta poder demostrar que sabe lo que se señala el objetivo específico. En cada módulo hay una guía de estudio que especifica qué resultados observables están asociados a cada unidad de aprendizaje y entendimiento perdurable.
+
+En algunas sesiones de clase, estilo taller se trabaja en afianzar los conceptos estudiados, mediante ejercitación individual o grupal, y haciendo uso de sistemas de respuesta en línea (socrative, en nuestro caso) RECURSOS DE APOYO El principal recurso de apoyo es el campus virtual donde se compartirán videos, presentaciones y acceso a recursos adicionales como socratives, modelos, entre otros.
+
+EVALUACIÓN DEL CURSO RA % Actividades evaluativas R.A.1 35 Proyecto 1 R.A.2 40 Parcial 1, Proyecto 2 R.A.3 25 Parcial 2 TOTAL 100
+
+BIBLIOGRAFÍA 1.
+
+A.D. Belegundi and T.R. Chandrapatla. Optimization Concepts and Applications in Engineering. Prentice Hall, 1999.
+
+2.
+
+T.H. Cormen, C.E. Leiserson, and R. Rivest. Introduction to Algorithms, 4th. de. MIT Press, 2022.
+
+3.
+
+J. Hooker. Logic-Based Methods for Optimization. John Wiley & Sons, Inc. 2000.
+
+4.
+
+S. Skiena. The Algorithm Design Manual. Springer-Verlag. 1998.

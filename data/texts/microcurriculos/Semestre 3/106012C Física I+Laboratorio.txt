@@ -1,0 +1,285 @@
+Física I + Laboratorio INFORMACIÓN BÁSICA Código y Nombre 106012C Física I + Laboratorio Créditos 4 Horas  / Semana Presenciales: 6 Trabajo independiente: 6 Unidad Académica Facultad de Ciencias Naturales y Exactas Departamento de Física Programas Académicos Facultad de Ingeniería Prerrequisitos Matemáticas básicas Validable No Habilitable Si Tipo de Asignatura Asignatura Básica La asignatura favorece la Formación General No DESCRIPCIÓN GENERAL DEL CURSO Este curso pretende proporcionar al estudiante una “comprensión funcional” del sistema conceptual de la mecánica newtoniana elemental; este sistema está conformado por los conceptos descritos en los contenidos de cada una de las unidades temáticas en que se divide el curso, y por las técnicas de análisis y modelamiento de las situaciones físicas a las que se refieren los “problemas tipo” explicados en los textos de física universitaria para ingeniería más usuales, como los indicados en la bibliografía del curso.
+
+Por comprensión funcional se entiende, no la memorización a corto plazo de las definiciones de los conceptos y de los procedimientos de resolución de problemas de aplicación que se encuentran en la bibliografía, sino la capacidad de utilizar de manera autónoma el sistema conceptual de la mecánica newtoniana para el análisis y resolución de problemas nuevos, similares a los problemas tipo estudiados.
+
+La propuesta de enseñanza-aprendizaje busca la participación activa por parte del estudiante, las propuestas metodológicas entre otras son la clase expositiva o magistral, los laboratorios, la resolución de problemas y los talleres en donde deben incluirse ejemplos de las otras áreas del conocimiento presentes en este espacio formativo.
+
+FÍSICA I + LABORATORIO SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC1.
+
+Comprensión de las ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina.
+
+RA1. Aplica los conceptos de la cinemática con relación a la posición de la partícula y su evolución temporal, implementando el lenguaje matemático, a fin de describir el movimiento de sistema.
+
+Conceptos Fundamentales Cinemática Dinámica elemental Trabajo y Energía Sistema de partículas Dinámica Rotacional Ley de gravitación universal RA2. Aplica la dinámica de Newton y los conceptos de energía mecánica, considerando la cinemática, para predecir los movimientos de partículas puntuales y cuerpo rígido.
+
+SCC2. Capacidad de resolución de problemas desde la ingeniería.
+
+RA3. Obtiene e interpreta datos, siguiendo adecuadamente métodos y protocolos experimentales, trabajando en forma individual o en equipo para modelar fenómenos de mecánica.
+
+DESARROLLO DEL CURSO RA Indicadores de Logro Contenido RA3 · Identifica las características básicas de las ciencias físicas y su impacto en la vida diaria.
+
+· Aplica estrategias generales para la resolución de problemas en física.
+
+· Soluciona operaciones con vectores en dos y tres dimensiones.
+
+· Explica el concepto de variación de un vector en magnitud y orientación · Examina los aspectos básicos de la medición y cómo reportar adecuadamente una medida.
+
+· Aplica los conceptos asociados a la medición en la realización de prácticas experimentales de laboratorio.
+
+· Obtiene e interpreta datos, siguiendo adecuadamente métodos y protocolos experimentales, para examinar el grado de 1.1   La naturaleza de la física 1.2   Medición · ¿Qué es medir?
+
+· Medidas directas e indirectas · Cifras significativas · Incertidumbre de una medida 1.3   Estrategia general para resolución de problemas.
+
+1.4   Vectores · Cantidades escalares y vectoriales · Propiedades de los vectores · Operaciones básicas (suma y producto) · Componentes de un vector · Vector unitario Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:
+
+FÍSICA I + LABORATORIO validez de los modelos teóricos en sistemas mecánicos disponibles en el laboratorio.
+
+· Usa la metodología experimental para diseñar y proponer formas de medir fenómenos físicos.
+
+RA1, RA3 · Diferencia y relaciona los conceptos de desplazamiento, velocidad y aceleración en un movimiento rectilíneo.
+
+· Calcula los vectores de posición, velocidad y aceleración en coordenadas cartesianas y polares.
+
+· Determina e interpreta las variables físicas, las relaciones matemáticas y los gráficos de un movimiento rectilíneo uniforme y uniformemente acelerado, solucionando problemas de aplicación.
+
+· Aplica los fundamentos del movimiento parabólico en la solución de problemas de aplicación · Interpreta y analiza la naturaleza del movimiento (si es rectilíneo, velocidad constante, aceleración constante, de tipo parabólico…) y su utilización práctica en diferentes situaciones cotidianas.
+
+· Realiza experimentos y actividades de laboratorio relacionadas con la cinemática, siguiendo adecuadamente métodos y protocolos experimentales.
+
+· Obtiene e interpreta datos, siguiendo adecuadamente métodos y protocolos experimentales, para examinar el grado de validez de los modelos teóricos en sistemas mecánicos disponibles en el laboratorio.
+
+· Usa la metodología experimental para diseñar y proponer formas de medir fenómenos físicos.
+
+2.1 Fundamentos de cálculo diferencial e integral de una sola variable (Derivada e integrales) 2.2 Descripción del movimiento en 1D · Marcos de referencia y vector posición · Desplazamiento · Velocidad · Aceleración · Movimiento con aceleración constante · Caída libre 2.3 Descripción del movimiento en 2D y 3D.
+
+· Cinemática vectorial: Posición, velocidad y aceleración.
+
+· Movimiento en dos dimensiones con aceleración constante · Movimiento de un proyectil · Velocidad relativa* RA1, RA3 · Construye las transformaciones de coordenadas utilizando los sistemas de coordenadas Cartesianas, Polares y Esféricas.
+
+· Determina e interpreta las variables cinemáticas y las relaciones matemáticas de un movimiento rotacional, solucionando problemas de aplicación.
+
+· Reconoce y discrimina entre movimientos radiales y tangenciales en un movimiento rotacional.
+
+· Distingue y establece el paralelo entre el movimiento lineal 1D y el angular 2D.
+
+3.1 Movimiento circular de una masa puntual.
+
+3.2 Posición, desplazamiento, velocidad y aceleración angulares.
+
+3.3 Movimiento circular con velocidad angular constante.
+
+3.4 Aceleración centrípeta.
+
+3.5 Movimiento curvilíneo.
+
+Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:
+
+FÍSICA I + LABORATORIO · Realiza experimentos y actividades de laboratorio relacionadas con la cinemática rotacional, siguiendo adecuadamente métodos y protocolos experimentales.
+
+· Obtiene e interpreta datos, siguiendo adecuadamente métodos y protocolos experimentales, para examinar el grado de validez de los modelos teóricos en sistemas mecánicos disponibles en el laboratorio.
+
+· Usa la metodología experimental para diseñar y proponer formas de medir fenómenos físicos.
+
+RA2, RA3 · Demuestra su comprensión efectiva del sistema conceptual de la dinámica newtoniana elemental, interrelacionando sus principios y conceptos básicos como las leyes de Newton, sistema de referencia inercial, inercia, interacción, fuerza, masa, peso, cantidad de movimiento, fricción, etc., mediante:
+
+· La superación de las ideas intuitivas prenewtonianas sobre el movimiento, como la de que todo cuerpo en movimiento es movido por un agente externo o interno · El análisis y resolución de problemas de aceleración constante de “sistemas mecánicos simples” como los estudiados en los textos indicados en la bibliografía de la unidad.
+
+· Aplica esa comprensión en el modelamiento de los sistemas dinámicos existentes en el laboratorio (máquina de Atwood, plano inclinado, carril de aire) y en el análisis de los resultados obtenidos en las investigaciones propuestas en los protocolos respectivos.
+
+· Realiza experimentos y actividades de laboratorio relacionadas con la cinemática rotacional, siguiendo adecuadamente métodos y protocolos experimentales.
+
+· Obtiene e interpreta datos, siguiendo adecuadamente métodos y protocolos experimentales, para examinar el grado de validez de los modelos teóricos en sistemas mecánicos disponibles en el laboratorio.
+
+· Usa la metodología experimental para diseñar y proponer formas de medir fenómenos físicos.
+
+4.1 Definición de masa 4.2 Primera Ley de Newton, sistema inercial de referencia 4.3 Cantidad de movimiento 4.4 Interacciones y Fuerzas 4.5 Segunda y tercera ley de Newton 4.6 Aplicaciones de las Leyes de Newton Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:
+
+FÍSICA I + LABORATORIO RA1, RA2, RA3 · Comprende el concepto de trabajo como un mecanismo de transferencia de energía debido a las fuerzas que lo realizan.
+
+· Calcula el trabajo realizado por varios tipos de fuerza, identificando la dependencia entre las direcciones de la fuerza aplicada y el desplazamiento.
+
+· Enuncia y aplica con claridad el teorema del trabajo y la energía cinética.
+
+· Reconoce que el trabajo realizado por una fuerza conservativa es independiente de la trayectoria y que el trabajo realizado por una fuerza no conservativa depende de la trayectoria.
+
+· Define y deduce la energía potencial con base en el trabajo realizado por diferentes fuerzas conservativas.
+
+· Utiliza el principio de conservación de energía mecánica, cuando corresponde, para correlacionar el estado de una partícula en dos instantes dados.
+
+· Formula y aplica el concepto general de potencia.
+
+· Realiza experimentos y actividades de laboratorio relacionadas con el trabajo y la energía mecánica, siguiendo adecuadamente métodos y protocolos experimentales.
+
+· Obtiene e interpreta datos, siguiendo adecuadamente métodos y protocolos experimentales, para examinar el grado de validez de los modelos teóricos en sistemas mecánicos disponibles en el laboratorio.
+
+· Usa la metodología experimental para diseñar y proponer formas de medir fenómenos físicos.
+
+5.1Trabajo 5.2 Teorema del trabajo y la energía cinética 5.3 Fuerzas conservativas y no conservativas.
+
+5.4 Energía potencial 5.5 Conservación de la energía mecánica.
+
+5.6 Potencia.
+
+RA1, RA2, RA3 · Comprende el concepto de sistema de partículas y su centro de masa.
+
+· Calcula el centro de masa para objetos no regulares y regulares.
+
+· Comprende y aplica el teorema de trabajo y energía para un sistema de partículas en la solución de problemas físicos.
+
+· Identifica la energía interna de un sistema de partículas.
+
+· Aplica la dinámica de Newton, considerando la cinemática, para predecir el movimiento de un sistema de partículas.
+
+6.1 Centro de masa y su dinámica 6.2 Colisiones 6.3 Teorema de trabajo y energía para sistema de partículas 6.4 Energía interna Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:
+
+FÍSICA I + LABORATORIO · Describe el movimiento de un sistema de partículas puntuales después de una colisión, utilizando las leyes de Newton y el principio de conservación de la energía mecánica.
+
+· Realiza experimentos y actividades de laboratorio relacionadas con sistemas de partículas, siguiendo adecuadamente métodos y protocolos experimentales · Obtiene e interpreta datos, siguiendo adecuadamente métodos y protocolos experimentales, para examinar el grado de validez de los modelos teóricos en sistemas mecánicos disponibles en el laboratorio.
+
+· Usa la metodología experimental para diseñar y proponer formas de medir fenómenos físicos.
+
+RA1, RA2, RA3 · Comprende y aplica los conceptos y principios de la dinámica rotacional y la energía cinética rotacional.
+
+· Identifica al torque de una fuerza como la capacidad de una fuerza para hacer rotar un cuerpo rígido.
+
+· Determina la inercia rotacional con respecto a un eje fijo según el cuerpo rígido.
+
+· Utiliza los conceptos de momento angular y su conservación en la solución de problemas.
+
+· Resuelve problemas como parte del proceso de aprendizaje.
+
+· Evalúa las condiciones necesarias para que un sólido rígido se encuentre en equilibrio.
+
+· Realiza experimentos y actividades de laboratorio relacionadas con la dinámica rotacional, siguiendo adecuadamente métodos y protocolos experimentales.
+
+7.1 Dinámica rotacional para un sistema de partículas 7.2 Energía Cinética rotacional.
+
+7.3 Torque 7.4 Momento de Inercia 7.5 Momento angular 7.6 Conservación de momento angular.
+
+7.7 Aplicaciones RA1, RA2, RA3 · Describe un movimiento de dos cuerpos bajo la acción de una fuerza gravitacional.
+
+· Describe el comportamiento del movimiento de los cuerpos celestes comprendiendo la interacción gravitacional entre dos cuerpos.
+
+· Identifica y describe el modelo Gravitacional Newtoniano fundamental y explica la descripción observacional de las leyes de Kepler.
+
+· Utiliza la conservación de momento angular para reducir el problema de tres dimensiones a dos dimensiones.
+
+8.1 Movimiento planetario, leyes de Kepler 8.2 Ley de Newton de la Gravitación.
+
+8.3 Universalidad de la ley de Gravitación.
+
+8.4 Experimento de Cavendish 8.5 Simetría de rotaciones y conservación de momento angular.
+
+demostración de Leyes de Kepler 8.6 Energía potencial gravitacional de Newton y ley de la conservación de la energía.
+
+Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:
+
+FÍSICA I + LABORATORIO · Explica las regiones posibles de movimiento de dos cuerpos, para fuerzas centrales, usando la conservación de la energía.
+
+· Contrasta la diferencia entre una descripción de la interacción por campos continuos y el concepto de fuerza a distancia.
+
+8.7 Campo Gravitacional y potencial gravitacional.
+
+8.8 Aplicaciones.
+
+RECURSOS DE APOYO – PRACTICAS DE LABORATORIO SUGERIDAS Sesión 1.Laboratorios 1, 2, 3, 4. – Guía: Laboratorios introductorios (K. Gross, L.A. Rodríguez) Sesión 2. Tiro parabólico – Guía: Física Fundamental-1 (Vergara-Colorado 2015) y Caída libre – Guía: Laboratorios introductorios (K. Gross, L.A. Rodríguez) Sesión 3. Análisis del movimiento (circular) con un teléfono inteligente – Guía: Ver bibliografía 4 y 5.
+
+Sesión 4. Máquina de Atwood – Guía: Experimentación Física-1 (A. Bohórquez), Rozamiento – Guía: Experimentación Física-1 (K. Gross , L.A. Rodríguez) y Carril de aire (medición de g) – Guía: Experimentación física-1 (L. Zamora) Sesión 5. por definir Sesión 6. Péndulo balístico – Guía : Experimentación física-1 (L. Zamora), Choque de péndulos – Guía: Experimentación física-1 (A. Bohórquez) y Conservación de energía sistema masa-resorte – Guía: por definir Sesión 7. Momento de Fuerzas – Guía: Experimentación Física-1 (L. Zamora), Cilindros rodando – Guía: Experimentación física-1 (A. Bohórquez), Atwood considerando la polea – Guía: Experimentación física (A. Bohórquez) y Equilibrio estático – Guía: Experimentación física-1 (A. Bohórquez).
+
+Sesión 8. por definir METODOLOGÍA El curso consiste en clases magistrales (3 horas semanales), donde se exponen todos y cada uno de los temas del contenido del curso. En las sesiones de talleres (3 hora semanales) se resuelven ejemplos de aplicación de cada tema y se asignan, adicionalmente, ejercicios para realizar fuera de clase. El curso se estructura con base a distintas metodologías que fomenta la participación del estudiante e incluyen principalmente:
+
+a.
+
+Comprensión funcional, el curso ofrece a los estudiantes dos tipos de actividades formativas complementarias e interrelacionadas:
+
+· El estudio, la discusión y la aplicación de los contenidos teóricos a través de textos, clases magistrales y de taller, y materiales audiovisuales.
+
+· La enseñanza y aprendizaje de la metodología de la investigación científica e ingenieril, abordando problemas que requieren el modelamiento teórico de los sistemas mecánicos disponibles en el laboratorio hasta proponer hipótesis sobre Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:
+
+FÍSICA I + LABORATORIO su comportamiento, susceptibles de validación experimental, planificando, realizando, analizando y reportando los correspondientes experimentos.
+
+Se espera que esta componente del curso brinde a los estudiantes una mayor comprensión de los principios teóricos al adquirir una experiencia directa de los fenómenos que describen.
+
+b.
+
+La enseñanza y aprendizaje del método de investigación científica e ingenieril :
+
+· Abordando el modelamiento teórico de sistemas mecánicos disponibles en el laboratorio.
+
+· Proponiendo hipótesis sobre el comportamiento mecánico de sistemas físicos susceptibles de corroboración experimental. Planificando, realizando y reportando los resultados del experimento correspondiente.
+
+EVALUACIÓN DEL CURSO La propuesta de evaluación considera distintas instancias, entre las que se pueden mencionar:
+
+● El curso aportará a la formación ética del estudiante exigiendo cumplimiento, compromiso y honradez en los trabajos y evaluaciones del curso ● En los trabajos e informes de laboratorios se revisará el progreso en la presentación y redacción durante el semestre.
+
+● Se le pedirá capacidad de análisis crítico en las lecturas y textos en el curso.
+
+RA Evaluación % Total RA1 Examen 1 18 22% Quices y ejercicios en clase 2 Informe de laboratorio 2 Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:
+
+FÍSICA I + LABORATORIO RA2 Examen 2 10 22% Quices y ejercicios en clase 10 Informe de laboratorio 1 RA3 Examen 3 10 22% Quices y ejercicios en clase 10 Coevaluación 1 BIBLIOGRAFÍA Giancoli, Douglas C. .(2008) Física para ciencias e ingeniería. Douglas,  Pearson Education, Cuarta edición.
+
+Jewett, John W. y Serway, Raymond A. (2007) Física para ciencias e ingeniería. Raymond A. Serway y John W. Jewett. Vol 1. Séptima edición. Bauer.
+
+Young, Freedman, Ford, (Sears and Zemansky), (2013) Física Universitaria, Pearson, Decimotercera edición.
+
+Bauer W., Westfall, Gary D.  , Wolfgang (2014) Física para ingeniería y ciencias.
+
+McGraw-Hill  vol 1. Segunda edición.
+
+Tipler Paul A., Mosca, Gene . (2010) Física para la ciencia y la tecnología, editorial Reverte sexta edición.
+
+Feynman, Leighton, Sands, (2010) The Feynman Lectures on Physic, Basic Books.
+
+Kleppner, Kelenkow, (2014) Introduction to Mechanics, Cambridge University Press.
+
+Susan M. Lea, John Robert Burke-(1998) Physics_ The Nature of Things-Brooks Cole.
+
+Versión:
+
+Escuela:
+
+Última actualización:
+
+Programa:

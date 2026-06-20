@@ -1,0 +1,137 @@
+CÁLCULO MONOVARIABLE INFORMACIÓN DE LA ASIGNATURA Código – Nombre Cálculo Monovariable Créditos 3 Horas de trabajo Presenciales: 5 horas semanales Trabajo independiente: 4 horas semanales Unidad(es) Académica(s) Unidades académicas de la Facultad de Ingeniería Programa(s) Académico(s) Programas Académicos de la Facultad de Ingeniería Prerrequisitos/correquisitos Sí – Matemáticas Básicas Validable SÍ Habilitable SÍ Tipo de Asignatura Básica La asignatura favorece la Formación General (Sí) (No) x DESCRIPCIÓN DEL CURSO Este espacio formativo de Cálculo Monovariable tiene como propósito introducir a los estudiantes en los tres grandes ejes sobre los que se basa el cálculo en funciones de valor y variable real (cálculo monovariable); estos son: la continuidad de una función, la derivada de una función y la integral de una función utilizando el concepto de límite. Se desarrolla una idea intuitiva de límite de una función, esbozando de forma general su definición formal. El curso busca que el alumno domine algunas reglas y propiedades de los límites a fin de determinar la continuidad, la derivabilidad e integralidad de una función. Se interpreta geométricamente el concepto de derivada de una función como la pendiente de la recta tangente a una curva en un punto o, desde el punto de vista de la física, la velocidad como la razón de cambio instantáneo de la posición con respecto al cambio en el tiempo. Se considera la integración como un proceso inverso a la derivación, para luego introducir la integral definida en términos de límites, y su evaluación a través del Teorema Fundamental del Cálculo. El curso proporciona herramientas que les permiten a los estudiantes relacionar la derivación y la integración en el modelamiento de algunos problemas de la geometría, la física, la ingeniería, entre otras disciplinas. Este ambiente de formación se desarrollará mediante una metodología dialogante a partir del modelo instruccional de resolución de problemas, conocido como Aprendizaje Basado en Problemas (ABP), con la implementación de clases interactivas, trabajo colaborativo y el autoaprendizaje.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+:
+
+Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC1.Comprensión de las RA1. Interpreta el concepto de límite de funciones de variable y valor real, mediante el álgebra de ecuaciones e inecuaciones y la manipulación algorítmica, para comprender los fundamentos del cálculo diferencial e integral.
+
+ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina RA2 Maneja el concepto de derivada a través de las SCC2. Capacidad de resolución de problemas desde la ingeniería nociones de límite y razones de cambio y por medio de manipulaciones algebraicas para resolver (abordando) diversos problemas en el área de las ingenierías, ciencias naturales y exactas y la economía.
+
+Cálculo Diferencial Cálculo Integral RA3. Aplica distintas técnicas y métodos de integración mediante la comprensión del concepto de antiderivada para el cálculo de integrales complejas en el área de las ingenierías, ciencias naturales y exactas y la economía.
+
+RA4. Interpreta la noción de integral definida, mediante el teorema fundamental del cálculo, para ser usada en diversos problemas de ingeniería, física, geometría y economía.
+
+RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO RA1 · Interpreta, de manera intuitiva el concepto de límite de funciones de valor y variable real.
+
+· Comprende de manera general la definición formal de límite.
+
+· Maneja las reglas y propiedades para calcular límite de funciones de valor y variable real en algunos casos específicos.
+
+· Interpreta el concepto de continuidad en funciones de valor y variable real.
+
+· Utiliza herramientas tecnológicas para la visualización de la existencia o no de límites y continuidades.
+
+· Decide sobre la continuidad algunas funciones de valor y variable real · Reconoce la continuidad de las funciones exponencial, polinómicas, seno y coseno.
+
+· Reconoce la importancia del teorema del valor intermedio para funciones continuas.
+
+1.
+
+Límites y Continuidad 1.1 Idea intuitiva de límite 1.2 Límites laterales 1.3 Propiedades de límites 1.4 Límites en infinito y asíntotas horizontales 1.4 Límites al infinito y asíntotas verticales 1.5 Teorema del emparedado 1.6 Algunos límites trigonométricos 1.7 Funciones continuas, definición y ejemplos 1.8 Continuidad lateral 1.9 Continuidad de funciones polinómicas, racionales y trigonométricas 1.10 Tipos de discontinuidad 1.11 Teorema del valor intermedio.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO · Utiliza el teorema del valor intermedio para garantizar existencia de ceros de algunas funciones.
+
+RA1, RA2 · Interpreta la noción de derivada de funciones de valor y variable real de forma geométrica y como razón de cambio · Comprende la definición formal de derivada en términos de la noción de límite.
+
+· Utiliza las reglas y propiedades para calcular derivadas de funciones de valor y variable real en algunos casos específicos.
+
+· Utiliza herramientas tecnológicas para el cálculo de derivadas de funciones de valor y variable real en algunos casos específicos.
+
+· Utiliza las derivadas de funciones para bosquejar algunas gráficas.
+
+· Interpreta los conceptos de máximos y mínimos de funciones de valor y variables reales.
+
+· Resuelve problemas de hallar máximos o mínimos de funciones usando los distintos criterios derivadas o los criterios para funciones continuas en intervalos cerrados y acotados.
+
+· Resuelve problemas que involucren límites especiales, utilizando la derivada, para algunas funciones particulares.
+
+2.
+
+Cálculo Diferencial 2.1 Idea intuitiva de la derivada 2.2 Introducción formal de la derivada de una función 2.3 Derivabilidad y continuidad 2.4 Derivada como razón de cambio 2.5 Reglas de derivación 2.6 Derivadas de orden superior 2.7 Regla de la cadena.
+
+2.8 Derivada de la función exponencial y logaritmo.
+
+2.9 Derivación implícita 2.10 Razones relacionadas 2.11 Extremos relativos y absolutos 2.12 Teoremas de Rolle y valor medio 2.13 Criterios de la primera y segunda derivada 2.14 Problemas de optimización 2.15 Trazado de curvas 2.16 Aproximaciones polinómicas: fórmula de Taylor 3.17 Formas indeterminadas y Regla de L’hópital.
+
+RA1, RA3,RA4 · Interpreta la noción de la integral indefinida a través de nociones cinemáticas · Comprende la definición formal de la integral definida en términos de límites de sumatorias · Utiliza reglas y propiedades de sustitución y transformación para calcular integrales · Utiliza herramientas tecnológicas para el cálculo de integrales definidas en algunos casos específicos.
+
+· Utiliza las integrales para el cálculo de áreas, volúmenes y longitud de arco.
+
+· Utiliza integrales para la modelación de algunos problemas físicos.
+
+3.
+
+Cálculo Integral 3.1 Introducción intuitiva de la integral a través de la cinemática 3.2 La integral indefinida y antiderivadas 3.3 Algunas técnicas de integración 3.4 Integral definida 3.5 Teorema fundamental del cálculo 3.6 Teorema del valor medio para integrales 3.7 Introducción del concepto de área, a través de la integral.
+
+3.8 Cálculo de volúmenes, áreas de superficie y longitud de arco, a través de la integral.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+RESULTADO DE APRENDIZAJ E INDICADORES DE LOGRO CONTENIDO · Interpreta el teorema de valor medio para integrales.
+
+· Resuelve problemas de integrales impropias a través de la noción de límites infinitos.
+
+3.9 Integrales Impropias.
+
+METODOLOGÍA Este espacio formativo de Cálculo Monovariable tiene como metodología el Aprendizaje Basado en Problemas (ABP), siendo parte de una pedagogía dialogante y de contextos en donde los estudiantes juegan un rol protagónico con el fin de promover la autogestión (aprender a aprender), la lógica de la argumentación y el apoyo mutuo. En cada una de las sesiones se realiza una discusión conceptual alrededor de un problema a resolver; en donde es necesario utilizar las herramientas que brinda el cálculo diferencial y/o integral. Por otra parte, la metodología requiere unas guías de trabajo para brindar a los docentes un marco referencial que permitan construir estrategias didácticas orientadas para resolver problemas de distintos ámbitos. Es importante para cumplir los propósitos de este proceso de formación conformar grupos entre 30 a 40 estudiantes, contar con materiales acordes a las intervenciones, una adecuada preparación de los docentes y herramientas tecnológicas acordes a la formación centrada en el estudiante.
+
+RECURSOS DE APOYO Salón con mesas modulares y video beam. Campus virtual para la coordinación de las actividades del curso y el acceso adecuado a las bases de datos digitales con las que cuenta la Universidad del Valle. Guías de acceso virtual con el objetivo de presentar al estudiante toda la información de contenidos y ejercicios con diferentes aplicaciones.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+EVALUACIÓN DEL CURSO Es condición necesaria para cumplir con los objetivos del curso la asistencia al 80% de las clases. Congruente con la metodología propuesta, la evaluación no se debe reducir a rastrear la participación en la clase y a la revisión de seguimientos del nivel conceptual; el profesor debe estar atento a la evolución de los resultados de aprendizaje del curso, pero teniendo en cuenta que el proceso de aprendizaje no es lineal. Se trata de analizar el proceso evolutivo conceptual del estudiante en relación con su grado de compromiso. De esta forma, el estudiante debe estar informado permanentemente de sus progresos y atascamientos. La aprobación del curso tiene relación con el grado de compromiso y con la participación en las diversas actividades, tanto en clase como fuera del aula; siendo éstas: La asistencia participativa, tareas, exámenes cortos, seguimientos parciales, actividades en clase, coevaluación y autoevaluación. La evaluación de RA propuesta es la siguiente:
+
+Evaluación RA % Total Asistencia Participativa RA1 100 10% Actividades en clase, tareas (4), exámenes cortos (4) RA2 30 40% RA3 40 RA4 30 Seguimientos Parciales (4) (Si es en modalidad presencial asistida, es mejor hacerlos en forma de entrevistas) RA2 30 40% RA3 30 RA4 40 Autoevaluación RA1 100 5% Coevaluación RA4 100 5% Total 100% BIBLIOGRAFÍA ​ Sherman K. Stein, Anthony Barcellos. Cálculo y Geometría Analítica. Vol I y II. McGraw- Hill, 5a Edición. 1997.
+
+​ Louis Leithold. Cálculo con Geometría Analítica. Editorial Harla, 7a Edición, 1998. Tom Apostol.
+
+​ Cálculo Vol I. Editorial Reverté, 2a Edición.
+
+​ Thomas, Finney. Cálculo de una Variable Vol I. Addison Wesley Longman, Novena Edición.
+
+​ Larson-Hostetler-Edwards. Cálculo Vol I. 6ta Edición, McGraw-Hill, 1999.
+
+​ Cálculo de una variable 4/e conceptos y contextos. James Stewart, Ernesto Filo López, Manuel Robles Bernal -2010.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**

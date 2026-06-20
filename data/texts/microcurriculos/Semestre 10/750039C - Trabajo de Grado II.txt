@@ -1,0 +1,33 @@
+Trabajo de Grado II INFORMACIÓN BÁSICA Código y Nombre 750039C - Trabajo de Grado II Créditos 6 Horas de trabajo Presenciales: 2 horas Trabajo independiente: 16 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de sistemas Prerrequisitos 750038C - Trabajo de Grado I Validable No Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Lenguaje y Comunicación Si x No DESCRIPCIÓN GENERAL DEL CURSO El curso de Trabajo de Grado II representa una aplicación teórica o teórico-práctica de los conocimientos y habilidades adquiridos a lo largo de la formación profesional. Este curso está diseñado para permitir a los estudiantes analizar y abordar un problema o necesidad específica dentro de su área de especialización. Los cursos Trabajo de Grado I y Trabajo de Grado II se complementan entre sí para guiar a los estudiantes en la creación de su trabajo final de grado.
+
+Asimismo, se enfatiza la importancia de la ética y la responsabilidad en la investigación y el desarrollo tecnológico, preparando a los estudiantes para abordar cuestiones éticas y sociales en sus futuros roles como profesionales de la ingeniería de sistemas.
+
+En Trabajo de Grado II, los estudiantes culminan la ejecución de las actividades definidas en los planes de trabajo y completan los objetivos planteados en el anteproyecto. En este curso, los estudiantes se enfocan en la ejecución completa de su proyecto y en la preparación del documento final que entregarán, con el aval del tutor, para evaluación ante jurados seleccionados por el Comité del Programa.
+
+DESARROLLO DEL CURSO No de Versión:
+
+03 No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+01-12- 2020
+
+COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.7 Comprender las etapas de un proyecto de investigación C.E.14 Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC R.A.1. Ejecuta el proyecto o trabajo de grado planteado en el anteproyecto, para solucionar problemas, oportunidades o necesidades de un contexto específico Documentación de la ejecución de las actividades definidas en los planes de trabajo para cumplir con las fechas de ejecución del cronograma inicial Documentación del monitorea y control del progreso del proyecto en comparación con el plan para cumplir sus objetivos R.A.2. Entrega los productos esperados planteados en el anteproyecto, para la evaluación formal una vez cumplidos los objetivos Preparación del Informe final de trabajo de grado para darle cierre a la ejecución del proyecto C.G.3 Actuar de manera responsable y honesta en el marco del respeto hacia la dignidad de las personas y el cuidado del medio social, cultural y natural R.A.3. Aplica principios éticos y legales relacionados con derechos de autor y propiedad intelectual para promover una conducta ética y legal en el uso de la información y la tecnología Principios éticos y legales relacionados con derechos de autor y propiedad intelectual - manejo de referencias bibliográficas METODOLOGÍA El director/codirector de trabajo de grado del estudiante definirá encuentros presenciales/virtuales para revisión de bitácoras de avance del proyecto. Los estudiantes deberán trabajar en sus documentos de avance de proyecto final.
+
+RECURSOS DE APOYO El principal recurso de apoyo es el campus virtual donde se compartirán documentos normativos, ejemplos de proyectos finales de grado, presentaciones y acceso a recursos adicionales.
+
+EVALUACIÓN DEL CURSO
+
+RA % Formación General Actividades evaluativas R.A.1 70 Lenguaje y Comunicación (57%) Evaluación de Informe final y Sustentación R.A.2 20 Evaluación de Informe final y Sustentación R.A.3 19 Evaluación de Informe final y Sustentación TOTAL 100 BIBLIOGRAFÍA ● Berndtsson., Mikael, Hansson., Jörgen, Olsson., Björn and Lundell., Björn. Thesis Projects.
+
+A guide for students of Computer Science and Information Systems.
+
+Springer-Verlang London. Second Edition. 2008.
+
+● Creswell., John W. Research Design. Qualitative, Quantitative and Mixed methods approaches. Sage Publications. University of Nebraska. 2009.
+
+● Sabino A., Carlos. El proceso de investigación. Panamericana Editores. 2000. 5ª edición.
+
+● Sampieri., Roberto, Fernández., Carlos y Baptista., Pilar. Metodología de la Investigación.
+
+McGraw Hill. 4ª Edición. 2006.

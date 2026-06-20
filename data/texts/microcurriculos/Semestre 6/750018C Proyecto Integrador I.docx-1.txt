@@ -1,0 +1,67 @@
+Proyecto Integrador I
+
+INFORMACIÓN BÁSICA Código y Nombre 7500018C  Proyecto Integrador I Créditos 4 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 8 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos 3743 ingeniería de sistemas 2724 Tecnología en Desarrollo de Software
+
+Prerrequisitos 750009C Desarrollo de Software I Validable No Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Científico Tecnológica Artístico y Humanístico Si x No
+
+DESCRIPCIÓN GENERAL DEL CURSO El curso Proyecto Integrador I, tiene como objetivo brindar al estudiante experiencias de formación en las cuales solucione un problema pequeño tomado de un contexto real, trabajando en equipos de desarrollo que intenten favorecer la interdisciplinariedad, resolviendo retos similares a los que enfrentaría en un entorno laboral y realizando procesos de Diseño Centrados en el Usuario.
+
+En este curso el estudiante aprenderá conceptos relacionados con Diseño de Experiencia y Diseño de Interacción (UX/UI), trabajando con usuarios finales y aplicando los conocimientos y habilidades desarrollados en los cursos vistos hasta el momento en su formación profesional para el desarrollo de aplicaciones Web actuales.
+
+Adicionalmente, el estudiante podrá recibir algunas charlas técnicas de empresas que requieren profesionales para el desarrollo Web y/o Diseño UX/UI para familiarizarse con las demandas del entorno en el que se desarrollará como profesional.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.4: Aplicar conceptos y principios implicados en el proceso de diseño de interfaces gráficas de usuario durante el desarrollo de aplicaciones software RA-1 Usa principios de Diseño de Experiencia y Diseño de Interacción para el desarrollo de aplicaciones Web.
+
+.
+
+●​ Introducción a la Experiencia de Usuario ●​ Arquitectura de Información ●​ Diseño Visual ●​ Accesibilidad ●​ Test de usuarios
+
+C.E.5: Utilizar estándares, pautas y guías de accesibilidad a fin de desarrollar software C.E.6: Aplicar técnicas de evaluación de usabilidad que permitan medir la calidad de la experiencia que tienen los usuarios al interactuar con el software desarrollado C.E.14. Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC ●​ Herramientas para Gestión de los cambios del código C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación
+
+RA-2 Emplea algún sistema de gestión y control de versión de código, que le permite construir aplicaciones web de manera colaborativa.
+
+METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+●​ Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje planteado para el curso. En esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen videos o recursos en línea sobre el tema y tendrán asociado un quiz o tarea corta.
+
+●​ Clase invertida significa la clase tendrá la siguiente estructura:
+
+o​ Antes de la clase magistral, el estudiante debe revisar los objetos de estudio definidos para la clase, y desarrollar los ejercicios asignados.
+
+o​ Durante la clase magistral, los estudiantes y el profesor interactúan alrededor del proyecto de curso para resolver dudas y ganar comprensión de los conceptos en estudio; en algunas de las sesiones magistrales se podrá hacer la aplicación de los mismos en contextos reales.
+
+o​ Después de la clase magistral, los estudiantes deben organizar el avance del proyecto de curso aplicando los conceptos estudiados.
+
+RECURSOS DE APOYO A través del campus virtual de la Universidad del Valle, el estudiante encontrará el material disponible en forma digital: videos, artículos, recursos web.
+
+Se contará con una herramienta de uso libre para la gestión del proyecto y el manejo de versiones para la construcción del proyecto de curso.
+
+EVALUACIÓN DEL CURSO El/La estudiante será evaluado a través de un proyecto de curso que desarrollará aplicando un proceso de Diseño Centrado en el Usuario y una metodología de desarrollo de software ágil. Para lo cual se planearán entregas iterativas en las cuales deberá aplicar los conceptos visto en clase trabajando en equipos de preferencia interdisciplinarios.  Los estudiantes también desarrollarán quices o tareas cortas Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+RA Formación General % Actividad Evaluativa R.A.1 Científico Tecnológico Artístico Humanístico 80 Proyecto de Curso Tareas, Quices, etc.
+
+R.A.2 20 Total 100
+
+BIBLIOGRAFÍA ●​ UX: A Comprehensive Beginner’s Guide to Learn the Realms of UX Programming. Eric Schmidt.
+
+ISBN-13: ‎ 979-8846179233.  2022 ●​ Practical UI Patterns for Design Systems: Fast-Track Interaction Design for a Seamless User Experience. Diana MacDonald. ISBN-13: ‎ 978-1484249376 Apres 2020 ●​ Designing Interfaces: Patterns for Effective Interaction Design. Jenifer Tidwell, Charles Brewer, Aynne Valencia. O'Reilly Media. 3er edición. SBN-13: ‎ 978-1492051961 ●​ UX Methods: A Quick Guide to User Experience Research Methods. James Pannafino, Patrick McNeil. ISBN-13: ‎ 978-0692972717 CDUXP LLC 2017.
+
+●​ Practical Web Inclusion and Accessibility: A Comprehensive Guide to Access Need. Ashley Firth.
+
+1st ed. Edición. Apress. 2019. ISBN-13: 978-1484254516. 2019.
+
+●​ Inclusive Design for Products: Including embedding web and mobile accessibility Jonathan Hassell.
+
+Rethink Press 2nd edición. 2019.
+
+Herramientas sugeridas para el desarrollo del curso
+
+• Librería JavaScript para crear web 3D: https://threejs.org/ • Affinity Map, User Persona  y User Story Map: Miro https://miro.com/ • Manejador de Versiones: Git https://git-scm.com/  GitHub https://github.com/

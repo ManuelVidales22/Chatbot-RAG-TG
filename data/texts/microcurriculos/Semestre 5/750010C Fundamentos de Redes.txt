@@ -1,0 +1,39 @@
+Fundamentos de Redes INFORMACIÓN BÁSICA Código y Nombre 750010C - Fundamentos de Redes Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Prerrequisitos 750001C- Sistemas operativos Validable Sí Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO Esta asignatura está orientada a comprender la forma en que operan las redes de comunicación, los componentes y sus funciones, la estructura y las arquitecturas utilizadas para crear redes, incluyendo Internet.
+
+Al finalizar el curso el estudiante estará en capacidad de:
+
+● Reconocer los tipos, los estándares y protocolos que rigen las interconexiones en las redes de comunicación.
+
+● Reconocer las diferentes tecnologías de acceso a internet disponibles ● Planificar e instalar una red doméstica o de empresa pequeña con tecnología alámbrica, inalámbrica y conectarlaa Internet.
+
+● Realizar configuraciones básicas de routers y switches ● Implementar esquemas de asignación de direcciones IPv4 e IPv6.
+
+● Configurar y solucionar problemas de VLAN.
+
+● Configurar y solucionar problemas de enrutamiento estático y dinámico y entre VLANs No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+● Desarrollar un pensamiento crítico y habilidades prácticas para resolver problemas de interconexión de una red local extendida y de conectividad a Internet.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.10: Implementar proyectos de infraestructura de TIC comprendiendo las características propias de las tecnologías de transporte de datos.
+
+C.E.11: Diseñar y desplegar soluciones de servicios de infraestructura tecnológica orientadas a resolver requerimientos de clientes R.A.1: Identifica los componentes de una red de comunicaciones Comprendiendo la función que cumple cada uno para garantizar el transporte de datos de extremo a extremo.
+
+● Introducción a las redes de comunicación ● Tipos de redes (LAN, WAN...), tipos de dispositivos, topologías, tecnologías de acceso a internet, certificaciones industria ● Modelos de referencia:
+
+OSI TCP/IP ● Capa 1: Tipos de medios, tipos de conectores, armado de cable UTP ● Capa 2: tecnologías de acceso, Ethernet ● Introducción a IOS configuración ● Capa 3: Introducción capa 3, tabla de enrutamiento, router ● Capa 3: Direccionamiento IPv4 y Subnetting ● Capa 3: VLSM y direccionamiento IPv6 ● Capa 4 y 7: Capa de transporte y Servicios de red: correo, DNS, DHCP, Web, FTP ● Segmentación de redes con VLANS, creación, modificación, eliminación de VLANs ● Conceptos de Enrutamiento ● Enrutamiento entre VLAN ● Enrutamiento estático ● Protocolos de enrutamiento dinámico - OSPF de área única ● Listas de control de acceso:
+
+función y configuración de parámetros de seguridad para redes y dispositivos ● Servicios DHCP sobre Router ● Traducción de direcciones de red para IPv4 (NAT-PAT) R.A.2: Implementa soluciones de infraestructura tecnológica comprendiendo la función que cumple cada componente para resolver requerimientos de conectividad para clientes R.A.3: Analiza el estado de los dispositivos, conexiones y configuraciones comprendiendo el comportamiento de una red de transporte de datos para resolver problemas de conectividad METODOLOGÍA El curso se desarrolla en clases semanales de 3 horas repartidas en horas teóricas y horas de práctica y se realiza en salas de cómputo. El curso estará centrado en el desarrollo de actividades prácticas y Desarrollo de un caso de solución de conectividad a través de un ambiente simulado.
+
+Se realizarán talleres para entender el funcionamiento, uso de las tecnologías de comunicaciones y herramientas de simulación. Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso de plataformas de simulación en el aula que permitan revisar las competencias y los indicadores de logro y las clases magistrales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere una sala de cómputo con acceso a internet, con puestos individuales de trabajo y que esté provisto de video beam o televisores conectados a Internet. Además, de las guías de acceso virtual, también se usarán aplicaciones de simulación y uso del campus virtual.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades tales como laboratorios prácticos. Además, se tienen dos evaluaciones parciales que se aplicarán, una en la octava semana de clase y la otra al final del semestre. Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje % Actividades evaluativas R.A.1 20 Parcial 1, Tareas y Talleres R.A.2 60 Parcial 1, Parcial 2, Tareas y Talleres R.A.3 20 Parcial 2 TOTAL 100 BIBLIOGRAFÍA 1. Redes de Computadores. Tanenbaum 3ra Edición 2. Internetworking with TCP/IP, Principles, Protocols and Architecture, 4ta Edicion. Douglas 3. https://www.netacad.com/

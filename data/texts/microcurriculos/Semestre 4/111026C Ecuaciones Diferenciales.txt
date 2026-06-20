@@ -1,0 +1,173 @@
+.
+
+ECUACIONES DIFERENCIALES INFORMACIÓN DE LA ASIGNATURA Código – Nombre Ecuaciones Diferenciales Créditos 3 Horas de trabajo Presenciales: 5 horas semanales (3 teóricas + 2 teórica-práctica) Trabajo independiente: 4 horas semanales (3 independientes de teóricas + 1 de independiente de teórico-práctica) Unidad(es) Académica(s) Departamento de Matemáticas Facultad de Ciencias Naturales y Exactas Programa(s) Académico(s) Todos los programas académicos de la Facultad de Ingeniería Prerrequisitos/correquisitos Cálculo monovariable (Aprobado), Álgebra lineal (cursado) Validable SÍ Habilitable SÍ Tipo de Asignatura Básica La asignatura favorece la Formación General
+
+(Sí)
+
+(No) X
+
+DESCRIPCIÓN DEL CURSO El propósito de este curso es  brindar las herramientas conceptuales para el planteamiento y solución de ecuaciones ordinarias como uno de los principales instrumentos matemáticos empleados en la modelización de fenómenos que incluyen la modelación de sistemas dinámicos que se pueden describir mediante una variable escalar, tales como: crecimiento poblacional, enfriamiento de un cuerpo, propagación de una enfermedad, propagación de corriente en un circuito eléctrico, caída de cuerpos, entre otras. En este espacio formativo confluyen las nociones de derivación e integración, estudiados en los cursos de cálculo y también elementos de Algebra Lineal. Las principales temáticas son ecuaciones diferenciales ordinarias de primer orden, ecuaciones lineales de orden superior y métodos de solución a partir de series de potencia y transformada de Laplace. La metodología propuesta para este curso se basa en el Aprendizaje Basado en Problemas (ABP), su planteamiento y resolución, siendo parte de una pedagogía dialogante y de contextos en donde los estudiantes juegan un rol protagónico con el fin de promover la autogestión (aprender a aprender), la lógica de la argumentación y el apoyo mutuo.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+.
+
+DESARROLLO DEL CURSO
+
+SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC1.Comprensión de las ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina RA1. Resuelve ecuaciones diferenciales ordinarias empleando técnicas estándares, a partir de su clasificación para fortalecer esquemas conceptuales que le permitan identificar su aplicabilidad.
+
+· Ecuaciones diferenciales de primer orden.
+
+· Ecuaciones diferenciales lineales de orden superior.
+
+RA2. Analiza el comportamiento de la familia de soluciones para una ecuación diferencial ordinaria dada, mediante el uso de métodos cualitativos o paquetes computacionales para su visualización.
+
+SCC2. Capacidad de resolución de problemas desde la ingeniería
+
+RA3. Modela situaciones clásicas de problemas de las ciencias y de la ingeniería utilizando ecuaciones diferenciales para encontrar la solución que se aproxime al estado real del problema y comprender su comportamiento.
+
+RA INDICADORES DE LOGRO CONTENIDO RA1 IL1. Establece diferencias entre ecuaciones diferenciales ordinarias y no ordinarias.
+
+1. Ecuaciones diferenciales de primer orden.
+
+1.1 Nociones fundamentales 1.2 Concepto de ecuación diferencial, concepto de solución.
+
+1.3 Teorema fundamental de existencia de unicidad.
+
+1.4 Problemas que conducen a ecuaciones diferenciales ordinarias de primer orden.
+
+1.5 Clasificación, ecuaciones diferenciales y técnicas de solución (lineal, separable, homogénea y exacta).
+
+1.6 Aplicaciones de ecuaciones diferenciales de primer orden (mezclas, ley de enfriamiento, caída libre, leyes de crecimiento y decrecimiento, trayectoria ortogonal).
+
+2. Ecuaciones diferenciales lineales de orden superior.
+
+2.1 Nociones fundamentales 2.2 Teoremas básicos.
+
+2.3 Conjunto fundamental de soluciones y Wronskiano.
+
+IL2. Determina si una función dada es solución de una ecuación diferencial.
+
+IL3. Estable la aplicabilidad del teorema fundamental de existencia y unicidad en un contexto específico.
+
+IL4. Establece la relación entre el comportamiento geométrico de las soluciones de una ecuación diferencial y los campos de direcciones.
+
+IL5. Clasifica las ecuaciones diferenciales según su estructura en variables separables, lineales homogéneas o exactas, o las transforma en alguna de ellas con el fin de encontrar su solución de forma explícita o implícita.
+
+IL6. Relaciona las soluciones de problemas de valor inicial, asociadas a ecuaciones de primer orden, con lo establecido en el teorema fundamental de existencia y unicidad de soluciones.
+
+IL7.
+
+Utiliza ecuaciones diferenciales para modelar situaciones de fenómenos físicos, químicos o biológicos tales como caída libre, ley de enfriamiento de Newton, crecimiento y decrecimiento y mezclas o problemas geométricos con el fin de encontrar soluciones plausibles.
+
+RA4 IL8. Reconoce los conceptos de ecuación autónoma, las soluciones de equilibrio y algunos diagramas de fase de una ecuación autónoma en el contexto de ecuaciones diferenciales ordinarias de primer orden.
+
+.
+
+RA INDICADORES DE LOGRO CONTENIDO RA2 IL9. Identifica el operador diferencial asociado a una ecuación diferencial lineal de orden superior homogénea o no homogénea.
+
+2.4 Solución de ecuaciones lineales homogéneas de orden superior 2.5 Métodos de soluciones de ecuaciones lineales no homogéneas de orden superior (Método de coeficientes indeterminados, operadores diferenciales y variación de parámetros).
+
+2.6 Solución ecuaciones de Cauchy- Euler.
+
+2.7 Aplicaciones de ecuaciones diferenciales de segundo orden (vibraciones mecánicas y movimiento armónico simple, movimiento oscilatorio amortiguado, oscilaciones forzadas).
+
+3. Solución de ecuaciones diferenciales mediante series de potencias.
+
+3.1 Solución en serie de potencias en torno a puntos ordinarios.
+
+3.2 Solución en torno a puntos singulares.
+
+3.3 El Método de Frobenius. Ecuaciones de Bessel y de Legendre.
+
+4. Solución de ecuaciones diferenciales mediante transformada de Laplace.
+
+4.1 Definición y propiedades elementales.
+
+4.2 Transformada inversa.
+
+4.3 Teorema de traslación.
+
+4.4 Transformada de derivadas e integrales.
+
+4.5 Derivación e integración de transformadas.
+
+4.6 Transformadas de funciones periódicas.
+
+4.7 Solución de problemas de valores iniciales.
+
+IL10. Usa la idea de  conjunto fundamental de soluciones de una ecuación lineal homogénea de segundo orden para determinar la solución general de dicha ecuación y en particular para encontrar soluciones de problemas de valor inicial (pvi) asociados a dicha ecuación.
+
+IL11. Reconoce que la solución general de una ecuación diferencial lineal no homogénea de segundo orden está dada por la suma de una solución particular de dicha ecuación y  de la solución general de la ecuación homogénea asociada.
+
+IL12. Encuentra la solución general para cualquier ecuación diferencial homogénea de segundo orden con coeficientes constantes reales usando el método de la ecuación característica, generalizando este método para ecuaciones de orden superior.
+
+IL13. Utiliza, de ser viable, el método de los coeficientes indeterminados (método anulador) y/o el método de variación de parámetros para encontrar  una solución particular  de ecuaciones lineales no homogéneas de segundo orden con coeficientes constantes.
+
+IL14. Aplica ecuaciones diferenciales de segundo orden en el modelamiento y la solución de problemas relacionados con vibraciones mecánicas y movimiento armónico simple, movimiento oscilatorio amortiguado y oscilaciones forzadas.
+
+RA2 IL15. Reconoce la definición de puntos ordinarios y puntos singulares (regulares e irregulares) de una ecuación diferencial lineal de segundo orden IL16. Determina la aplicabilidad del teorema fundamental de existencia y unicidad de soluciones analíticas alrededor de un punto ordinario para garantizar la solución de un problema de valor inicial dado IL17. Determina la representación en serie de potencias de la solución de un problema de valor inicial dado en un punto ordinario, estableciendo cuando sea posible el radio de convergencia.
+
+IL18. Determina la ecuación indicial (ecuación de índices) asociada a una ecuación diferencial lineal de segundo orden, en un punto singular regular y calcula dichos valores singulares.
+
+IL19. Emplea el método de Frobenius para determinar las soluciones de una ecuación lineal homogénea alrededor de un punto singular regular en casos específicos, buscando soluciones linealmente independientes.
+
+RA3 IL20. Reconoce la fórmula directa e inversa de la transformada de Laplace y  comprende las propiedades básicas.
+
+.
+
+RA INDICADORES DE LOGRO CONTENIDO IL21. Aplica las propiedades de la transformada de Laplace a una ecuación diferencial lineal con coeficientes constantes, conocidos unos datos iniciales (PVI), para convertirla en funciones racionales.
+
+IL22. Usa el método de Heaviside  (combinación de transformada de Laplace y transformada de Laplace inversa) para encontrar soluciones de problemas de valor inicial asociados a ecuaciones diferenciales lineales con coeficientes constantes.
+
+METODOLOGÍA Este espacio formativo de Ecuaciones Diferenciales tiene como metodología el Aprendizaje Basado en Problemas (ABP), siendo parte de una pedagogía dialogante y de contextos en donde los estudiantes juegan un rol protagónico con el fin de promover la autogestión (aprender a aprender), la lógica de la argumentación y el apoyo mutuo. En cada una de las sesiones se realiza una discusión conceptual alrededor de un problema a resolver; en donde es necesario utilizar las herramientas que brinda el cálculo diferencial y/o integral y también elementos de Algebra Lineal.
+
+Por otra parte, la metodología requiere unas guías de trabajo para brindar a los docentes un marco referencial que permita construir estrategias didácticas orientadas a resolver problemas de distintos ámbitos. Es importante, para cumplir los propósitos de este proceso de formación, conformar grupos entre 30 a 40 estudiantes, contar con materiales acordes a las intervenciones, una adecuada preparación de los docentes y herramientas tecnológicas acordes a la formación centrada en el estudiante.
+
+RECURSOS DE APOYO Salón con mesas modulares y video Beam. Se usa el campus virtual para la coordinación de las actividades del curso. Acceso a las bases de datos digitales. Para la implementación de la metodología es necesario diseñar materiales adecuados que sirvan de referencia al profesor y se constituyan en guías de trabajo en las clases. Guías de trabajo con el objetivo de presentar al estudiante toda la información de contenidos y ejercicios con diferentes aplicaciones en cada una de sus disciplinas.
+
+EVALUACIÓN DEL CURSO Es condición necesaria para cumplir con los objetivos del curso la asistencia al 80% de las clases.
+
+Congruente con la metodología propuesta, la evaluación no se debe reducir a rastrear la participación en la clase y a la revisión de seguimientos del nivel conceptual; el profesor debe estar atento a la evolución de los resultados de aprendizaje del curso, pero teniendo en cuenta que el proceso de aprendizaje no es lineal. Se trata de analizar el proceso evolutivo conceptual del estudiante en relación con su grado de compromiso. De esta forma, el estudiante debe estar informado permanentemente de sus progresos y atascamientos. La aprobación del curso tiene relación con el grado de compromiso y con la participación en las diversas actividades, tanto en clase como fuera del aula; siendo éstas: La asistencia participativa basada en la medición de indicadores a través de fichas o rubricas. Tareas y actividades en clase, se proponen mínimo cuatro
+
+.
+
+tareas a discreción distribuidas en el desarrollo del curso, combinadas con actividades de clase.
+
+Exámenes cortos (seguimientos parciales), se proponen mínimo cuatro seguimientos cortos a discreción, distribuidas en el desarrollo del curso. La evaluación de RA propuesta es la siguiente:
+
+Resultado de Aprendizaje % Posibles actividades de evaluación RA1 40 Asistencia participativa Actividades en clase, tareas y exámenes cortos.
+
+Autoevaluación Coevaluación Seguimientos Parciales
+
+RA2 20 RA3 40 Total 100
+
+REFERENCIAS
+
+G. Calderón, J. Arango y A. Gómez, Ecuaciones diferenciales para estudiantes de ciencias e ingenierías, Programa Editorial, Universidad del Valle, Cali, 2018 (3a reimpresión)
+
+P. Blanchard, R.L. Devaney y G.R. Hall, Ecuaciones diferenciales, Thomsom, México, 1999.
+
+W.E. Boyce y R.C. DiPrima, Ecuaciones diferenciales y problemas con valores en la frontera, 4a ed.
+
+Limusa-Wiley, México, 2005.
+
+M. Braun, Ecuaciones Diferenciales y sus Aplicaciones. Grupo Editorial Ibero-americano, México, 1990.
+
+G.F. Simmons, Ecuaciones diferenciales con aplicaciones y notas históricas, 2a ed, MacGraw-Hill, México, 1993.
+
+G.F. Simmons, Ecuaciones diferenciales: teoría, técnica y práctica, MacGraw Hill, España, 2007.
+
+6. W.F. Trench, Elementary Differential Equations (2013), Faculty Authored and Edited Books &amp; CDs. 8 https://digitalcommons.trinity.edu/mono/8
+
+D.G. Zill, Ecuaciones diferenciales con aplicaciones de modelado, Cengage Learning, 11a ed, 2017.
+
+Canal de YouTube Ecuaciones diferenciales Universidad del Valle https://www.youtube.com/c/ecuacionesdiferencialesuniversidaddelvalle

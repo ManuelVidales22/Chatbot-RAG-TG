@@ -1,0 +1,37 @@
+Seminario de Trabajo de Grado INFORMACIÓN BÁSICA Código y Nombre 750036C - Seminario de Trabajo de Grado Créditos 2 Horas de trabajo Presenciales: 2 horas Trabajo independiente: 4 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de sistemas Prerrequisitos 750020C - Análisis y Diseño de Algoritmos II Validable No Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Lenguaje y Comunicación Si x No DESCRIPCIÓN GENERAL DEL CURSO Este curso apoya la formación de los estudiantes de Ingeniería de Sistemas en aspectos conceptuales y metodológicos de la investigación científica y tecnológica orientados a la formulación de sus proyectos de trabajo de grado. Además, busca fortalecer habilidades clave en los estudiantes, como la capacidad de redacción, la producción de informes escritos, el trabajo en equipo y la presentación de trabajos ante audiencias.
+
+Durante el curso, los estudiantes tendrán la oportunidad de aplicar los conceptos que han adquirido a lo largo de su formación académica para estructurar y formular sus anteproyectos de trabajo de grado, con el objetivo de abordar problemas, oportunidades o necesidades específicas en un contexto determinado a través de la investigación y el desarrollo de proyectos. Asimismo, se enfatiza la importancia de la ética y la responsabilidad en la investigación y el desarrollo tecnológico, preparando a los estudiantes para abordar cuestiones éticas y sociales en sus futuros roles como profesionales de la ingeniería de sistemas.
+
+DESARROLLO DEL CURSO No de Versión:
+
+03 No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+01-12- 2020
+
+COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS C.E.7 Comprender las etapas de un proyecto de investigación R.A.1. Construye una propuesta de proyecto o trabajo de grado en el marco de la ingeniería de sistemas, para solucionar problemas, oportunidades o necesidades de un contexto específico Aspectos normativos del trabajo de grado (Acuerdo 009, Resoluciones de Facultad, Resoluciones de la Unidad académica) Metodología de investigación:
+
+●Identificación del Tema de estudio ●Elaboración del marco referencial ●Marco Teórico y Estado del Arte.
+
+●Fuentes de Consulta Descripción del problema de estudio ●Preguntas ●Objetivos ●Resultados ●Alcance ●Justificación C.E.14 Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC Metodología de Trabajo ● Tipo de Trabajo ● Metodología de desarrollo ● Cronograma ● Presupuesto C.G.3 Actuar de manera responsable y honesta en el marco del respeto hacia la dignidad de las personas y el cuidado del medio social, cultural y natural R.A.2. Aplica principios éticos y legales relacionados con derechos de autor y propiedad intelectual para promover una conducta ética y legal en el uso de la información y la tecnología Principios éticos y legales relacionados con derechos de autor y propiedad intelectual - manejo de referencias bibliográficas METODOLOGÍA El curso se desarrollará apoyándose en clases magistrales y trabajo autónomo por parte de los estudiantes.
+
+Clases Magistrales: Sesiones guiadas por el docente en las que se discutirán los aspectos teóricos del curso y se presentarán ejemplos concretos.
+
+Trabajo Autónomo: Los estudiantes realizarán la escritura y presentación de su anteproyecto de grado, para lo cual se definirán un conjunto de avances. Estos avances serán presentados de manera escrita y/u oral.
+
+RECURSOS DE APOYO El principal recurso de apoyo es el campus virtual donde se compartirán documentos normativos, ejemplos de anteproyectos, presentaciones y acceso a recursos adicionales.
+
+EVALUACIÓN DEL CURSO RA % Formación General Actividades evaluativas R.A.1 90 Lenguaje y Comunicación (60%) Avance 1, Avance 2, Avance 3, Anteproyecto R.A.2 10 Avance 3, Anteproyecto TOTAL 100 BIBLIOGRAFÍA ● Berndtsson., Mikael, Hansson., Jörgen, Olsson., Björn and Lundell., Björn. Thesis Projects.
+
+A guide for students of Computer Science and Information Systems.
+
+Springer-Verlang London. Second Edition. 2008.
+
+● Creswell., John W. Research Design. Qualitative, Quantitative and Mixed methods approaches. Sage Publications. University of Nebraska. 2009.
+
+● Sabino A., Carlos. El proceso de investigación. Panamericana Editores. 2000. 5ª edición.
+
+● Sampieri., Roberto, Fernández., Carlos y Baptista., Pilar. Metodología de la Investigación.
+
+McGraw Hill. 4ª Edición. 2006.

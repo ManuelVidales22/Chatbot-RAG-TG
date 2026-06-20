@@ -1,0 +1,43 @@
+Desarrollo de Software II INFORMACIÓN BÁSICA Código y Nombre 750021C - Desarrollo de Software II Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Tecnología en Desarrollo de Software Prerrequisitos 750009C - Desarrollo de Software I Validable Si Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Lenguaje y Comunicación Si x No DESCRIPCIÓN GENERAL DEL CURSO En este curso se estudiarán prácticas y herramientas modernas como: Integración Continua, Entrega Continua y Despliegues Continuos; las cuales asegurarán la automatización y monitoreo dirigidos por pruebas de software en todas las fases vinculadas a la construcción del software DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.2: Evaluar factores de calidad estandarizados (v.gr. eficiencia, seguridad, portabilidad) durante la valoración de uno o varios productos de software.
+
+R.A.1: Identificar las diferentes prácticas de DevOps reconociendo beneficios, complejidades y retos como estrategia para agilizar los procesos de DevOps, Integración Continua, Entrega Continua y Despliegues Continuos.
+
+No de Versión:
+
+01 No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+02-11- 2022
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO desarrollo de software.
+
+R.A.2: Configurar y utilizar en el contexto de un proyecto de curso escenarios de Integración Continua, Entrega Continua, y Despliegues Continuos para llevar a cabo un desarrollo de software particular.
+
+C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación R.A.3: Aplica diferentes formas y herramientas de comunicación usando informes escritos y presentaciones orales para expresar de forma clara los avances de un proyecto de desarrollo de software.
+
+Metodología para la redacción y escritura de informes técnicos y estrategias de presentación oral.
+
+R.A.4 Participa en el trabajo colectivo de forma activa y responsable, mostrando una buena actitud hacia el grupo.
+
+Trabajo en equipo METODOLOGÍA El curso se desarrolla en clases semanales de 3 horas repartidas en horas teóricas y horas de práctica y se realiza en salones orientados a trabajo en equipo. El curso estará centrado en el desarrollo y presentaciones de avance del proyecto del curso. Se realizarán talleres para entender el funcionamiento, uso de las tecnologías de desarrollo modernas. Durante las diferentes actividades del proyecto y en fechas específicas cada equipo debe hacer entregas escritas y presentaciones orales de avance del proyecto, las cuales estarán orientadas a resolver problemas relacionados con los resultados de aprendizaje que se quieren alcanzar.
+
+Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso de plataformas interactivas que permitan revisar de manera formativa los indicadores de logro, la revisión de material digital de las unidades que componen el curso y las clases magistrales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de un salón para trabajo en equipo con acceso a internet, con puestos individuales de trabajo y que esté provisto de video beam o televisores conectados a Internet. Además, de las guías de acceso virtual, también se usarán aplicaciones de trabajo en la nube y uso del campus virtual.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos tales como laboratorios prácticos y el proyecto. Además, se tienen evaluaciones cortas que se aplicarán al cierre de cada tema específico del curso. Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+RA % Posibles actividades evaluativas R.A.1 40 Tareas, Evaluaciones cortas, Exposiciones, Reportes de avances proyecto R.A.2 55 Tareas, Evaluaciones cortas, Exposiciones, Reportes de avances proyecto R.A.3 2,5 Informes escritos del proyecto, Presentaciones orales del proyecto R.A.4 2,5 Valoración de pares sobre el trabajo en grupo TOTAL 100 BIBLIOGRAFÍA 1.
+
+Bren Laster, Jenkins 2: Up and Running: Evolve Your Deployment Pipeline for Next Generation Automation, 2018 2.
+
+Nikhil Pathania, Learning Continuous Integration with Jenkins: A beginner's guide to implementing Continuous Integration and Continuous Delivery using Jenkins 2, 2nd Edition. 2019 3.
+
+Sanjeev Sharma, The DevOps Adoption Playbook: A Guide to Adopting DevOps in a Multi-Speed IT Enterprise 1st Edición, 2017 4.
+
+Forsgren, Humble, Kim, The DevOps Adoption Playbook: A Guide to Adopting DevOps in a Multi-Speed IT Enterprise 1st Edición, 2018 5.
+
+Davis and Daniels, Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale, 2018 6.
+
+Gene Kim, Jez Humble, Patrick Debois, John Allspaw and John Willis; The DevOps Handbook, 2017

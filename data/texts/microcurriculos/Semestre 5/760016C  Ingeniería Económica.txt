@@ -1,0 +1,89 @@
+INGENIERÍA ECONÓMICA INFORMACIÓN DE LA ASIGNATURA Código – Nombre Ingeniería Económica Créditos 3 Horas de trabajo Presenciales: 3 horas semanales Trabajo independiente: 6 horas semanales Unidad(es) Académica(s) Facultad de Ingeniería Escuela de Ingeniería Industrial Programa(s) Académico(s) Todos los programas académicos de la Facultad de Ingeniería Prerrequisitos/correquisitos Cálculo Multivariable Validable Sí Habilitable Sí Tipo de Asignatura Básico La asignatura favorece la Formación General (Sí) (No) x DESCRIPCIÓN DEL CURSO Este espacio formativo tiene como propósito introducir al estudiante sobre los principios básicos usados para tomar decisiones adecuadas de inversión y financiación a largo plazo. Los conocimientos adquiridos hacen parte del campo financiero en sus diferentes enfoques, entre los que se destacan la valoración de créditos e inversiones, la planeación financiera, el control de costos, la evaluación financiera de proyectos y la comprensión básica del comportamiento de los mercados financieros. Los principios fundamentales que son caracterizados en este curso son: (a) valor del dinero en el tiempo, (b) relación entre riesgo y retorno (b) equivalencias financieras. El curso proporciona herramientas que les permiten a los estudiantes manejar las variables financieras como el valor presente, o cantidad inicial en una operación financiera, el valor futuro o cantidad final, el tiempo, medido en diferentes unidades de período, y la tasa de interés. Este ambiente de formación se desarrollará con el enfoque de la pedagogía activa y dialogante que busca que el proceso de enseñanza-aprendizaje sea significativo.
+
+La metodología incluye el estudio de casos de una situación real o hipotética que debe ser abordada de forma analítica y exhaustiva de forma que se encuentre la solución o soluciones a la situación planteada. El curso contará con clases interactivas dentro de una serie de talleres que permitirán la reflexión, el trabajo colaborativo y el autoaprendizaje.
+
+No de Versión:
+
+01 No. y fecha acta unidad académica donde se aprobó :
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+Marzo 2020
+
+DESARROLLO DEL CURSO SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC4. Comprensión de su entorno y responsabilidades éticas RA1. Utiliza indicadores básicos de actividad económica como inflación, devaluación y tasas de interés para su consideración en la caracterización de alternativas de solución en ingeniería.
+
+● La ingeniería económica en la toma de decisiones.
+
+● Tipología de los costos ● Conceptos básicos de valor del dinero en el tiempo, interés, poder adquisitivo, diagramas de flujo de caja y Equivalencia Financiera.
+
+● Equivalencias entre tasas de interés en diferentes formatos:
+
+tasas nominales, tasas periódicas y tasas efectivas.
+
+● Toma de decisiones de aceptar o rechazar un proyecto bajo análisis determinístico con Indicadores económicos para la evaluación (VPN, TIR, TIRM, PPD, otros) ● Comparación económica de alternativas SCC7. Capacidad para desarrollar proyectos de ingeniería RA2. Analiza estrategias básicas de inversión mediante la proyección de flujos de caja para determinar la conveniencia de realización.
+
+RA3.
+
+Analiza algunas estrategias de financiación básicas considerando elementos como: costos financieros y plazo, con el fin de contribuir a la creación de valor para los diferentes grupos de interés.
+
+SCC2. Capacidad de resolución de problemas desde la ingeniería RA4.
+
+Caracteriza de forma explícita el problema de la asignación de recursos escasos en forma óptima para lograr la mejor decisión.
+
+RA5.
+
+Prioriza desde el punto de vista económico las mejores alternativas para la solución de un problema básico de ingeniería.
+
+RA INDICADORES DE LOGRO CONTENIDO RA1 .
+
+IL1. Reconoce los indicadores básicos de actividad económica (inflación, devaluación y tasas de interés) en documentos especializados IL2. Aplica el proceso de toma de decisiones básicas de la ingeniería económica en la toma de decisiones 1.
+
+La ingeniería económica en la toma de decisiones.
+
+1.1 Proceso de toma de decisiones en ingeniería económica 1.2 Tipología de las decisiones en ingeniería económica 1.2.1 Decisiones de expansión 1.2.2 Selección de equipos y procesos 1.2.3 Reducción de costos
+
+1.2.4 Reemplazo de equipos 1.3 Principios de la ingeniería económica 2.
+
+Tipología de los costos 2.1 Costo fijo 2.2 Costo variable 2.3 Análisis de punto de equilibrio 3.
+
+Conceptos básicos de Valor del dinero en el tiempo, interés, poder adquisitivo, diagramas de flujo de caja y Equivalencia Financiera.
+
+3.1 Diagramas de flujo 3.2 Equivalencias financieras 4.
+
+Equivalencias entre tasas de interés en diferentes, tasa nominal y tasa efectiva 4.1 Taxonomía de las tasas de interés 4.2 Tasas periódicas 4.3 Tasas nominales 4.4 Tasas efectivas 5.
+
+Criterios de decisión económica 5.1Análisis de valor presente (VPN) 5.2 Costo anual uniforme equivalente 5.3 Costos de posesión y costos de operación 5.4 Tasa Interna de Retorno (TIR) 5.5 Tasa Interna de Retorno Modificado (TIRM) 5.6 Análisis de periodos de pago 6.
+
+Comparación económica de alternativas 6.1 Caracterización de alternativas, según relación nivel de servicio y vida útil.
+
+6.2 Metodologías de comparación económica de alternativas RA2 .
+
+IL3. Construye diagramas de flujo de caja de diferentes alternativas de proyectos de inversión IL4. Realiza equivalencias financieras básicas en proyectos de inversión IL5. Realiza equivalencias entre diferentes formatos de tasa de interés en proyectos de inversión IL6. Utiliza criterios de decisión económica en proyectos de inversión RA3 .
+
+IL7. Construye el diagrama de flujo de diferentes alternativas básicas de financiación IL8. Determina el costo financiero de una alternativa básica de financiación RA4 .
+
+IL9. Identifica problemas de asignación de recursos en un proyecto de inversión IL10. Caracteriza alternativas económicas en función en su grado de relación, nivel de servicio y vida útil RA5 .
+
+IL11. Reconoce las diferentes metodologías para la priorización económica de alternativas IL12. Selecciona una metodología para la priorización económica de alternativas METODOLOGÍA La metodología de este curso combina diferentes procesos de enseñanza-aprendizaje. Por un lado, se tiene la presentación de sesiones magistrales, previa lectura de materiales por parte de los estudiantes, de modo que este espacio constituya un lugar abierto al debate y a la argumentación.
+
+Las presentaciones tendrán un modelo de seminarios rotativos, cuya responsabilidad recae en todo el grupo y no solamente en el docente.
+
+La metodología incluye el estudio de casos de una situación real o hipotética que debe ser abordada de forma analítica y exhaustiva de forma que se encuentre la solución o soluciones a la situación planteada.
+
+El segundo proceso es de tipo práctico, por medio de talleres, en donde se realizan actividades de resolución de problemas, ejercicios (teóricos o aplicados) y el estudio de casos con orientación del docente, que impliquen una actividad de reflexión y ejercitación de las habilidades necesarias para el desarrollo de proyectos de ingeniería en la primera fase relacionada con su viabilidad económica.
+
+RECURSOS DE APOYO ● Se usa el campus virtual para la coordinación de las actividades del curso.
+
+● Acceso a la biblioteca con sus bases de datos digitales.
+
+● A lo largo del curso, se utiliza software de Excel.
+
+● Canal de YouTube EVALUACIÓN DEL CURSO El curso será evaluado por medio de actividades individuales y grupales que evidencian el alcance de los resultados de aprendizaje propuestos. Las actividades de evaluación están alrededor de pruebas cortas, talleres y un trabajo del análisis de caso. Se reportan por escrito y de forma oral.
+
+RA % Posibles actividades evaluativas RA1 20 ● Prueba corta 1 ● Taller 1 RA2 20 ● Prueba corta 2 ● Taller 2 ● Trabajo 1 – Análisis de caso RA3 20 ● Prueba corta 3 ● Taller 3 RA4 20 ● Prueba corta 4 ● Taller 4 RA5 20 ● Trabajo final Total 100%
+
+BIBLIOGRAFÍA BLANK L. ,Tarquin A. (2016). Engineering Economic. 7th Edition. Mc Graw Hill. New York.
+
+Park, C. S. (2009). Fundamentos de ingeniería económica/por Chan S. Park (No. 338.476 P3 2009.).

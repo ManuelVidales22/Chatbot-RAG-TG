@@ -1,0 +1,73 @@
+Fundamentos de programación Orientada a Objetos INFORMACIÓN BÁSICA Código y Nombre 750015C - Fundamentos de Programación Orientada a Objetos Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de sistemas Prerrequisitos 750012C - Fundamentos de Programación Imperativa Validable Sí Habilitable No Tipo de Asignatura Asignatura Básica (AB) La asignatura favorece la Formación General Lenguaje y comunicación Estilos de vida saludable Artístico y humanístico Si X No DESCRIPCIÓN GENERAL DEL CURSO Esta asignatura está orientada a desarrollar en el estudiante las habilidades para el uso de los lenguajes de programación orientados a objetos. Programar es una tarea que hoy en día resulta útil no solamente en la ingeniería sino que también tiene aplicación en diversas áreas tales como las artes, la biología, las ciencias, la administración, e incluso la música y los idiomas. Una vez que el estudiante ha desarrollado cierta capacidad de pensamiento algorítmico (en la asignatura prerrequisito de ésta), se puede abordar una metodología de análisis, diseño e implementación de programas siguiendo la metodología orientada a objetos. Esta metodología es muy popular en casi todos los ámbitos profesionales. Y también es muy sencilla y natural. Consiste en, dado un problema a resolver, identificar los objetos de la vida real que lo componen, así como las relaciones entre ellos, para modelarlos usando un lenguaje de programación.
+
+Usar esta metodología afianza no sólo las habilidades de programación, sino también de análisis de interrelaciones en cualquier escena del mundo real. En el curso se enseñan también habilidades básicas de documentación de programas, es decir, como comunicar a otros (el equipo de programadores, el jefe, el cliente) la intención del programa. La programación se da en equipos de desarrollo en los que cada estudiante desempeña un rol específico y fundamental para el grupo. El curso fomenta el aprendizaje colaborativo basado en el fortalecimiento de actitudes y aptitudes para el trabajo en equipo, por tanto se promueve el desarrollo integral del estudiante en las dimensiones cognitiva y sociocognitiva; en donde se establecen mecanismos de comunicación asertiva para analizar colectivamente problemas, especificarlos y describirlos de manera precisa.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO C.E.3 RA1: Usa los tipos de datos básicos y los agregados que proporciona el lenguaje, para modelar correctamente los datos de un problema y los atributos de los objetos.
+
+Usa adecuadamente los datos básicos que le proporciona el lenguaje Estructuras de datos básicas. Tipos de datos.
+
+Ejecución de ordenes en objetos. Sintaxis básica del lenguaje.
+
+Referencias.
+
+Usa adecuadamente los datos básicos que le proporciona la biblioteca estándar del lenguaje Usa adecuadamente las referencias a objetos Diferencia entre clase y objeto Lee e interpreta adecuadamente la documentación de las clases de las bibliotecas Lectura y escritura de documentación. Estilo.
+
+RA2.1: Crea nuevos tipos de datos (clases) cuando los que ofrece el lenguaje no son suficientes para modelar el problema.
+
+Entiende el concepto de encapsulación Diseño de clases Comprende que un tipo de dato se define por la información que contiene y las operaciones que ofrece Entiende la idea de tipado y subtipado Diseña adecuadamente el estado interno de una clase Diseña adecuadamente la interfaz pública de funcionalidades de una clase RA3.1: Mapea un problema real en un conjunto de objetos con sus relaciones, usando los 3 tipos de polimorfismo (sobrecarga, subtipado y tipo abstracto de dato) para evitar estructuras condicionales, y para desacoplar objetos.
+
+Usa una metodología orientado a objetos para descomponer un problema en los objetos que lo componen y sus relaciones Mecanismos de abstracción. Análisis de problemas y diseño de clases y relaciones entre ellas. Análisis de programas de otros programadores.
+
+Identifica los 3 tipos de polimorfismo con sus ventajas y desventajas Identifica ventajas y desventajas de lenguajes con tipado dinámico versus estático
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO Revisa código de otros programadores, identificando oportunidades de mejora Entiende cuando usar cada una de las relaciones entre objetos Selecciona adecuadamente cuando usar las relaciones de propiedad Diseña una clase controladora para centralizar el flujo ejecución de un programa sin hilos Diseña el programa de forma flexible para permitir extenderlo en el futuro Refactoriza un programa poco organizado para convertirlo en un programa orientado a objetos que usa las formas de polimorfismo más adecuadas C.E.13 RA4.1: Diseña, documenta, implementa y depura un programa, para minimizar los errores que pueda tener, aumentar su confiabilidad y permitir que otras personas del equipo puedan entender y extender el diseño.
+
+Documenta cada archivo con el autor con su correo electrónico, fecha de creación, fecha de última modificación, licencia y versión de cada archivo Estilo de programación Documenta la intención del programa principal Documenta la intención de cada una de las clases Escribe los programas en un estilo correcto que facilite su lectura por otras personas del equipo Elige los nombres de las clases, objetos, funciones y
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO variables de modo que el programa quede autodocumentado y que se pueda leer como una historia Usa estrategias de depuración de errores cuando el programa no funciona Localización y corrección de errores algorítmicos y de seguridad.
+
+Usa test unitarios para verificar el funcionamiento de cada clase Identifica futuros problemas en el código (al interactuar con otros programas o usuarios) y emplea técnicas para hacerlo robusto C.G.4 RA5.1: Trabaja en equipo, desempeñando unas tareas específicas y comunicando sus ideas, para desarrollar programas Entrega las tareas asignadas dentro de los plazos asignados por el equipo Metodología para resolver problemas. Uso de entornos de desarrollo en la nube.
+
+Revisa y sugiere mejoras al código entregado por otro programador Refactoriza el código entregado por otro programador METODOLOGÍA El curso se desarrolla en clases semanales de 3 horas de las cuales 2 son teóricas y 1 es práctica y se realiza en las salas de cómputo. Además, se tienen laboratorios orientados a resolver problemas relacionados con los resultados de aprendizaje que se quieren alcanzar. Dentro del proceso formativo se consideran como estrategias de aprendizaje el uso de plataformas interactivas y de diversos entornos de desarrollo que encontrarán en la vida profesional, que permitan revisar las
+
+competencias y los indicadores de logro, la revisión de videos de las unidades que componen el curso y las clases magistrales.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de una sala de cómputo con acceso a internet, con puestos individuales de trabajo y que esté provista de video beam. Se usará software gratuito, como Moodle, IDEs en la nube, compiladores, Linux.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos tales como laboratorios prácticos y el proyecto. Además, se tienen dos evaluaciones parciales que se aplicarán, una en la octava semana de clase y la otra al final del semestre. Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 Parcial 1 Parcial 2 Laboratorio 1 Laboratorio 2 Laboratorio 3 Laboratorio 4 Proyecto 3,88 0 2,18 2,67 2,67 1,94 1,94 15 R.A.2 Parcial 1 Parcial 2 Laboratorio 1 Laboratorio 2 Laboratorio 3 Laboratorio 4 Proyecto 3,64 0,49 1,46 2,43 3,64 4,13 4,85 21 R.A.3 Parcial 1 Parcial 2 Laboratorio 1 Laboratorio 2 Laboratorio 3 Laboratorio 4 Proyecto 2,18 4,85 1,46 3,16 4,37 6,55 6,31 29 R.A.4 Parcial 1 Parcial 2 Laboratorio 1 Laboratorio 2 Laboratorio 3 Laboratorio 4 Proyecto 0 0,49 5,34 5,58 6,07 5,34 5,83 29
+
+R.A.5 Parcial 1 Parcial 2 Laboratorio 1 Laboratorio 2 Laboratorio 3 Laboratorio 4 Proyecto 0 0 1,7 0,73 1,7 1,7 0,73 7 BIBLIOGRAFÍA ● Juan García Carmona (2012) “SOLID y GRASP. Buenas prácticas hacia el éxito en el desarrollo de software”.https://juan-garcia-carmona.blogspot.com/2012/11/solid-y-grasp-buenas-practicas-hacia-el .html ● Ruby community (2020) “Help and documentation for the Ruby programming language”.
+
+https://ruby-doc.org/ ● Dave Thomas (2005) “Programming Ruby. A Pragmatic Programmer’s Guide”. The Pragmatic Programmers. http://www.pragmaticprogrammer.com. ISBN 0-9745140-5-5 ● Lucas Carlson & Leonard Richardson (2007) "Ruby CookBook". O'Reilly. ISBN 0-596-52369-6 ● Roberth C. Martin (2008) "Clean Code. A Handbook of Agile Software Craftsmanship". Prentice Hall. ISBN-13: 978-0-13-235088-4 ● David Chelimsky (2010) "The RSpec Book. Behaviour-Driven Development with RSpec, Cucumber, and Friends". The Pragmatic Programmers. http://www.pragmaticprogrammer.com.
+
+ISBN-13: 978-1-934356-37-1 ● Avdi Grimm (2013) "Confident Ruby". ShipRise Media.
+
+● Paolo Perrotta (2014) "Metaprogramming Ruby 2. Program Like the Ruby Pros". The Pragmatic Programmers. http://www.pragmaticprogrammer.com. ISBN-13: 978-1-94122-212-6 ● Berman, Jules J. (2009) "The Ruby: programming language", Jones & Bartlett Publishers.
+
+ISBN9780763757571 ● Bruce Eckel (2000) "Thinking in C++ Vol.1 y Vol.2", Prentice-Hall. http://www.BruceEckel.com ● Bjarne Stroustup 2000 "The C++ Programming Language", Addison-Wesley.
+
+● Ricardo Devis Botella (1997). "C++. STL. Plantillas. Excepciones. Roles y Objetos", Ed. Paraninfo (Madrid-España).
+
+● Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides (2000) "Design Patterns", Addison- • Wesley.
+
+● C++ Comunity (2020) "Standard Template Library". http://www.sgi.com/Technology/STL ● James O. Coplien (1992) "Advanced C++ Programming Styles and Idioms", Addison-Wesley.
+
+● Tom Cargrill (1992) "C++ Programming Style", Prentice-Hall.
+
+● S. Meyers (1998) "Effective C++", Addison-Wesley.
+
+● S. Meyers (1996)"More Effective C++", Addison-Wesley.
+
+● D. R. Musser, A. Saini (1996) "STL Tutorial and Reference Guide", Addison-Wesley.
+
+● Herbert Schildt (1995) "C++ Manual de Referencia", Mc Graw-Hill.

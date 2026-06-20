@@ -1,0 +1,71 @@
+Infraestructuras Paralelas y Distribuidas INFORMACIÓN BÁSICA Código y Nombre 750023C - Infraestructuras Paralelas y Distribuidas Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de sistemas Prerrequisitos 750010C - Fundamentos de Redes Validable Si Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No x DESCRIPCIÓN GENERAL DEL CURSO El curso de Infraestructuras Paralelas y Distribuidas tiene como gran objetivo brindarle al estudiante una aproximación de la manera como se lleva a cabo la programación, uso y despliegue de infraestructuras computacionales paralelas y distribuidas usando diferentes librerías y frameworks adoptados ampliamente en la academia y la industria. Para llevar a cabo este objetivo, el curso se orienta inicialmente en la presentación de algunos frameworks usados comúnmente para la programación de aplicaciones que se ejecutan en entornos computacionales paralelos; posteriormente, se presentan algunas librerías usadas en entornos científicos y que permiten el desarrollo de aplicaciones distribuidas.
+
+Finalmente, se presentan algunas herramientas que posibilitan el despliegue a pequeña escala de entornos computacionalmente distribuidos usando tecnologías de virtualización e infraestructura como código.
+
+Este curso es un complemento importante en la formación del futuro egresado del programa de Ingeniería de Sistemas pues le brinda las herramientas y las competencias que le permitirán desarrollar soluciones en software a problemas de naturaleza paralela y/o distribuida como los que se plantean actualmente en los entornos académicos y de la industria. Así mismo, el/la estudiante incorporará herramientas que le permitan describir infraestructuras computacionales complejas como código y poder así llevar el despliegue de dichas infraestructuras en diferentes entornos computacionales desde entornos personales hasta entornos centrados en la nube.
+
+Si bien este curso es altamente práctico, diferentes conceptos relevantes en los contextos de programación de entornos paralelos y distribuidos serán presentados a lo largo de las clases de modo que las habilidades alcanzadas estén acompañadas de unas herramientas discursivas que le permitan al No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+estudiante describir y sustentar sus soluciones de manera apropiada y de acuerdo a lo que se espera de alguien que conoce del área.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.10: Diseñar y desplegar soluciones de servicios en infraestructura tecnológica orientadas a resolver requerimientos de los clientes R.A.1: Desarrolla programas de cómputo paralelos usando técnicas de descomposición de datos y tareas para disminuir los tiempos de ejecución de estos programas.
+
+Escribe un algoritmo paralelo [correcto y] escalable. [Usage] Paraleliza un algoritmo a través de la aplicación de descomposición basado en tareas. [Usage] Paraleliza un algoritmo aplicación descomposición de datos. [Usage] Escribe un programa de pruebas que puede revelar un error de programación concurrente; por ejemplo, perder una actualización cuando dos actividades intentan a la vez incrementar una variable.
+
+[Usage] Escribe un programa que termina [correctamente] cuando todo el conjunto de tareas concurrentes se han completado. [Usage] Define speed-up y explica la noción de la escalabilidad de un algoritmo en este sentido. [Familiarity] Identifica tareas independientes en un programa que podrían ser paralelizadas. [Usage] Implementa un dividir y conquistar paralelo y empíricamente mide su rendimiento relativo a su versión secuencial. [Usage] Descompone un problema (e.g.
+
+contar el número de ocurrencias de algunas palabras en un documento) a través de las operaciones map y reduce.[Usage] Describe la arquitectura SMP e identifica sus características más importantes. [Familiarity]
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO Caracteriza la clase de tareas que son naturales para las máquinas SIMD. [Familiarity] Explica las características de cada clasificación en la taxonomía de Flynn. [Familiarity] Describe las ventajas y limitaciones de las GPUs vs. CPUs.
+
+[Familiarity] R.A.2: Desarrolla programas de cómputo para ambientes de cómputo donde no se comparte memoria a través de estándares de comunicación de paso de mensajes para distribuir y balancear la ejecución de tareas computacionalmente intensivas.
+
+Distingue fallos de red de otro tipo de fallos. [Familiarity] Mide el throughput observado y la demora en la respuesta a través de equipos de cómputo en una red dada. [Usage] Explica porque ningún sistema distribuido puede ser simultáneamente consistente, disponible y tolerante a las particiones. [Familiarity] Da ejemplos de problemas para los cuales los algoritmos de consenso y selección de líder son requeridos.
+
+[Usage] C.E.11: Diseñar y desplegar soluciones de servicios de infraestructura tecnológica orientadas a resolver requerimientos de clientes R.A.3: Despliega ambientes de cómputo distribuido usando herramientas de virtualización y descripción de infraestructura como código para simular entornos computacionales básicos usados en la industria y la academia.
+
+Explica las ventajas y desventajas de usar una infraestructura virtual [Familiarity] Despliega una aplicación que usa infraestructura tipo nube para recursos de cómputo y/o datos.
+
+[Usage] METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje de cada gran idea; en esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que
+
+surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen video clips, notas de clase, libros de referencia, ejercicios asignados para solución individual o en pequeños grupos.
+
+● Clase invertida significa que para cada una de las unidades del curso en la que se llega a los resultados de aprendizaje de cada gran idea hay tres momentos en el proceso:
+
+o Antes de la clase magistral, el estudiante debe revisar los objetos de estudio que pide la guía de estudio para dicho componente del curso, apropiar los conceptos de que se trate y aplicarlos en los ejercicios asignados.
+
+o Durante la clase magistral, los estudiantes y el profesor interactúan alrededor de situaciones problemáticas que permitan detectar y resolver conceptos errados o pre-requeridos, así como ganar comprensión de los conceptos en estudio y hacer aplicación de los mismos en contextos relevantes.
+
+o Después de la clase magistral, el estudiante debe  completar la ejercitación que haga falta poder demostrar que sabe lo que se señala el objetivo específico. En cada módulo hay una guía de estudio que especifica qué indicadores de logro están asociados a cada unidad del curso y resultado de aprendizaje.
+
+RECURSOS DE APOYO El curso cuenta con material disponible en forma digital: libros, páginas web, y videos. Los estudiantes inicialmente interactuarán con el material en video a través de una plataforma que permite validar el conocimiento que los estudiantes van adquiriendo a medida que avanzan con los videos.
+
+Los libros y páginas web disponibles en Internet serán usados para tener un conocimiento más a fondo de los temas bajo estudio. Este material escrito y disponible digitalmente le permitirá a los estudiantes ahondar en los temas tratados en el video y con este estudio a mayor profundidad podrán llevar a cabo las asignaciones que se presentan a medida que se avanza en el material bajo estudio.
+
+EVALUACIÓN DEL CURSO El/La estudiante a través de diferentes tareas demostrará sus habilidades a la hora de escribir soluciones en software a problemas clásicos de computación paralela y distribuida y otro tipo de problemas presentados por el/la docente. Así mismo, los quices le permitirán validar conceptos y procedimientos vistos de manera progresiva durante el desarrollo de la clase. Los parciales serán puntos de control y de cierre de los diferentes temas claves respecto a la programación de aplicaciones en paralelo y aplicaciones distribuidas. Finalmente, a través de un trabajo aplicado al despliegue de un entorno de computación paralelo y/o distribuido el/la estudiante evidenciará sus habilidades para la descripción y despliegue de dicho entorno. Un informe escrito que acompañe el trabajo aplicado permitirá evidenciar la correcta incorporación de los conceptos que debe utilizar al momento de describir una solución tecnológica.
+
+La siguiente tabla visualiza la estructura de RA (resultados de aprendizaje) y su valor relativo (peso) en la nota final de cada uno de las instancias de evaluación de los aprendizajes (Parciales, quices, exposición-investigación).
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje total R.A.1 Parcial 1, Quices, Tareas 40.0 R.A.2 Parcial 2, Quices, Tareas 35.0 R.A.3 Exposición-Inves igación 25.0 BIBLIOGRAFÍA [0] Tanenbaum, A. S., & van Steen, M. (2017, January 1). Distributed Systems. Van Haren Publishing.
+
+[1] Tuomanen, B. (2018, November 27). Hands-On GPU Programming with Python and CUDA: Explore high-performance parallel computing with CUDA. Packt Publishing.
+
+[2] McCool, M., Reinders, J., & Robison, A. (2012, July 9). Structured Parallel Programming: Patterns for Efficient Computation (1st ed.). Morgan Kaufmann.
+
+[3] Rauber, T., & Rünger, G. (2013, June 25). Parallel Programming: for Multicore and Cluster Systems (2nd ed. 2013). Springer.
+
+[4] Parallel Programming in C with MPI and OpenMP. (ca. 2004, January 1).
+
+McGraw-Hill Education.
+
+[5] Parallel Programming with MPI. (1997, January 1). Elsevier Gezondheidszorg.

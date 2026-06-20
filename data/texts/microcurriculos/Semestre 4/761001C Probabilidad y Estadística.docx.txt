@@ -1,0 +1,123 @@
+PROBABILIDAD Y ESTADÍSTICA INFORMACIÓN DE LA ASIGNATURA Código – Nombre XXX-Probabilidad y Estadística Créditos 3 Horas de trabajo Presenciales: 4 Trabajo independiente: 5 Unidad(es) Académica(s) Escuela de Estadística Programa(s) Académico(s) Todos los programas académicos de la Facultad de Ingeniería Prerrequisitos/correquisitos Calculo Monovariable Validable SÍ Habilitable NO Tipo de Asignatura Básica La asignatura favorece la Formación General (Sí) (No) X DESCRIPCIÓN DEL CURSO El propósito del curso es acercar al estudiante al pensamiento estadístico mediante el conocimiento de métodos comúnmente utilizados en el análisis de datos recolectados en campo a través del modelamiento de situaciones problemáticas asociadas a su actividad laboral. Los métodos estadísticos y las fortalezas del pensamiento estadístico permiten contar con una formación fuerte en el análisis de problemas reales facilitando la toma decisiones con base en la evidencia. La estadística y más precisamente el pensamiento estadístico permite a los individuos desarrollar pensamiento crítico y fijar una posición clara frente a su realidad. Los métodos estadísticos son útiles para el desarrollo de modelos explicativos de la realidad. El curso aborda los conceptos de estadística descriptiva, las bases de la probabilidad como herramienta útil en la toma de decisiones y las bases de la inferencia estadística como soporte para el mejor conocimiento del problema y la obtención de evidencia objetiva que permita contar con mayor seguridad en la propuesta de soluciones. Se quiere que el futuro ingeniero, participe de manera activa en proyectos inter y multidisciplinares con participación de estadísticos, de modo que la interacción y la comunicación entre profesionales sea más clara fluida. El proceso metodológico del curso se basa en la participación activa de los estudiantes, quienes expondrán situaciones o problemas propios de su disciplina y en conjunto con el profesor se hará el análisis de los mismos dentro del contexto antes de proceder a modelar y procesar los datos para obtener resultados usando métodos estadísticos.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO SCC RESULTADO DE APRENDIZAJE EJES/LÍNEAS TEMÁTICAS SCC1.Comprensió n de las ciencias naturales, aplicación de las matemáticas, los fundamentos, métodos y herramientas propias de su disciplina.
+
+RA1. Genera información sobre el problema de interés disciplinar (contextual) a partir de la interpretación de los indicadores y estrategias de resumen estadístico para su posterior análisis.
+
+● Estadística descriptiva y exploratoria ● Conceptos básicos de Probabilidad ● Introducción a la inferencia estadística RA2. Analiza en el contexto el valor de la probabilidad de ocurrencia de un evento de interés para obtener información relevante en la toma de decisiones.
+
+RA3. Comprende los conceptos básicos de inferencia estadística en el marco del modelamiento de problemas reales para llegar a resultados confiables en propuestas de solución.
+
+SCC2. Capacidad de resolución de problemas desde la ingeniería RA4. Utiliza las distribuciones de probabilidad de uso común en situaciones contextuales en las que se requiere proponer soluciones a un problema de su disciplina.
+
+RA5. Analiza de manera crítica los reportes de investigación y publicaciones científicas en un caso de estudio dentro de su disciplina, para no sólo reproducir modelos externos si no crear modelos propios y fortalecer la capacidad investigativa.
+
+RA1 INDICADORES DE LOGRO CONTENIDO No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+RA1 IL1: Identifica las variables que pueden ser medidas para obtener los datos en un problema contextual propio de la disciplina de trabajo, clasificándolas por su tipo y su escala estadística de medición.
+
+IL2: Identifica los tipos de variables y escalas utilizadas en la estadística para interpretar de manera adecuada la información ofrecida por gráficos, tablas e indicadores resumen de resultados estadísticos.
+
+IL3: Representa la información relevante para entender el problema de forma resumida en forma de gráficos y tablas estadísticos de fácil comprensión.
+
+1. Estadística descriptiva y exploratoria 1.1 Variables: tipos y escalas 1.2 Variables latentes 1.3 Representación de la información en gráficas y tablas 1.4 Tablas cruzadas (análisis descriptivo) 1.5. Histogramas y distribuciones empíricas 1.6. Índices y medidas de uso frecuente: media mediana moda 1.7. Varianza, desviación, coeficiente de variación 2. Conceptos básicos de probabilidad 2.1 Definiciones y leyes 2.2 Probabilidad condicional 2.3 Regla de Bayes, probabilidad total 2.4. Variable aleatoria 2.5 Concepto de distribución de probabilidad 2.6 Distribuciones de probabilidad de uso común (Bernoulli, Binomial, Binomial negativa, Poisson, Normal, Gamma, Beta 3. Conceptos básicos de inferencia estadística:
+
+3.1Muestra aleatoria, algunas estrategias de muestreo comúnmente usadas.
+
+3.2. Modelo estadístico y estimación puntual, intervalos de confianza y pruebas de hipótesis y valor p.
+
+RA2 IL4: Comprende los conceptos de probabilidad como medida de la incertidumbre y la forma como el valor de dicha medida puede ser utilizado para la toma de decisiones.
+
+IL5: Conoce las propiedades que se deben cumplir para utilizar dichos valores como información para la toma de decisiones.
+
+IL6: Calcula la probabilidad de la ocurrencia de eventos.
+
+RA3 IL7: Identifica con claridad la diferencia entre modelo estadístico y modelo de probabilidad.
+
+IL8: Reconoce los conceptos de parámetro, estimador, estimación y distribución muestral.
+
+RA4 IL9: Establece de acuerdo con la situación contextual y las características de la variable aleatoria de interés, cuál de las distribuciones de probabilidad de uso común utilizar.
+
+IL10: Identifica las relaciones entre los componentes del modelo estadístico y las características del problema de estudio a nivel disciplinar.
+
+RA5 IL11: Analiza las limitaciones y posibles errores de diseño en las estrategias de recolección de datos, en estudios publicaos a través de artículos científicos o reportes de investigaciones de su disciplina.
+
+IL12: Interpreta correctamente algunos indicadores útiles y de uso común como el valor p y los intervalos de confianza, que son utilizados en la mayoría de las áreas del conocimiento, para obtener información soporte en la toma de decisiones.
+
+IL13: Modifica con el apoyo de un estadístico modelos o propuestas de solución desarrolladas para problemas similares en otros ámbitos.
+
+METODOLOGÍA La estrategia metodológica del curso es la de Aprendizaje Basada en Proyectos (ABP). El estudiante (puede ser uno o una pareja, no se recomiendan grupos con más de dos estudiantes) tomará una situación contextual real dentro de su programa de formación. El problema a trabajar deberá tener como No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+característica que para contar con información que permita tomar decisiones sea necesario cribar datos en forma numérica de algunas variables importantes. El estudiante tendrá que entender el problema en contexto (hasta donde su nivel de formación en la carrera le permita), construir un archivo de datos (puede ser en Excel) y proceder a aplicar los conceptos vistos en el curso en la búsqueda de información para la toma de decisiones frente a cómo resolver el problema planteado. El proyecto, se realizará por fases, es decir, se harán dos o tres entregas en el semestre de acuerdo a como vayan avanzando los temas, dichas entregas pueden ser por escrito, aunque preferiblemente se pueden hacer en forma de presentaciones orales que permitan a todo el grupo compartir la experiencia. Esta forma es bastante enriquecedora para todos los estudiantes quienes tendrán la oportunidad de ver como los mismos conceptos estadísticos son aplicables en las diferentes áreas de la ingeniería y lo que se requiere es que el ingeniero tenga claridad de la situación que precisa de una alternativa de solución y sea capaz de adaptar los conceptos a su situación específica. El proyecto se puede desarrollar en conjunto con lo que se tenga planteado para el curso de taller de ingeniería que los estudiantes realizan en el mismo semestre. Al final del curso, los resultados obtenidos en cada proyecto serán socializados y los estudiantes tendrán la oportunidad de mirar con base en sus resultados que posibles decisiones desde su conocimiento en el área disciplinar podrían tomarse. Se espera que, con el proyecto, los estudiantes puedan colocar en práctica los conceptos de estadística tratados en clase. Dado que, en el marco del desarrollo del proyecto, se deben leer documentos (artículos científicos, reportes técnicos o informes de proyectos) acerca del problema contextual a trabajar, se aprovechará esta tarea para evaluar la lectura crítica y la argumentación de los estudiantes, al tener que confrontar sus resultados con los obtenidos en otros estudios o al tener que revisar documentos resultado de otros trabajos de investigación sobre el tema. Adicionalmente, se evaluará con dos exámenes el manejo y comprensión de los conceptos teóricos abordados en el curso. Es muy importante que el estudiante no aprenda a reproducir de manera mecánica procedimientos de cálculo de indicadores o procedimientos estadísticos, sin tener la claridad teórica y conceptual que los soporta. Este conocimiento, además de reforzar su formación disciplinar, le permitirá a futuro, interactuar de manera eficiente con profesionales estadísticos cuando las situaciones problemáticas vayan más allá de lo que su formación en el área le permite abordar. Dentro de la metodología se sugiere la interacción entre el profesor del curso de probabilidad y estadística con profesores de las áreas disciplinares (puede ser el profesor del curso de taller de ingeniería) de modo que se pueda construir un diálogo de saberes alrededor de las situaciones que los estudiantes plantean o en un caso dado, se puede asignar situaciones que los profesores cuenten con problemas de investigación o de aplicación en los que hayan recolectado datos con los que los estudiantes puedan trabajar y hacer sus aplicaciones.
+
+RECURSOS DE APOYO Se requiere de video beam para las clases en las que se harán las presentaciones.
+
+EVALUACIÓN DEL CURSO No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**
+
+Como parte de la evaluación del curso se hace necesario la asistencia al 90% de las clases. Las clases son sesiones de trabajo en las cuales el estudiante va a mostrar sus avances a partir de su nivel de compromiso, que inicia con una lectura previa de los contenidos. El profesor evalúa los avances en el proyecto a través de presentaciones orales en las que se asigna una nota de manera individual. La calificación final del proyecto se toma como la media aritmética de las tres presentaciones para cada estudiante. La elaboración del informe final del proyecto deberá cumplir con las normas APA y en la exposición final, se pueden evaluar aspectos como dominio del tema, diseño de diapositivas, expresión corporal y presentación personal. Dichos aspectos pueden ser expresados por el profesor en forma de observaciones constructivas y formadoras para el estudiante, pero no necesariamente afectar su calificación numérica.
+
+RA Actividades Evaluativas % RA1 Proyecto de aplicación disciplinar primera parte 30 RA2 Examen 1 15 RA3 Examen 2 15 RA4 Proyecto de aplicación disciplinar segunda parte 15 RA5 Proyecto de aplicación disciplinar completo 25 Total 100 BIBLIOGRAFÍA ● Triola, Mario F. Estadística, 2013, Edición 11, Editorial: Pearson educación, México.
+
+● Moore, David S. Estadística aplicada básica, 2005, Edición 2, Editorial: Antoni Bosch Editor, España.
+
+● Wackerly Dennis D., Mendenhall William y Scheaffer Richard L. Estadística matemática con aplicaciones, 2010, Edición 7. Editorial: Cengage Learning Editores, México.
+
+● Navidi William, Estadística para ingenieros, 2006, Editorial: McGraw-Hill Interamericana, México.
+
+● Johnson Richard A., Miller, Irwin y Freund John, Probabilidad y estadística para ingenieros de Miller y Freund, 2012, Edición 8, Editorial: Pearson, México.
+
+● Romero Villafranca, Rafael y Zúnica Ramajo, Luisa Rosa. Métodos estadísticos en ingeniería, 2008, Editorial: Grupo Noriega Editores de Colombia, México.
+
+● Milton, Susan J. y Arnold, Jesse C. Probabilidad y estadística: con aplicaciones para ingeniería y ciencias computacionales, 2004, Edición: Cuarta, Editorial: McGraw-Hill Interamericana, México.
+
+● Lucio, Nel Quezada. Estadística para ingenieros, 2010, Editorial: Editorial Macro, México.
+
+● Zimmermann, Francisco José P. Estadística para investigadores, 2004, Editorial: Escuela Colombiana de Ingeniería, Colombia.
+
+● Box, George E. P.
+
+y Hunter, Stuart J., Estadística para investigadores: diseño, innovación y descubrimiento, 2008, Edición 2, Editorial: Reverté, España.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene.
+
+Fecha actualización:
+
+**

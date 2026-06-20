@@ -1,0 +1,81 @@
+Matemáticas Discretas I INFORMACIÓN BÁSICA Código y Nombre 750004C -Matemáticas Discretas I Créditos 4 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 8 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de sistemas Prerrequisitos Fundamentos de Programación Imperativa Validable Sí Habilitable No Tipo de Asignatura Asignatura Básica (AB) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO Matemáticas Discretas I es un curso que tiene como objetivo dar al estudiante bases necesarias para razonar formalmente, comprendiendo conceptos y técnicas fundamentales de la lógica matemática, con el ánimo de aplicar esta destreza en situaciones reales y propias de las ciencias de la computación. El estudiante debe entender estructuras discretas, y usarlas para modelar y argumentar sobre las mismas.
+
+Adicionalmente, el estudiante debe conocer algunas de las aplicaciones de la matemática discreta a la computación.
+
+El curso se fundamenta en tres grandes ideas (o ideas principales) en las Ciencias de la Computación:
+
+1.
+
+La Lógica como herramienta para modelar y argumentar 2.
+
+La Matemática Estructural como herramienta para modelar 3.
+
+La Aritmética como herramienta para modelar, contar, medir, optimizar.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.1: Utilizar los conocimientos fundamentales en teoría de la computación (v.gr.
+
+R.A.1: Usa el lenguaje de la lógica proposicional o de predicados, modelando formalmente (a través de Introducción, Sistemas Formales, Sistemas Lógicos, La Lógica proposicional y la Lógica No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO estructuras discretas, complejidad de algoritmos, máquinas abstractas, lógica) en la construcción de sistemas basados en TIC un sistema formal) problemas expresados en lenguaje natural, y así poder argumentar formalmente sobre la verdad o falsedad de afirmaciones sobre el contexto.
+
+de predicados Clases invertidas Revisión de videos (8) Exposición-investigación Quizes de entrenamiento R.A.2: Usa los conceptos apropiados de conjuntos, relaciones, funciones y secuencias, interpretando las operaciones y propiedades asociadas a estos conceptos, para modelar los contextos que se le presenten.
+
+Conjuntos, Relaciones, Funciones Clases invertidas Revisión de videos (6) Exposición-investigación Quizes de entrenamiento R.A.3: Domina las técnicas de inducción e inducción estructural, comprendiendo la naturaleza inductiva de los números enteros, para demostrar afirmaciones sobre estructuras de uso frecuente para los informáticos como las estructuras de datos recursivas (e.g., listas.
+
+árboles) y las funciones (e.g., las que manipulan estas estructuras) Aritmética (Divisibilidad, primalidad, congruencias), Inducción e Inducción estructural Clases invertidas Revisión de vídeos (23) Exposición-investigación Quizes de entrenamiento C.E.13: Resolver problemas de ingeniería identificando diferentes alternativas de solución y desarrollando sistemas basados en TIC R.A.4: Selecciona técnicas de argumentación y estructuras discretas, entendiendo tanto la lógica proposicional, la lógica de predicados, las estructuras discretas como los conjuntos, las relaciones, las funciones y la secuencias, y la aritmética, para modelar problemas con criterios concretos y pertinentes.
+
+Clases invertidas Exposición-investigación Quizes de entrenamiento C.G.1: Comprender y aplicar las ciencias naturales, matemáticas, fundamentos, métodos y herramientas propias de la ingeniería.
+
+R.A.5: Identifica la aplicabilidad de los conceptos de matemáticas discretas en Ciencias de la Computación.
+
+Clases invertidas Revisión de videos Exposición-investigación Quizes de entrenamiento
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.G.2: Utilizar un pensamiento crítico y creativo que le permite aprender de forma autónoma y permanente R.A.6: Construye argumentaciones formalmente correctas, usando las técnicas de argumentación apropiadas, para sustentar conclusiones en problemas expresados en lenguaje natural.
+
+Clases invertidas Exposición-investigación Quizes de entrenamiento C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación R.A.7: Utiliza las diferentes formas de comunicación (oral, visual, escrito y no verbal) y herramientas tecnológicas de comunicación, de manera articulada y eficaz, para comunicar cómo se aplican ciertos conceptos del curso en las Ciencias de la Computación.| Exposición-investigación C.G.5: Mostrar una actitud receptiva, propositiva, crítica y reflexiva en su relación con los demás en el ejercicio de su profesión R.A.8: Ejerce el rol que le fue asignado, preparando los productos que le corresponden, para comunicar cómo se aplican ciertos conceptos del curso en las Ciencias de la Computación.
+
+Exposición-investigación
+
+METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación:
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje de cada gran idea; en esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real.
+
+Los objetos de estudio incluyen video clips, notas de clase, libros de referencia, ejercicios asignados para solución individual o en pequeños grupos. Esto se contrapone con pedagogía convencional donde el estudiante toma nota de lo que dice el profesor y luego estudia en el libro o en las notas de la asignatura lo que se dijo en clase, como base para hacer las tareas.
+
+● Clase invertida significa que para cada una de las unidades del curso en la que se llega a los resultados de aprendizaje de cada gran idea hay tres momentos en el proceso:
+
+○ Antes de la clase magistral, el estudiante debe revisar los objetos de estudio que pide la guía de estudio para dicho componente del curso, apropiar los conceptos de que se trate y aplicarlos en los ejercicios asignados.
+
+○ Durante la clase magistral, los estudiantes y el profesor interactúan alrededor de situaciones problemáticas que permitan detectar y resolver conceptos errados o pre-requeridos, así como ganar comprensión de los conceptos en estudio y hacer aplicación de los mismos en contextos relevantes.
+
+○ Después de la clase magistral, el estudiante debe completar la ejercitación que haga falta poder demostrar que sabe lo que se señala el objetivo específico. En cada módulo hay una guía de estudio que especifica qué indicadores de logro están asociados a cada unidad del curso y resultado de aprendizaje.
+
+En algunas sesiones de clase, estilo taller se trabaja en afianzar los conceptos estudiados, mediante ejercitación individual o grupal, y haciendo uso de sistemas de respuesta en línea (socrative, en nuestro caso).
+
+RECURSOS DE APOYO El principal recurso de apoyo es el campus virtual donde se encuentra desplegado el curso con todos sus medios y materiales:
+
+EVALUACIÓN DEL CURSO Mediante la solución de situaciones problemáticas acerca de los conceptos en estudio y de su aplicación en contexto, se espera que los participantes en el curso puedan comprobar y demostrar qué tanto entienden y aplican de lo que estudian. En unos casos la información de retorno será auto-administrada y con apoyo de medios (notas, textos, software), en otros requiere discusión con compañeros acerca de las soluciones propias y ajenas y en otros será brindada por el profesor, según se trate de trabajos de taller o de exámenes.
+
+La siguiente tabla visualiza la estructura de RA (resultados de aprendizaje) y su valor relativo (peso) en la nota final de cada uno de las instancias de evaluación de los aprendizajes (Parciales, quices, exposición- investigación).
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 Parcial 1 Quizes 20.0 5.0 25.0 R.A.2 Parcial 2 Quizes 20.0 5.0 25.0
+
+R.A.3 Parcial 3 Quizes 20.0 5.0 25.0 R.A.4 Parcial 1 Parcial 2 Parcial 3 2.5 2.5 2.5 7.5 R.A.5 Exposición- Investigación 4 4 R.A.6 Parcial 1 Parcial 2 Parcial 3 2.5 2.5 2.5 7.5 R.A.7 Exposición- Investigación 4 4 R.A.8 Exposición- Investigación 2 2 BIBLIOGRAFÍA [0] Videos de orientación de las grandes ideas, desarrollados en colaboración con profesores del curso Matemática Estructural y Lógica (MEL) de la Universidad de los Andes entre Agosto de 2016 y Julio de 2017.
+
+[1] Texto: Discrete Mathematics and its applications, K.H. Rosen, McGraw Hill Higher Ed., 7th Edition.
+
+2012 [2] Díaz Frías, Juan Francisco (2016-2017). Video clips con demostraciones para R.O. de temas selectos. Tomados de explicaciones en vivo. Ver pestañas respectivas.
+
+Recursos complementarios [3] Cardoso Rodríguez, Rodrigo (2012). Notas de clase curso ISIS 1104, en uniandes.
+
+[4] A logical approach to discrete Math. D. Gries, F. B. Schneider; Springer-Verlag, 1993 [5] Mathematics for Computer Science, A. R. Meyer, MIT, Notas de clase - curso Mathematics for Computer Science – Spring 2016. Disponible 30 de Enero de 2018 en https://courses.csail.mit.edu/6.042/spring17/mcs.pdf Otros recursos [6] How to prove it, 2nd Ed., D. J. Velleman, Cambridge University Press, 2006.
+
+[7] Curso: Matemática estructural y Matemáticas discretas de Opencourseware (MIT). Disponible 30 dic 2016 en https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j- mathematics-for-computer-science-spring-2015/

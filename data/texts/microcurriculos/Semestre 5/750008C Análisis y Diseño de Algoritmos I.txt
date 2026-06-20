@@ -1,0 +1,53 @@
+Análisis y Diseño de Algoritmos I INFORMACIÓN BÁSICA Código y Nombre 750008C - Análisis y Diseño de Algoritmos I Créditos 3 Horas de trabajo Presenciales: 4 horas Trabajo independiente: 5 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de Sistemas Prerrequisitos 750014C - Fundamentos de Programación Orientada a Eventos 750005C - Matemáticas Discretas II Validable Sí Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No X DESCRIPCIÓN GENERAL DEL CURSO Fundamentos de Análisis y Diseño de Algoritmos I es una asignatura que tiene como objetivo principal brindar al estudiante conceptos y técnicas fundamentales que le permitan comprender y analizar el costo computacional de los algoritmos; para esto, en este curso, el estudiante abordará diferentes soluciones algorítmicas a diversos problemas y analizará su respectivo costo computacional mediante las técnicas vistas.
+
+En esta asignatura se prestará especial atención al estudio y análisis de las estructuras de datos más usadas, entendiendo el papel fundamental de las estructuras de datos en la manipulación eficiente de los datos empleados en los algoritmos y por lo tanto en su análisis y diseño. Esta asignatura se orientará al análisis de los algoritmos tan independientemente como sea posible de aspectos muy específicos de implementación. Se espera que al final de la asignatura, el estudiante sea capaz de aplicar los conceptos y las técnicas vistas en la asignatura para analizar, comparar y plantear soluciones algorítmicas eficientes a diversos problemas basado principalmente en la escogencia correcta de la(s) estructura(s) de datos a utilizar.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE CONTENIDO C.E.1: Utilizar los conocimientos fundamentales en teoría de la computación (v.gr. estructuras discretas, complejidad de algoritmos, máquinas abstractas, lógica) en la construcción de sistemas basados en TIC R.A.1: Analiza algoritmos con estructuras de repetición y condicionales usando notación asintótica para estimar su costo computacional.
+
+Introducción al diseño y análisis de algoritmos Órdenes de crecimiento.
+
+Notación asintótica.
+
+Análisis de algoritmos sencillos (ejemplo:Insertion-sort) Técnica divide y vencerás.
+
+Ecuaciones de recurrencia: Método de expansión, Método Maestro.
+
+Método de sustitución Algoritmos de búsqueda lineal, Algoritmos de ordenamiento:
+
+Heapsort, QuickSort, SelectionSort, MergeSort. Algoritmos de ordenación en tiempo lineal.
+
+Algoritmos para determinar un orden estadístico (Mediana) R.A.2: Analiza algoritmos de búsqueda, ordenamiento y relacionados usando técnicas matemáticas para estimar su costo computacional.
+
+C.E.13: Resolver problemas de ingeniería identificando diferentes alternativas de solución y desarrollando sistemas basados en TIC R.A.3: Aplica diferentes estructuras de datos en el diseño de algoritmos de búsqueda, ordenamiento y relacionados para construir una solución algorítmica eficiente.
+
+Algoritmos sobre estructuras de datos: estructuras de datos elementales (arreglos, matrices, colas, pilas, listas, árboles), tablas hash, árboles binarios de búsqueda, árboles rojinegros.
+
+METODOLOGÍA El curso se desarrolla semanalmente mediante 4 horas de clase repartidas en dos sesiones de 2 horas cada una. El curso estará centrado en el afianzamiento de los conceptos y técnicas vistas en clase por medio de ejercicios y problemas que los estudiantes también abordarán en la clase.
+
+Adicionalmente la asignatura contará con exámenes, talleres y un proyecto, los cuales permitirán enriquecer el proceso de aprendizaje de los estudiantes. Los ejercicios y problemas abordados en clase buscarán tanto la ejercitación individual como grupal.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se cuenta con un salón de clase con acceso a internet, con puestos individuales de trabajo y que está provisto de video beam. Se cuenta con el campus virtual donde estará desplegada la información del curso con materiales de apoyo:
+
+EVALUACIÓN DEL CURSO
+
+La evaluación del curso incluye actividades que los estudiantes deben realizar en grupos tales como talleres y el proyecto. Además, se tienen dos evaluaciones parciales que se aplicarán, uno en la mitad del semestre y el otro al final del semestre.
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje % Actividades evaluativas R.A.1 10 Parcial 1, Taller 1 R.A.2 40 Parcial 1, Taller 1, Proyecto R.A.3 50 Parcial 2, Taller 2, Proyecto TOTAL 100 BIBLIOGRAFÍA [0] Introduction to Algorithms, Tomas Cormen, Charles Leiserson, Ronald Rivest y Clifford Stein, MIT-Press, 2001.
+
+[1] Estructuras de Datos en Java, Mark Allen Weis, Addison Wesley, 2000.
+
+[2] Fundamentos de Algoritmia, G. Brassard P. Bratley, Prentice Hall, 1997.
+
+[3] Data Structures and Algoritms in Java, Michael T. Goodrich y Roberto Tamassia, 2/e,John Wiley & Sons, Inc., 2001.
+
+Otros recursos [4] Programa especializado Coursera en https://es.coursera.org/specializations/boulder-data-structures- algorithms.

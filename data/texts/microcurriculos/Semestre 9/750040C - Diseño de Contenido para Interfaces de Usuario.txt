@@ -1,0 +1,93 @@
+Diseño de Contenido para Interfaces de Usuario INFORMACIÓN BÁSICA Código y Nombre 750040C Diseño de Contenido para Interfaces de Usuario Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos 3743 ingeniería de sistemas 2724 Tecnología en Desarrollo de Software Prerrequisitos Validable No Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Lenguaje y comunicación (LC) Si x No DESCRIPCIÓN GENERAL DEL CURSO Este curso, tiene como objetivo brindar al estudiante experiencias de formación en las cuales se estudie y ponga en práctica el UX Writing como elemento fundamental para garantizar una comunicación eficiente entre el producto (software) y el usuario. Esto es, comprender cómo las palabras dan forma al diseño de una Interfaz de Usuario, cómo escribir para comunicar con claridad, Cómo comunicar mensajes de fallo o advertencias, cómo escribir para lograr inclusión y accesibilidad y la importancia de la voz y el tono en el producto (software). Adicionalmente, el curso brindará al estudiante retos que permitan desarrollar habilidades en la escritura y presentación oral del informe técnico asociado a un producto (software).
+
+En el curso el estudiante trabajará sobre un proyecto pequeño para el cual creará un prototipo de interfaces de usuario tomando la escritura como parte central del proceso de diseño y realizando un informe técnico del prototipo desarrollado así como la exposición del mismo a la clase.
+
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO Indicador de Logro EJES/LÍNEAS TEMÁTICAS C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de Proyectos de Computación RA-1 Aplica estrategías de UX Writing, para crear la Interfaz de Usuario de un producto (software) siguiendo un proceso de Diseño centrado en el Usuario.
+
+Escribe con coherencia textos variados teniendo en cuenta elementos gramaticales del idioma español, para mejorar la usabilidad y la experiencia del usuario en un producto (software) Redacta microcopias y textos claros, concisos y orientados al usuario, que lo guíen de manera efectiva a través de un flujo de interacción.
+
+Crea guías de estilo de escritura de UX coherentes y actualizadas para garantizar una experiencia de usuario consistente en todas las interacciones con el producto.
+
+Utiliza estándares de accesibilidad al redactar microcopias y textos para garantizar que sean comprensibles, inclusivos y utilizables para todos los usuarios, incluidos aquellos con discapacidades.
+
+● Diseño de contenido, principios y metodología.
+
+● Voz y Tono del producto (Estilo de redacción) ● Microcopias, navegación y etiquetado (palabras, textos cortos) ● Formularios, Mensajes de error y confirmación (Párrafos) ● Instrucciones y tutoriales (Textos largos) ● La accesibilidad e inclusión en el lenguaje escrito.
+
+● El informe técnico: estructura (introducción, estado del arte, discusión/análisis de resultados, conclusiones y recomendaciones) y estrategías de escritura.
+
+● La presentación oral:
+
+estructura, técnicas para el diseño de apoyos visuales, el lenguaje corporal (no verbal y uso de la voz).
+
+RA-2 Construye un informe técnico del producto (software) desarrollado, respetando las estructura, estilo de redacción, calidad y cantidad de información propios de este tipo de textos Usa una estructura de informe lógica y coherente, facilitando la comprensión del contenido y presentando todos los aspectos clave del producto desarrollado Utilizan transiciones efectivas para conectar ideas y secciones dentro del informe Sintetiza la información técnica compleja en puntos clave y conclusiones claras y accionables.
+
+Redacta el informe de manera clara, concisa y libre de errores gramaticales o de estilo que puedan distraer al lector.
+
+Utiliza un tono profesional e impersonal en toda la escritura del informe.
+
+Utiliza elementos visuales en el informe, incluidos gráficos, diagramas y otros elementos para mejorar la comprensión y la apariencia general del documento.
+
+Utiliza bibliografía o referencias actualizadas para todas las fuentes citadas en el informe usando normas de presentación (APA, IEEE, etc.)
+
+RA-3 Realiza una presentación oral del informe técnico usando ayudas visuales y estrategias de manejo del lenguaje corporal Realiza contacto visual con la audiencia y utiliza gestos y expresiones faciales para reforzar el mensaje.
+
+Utiliza una postura y un lenguaje corporal que reflejan confianza y profesionalismo durante la presentación.
+
+Ajusta el tono de voz y el ritmo de la presentación para mantener el interés y la atención de la audiencia.
+
+Demuestra una comprensión profunda del tema al abordar preguntas complejas y desafiantes.
+
+Aborda todas las áreas clave del informe de manera exhaustiva, sin omitir información importante en el tiempo dado para la presentación.
+
+Presenta de manera fluida y lógica, sin interrupciones significativas o vacilaciones.
+
+Utiliza un diseño limpio y ordenado que resalte el contenido importante y minimice la distracción visual.
+
+METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje planteado para el curso. En esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen videos o recursos en línea sobre el tema y tendrán asociado un quiz o tarea corta.
+
+● Clase invertida significa la clase tendrá la siguiente estructura:
+
+o Antes de la clase magistral, el estudiante debe revisar los objetos de estudio definidos para la clase, y desarrollar los ejercicios asignados.
+
+o Durante la clase magistral, los estudiantes y el profesor interactúan alrededor del proyecto de curso para resolver dudas y ganar comprensión de los conceptos en estudio; en algunas de las sesiones magistrales se podrá hacer la aplicación de los mismos en contextos reales.
+
+o Después de la clase magistral, los estudiantes deben organizar el avance del proyecto de curso aplicando los conceptos estudiados.
+
+RECURSOS DE APOYO A través del campus virtual de la Universidad del Valle, el estudiante encontrará el material disponible en forma digital: videos, artículos, recursos web.
+
+Se usarán herramientas de uso libre y que permitan el trabajo colaborativo, para la creación del prototipo de interfaces de usuario del proyecto de curso, el informe final y las ayudas visuales de la presentación oral.
+
+EVALUACIÓN DEL CURSO El/La estudiante será evaluado a través de un proyecto de curso que desarrollará aplicando un proceso de Diseño Centrado en el Usuario y una metodología de desarrollo de software ágil. Para lo cual se planeará entregas iterativas en las cuales deberá aplicar los conceptos visto en clase trabajando en equipos de preferencia interdisciplinarios. Los estudiantes también desarrollarán quices o tareas cortas Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+RA Formación General % Actividad Evaluativa R.A.1 Lenguaje y comunicación (LC) 34 Proyecto de Curso Informe escrito Presentación Oral R.A.2 33 R.A.3 33 Total 100
+
+BIBLIOGRAFÍA ● UX: A Comprehensive Beginner’s Guide to Learn the Realms of UX Programming. Eric Schmidt.
+
+ISBN-13: ‎979-8846179233. 2022 ● Strategic Content Design: Tools and Research Techniques for Better UX. Erica Jorgensen, Janice Redish. ISBN: 1-959029-57-6. 2023.
+
+● UX Methods: A Quick Guide to User Experience Research Methods. James Pannafino, Patrick McNeil. ISBN-13: ‎978-0692972717 CDUXP LLC 2017.
+
+● Strategic Writing for UX: Drive Engagement, Conversion, and Retention with Every Word. Torrey Podmajersky. O´Really 2019 ● Tech Writing Tips: A Practical Guide for Technical People. A.M. Einspruch. 2023.
+
+● Writing is designing: Words and the user experience. Metts, Michael and Welfle, Andy. ISBN:
+
+1-933820-66-7. 2019 ● Practical Web Inclusion and Accessibility: A Comprehensive Guide t. o Access Need. Ashley Firth.
+
+1st ed. Edición. Apress. 2019. ISBN-13: 978-1484254516. 2019.
+
+● Inclusive Design for Products: Including embedding web and mobile accessibility Jonathan Hassell.
+
+Rethink Press 2nd edición. 2019.
+
+Herramientas sugeridas para el desarrollo del curso • Prototipado de Interfaces de Usuario : https://www.figma.com/ • Escritura del Informe del curso y ayudas visuales presentación oral: Google Workspace

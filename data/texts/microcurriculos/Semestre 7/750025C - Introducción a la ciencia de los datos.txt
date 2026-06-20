@@ -1,0 +1,57 @@
+Introducción a la ciencia de los datos INFORMACIÓN BÁSICA Código y Nombre 750025C - Introducción a la ciencia de los datos Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Ingeniería de sistemas Prerrequisitos 750006C - Bases de datos 750022C - Inteligencia Artificial Validable Si Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General Si No x DESCRIPCIÓN GENERAL DEL CURSO Con los nuevos desarrollos tecnológicos para la captura y almacenamiento de datos se han venido acumulando grandes bases de datos en las organizaciones. Aunque nuestra capacidad de captar y almacenar información ha crecido en los últimos años, nuestra capacidad de utilizar esta información, procesarla y hacerla útil no se ha incrementado de la misma forma.
+
+Las ciencias de datos comprenden las tecnologías y métodos para manipular, consolidar y analizar datos y se presentan como una alternativa, que permite explorar bases de datos, de manera automática o semiautomática. Esto con el objetivo de encontrar patrones, tendencias o reglas que expliquen el comportamiento de los datos en un determinado contexto. De esta forma se podría predecir comportamientos futuros, transformando los datos en conocimiento proactivo, para apoyar la toma de decisiones en las organizaciones.
+
+No de Versión:
+
+03 No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+01-12 - 2020
+
+DESARROLLO DEL CURSO COMPETENCIA (RA DEL PROGRAMA) RESULTADO DE APRENDIZAJE DEL CURSO EJES/LÍNEAS TEMÁTICAS RA 1: Extrae información de un conjunto de bases de datos heterogéneas para construir una bodega de datos y realiza visualizaciones adecuadas para cada tipo de dato ● Diferencia los componentes clave del diseño de una bodega de datos ● Implementa un proceso de ETL para alimentar una bodega de datos basado en un conjunto de requerimientos ● Usa herramientas de visualización para describir la información almacenada en una bodega de datos Bases de datos transaccionales y análitcas Componentes te una Bodega de datos Conceptos de Extracción transformación y carga de datos Análisis descriptivo de datos RA 2: Aplica técnicas de limpieza a un conjunto de datos como mecanismo para lograr buenos resultados en la fase de modelamiento.
+
+● Reconoce las diferentes anomalías presentes en un conjunto de datos y las técnicas para solucionarlas ● Aplica técnicas de limpieza de datos usando un lenguaje de programación Normalización de datos Manejo de valores Nulos Valores atípicos RA 3: Usa modelos de aprendizaje supervisado y no supervisado para resolver problemas basados en datos ● Entrena un modelo de aprendizaje de máquina (ML) y lo guarda para ser usado en un ambiente de producción ● Despliega una aplicación inteligente utilizando las tecnologías y las herramientas en la nube Técnicas de regresión, clasificación y agrupamiento de datos.
+
+Redes neuronales, Árboles de decisión, Algoritmos K-means
+
+RA 4: Usa una metodología basada en análisis de datos para encontrar una solución a los requerimientos de la organización.
+
+● Aplica la validación cruzada para evaluar el desempeño de un modelo de ML supervisado ● Aplica una búsqueda por rejillas para encontrar la mejor configuración de parámetros en un modelo de ML ● Compara varios modelos de ML basado en criterios de simplicidad, precisión, eficiencia e interpretabilidad Metodología para resolver problemas basados en datos.
+
+Métodos de configuración de parámetros e hiperparametros.
+
+Métricas de desempeño de modelos de aprendizaje automático.
+
+METODOLOGÍA El curso se desarrolla en 1 sesión semanales de 3 horas.
+
+El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+● Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje de cada gran idea; en esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluye video clips, notas de clase, libros de referencia, ejercicios asignados para solución individual o en pequeños grupos. Esto se contrapone con pedagogía convencional donde el estudiante toma nota de lo que dice el profesor y luego estudia en el libro o en las notas de la asignatura lo que se dijo en clase, como base para hacer las tareas.
+
+● Clase invertida significa que para cada una de las unidades de aprendizaje en la que se llega a los resultados de aprendizaje de cada gran idea hay tres momentos en el proceso:
+
+○ Antes de la clase magistral, el estudiante debe revisar los objetos de estudio que pide la guía de estudio para dicho componente del curso, apropiar los conceptos de que se trate y aplicarlos en los ejercicios asignados.
+
+○ Durante la clase magistral, los estudiantes y el profesor interactúan alrededor de situaciones problemáticas que permitan detectar y resolver conceptos errados o pre-requeridos, así como ganar comprensión de los
+
+conceptos en estudio y hacer aplicación de los mismos en contextos relevantes.
+
+○ Después de la clase magistral, el estudiante debe completar la ejercitación que haga falta poder demostrar que sabe lo que se señala el objetivo específico. En cada módulo hay una guía de estudio que especifica qué resultados observables están asociados a cada unidad de aprendizaje y entendimiento perdurable.
+
+○ En este curso el estudiante trabajará en un único proyecto o caso de uso, que servirá como motivación para adquirir y aplicar los conocimientos del curso. El proyecto se presentará en el formato de resolución de problemas basados en datos, el cual es un formato donde se presenta un conjunto de datos y un problema que se quiere resolver aplicado a un área específica de una empresa. Los docentes definirán los criterios de aceptación y puntuación de las soluciones. Los estudiantes desarrollarán el proyecto en grupos y al final del semestre tendrán que socializar su solución.
+
+RECURSOS DE APOYO Para el desarrollo efectivo del curso se requiere de un salón con acceso a internet, con puestos individuales de trabajo, y que esté provista de video beam.
+
+EVALUACIÓN DEL CURSO La evaluación del curso incluye el desarrollo de actividades que los estudiantes deben realizar en grupos tales como proyectos, exposiciones e informes escritos. Además, se realizará un examen individual que cubre todos los temas vistos en el curso. Los porcentajes asignados para cada una de estas actividades son:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje total R.A.1 Proyecto 30% R.A.2 Proyecto 20% R.A.3 Proyecto Examen 10% 15% R.A.4 Proyecto Examen 10% 15%
+
+BIBLIOGRAFÍA ● Ralph Kimball, Margy Roos. The Data Warehouse Toolkit, The Definitive Guide to Dimensional Modeling, Third Edition. John Willey & Sons, Inc. 2013 ● Pang-Ning Tan, Michael Steinbach, Vipin Kuma.
+
+Introduction to Data Mining.
+
+Pearson, Addison Weasley. Second Edition. 2018 ● Jiawei Han, Micheline Kamber, Jian Pei. Data mining concepts and techniques.
+
+MORGAN KAUFMANN. Four Edition, 2023 ● Paul Crickard. Data Engineering with Python. First edition. Packt Editorial, 2020

@@ -1,0 +1,131 @@
+No de Versión:
+
+** No. y fecha acta unidad académica donde se aprobó:
+
+(En caso de modificación en la sección “desarrollo del curso” debe actualizarse de lo contrario se mantiene) Fecha actualización:
+
+**
+
+Fundamentos de Programación Funcional y Concurrente INFORMACIÓN BÁSICA Código y Nombre Fundamentos de Programación Funcional y Concurrente Créditos 3 Horas de trabajo Presenciales: 3 horas Trabajo independiente: 6 horas Unidad(es) Académica(s) Escuela de Ingeniería de Sistemas y Computación Facultad de Ingeniería Programas Académicos Programa académico de Ingeniería de sistemas Prerrequisitos Fundamentos de Programación Orientada a Eventos Validable Si Habilitable No Tipo de Asignatura Asignatura Profesional (AP) La asignatura favorece la Formación General
+
+Si
+
+No x
+
+DESCRIPCIÓN GENERAL DEL CURSO La programación es cada día un asunto de mayor abstracción y complejidad. Los avances en hardware e infraestructuras hacen que el desarrollo de lenguajes de programación que logren aprovechar esos avances sea un tema de investigación permanente. Lograr comprender los conceptos fundamentales subyacentes a los diferentes lenguajes de programación y cómo ellos dan origen a paradigmas de programación es una habilidad necesaria para los ingenieros de sistemas de hoy. Este curso explora precisamente diferentes conceptos asociados a dos paradigmas de programación: el funcional y el concurrente por paso de mensajes,  sobre un lenguaje de programación adecuado para esta exploración (Scala).
+
+El curso se fundamenta en dos grandes paradigmas de programación declarativa:
+
+1. La programación funcional • En un sentido amplio, programar funcionalmente significa programar funciones, e invocarlas. En ese sentido,  una función es a la vez un valor que puede ser producido, consumido y compuesto.
+
+• En un sentido más restringido, programar funcionalmente significa programar sin variables mutables, ni asignación ni estructuras de control.
+
+• La programacion funcional, además, ofrece un método muy atractivo para explotar el paralelismo de la computación multinúcleo y en la nube.
+
+2. La programación concurrente • En un sentido amplio, programar concurrentemente significa ejecutar varias computaciones, que se pueden coordinar o no entre ellas, en intervalos de tiempo que se sobreponen.
+
+• En este curso nos enfocaremos en  la programación concurrente funcional, lo que permite escribir programas concurrentes sin riesgo de puntos muertos y condiciones de carrera, concentrándonos en la concurrencia de tareas y de datos.
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO C.E.1: Utilizar los conocimientos fundamentales en teoría de la computación (v.gr.
+
+estructuras discretas, complejidad de algoritmos, máquinas abstractas, lógica) en la construcción de sistemas basados en TIC
+
+R.A.1: Desarrolla programas en estilo funcional utilizando los principios y las técnicas de la programación funcional y argumentadno sobre su corrección, para comprender las ventajas y limitaciones de este estilo de programación.
+
+Razona sobre la estructura de programas funcionales utilizando la inducción como mecanismo de argumentación para demostrar propiedades de los programas que construye.
+
+Principios de programación funcional, recursión de cola, funciones y datos, polimorfismo, listas, colecciones, inducción estructural sobre árboles, funciones y estado
+
+Aplica las reglas de inferencia de tipos genéricos en los programas funcionales para determinar errores de programación
+
+R.A.2: Desarrolla programas paralelos en estilo funcional utilizando los principios y las técnicas de paralelización de tareas y datos y métricas para medir el desempeño , para mejorar el desempeño de las soluciones secuenciales.
+
+Razona sobre programas con paralelismo en datos y paralelismo en tareas en un contexto funcional para concluir sobre las ganancias en tiempo con respecto a las versiones secuenciales.
+
+Benchmarking de programas paralelos, Tareas de primera clase, Eficiencia de programas paralelos, Computación paralela, Operaciones asociativas, Operaciones sobre datos y Map paralelo, Operación Fold (reduce), Scan Left paralelo, Ordenamiento paralelo, Programación paralela de datos, Colecciones paralelas, Conc Trees, Combinadores y splitters
+
+C.E.3: Seleccionar y utilizar diferentes paradigmas y lenguajes de programación al construir sistemas basados en TIC R.A.1: Desarrolla programas en estilo funcional utilizando los principios y las técnicas de la programación funcional y argumentadno sobre su corrección, para comprender las ventajas y limitaciones de este estilo de programación.
+
+Combina la programación funcional con la POO entendiendo las limitaciones y ventajas de cada enfoque para resolver problemas de programación.
+
+Principios de programación funcional, recursión de cola, funciones y datos, polimorfismo, listas, colecciones, inducción estructural sobre árboles, funciones y estado
+
+Talleres y Proyecto
+
+R.A.2: Desarrolla programas paralelos en estilo funcional utilizando los principios y las técnicas de paralelización de tareas y datos y métricas para medir el desempeño , para mejorar Aplica técnicas de análisis de desempeño de programas paralelos a los programas funcionales paralelizados para concluir sobre el grado de aceleración de los tiempos de ejecución con respecto a las versiones secuenciales.
+
+Benchmarking de programas paralelos, Tareas de primera clase, Eficiencia de programas paralelos, Computación paralela, Operaciones asociativas, Operaciones sobre datos y Map paralelo,
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO el desempeño de las soluciones secuenciales.
+
+Operación Fold (reduce), Scan Left paralelo, Ordenamiento paralelo, Programación paralela de datos, Colecciones paralelas, Conc Trees, Combinadores y splitters
+
+Taller y Proyecto
+
+C.E.13: Resolver problemas de ingeniería identificando diferentes alternativas de solución y desarrollando sistemas basados en TIC R.A.3: Utiliza un lenguaje de programación funcional y/o concurrente, usando las técnicas adecuadas, para implementar soluciones a un problema dado Desarrolla un programa funcional concurrente utilizando un lenguaje de programación adecuado como SCALA para resolver un proyecto de programación planteado por el profesor
+
+Talleres y Proyecto
+
+C.E.14: Desarrollar proyectos de ingeniería analizando, modelando, diseñando, evaluando, gestionando, documentando, desplegando e implementando sistemas basados en TIC R.A.1: Desarrolla programas en estilo funcional utilizando los principios y las técnicas de la programación funcional y argumentadno sobre su corrección, para comprender las ventajas y limitaciones de este estilo de programación.
+
+Desarrolla programas funcionales puros con estructuras de datos inmutables utilizando recursión, reconocimiento de patrones, mecanismos de encapsulación, funciones de alto orden e iteradores para resolver problemas de programación.
+
+Principios de programación funcional, recursión de cola, funciones y datos, polimorfismo, listas, colecciones, inducción estructural sobre árboles, funciones y estado
+
+Talleres y Proyecto R.A.2: Desarrolla programas paralelos en estilo funcional utilizando los principios y las técnicas de paralelización de tareas y datos y métricas para medir el desempeño , para mejorar el desempeño de las soluciones secuenciales.
+
+Paraleliza algortimos escritos en estilo funcional usando técnicas de paralelización de tareas y datos para lograr acelerar sus tiempos de ejecución.
+
+Benchmarking de programas paralelos, Tareas de primera clase, Eficiencia de programas paralelos, Computación paralela, Operaciones asociativas, Operaciones sobre datos y Map paralelo, Operación Fold (reduce), Scan Left paralelo, Ordenamiento paralelo, Programación paralela de datos, Colecciones paralelas, Conc Trees, Combinadores y splitters
+
+Talleres y Proyecto Utiliza colecciones paralelas en la escritura de programas para lograr mejoras de desempeño en su ejecución.
+
+C.G.1: Comprender y aplicar las ciencias naturales, matemáticas, fundamentos, métodos y herramientas propias de la ingeniería R.A.4: Aplica conceptos fundamentales de la programación funcional y concurrente, utilizando un lenguaje de programación adecuado como SCALA, para analizar un problema, modelar, diseñar y desarrollar su solución Desarrolla un programa funcional concurrente utilizando un lenguaje de programación adecuado como SCALA para resolver un proyecto de programación planteado por el profesor Proyecto
+
+DESARROLLO DEL CURSO COMPETENCIA RESULTADO DE APRENDIZAJE INDICADORES DE LOGRO CONTENIDO C.G.2: Utilizar un pensamiento crítico y creativo que le permite aprender de forma autónoma y permanente R.A.5: Construye argumentaciones formalmente correctas, usando las técnicas de argumentación apropiadas, para sustentar la corrección de programas funcionales y para sustentar la mejoría en el desempeño de programas concurrentes frente a las soluciones secuenciales.
+
+Escribe un informe de proyecto, presentando los aspectos más relevantes del desarrollo realizado, para que un lector pueda evaluar el proyecto.
+
+Proyecto C.G.4: Trabajar en equipo y aplicar diferentes formas y herramientas de comunicación durante la realización de proyectos de computación R.A.6: Trabaja en equipo, desempeñando un rol específico y llevando a cabo un conjunto de actividades, usando mecanismos de comunicacion efectivos con sus compañeros y el profesor, para desarrollar un proyecto de curso.
+
+Desarrolla un programa funcional concurrente utilizando un lenguaje de programación adecuado como SCALA para resolver un proyecto de programación planteado por el profesor
+
+Proyecto Escribe un informe de proyecto, presentando los aspectos más relevantes del desarrollo realizado, para que un lector pueda evaluar el proyecto.
+
+Desarrolla una presentación digital, con los aspectos más relevantes del desarrollo realizado, para sustentar el trabajo ante los compañeros y el profesor.
+
+METODOLOGÍA El curso hace uso de pedagogía activa y de clase invertida. Esto exige que tanto estudiantes como docentes asuman roles no convencionales, como se explica a continuación.
+
+• Pedagogía activa significa que el estudiante es responsable de llegar al conocimiento, por sí mismo, o con compañeros de estudio, a partir de revisión de objetos de estudio que se definen para cada resultado de aprendizaje de cada gran idea; en esta estrategia pedagógica el profesor es responsable de orientar el proceso de aprendizaje, de solucionar las dudas que surjan, de dar información de retorno sobre los trabajos, así como de ayudar a hilvanar las ideas que surgen de contrastar los conceptos en estudio con su aplicación en la vida real. Los objetos de estudio incluyen video clips, notas de clase, libros de referencia, ejercicios asignados para solución individual o en pequeños grupos. Esto se contrapone con pedagogía convencional donde el estudiante toma nota de lo que dice el profesor y luego estudia en el libro o en las notas de la asignatura lo que se dijo en clase, como base para hacer las tareas.
+
+• Clase invertida significa que para cada una de las unidades del curso en la que se llega a los resultados de aprendizaje de cada gran idea hay tres momentos en el proceso:
+
+o Antes de la clase magistral, el estudiante debe revisar los objetos de estudio que pide la guía de estudio para dicho componente del curso, apropiar los conceptos de que se trate y aplicarlos en los ejercicios asignados.
+
+o Durante la clase magistral, los estudiantes y el profesor interactúan alrededor de situaciones problemáticas que permitan detectar y resolver conceptos errados o pre- requeridos, así como ganar comprensión de los conceptos en estudio y hacer aplicación de los mismos en contextos relevantes.
+
+o Después de la clase magistral, el estudiante debe  completar la ejercitación que haga falta poder demostrar que sabe lo que se señala el objetivo específico. En cada módulo hay una guía de estudio que especifica qué indicadores de logro están asociados a cada unidad del curso  y resultado de aprendizaje.
+
+En algunas sesiones de clase, estilo taller se trabaja en afianzar los conceptos estudiados, mediante ejercitación individual o grupal, y haciendo uso de sistemas de respuesta en linea (socrative, en nuestro caso).
+
+RECURSOS DE APOYO El principal recurso de apoyo es el campus virtual donde se encuentra desplegado el curso con todos sus medios y materiales:
+
+EVALUACIÓN DEL CURSO Mediante la solución de situaciones problemáticas acerca de los conceptos en estudio y de su aplicación en contexto, se espera que los participantes en el curso puedan comprobar y demostrar qué tanto entienden y aplican de lo que estudian. En unos casos la información de retorno será auto-administrada y con apoyo de medios (notas, textos, software), en otros requiere discusión con compañeros acerca de las soluciones propias y ajenas y en otros será brindada por el profesor, según se trate de trabajos de taller o de exámenes.
+
+La siguiente tabla visualiza la estructura de RA (resultados de aprendizaje) y su  valor relativo (peso) en la nota final de cada uno de las instancias de evaluación de los aprendizajes (Parciales, quizes, exposición- investigación).
+
+Los porcentajes asignados para cada resultado de aprendizaje son los siguientes:
+
+Resultado de aprendizaje Actividades evaluativas Porcentaje parcial Porcentaje total R.A.1 Talleres PF Examen 32 18.75 50 R.A.2 Talleres PC Examen Proyecto 8 6.25 5 20
+
+R.A.3 Proyecto 5 5.0 R.A.4 Proyecto 5 5.0
+
+R.A.5 Proyecto 5 5.0 R.A.6 Proyecto 15 15.0
+
+BIBLIOGRAFÍA [0]  Structure and Interpretation of Computer Programs, Harold Abelson and Gerlad. J. Sussman, August 1996, The MIT-Press
+
+[1] Programming in Scala, 3rd Edition,  Martin Odersky (Autor), Lex Spoon (Autor), Bill Venners, 2016, Artima Press
+
+[2] Learning Concurrent Programming in Scala, Aleksandar Prokopec, 2014, Packt Publishing
+
+Recursos complementarios [3]  Conceptos, Técnicas y Modelos de Programación, Peter Van Roy and Seih Haridi, MIT-Press, 2004
