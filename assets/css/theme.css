@@ -1,0 +1,289 @@
+/* MauroBot Univalle — tema visual (inspirado en CamBot-IA) */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --uv-red: #CD1F32;
+    --uv-red-dark: #A9192A;
+    --uv-white: #FAF0E5;
+    --uv-gray-light: #E0E5E9;
+    --uv-sidebar-bg: #FFEFD7;
+    --uv-chat-bg: #FAF0E5;
+    --uv-text: #000000;
+    --uv-code-bg: #F1F3F5;
+    --uv-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+.stApp {
+    background-color: var(--uv-white);
+    color: var(--uv-text);
+}
+
+/* ---------- Sidebar ---------- */
+[data-testid="stSidebar"] {
+    background-color: var(--uv-sidebar-bg);
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+[data-testid="stSidebarContent"] {
+    padding-top: 1rem;
+}
+
+[data-testid="stNavSectionHeader"] {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    margin-top: 1rem;
+}
+
+[data-testid="stSidebarNavLink"] {
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+[data-testid="stSidebarNavLink"]:hover {
+    background-color: rgba(205, 31, 50, 0.08);
+}
+
+[data-testid="stSidebarNavSeparator"] {
+    margin: 0.75rem 0;
+    opacity: 0.4;
+}
+
+/* Encabezados de sección propios (grupos de navegación y "Chats") */
+.uv-nav-heading,
+.uv-chats-heading {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    margin: 1rem 0 0.3rem 0.2rem;
+}
+
+[data-testid="stPageLink"] {
+    border-radius: 10px;
+}
+
+[data-testid="stPageLink"]:hover {
+    background-color: rgba(205, 31, 50, 0.08);
+}
+
+/* Botón "Nuevo Chat" */
+.st-key-new_chat_btn button {
+    background-color: var(--uv-red);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    width: 100%;
+    box-shadow: var(--uv-shadow);
+    transition: background-color 0.15s ease;
+}
+
+.st-key-new_chat_btn button:hover {
+    background-color: var(--uv-red-dark);
+    color: #fff;
+}
+
+.uv-chat-row button {
+    background: transparent;
+    border: none;
+    text-align: left;
+    border-radius: 10px;
+    font-weight: 500;
+    color: var(--uv-text);
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.uv-chat-row button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.uv-chat-row.pinned button {
+    font-weight: 700;
+}
+
+.uv-chats-empty {
+    font-size: 0.85rem;
+    color: #8a8a8a;
+    padding: 0.2rem 0.2rem;
+}
+
+/* ---------- Encabezado ---------- */
+.st-key-app_header {
+    background-color: var(--uv-red);
+    border-radius: 14px;
+    padding: 0.6rem 1.2rem;
+    box-shadow: var(--uv-shadow);
+    margin-bottom: 1rem;
+}
+
+.st-key-app_header h1 {
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Barra superior nativa de Streamlit */
+[data-testid="stHeader"] {
+    background-color: var(--uv-red);
+}
+
+[data-testid="stHeader"] svg {
+    fill: #fff;
+}
+
+[data-testid="stHeader"] button {
+    color: #fff;
+}
+
+/* Botón de ayuda flotante */
+.st-key-help_btn button {
+    position: fixed;
+    top: 14px;
+    right: 140px;
+    z-index: 999999;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    box-shadow: var(--uv-shadow);
+}
+
+.st-key-help_btn button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* ---------- Mensajes de chat ---------- */
+[data-testid="stChatMessage"] {
+    border-radius: 16px;
+    padding: 0.9rem 1.1rem;
+    margin-bottom: 0.9rem;
+    box-shadow: var(--uv-shadow);
+    background-color: #ffffff;
+}
+
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) {
+    background-color: var(--uv-gray-light);
+}
+
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarAssistant"]) {
+    background-color: #ffffff;
+}
+
+[data-testid="stChatMessageAvatarUser"],
+[data-testid="stChatMessageAvatarAssistant"] {
+    background-color: var(--uv-red) !important;
+    color: #fff !important;
+    border-radius: 50%;
+}
+
+[data-testid="stChatMessageContent"] p {
+    line-height: 1.65;
+    margin-bottom: 0.6rem;
+}
+
+[data-testid="stChatMessageContent"] pre {
+    background-color: var(--uv-code-bg);
+    border-radius: 10px;
+    padding: 0.9rem;
+}
+
+/* ---------- Barra de entrada ---------- */
+[data-testid="stChatInput"] {
+    border-radius: 999px;
+    background-color: var(--uv-gray-light);
+    border: none;
+    box-shadow: var(--uv-shadow);
+}
+
+[data-testid="stChatInputTextArea"] {
+    background: transparent;
+}
+
+[data-testid="stChatInputSubmitButton"] {
+    border-radius: 50%;
+}
+
+/* ---------- Botón limpiar conversación (flotante) ---------- */
+.st-key-clear_chat_btn button {
+    position: fixed;
+    bottom: 96px;
+    right: 24px;
+    z-index: 1000;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    box-shadow: var(--uv-shadow);
+}
+
+.st-key-clear_chat_btn button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Botón scroll-to-bottom, inyectado vía JS en el documento padre */
+.mb-scroll-btn {
+    position: fixed;
+    bottom: 96px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: var(--uv-text);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: var(--uv-shadow);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.mb-scroll-btn.mb-visible {
+    display: flex;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .st-key-app_header {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .st-key-app_header h1 {
+        font-size: 1.3rem;
+    }
+
+    .st-key-clear_chat_btn button,
+    .mb-scroll-btn {
+        bottom: 84px;
+    }
+
+    .st-key-help_btn button {
+        top: 10px;
+        right: 100px;
+        width: 36px;
+        height: 36px;
+    }
+}

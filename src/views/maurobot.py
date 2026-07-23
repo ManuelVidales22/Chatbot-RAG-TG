@@ -11,6 +11,8 @@ load_dotenv()
 import core.pdf_processor as pdf_processor
 import core.query_processor as query_processor
 import core.pdf_watcher as pdf_watcher
+import utils.chat_history as chat_history
+from utils.theming import scroll_to_bottom_button
 
 set_verbose(False)
 
@@ -136,26 +138,41 @@ if "pdfs_processed" not in st.session_state:
 run_pdf_processing()
 vector_db = load_chroma()
 
-col1, col2 = st.columns([0.8, 4])
-with col1:
-    st.image("assets/icons/UVNoLetters.png", width=80)
-with col2:
-    st.title("MauroBot Univalle")
-    
-with st.sidebar:
-    if st.button("Reindexar documentos"):
-        run_pdf_processing(force=True)
-        st.rerun()
+with st.container(key="app_header"):
+    col1, col2 = st.columns([0.8, 4])
+    with col1:
+        st.image("assets/icons/UVNoLetters.png", width=80)
+    with col2:
+        st.title("MauroBot Univalle")
 
-st.divider()
+chat_history.init_chat_state()
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+with st.container(key="clear_chat_btn"):
+    if st.button("🧹", key="clear_chat_btn_inner", help="Limpiar conversación"):
+        st.session_state.confirm_clear_chat = True
+
+if st.session_state.get("confirm_clear_chat"):
+    @st.dialog("Limpiar conversación")
+    def _confirm_clear_dialog():
+        st.write("¿Seguro que quieres borrar esta conversación? Esta acción no se puede deshacer.")
+        col_a, col_b = st.columns(2)
+        with col_a:
+            if st.button("Cancelar", use_container_width=True):
+                st.session_state.confirm_clear_chat = False
+                st.rerun()
+        with col_b:
+            if st.button("Eliminar", type="primary", use_container_width=True):
+                chat_history.clear_current_chat()
+                st.session_state.confirm_clear_chat = False
+                st.rerun()
+
+    _confirm_clear_dialog()
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
+scroll_to_bottom_button()
 
 if prompt := st.chat_input("Escribe tu pregunta"):
 
@@ -181,6 +198,7 @@ if prompt := st.chat_input("Escribe tu pregunta"):
         with st.chat_message("assistant"):
             st.markdown(no_info_message)
         st.session_state.messages.append({"role": "assistant", "content": no_info_message})
+        chat_history.sync_current_messages()
         st.stop()
 
     dominant_subject, sources_list = build_scope_summary(results)
@@ -239,3 +257,4 @@ if prompt := st.chat_input("Escribe tu pregunta"):
         
    
     st.session_state.messages.append({"role": "assistant", "content": generated})
+    chat_history.sync_current_messages()
