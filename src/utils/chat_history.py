@@ -5,7 +5,7 @@ DEFAULT_TITLE = "Nuevo chat"
 
 
 def _new_chat_entry():
-    return {"title": DEFAULT_TITLE, "messages": [], "pinned": False}
+    return {"title": DEFAULT_TITLE, "messages": [], "pinned": False, "needs_new_title": False}
 
 
 def init_chat_state():
@@ -25,12 +25,13 @@ def init_chat_state():
 
 def _update_title_from_messages(chat_id):
     chat = st.session_state.chats[chat_id]
-    if chat["title"] != DEFAULT_TITLE:
+    if chat["title"] != DEFAULT_TITLE and not chat.get("needs_new_title"):
         return
     for msg in chat["messages"]:
         if msg["role"] == "user":
             title = msg["content"].strip().replace("\n", " ")
             chat["title"] = title[:40] + ("…" if len(title) > 40 else "")
+            chat["needs_new_title"] = False
             break
 
 
@@ -73,13 +74,20 @@ def delete_chat(chat_id):
 
 
 def clear_current_chat():
+    """
+    Vacía los mensajes del chat activo. Conserva su título y su lugar en 'Chats'
+    hasta que llegue un mensaje nuevo, momento en el que el título se actualiza
+    con esa nueva pregunta (needs_new_title).
+    """
     current_id = st.session_state.current_chat_id
-    st.session_state.chats[current_id] = _new_chat_entry()
-    st.session_state.messages = st.session_state.chats[current_id]["messages"]
+    chat = st.session_state.chats[current_id]
+    chat["messages"] = []
+    chat["needs_new_title"] = True
+    st.session_state.messages = chat["messages"]
 
 
 def get_ordered_chats():
-    """Chats con al menos un mensaje, fijados primero (orden de creación conservado)."""
-    items = [(cid, chat) for cid, chat in st.session_state.chats.items() if chat["messages"]]
+    """Chats que ya tuvieron al menos un mensaje (título asignado), fijados primero."""
+    items = [(cid, chat) for cid, chat in st.session_state.chats.items() if chat["title"] != DEFAULT_TITLE]
     items.sort(key=lambda item: not item[1]["pinned"])
     return items

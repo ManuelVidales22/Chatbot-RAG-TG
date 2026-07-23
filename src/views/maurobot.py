@@ -154,14 +154,17 @@ with st.container(key="clear_chat_btn"):
 if st.session_state.get("confirm_clear_chat"):
     @st.dialog("Limpiar conversación")
     def _confirm_clear_dialog():
-        st.write("¿Seguro que quieres borrar esta conversación? Esta acción no se puede deshacer.")
+        st.write(
+            "¿Seguro que quieres vaciar los mensajes de esta conversación? "
+            "El chat seguirá en tu historial, pero sin mensajes."
+        )
         col_a, col_b = st.columns(2)
         with col_a:
             if st.button("Cancelar", use_container_width=True):
                 st.session_state.confirm_clear_chat = False
                 st.rerun()
         with col_b:
-            if st.button("Eliminar", type="primary", use_container_width=True):
+            if st.button("Limpiar", type="primary", use_container_width=True):
                 chat_history.clear_current_chat()
                 st.session_state.confirm_clear_chat = False
                 st.rerun()

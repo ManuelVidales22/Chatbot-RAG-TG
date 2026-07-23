@@ -48,7 +48,7 @@ navigation = st.navigation(
 )
 
 with st.sidebar:
-    render_new_chat_button()
+    render_new_chat_button(page_maurobot)
 
     st.markdown('<div class="uv-nav-heading">Asistente IA</div>', unsafe_allow_html=True)
     st.page_link(page_maurobot, icon=page_maurobot.icon)
@@ -69,4 +69,4 @@ navigation.run()
 # Se renderiza después de correr la página para reflejar los mensajes
 # sincronizados durante la ejecución (p. ej. el título autogenerado).
 with st.sidebar:
-    render_chats_section()
+    render_chats_section(page_maurobot)

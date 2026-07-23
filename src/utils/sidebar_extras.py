@@ -2,14 +2,14 @@ import streamlit as st
 import utils.chat_history as chat_history
 
 
-def render_new_chat_button():
+def render_new_chat_button(chat_page):
     with st.container(key="new_chat_btn"):
         if st.button("＋ Nuevo Chat", use_container_width=True):
             chat_history.start_new_chat()
-            st.rerun()
+            st.switch_page(chat_page)
 
 
-def render_chats_section():
+def render_chats_section(chat_page):
     st.markdown('<div class="uv-chats-heading">Chats</div>', unsafe_allow_html=True)
 
     chats = chat_history.get_ordered_chats()
@@ -34,7 +34,7 @@ def render_chats_section():
             if st.button(label, key=f"chat_select_{chat_id}", use_container_width=True,
                          type="secondary" if not is_active else "primary"):
                 chat_history.switch_chat(chat_id)
-                st.rerun()
+                st.switch_page(chat_page)
 
         with col_menu:
             with st.popover("⋮", use_container_width=True):
