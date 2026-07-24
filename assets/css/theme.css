@@ -75,6 +75,18 @@ html, body, [class*="css"] {
     background-color: rgba(205, 31, 50, 0.08);
 }
 
+/* Lista scrolleable de "Documentos" */
+.st-key-docs_scroll {
+    border-radius: 10px !important;
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.st-key-docs_scroll [data-testid="stPageLink"] {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
 /* Botón "Nuevo Chat" */
 .st-key-new_chat_btn button {
     background-color: var(--uv-red);

@@ -37,10 +37,13 @@ page_equivalencias = st.Page("src/views/equivalencias_plan_transicion.py", title
 
 page_faq = st.Page("src/views/faq.py", title="FAQ", icon="❓")
 
+page_calendario = st.Page("src/views/calendario_academico.py", title="Calendario Académico", icon="📅")
+
 # --- Navegación ---
 navigation = st.navigation(
     {
         "Asistente IA": [page_maurobot],
+        "Calendario Academico": [page_calendario],
         "Documentos": [page_acuerdo009, page_acuerdo006, page_resolucion047, page_resolucion106, page_pep047, page_resolucion048, page_pep048, page_resolucion074, page_resolucion162, page_resolucion136, page_equivalencias],
         "Preguntas Frecuentes": [page_faq],
     },
@@ -50,16 +53,17 @@ navigation = st.navigation(
 with st.sidebar:
     render_new_chat_button(page_maurobot)
 
-    st.markdown('<div class="uv-nav-heading">Asistente IA</div>', unsafe_allow_html=True)
-    st.page_link(page_maurobot, icon=page_maurobot.icon)
+    st.markdown('<div class="uv-nav-heading">Calendario Academico</div>', unsafe_allow_html=True)
+    st.page_link(page_calendario, icon=page_calendario.icon)
 
-    st.markdown('<div class="uv-nav-heading">Documentos</div>', unsafe_allow_html=True)
-    for doc_page in [
-        page_acuerdo009, page_acuerdo006, page_resolucion047, page_resolucion106,
-        page_pep047, page_resolucion048, page_pep048, page_resolucion074,
-        page_resolucion162, page_resolucion136, page_equivalencias,
-    ]:
-        st.page_link(doc_page, icon=doc_page.icon)
+    st.markdown('<div class="uv-nav-heading">Documentos administrativos</div>', unsafe_allow_html=True)
+    with st.container(height=220, key="docs_scroll"):
+        for doc_page in [
+            page_acuerdo009, page_acuerdo006, page_resolucion047, page_resolucion106,
+            page_pep047, page_resolucion048, page_pep048, page_resolucion074,
+            page_resolucion162, page_resolucion136, page_equivalencias,
+        ]:
+            st.page_link(doc_page, icon=doc_page.icon)
 
     st.markdown('<div class="uv-nav-heading">Preguntas Frecuentes</div>', unsafe_allow_html=True)
     st.page_link(page_faq, icon=page_faq.icon)
