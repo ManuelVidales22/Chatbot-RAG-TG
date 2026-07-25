@@ -27,10 +27,20 @@ html, body, [class*="css"] {
 [data-testid="stSidebar"] {
     background-color: var(--uv-sidebar-bg);
     border-right: 1px solid rgba(0, 0, 0, 0.06);
+    overflow-x: visible !important;
 }
 
 [data-testid="stSidebarContent"] {
     padding-top: 1rem;
+}
+
+/* Permite que la tarjeta flotante del menú "⋮" se salga del ancho del
+   sidebar sin recortarse. Streamlit fija "overflow: overlay" (shorthand) en
+   stSidebarContent, así que hay que pisar el shorthand completo — luego se
+   restaura overflow-y para no perder el scroll vertical del sidebar. */
+[data-testid="stSidebar"] [data-testid="stSidebarContent"] {
+    overflow: visible !important;
+    overflow-y: auto !important;
 }
 
 [data-testid="stNavSectionHeader"] {
@@ -124,6 +134,45 @@ html, body, [class*="css"] {
     font-weight: 700;
 }
 
+/* Menú "⋮" de cada chat (Fijar/Eliminar) — manejado con session_state, no st.popover.
+   Flota a la derecha de la fila (fuera del sidebar) en vez de taparla. */
+[class*="st-key-chat_row_"] {
+    position: relative;
+}
+
+[class*="st-key-chat_menu_box_"] {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 8px;
+    z-index: 999999;
+    width: 190px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 0.4rem;
+    box-sizing: border-box;
+}
+
+/* Streamlit calcula el ancho de los botones en px antes de que la tarjeta
+   se reduzca a 190px vía CSS, así que quedan más anchos que la tarjeta.
+   Se fuerza a que respeten el ancho real de la tarjeta. */
+[class*="st-key-chat_menu_box_"] [data-testid="stElementContainer"],
+[class*="st-key-chat_menu_box_"] [data-testid="stVerticalBlock"] {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+[class*="st-key-chat_menu_box_"] button {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    justify-content: center;
+    text-align: center;
+}
+
 .uv-chats-empty {
     font-size: 0.85rem;
     color: #8a8a8a;
@@ -134,14 +183,16 @@ html, body, [class*="css"] {
 .st-key-app_header {
     background-color: var(--uv-red);
     border-radius: 14px;
-    padding: 0.6rem 1.2rem;
+    padding: 0.45rem 1.1rem;
     box-shadow: var(--uv-shadow);
+    margin-top: -1.5rem;
     margin-bottom: 1rem;
 }
 
 .st-key-app_header h1 {
     color: #fff;
     font-weight: 700;
+    font-size: 1.7rem;
     margin: 0;
 }
 

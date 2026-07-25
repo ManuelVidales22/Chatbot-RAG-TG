@@ -4,7 +4,7 @@ import os
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
-from utils.theming import apply_theme
+from utils.theming import apply_theme, fix_sidebar_menu_overflow
 from utils.sidebar_extras import render_new_chat_button, render_chats_section
 from utils.chat_history import init_chat_state
 
@@ -14,6 +14,7 @@ st.set_page_config(
 )
 
 apply_theme()
+fix_sidebar_menu_overflow()
 init_chat_state()
 
 with st.container(key="help_btn"):

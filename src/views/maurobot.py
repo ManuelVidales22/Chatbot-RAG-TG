@@ -141,7 +141,7 @@ vector_db = load_chroma()
 with st.container(key="app_header"):
     col1, col2 = st.columns([0.8, 4])
     with col1:
-        st.image("assets/icons/UVNoLetters.png", width=80)
+        st.image("assets/icons/UVNoLetters.png", width=56)
     with col2:
         st.title("MauroBot Univalle")
 

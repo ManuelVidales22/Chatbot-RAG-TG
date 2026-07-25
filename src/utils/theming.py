@@ -38,6 +38,71 @@ def apply_theme():
     )
 
 
+def fix_sidebar_menu_overflow():
+    """
+    stSidebarContent trae "overflow: overlay" (shorthand) desde Streamlit, y
+    recorta la tarjeta flotante del menú "⋮". Ni un override CSS con
+    !important ni un estilo inline con !important (ambos verificados) logran
+    cambiar el estilo computado — es una rareza de este motor de Chromium con
+    ese valor heredado específico, no un problema de cascada.
+
+    En vez de pelear con overflow, se "congela" la posición de la tarjeta:
+    se lee su posición real (correcta incluso recortada, porque el recorte
+    es solo de pintado, no de layout) y se le pone position:fixed con esas
+    mismas coordenadas — fixed no se recorta por overflow de un ancestro sin
+    transform/filter, así que escapa el recorte quedando en el mismo lugar.
+    """
+    st.components.v1.html(
+        """
+        <script>
+        (function () {
+            const parentDoc = window.parent.document;
+            if (parentDoc.getElementById("mb-menu-position-script")) {
+                return;
+            }
+
+            const script = parentDoc.createElement("script");
+            script.id = "mb-menu-position-script";
+            script.textContent = `
+                (function () {
+                    function fix() {
+                        const boxes = document.querySelectorAll('[class*="st-key-chat_menu_box_"]');
+                        boxes.forEach(function (box) {
+                            const cs = getComputedStyle(box);
+                            if (cs.position !== "fixed") {
+                                const rect = box.getBoundingClientRect();
+                                box.style.setProperty("position", "fixed", "important");
+                                box.style.setProperty("top", rect.top + "px", "important");
+                                box.style.setProperty("left", rect.left + "px", "important");
+                                box.style.setProperty("margin", "0", "important");
+                            }
+
+                            // Los botones (Fijar/Eliminar) traen un ancho en px calculado
+                            // por Streamlit antes de que la tarjeta se redujera a 190px;
+                            // igual que con "overflow", el override CSS no se refleja en
+                            // el estilo computado, así que se fuerza aquí en cada tick.
+                            const innerWidth = Math.max(0, box.clientWidth - 16);
+                            box.querySelectorAll(
+                                'button, [data-testid="stElementContainer"], [data-testid="stVerticalBlock"]'
+                            ).forEach(function (child) {
+                                child.style.setProperty("width", innerWidth + "px", "important");
+                                child.style.setProperty("max-width", innerWidth + "px", "important");
+                                child.style.setProperty("box-sizing", "border-box", "important");
+                            });
+                        });
+                    }
+                    fix();
+                    setInterval(fix, 200);
+                })();
+            `;
+            parentDoc.body.appendChild(script);
+        })();
+        </script>
+        """,
+        height=0,
+    )
+
+
 def scroll_to_bottom_button():
     """
     st.components.v1.html crea un iframe nuevo en cada rerun de Streamlit; el iframe
