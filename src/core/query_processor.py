@@ -129,6 +129,9 @@ def normalize_label(text):
     normalized_text = unicodedata.normalize("NFKD", text)
     normalized_text = "".join(character for character in normalized_text if not unicodedata.combining(character))
     normalized_text = normalized_text.replace("_", " ").replace("-", " ").lower()
+    # Quitar signos de puntuación (?, ¿, ., ,, etc.) para que no queden pegados
+    # a la última palabra de una oración y rompan las comparaciones por token.
+    normalized_text = re.sub(r"[^\w\s]", " ", normalized_text)
     normalized_text = re.sub(r"\s+", " ", normalized_text)
     return normalized_text.strip()
 
@@ -286,6 +289,28 @@ def _subject_matches_query(normalized_subject, normalized_query):
     return all(w in query_words for w in meaningful_words)
 
 
+def get_known_subjects(corpus):
+    return list(dict.fromkeys(corpus.get("subjects", [])))
+
+
+def detect_explicit_subject(query, corpus):
+    """Busca coincidencia de asignatura contra TODO el catálogo (no solo contra los
+    documentos ya recuperados por embeddings/BM25). Esto es necesario porque una
+    consulta con solo el nombre de la asignatura (sin código) puede no rankear bien
+    frente a otras asignaturas con vocabulario similar, dejando la asignatura correcta
+    fuera del top-k antes de que 'choose_target_subject' pueda considerarla siquiera.
+    """
+    normalized_query = normalize_label(query)
+    matches = [
+        subject for subject in get_known_subjects(corpus)
+        if _subject_matches_query(normalize_label(subject), normalized_query)
+    ]
+    if not matches:
+        return None
+    # Si varios nombres coinciden (uno es subcadena de otro), preferir el más específico.
+    return max(matches, key=lambda subject: len(normalize_label(subject)))
+
+
 def choose_target_subject(query, documents):
     subject_scores = {}
     normalized_query = normalize_label(query)
@@ -361,8 +386,8 @@ def merge_unique_documents(primary_docs, secondary_docs):
     return merged
 
 
-def filter_documents_by_subject(query, documents, corpus=None):
-    target_subject = choose_target_subject(query, documents)
+def filter_documents_by_subject(query, documents, corpus=None, forced_subject=None):
+    target_subject = forced_subject or choose_target_subject(query, documents)
     if not target_subject:
         return []
 
@@ -407,40 +432,64 @@ def hybrid_search(query, vector_db):
     admin_query = is_admin_info_query(query)
     result_limit = SYLLABUS_RESULT_LIMIT if listing_query else DEFAULT_RESULT_LIMIT
 
-    #Búsqueda por embeddings
-    embedding_results = vector_db.similarity_search(expanded_query, k=15)
-
-    #Cargar corpus BM25
+    #Cargar corpus BM25 primero: se necesita el catálogo completo de asignaturas
+    #para poder detectar coincidencias explícitas antes de rankear nada.
     corpus = load_bm25_corpus()
     lemmatized_texts = corpus["lemmatized"]
     original_texts = corpus["originals"]
     sources = corpus["sources"]
     ids = corpus["ids"]
     subjects = corpus.get("subjects", [extract_subject_from_source(source) for source in sources])
+    sections = corpus.get("sections", [])
+
+    #Si la consulta nombra explícitamente una asignatura conocida (con o sin código),
+    #restringimos tanto la búsqueda vectorial como BM25 a esa asignatura, en vez de
+    #dejar que la asignatura correcta compita por espacio en el top-k contra las demás.
+    explicit_subject = detect_explicit_subject(query, corpus)
+    subject_filter = {"subject": explicit_subject} if explicit_subject else None
+
+    #Búsqueda por embeddings
+    embedding_results = vector_db.similarity_search(expanded_query, k=15, filter=subject_filter)
 
     bm25, lemmatized_index_map = get_bm25_resources(corpus)
 
     #Procesar la consulta para BM25
     lemmatized_query = clean_text(expanded_query)
-    bm25_ranking = bm25.get_top_n(lemmatized_query.split(), lemmatized_texts, n=10)
+    tokenized_query = lemmatized_query.split()
 
-    #Recuperar los textos originales correspondientes
-    bm25_documents = []
-    sections = corpus.get("sections", [])
-    for doc_text in bm25_ranking:
-        idx = lemmatized_index_map.get(doc_text)
-        if idx is None:
-            continue
-        sections = corpus.get("sections", [])
-        bm25_documents.append(Document(
-            page_content=original_texts[idx],
-            metadata={
-                "id": ids[idx],
-                "source": sources[idx],
-                "subject": subjects[idx],
-                "section": sections[idx] if idx < len(sections) else "",
-            },
-        ))
+    if explicit_subject:
+        allowed_indices = [index for index, subject in enumerate(subjects) if subject == explicit_subject]
+        bm25_scores = bm25.get_scores(tokenized_query)
+        ranked_indices = sorted(allowed_indices, key=lambda index: bm25_scores[index], reverse=True)[:10]
+        bm25_documents = [
+            Document(
+                page_content=original_texts[index],
+                metadata={
+                    "id": ids[index],
+                    "source": sources[index],
+                    "subject": subjects[index],
+                    "section": sections[index] if index < len(sections) else "",
+                },
+            )
+            for index in ranked_indices
+        ]
+    else:
+        bm25_ranking = bm25.get_top_n(tokenized_query, lemmatized_texts, n=10)
+        #Recuperar los textos originales correspondientes
+        bm25_documents = []
+        for doc_text in bm25_ranking:
+            idx = lemmatized_index_map.get(doc_text)
+            if idx is None:
+                continue
+            bm25_documents.append(Document(
+                page_content=original_texts[idx],
+                metadata={
+                    "id": ids[idx],
+                    "source": sources[idx],
+                    "subject": subjects[idx],
+                    "section": sections[idx] if idx < len(sections) else "",
+                },
+            ))
 
     #Fusionar resultados sin duplicados
     all_documents = embedding_results + bm25_documents
@@ -470,7 +519,9 @@ def hybrid_search(query, vector_db):
         doc.metadata["subject"] = doc.metadata.get("subject") or extract_subject_from_source(source)
         unique_docs[doc.metadata.get("id", doc.page_content)] = doc
 
-    filtered_docs = filter_documents_by_subject(expanded_query, list(unique_docs.values()), corpus=corpus)
+    filtered_docs = filter_documents_by_subject(
+        expanded_query, list(unique_docs.values()), corpus=corpus, forced_subject=explicit_subject
+    )
     if listing_query:
         filtered_docs = rank_documents_for_syllabus(filtered_docs)
     return filtered_docs[:result_limit]
