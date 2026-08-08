@@ -264,29 +264,57 @@ def extract_subject_from_source(source_name):
 
 STOP_WORDS = {
     "de", "y", "la", "el", "los", "las", "en", "a", "del", "al", "o", "un", "una",
-    "con", "por", "para", "que", "su", "se", "e", "i", "ii", "iii",
+    "con", "por", "para", "que", "su", "se", "e",
 }
+
+# Numerales romanos usados para distinguir asignaturas homónimas del mismo nombre
+# base (ej. "Desarrollo de Software I/II/III", "Proyecto Integrador I/II").
+# OJO: NO deben tratarse como stopwords ni descartarse por longitud corta, porque
+# son precisamente la parte del nombre que distingue una asignatura de otra.
+ROMAN_NUMERAL_WORDS = {"i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"}
+
+
+def _strip_subject_code(normalized_subject):
+    """Elimina el código de asignatura (ej. "750012c", "111023c") del inicio del nombre."""
+    return re.sub(r"^\d+\w*\s*", "", normalized_subject)
+
+
+def _split_trailing_numeral(words):
+    """Separa un numeral romano final (I, II, III, ...) del resto de las palabras.
+
+    Devuelve (palabras_base, numeral_o_None).
+    """
+    if words and words[-1] in ROMAN_NUMERAL_WORDS:
+        return words[:-1], words[-1]
+    return words, None
 
 
 def _subject_matches_query(normalized_subject, normalized_query):
     """Devuelve True si el nombre de la asignatura tiene coincidencia significativa con la consulta.
 
-    Primero intenta coincidencia exacta por substring. Si falla, comprueba si las
-    palabras clave del nombre de la asignatura (sin stopwords y sin el código numérico
-    inicial) están todas presentes en la consulta.
+    Compara las palabras clave del nombre de la asignatura (sin stopwords y sin el
+    código numérico inicial) contra la consulta. Si el nombre termina en un numeral
+    romano (asignaturas homónimas como "... I" / "... II" / "... III"), exige que la
+    consulta mencione ese mismo numeral explícitamente, para no confundir asignaturas
+    con nombre base idéntico pero numeral distinto.
     """
-    if normalized_subject in normalized_query:
-        return True
-
-    # Eliminar el código de asignatura (ej. "750012c", "111023c") del inicio
-    subject_words = re.sub(r"^\d+\w*\s*", "", normalized_subject).split()
-    meaningful_words = [w for w in subject_words if w not in STOP_WORDS and len(w) > 2]
+    subject_words = _strip_subject_code(normalized_subject).split()
+    base_words, subject_numeral = _split_trailing_numeral(subject_words)
+    meaningful_words = [w for w in base_words if w not in STOP_WORDS and len(w) > 2]
 
     if not meaningful_words:
         return False
 
-    query_words = set(normalized_query.split())
-    return all(w in query_words for w in meaningful_words)
+    query_words = normalized_query.split()
+    query_words_set = set(query_words)
+    if not all(w in query_words_set for w in meaningful_words):
+        return False
+
+    if subject_numeral is None:
+        return True
+
+    query_numerals = {w for w in query_words if w in ROMAN_NUMERAL_WORDS}
+    return subject_numeral in query_numerals
 
 
 def get_known_subjects(corpus):
@@ -406,11 +434,18 @@ def filter_documents_by_subject(query, documents, corpus=None, forced_subject=No
             filtered_documents.append(doc)
 
     if is_structure_request:
+        # OJO: restringir explícitamente a target_subject aquí (y no solo confiar en que
+        # `documents` ya venga filtrado) evita que texto de OTRA asignatura que también
+        # contenga palabras como "contenido"/"tema"/"unidad" (algo común a casi todos los
+        # microcurrículos) se cuele en la respuesta de listado de temario.
         structure_documents = []
         for doc in documents:
+            source = doc.metadata.get("source", "")
+            subject = doc.metadata.get("subject") or extract_subject_from_source(source)
+            if subject != target_subject:
+                continue
             if contains_academic_structure_terms(doc.page_content) or count_subtopics(doc.page_content) >= 3:
-                source = doc.metadata.get("source", "")
-                doc.metadata["subject"] = doc.metadata.get("subject") or extract_subject_from_source(source)
+                doc.metadata["subject"] = subject
                 structure_documents.append(doc)
 
         temario_documents = []
