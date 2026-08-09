@@ -277,6 +277,16 @@ html, body, [class*="css"] {
     padding: 0.9rem;
 }
 
+/* ---------- Contenedor inferior fijo (envuelve la barra de chat) ---------- */
+/* Streamlit le pone fondo blanco por defecto a esta franja, lo que se ve
+   como un rectángulo blanco detrás del chat_input. La pisamos con el mismo
+   color de fondo de la app para que se integre. */
+[data-testid="stBottom"],
+[data-testid="stBottom"] > div,
+[data-testid="stBottomBlockContainer"] {
+    background-color: var(--uv-white);
+}
+
 /* ---------- Barra de entrada ---------- */
 [data-testid="stChatInput"] {
     border-radius: 999px;
