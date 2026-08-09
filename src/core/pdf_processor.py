@@ -1,6 +1,7 @@
 import os
 import re
 import hashlib
+import unicodedata
 import fitz  # PyMuPDF
 import pytesseract
 import platform
@@ -115,6 +116,139 @@ def extract_text_from_pdf(pdf_path):
     return text.strip()
 
 
+# Los microcurrículos de Univalle presentan el temario dentro de una tabla
+# "DESARROLLO DEL CURSO" con columnas del tipo COMPETENCIA / RESULTADO DE
+# APRENDIZAJE / INDICADORES DE LOGRO / CONTENIDO (o EJES/LÍNEAS TEMÁTICAS).
+# `page.get_text("text")` aplana esas columnas en un solo párrafo por fila,
+# por lo que los indicadores de logro y los contenidos temáticos terminan
+# concatenados sin ningún separador confiable. Estas palabras identifican la
+# columna que sí corresponde a contenidos/temas (nunca a RA ni indicadores).
+CONTENT_COLUMN_HEADER_KEYWORDS = ("contenido", "ejes", "linea tematica", "lineas tematicas")
+MAX_HEADER_ROW_SEARCH = 5
+
+
+def _normalize_cell_text(text):
+    if not text:
+        return ""
+    normalized = unicodedata.normalize("NFKD", text)
+    normalized = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    return normalized.lower()
+
+
+def _find_content_column_in_row(row):
+    for index, cell in enumerate(row):
+        normalized = _normalize_cell_text(cell).replace("\n", " ")
+        if any(keyword in normalized for keyword in CONTENT_COLUMN_HEADER_KEYWORDS):
+            return index
+    return None
+
+
+def _looks_like_evaluation_table(row):
+    """Detecta la tabla de ponderación de evaluación (Resultado de aprendizaje /
+    Actividades evaluativas / Porcentaje...), que en algunos microcurrículos
+    tiene el mismo número de columnas que la tabla "DESARROLLO DEL CURSO" y
+    seguiría a esta sin encabezado propio detectable, para no arrastrarle por
+    error el índice de columna de contenidos."""
+    joined = " ".join(
+        _normalize_cell_text(cell).replace("\n", " ") for cell in row if cell
+    )
+    return "actividad" in joined and "evaluativ" in joined
+
+
+def _split_cell_into_topics(cell_text):
+    """Divide el texto de una celda en temas individuales usando los puntos
+    como separador de oración, cuando existen. Si la celda no trae puntos
+    (algunos microcurrículos no los usan), se conserva como un único tema en
+    vez de partirla arbitrariamente."""
+    cleaned = " ".join(cell_text.split())
+    if not cleaned:
+        return []
+    parts = re.split(r"(?<=[.\!\?])\s+(?=[A-ZÁÉÍÓÚÑ0-9])", cleaned)
+    return [part.strip() for part in parts if len(part.strip()) > 2]
+
+
+def extract_topics_from_tables(pdf_path):
+    """Extrae los temas/contenidos oficiales leyendo directamente la columna
+    "CONTENIDO"/"EJES O LÍNEAS TEMÁTICAS" de la tabla "DESARROLLO DEL CURSO"
+    del PDF, en vez de derivarlos del texto plano ya aplanado.
+
+    Esto evita que los "indicadores de logro"/"resultados de aprendizaje"
+    (columnas distintas de la misma fila) se mezclen con los contenidos
+    temáticos reales de la asignatura.
+
+    Devuelve una lista de temas sin duplicados, en orden de aparición, o una
+    lista vacía si el PDF no tiene una tabla con esa columna (p. ej. PDFs
+    escaneados sin texto/tabla real, donde se usa el flujo con OCR).
+    """
+    topics = []
+    seen = set()
+
+    try:
+        doc = fitz.open(pdf_path)
+    except Exception:
+        return topics
+
+    # Algunas tablas "DESARROLLO DEL CURSO" continúan en la página siguiente
+    # sin repetir la fila de encabezado de columnas. Arrastramos el índice de
+    # columna de contenidos detectado a la última tabla que sí lo mostró,
+    # hasta toparnos con una tabla que claramente sea otra cosa (p. ej. la
+    # tabla de ponderación de evaluación).
+    active_content_column = None
+
+    try:
+        for page in doc:
+            try:
+                found_tables = page.find_tables()
+            except Exception:
+                continue
+
+            for table in found_tables.tables:
+                try:
+                    rows = table.extract()
+                except Exception:
+                    continue
+                if not rows:
+                    continue
+
+                if any(_looks_like_evaluation_table(row) for row in rows[:2]):
+                    active_content_column = None
+                    continue
+
+                header_row_index = None
+                content_column = None
+                for row_index, row in enumerate(rows[:MAX_HEADER_ROW_SEARCH]):
+                    column = _find_content_column_in_row(row)
+                    if column is not None:
+                        header_row_index = row_index
+                        content_column = column
+                        break
+
+                if content_column is not None:
+                    active_content_column = content_column
+                    data_rows = rows[header_row_index + 1:]
+                elif active_content_column is not None:
+                    content_column = active_content_column
+                    data_rows = rows
+                else:
+                    continue
+
+                for row in data_rows:
+                    if content_column >= len(row):
+                        continue
+                    cell = row[content_column]
+                    if not cell:
+                        continue
+                    for topic in _split_cell_into_topics(cell):
+                        if topic in seen:
+                            continue
+                        seen.add(topic)
+                        topics.append(topic)
+    finally:
+        doc.close()
+
+    return topics
+
+
 def extract_subject_from_source(source_name):
     parts = source_name.split("/")
     if parts and parts[0].lower() == "microcurriculos":
@@ -215,14 +349,16 @@ def source_is_indexed(collection, source_name, index_entry):
     return True
 
 
-def needs_reindex_for_source(collection, source_name, text_hash, index_state, text, subject_name):
+def needs_reindex_for_source(collection, source_name, text_hash, index_state, text, subject_name, pdf_path=None):
     index_entry = normalize_index_entry(index_state.get(source_name))
     if index_entry.get("hash") != text_hash:
         return True
 
-    # Re-indexar si el extractor mejoró y el documento no tenía temario extraído
+    # Re-indexar si el extractor mejoró: puede haber cambiado el contenido del
+    # temario ya extraído (no solo su presencia/ausencia), como ocurrió al
+    # pasar de heurísticas de texto plano a lectura directa de la tabla.
     stored_version = index_entry.get("extractor_version", 0)
-    if stored_version < EXTRACTOR_VERSION and not index_entry.get("has_temario"):
+    if stored_version < EXTRACTOR_VERSION:
         return True
 
     if source_is_indexed(collection, source_name, index_entry):
@@ -230,7 +366,8 @@ def needs_reindex_for_source(collection, source_name, text_hash, index_state, te
 
     # Compatibilidad: entradas antiguas sin metadata de temario
     if index_entry.get("has_temario") is None:
-        syllabus = extract_syllabus(text, subject_name)
+        table_topics = extract_topics_from_tables(pdf_path) if pdf_path else []
+        syllabus = extract_syllabus(text, subject_name, table_topics=table_topics)
         index_entry["has_temario"] = bool(syllabus)
         if source_is_indexed(collection, source_name, index_entry):
             index_state[source_name] = {**index_entry, "hash": text_hash, "extractor_version": EXTRACTOR_VERSION}
@@ -244,10 +381,11 @@ def lemmatize_chunk(nlp, chunk):
     return " ".join([token.lemma_ for token in doc if not token.is_stop])
 
 
-def index_document_chunks(collection, corpus, nlp, source_name, subject_name, text):
+def index_document_chunks(collection, corpus, nlp, source_name, subject_name, text, pdf_path=None):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=500)
     chunks = text_splitter.split_text(text)
-    syllabus = extract_syllabus(text, subject_name)
+    table_topics = extract_topics_from_tables(pdf_path) if pdf_path else []
+    syllabus = extract_syllabus(text, subject_name, table_topics=table_topics)
 
     entries = [(index, chunk, "") for index, chunk in enumerate(chunks)]
     if syllabus:
@@ -337,13 +475,14 @@ def process_pdfs():
 
             text_hash = compute_text_hash(text)
             if not needs_reindex_for_source(
-                collection, source_name, text_hash, index_state, text, subject_name
+                collection, source_name, text_hash, index_state, text, subject_name, pdf_path=pdf_path
             ):
                 entry = normalize_index_entry(index_state.get(source_name))
                 if entry.get("has_temario") is None:
+                    table_topics = extract_topics_from_tables(pdf_path)
                     index_state[source_name] = {
                         "hash": text_hash,
-                        "has_temario": bool(extract_syllabus(text, subject_name)),
+                        "has_temario": bool(extract_syllabus(text, subject_name, table_topics=table_topics)),
                     }
                     state_migrated = True
                 continue
@@ -351,7 +490,7 @@ def process_pdfs():
             print(f"Indexando documento: {source_name}")
             existing_corpus = remove_source_from_index(collection, existing_corpus, source_name)
             has_temario = index_document_chunks(
-                collection, existing_corpus, nlp, source_name, subject_name, text
+                collection, existing_corpus, nlp, source_name, subject_name, text, pdf_path=pdf_path
             )
             index_state[source_name] = {
                 "hash": text_hash,

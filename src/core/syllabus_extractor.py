@@ -3,7 +3,7 @@ import re
 
 # Incrementar este número cada vez que se mejore la lógica de extracción.
 # pdf_processor lo usa para forzar re-indexado de documentos sin temario.
-EXTRACTOR_VERSION = 2
+EXTRACTOR_VERSION = 3
 
 SUBTOPIC_PATTERN = re.compile(r"\b\d+\.\d+\b")
 MAIN_TOPIC_PATTERN = re.compile(r"(?<!\d)\b(\d+)\.\s+")
@@ -189,11 +189,23 @@ def format_as_markdown(subject_name, body):
     )
 
 
-def extract_syllabus(text, subject_name):
+def extract_syllabus(text, subject_name, table_topics=None):
     """
     Extrae temario normalizado en Markdown.
     Retorna None si no se detecta estructura temática suficiente.
+
+    Si `table_topics` viene con datos (lista de temas ya extraídos de la
+    columna "CONTENIDO"/"EJES TEMÁTICOS" de la tabla "DESARROLLO DEL CURSO"
+    del PDF -- ver pdf_processor.extract_topics_from_tables), se usa
+    directamente en vez de intentar reconstruir el temario a partir del texto
+    plano. Esto evita mezclar temas con indicadores de logro/resultados de
+    aprendizaje: en el PDF viven en columnas distintas de la misma fila, pero
+    el texto plano los concatena sin ningún separador confiable.
     """
+    if table_topics:
+        body = "\n".join(f"- {topic}" for topic in table_topics)
+        return format_as_markdown(subject_name, body)
+
     region = find_syllabus_region(text)
     if not region:
         return None
