@@ -307,14 +307,21 @@ def _subject_matches_query(normalized_subject, normalized_query):
 
     query_words = normalized_query.split()
     query_words_set = set(query_words)
-    if not all(w in query_words_set for w in meaningful_words):
-        return False
 
     if subject_numeral is None:
-        return True
+        return all(w in query_words_set for w in meaningful_words)
 
     query_numerals = {w for w in query_words if w in ROMAN_NUMERAL_WORDS}
-    return subject_numeral in query_numerals
+    if subject_numeral not in query_numerals:
+        return False
+
+    # Asignaturas homónimas: el numeral ya distingue sin ambigüedad esta asignatura
+    # de sus hermanas (mismo nombre base, distinto numeral), así que no exigimos que
+    # la consulta mencione TODAS las palabras del nombre completo. Nombres largos
+    # como "Inglés con fines generales y académicos II" rara vez se escriben así;
+    # basta con que la consulta incluya al menos una palabra significativa del
+    # nombre (ej. "ingles") junto con el numeral correcto (ej. "ingles ii").
+    return any(w in query_words_set for w in meaningful_words)
 
 
 def get_known_subjects(corpus):
